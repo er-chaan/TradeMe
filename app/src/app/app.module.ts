@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 
 import { PagesModule } from "./pages/pages.module";
 import { LayoutModule } from "./layout/layout.module";
-import { ContainerModule } from "./container/container.module";
 
 @NgModule({
   declarations: [
@@ -17,7 +16,6 @@ import { ContainerModule } from "./container/container.module";
     AppRoutingModule,
     PagesModule,
     LayoutModule,
-    ContainerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
