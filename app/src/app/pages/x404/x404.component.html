@@ -1,1 +1,21 @@
-<p>x404 works!</p>
+<body class="hold-transition">
+    <div class="login-box" style="border-style: solid; border-color: lightgray">
+        <div class="login-logo">
+            <a [routerLink]="['/']" routerLinkActive="router-link-active"><b>Trade</b>ME</a>
+        </div>
+        <div class="login-box-body text-center">
+            <h1 class="text-yellow"> 404</h1>
+
+            <div class="error-content">
+                <h3><i class="fa fa-warning text-yellow"></i> Oops! Page not found.</h3>
+
+                <p>
+                    We could not find the page you were looking for.
+                    Meanwhile, you may <a [routerLink]="['/']" routerLinkActive="router-link-active" >return to an application.</a>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</body>

@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule, PreloadAllModules, NoPreloading } from '@angular/router';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { AdminGuard } from "./services/admin.guard";
 import { UserGuard } from "./services/user.guard";
+import { X404Component } from "./pages/index";
 
 const routes: Routes = [
   { path: "", loadChildren: "./pages/pages.module#PagesModule" },
-  { path: "admin", loadChildren: "./admin/admin.module#AdminModule", canLoad: [AdminGuard] },
-  { path: "user", loadChildren: "./user/user.module#UserModule", canLoad: [UserGuard] }
+  { path: "admin", loadChildren: "./admin/admin.module#AdminModule", canActivate: [AdminGuard] },
+  { path: "user", loadChildren: "./user/user.module#UserModule", canActivate: [UserGuard] },
+  { path: "**", component: X404Component }
 ];
 
 @NgModule({
