@@ -5,9 +5,11 @@ import { LayoutModule } from "../layout/layout.module";
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from "./admin.component";
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SettingsComponent } from './settings/settings.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
-  declarations: [AdminComponent, DashboardComponent],
+  declarations: [AdminComponent, DashboardComponent, SettingsComponent, SidebarComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,

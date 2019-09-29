@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
             <app-sidebar></app-sidebar>
             <router-outlet></router-outlet>
             <app-footer></app-footer>
+            <h1>bkjbj</h1>
             `,
 })
 export class AdminComponent {
