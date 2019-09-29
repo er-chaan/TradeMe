@@ -17,4 +17,5 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   bootstrap: [AdminComponent]
 })
+
 export class AdminModule { }
