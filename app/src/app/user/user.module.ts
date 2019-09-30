@@ -15,7 +15,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     LayoutModule,
     CommonModule,
     UserRoutingModule
-  ],
-  bootstrap: [UserComponent]
-})
+    ]
+  })
 export class UserModule { }

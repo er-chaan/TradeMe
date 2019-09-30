@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
             <app-header></app-header>
             <app-sidebar></app-sidebar>
             <router-outlet></router-outlet>
-            <app-footer></app-footer>            
+            <app-footer></app-footer>      
             `,
 })
 export class AdminComponent {

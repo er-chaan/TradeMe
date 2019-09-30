@@ -14,8 +14,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     CommonModule,
     AdminRoutingModule,
     LayoutModule
-  ],
-  bootstrap: [AdminComponent]
-})
+    ]
+  })
 
 export class AdminModule { }
