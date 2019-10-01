@@ -5,28 +5,89 @@
       </h1>
     </section>
     <section class="content">
-      <div class="row">
+      <div class="row" style="text-align: center">
         <div class="col-lg-4 col-xs-12">
-          <div class="small-box bg-aqua">
+          <div class="small-box bg-blue">
             <div class="inner">
-              <h3>150<sup style="font-size: 20px">INR</sup></h3>
+              <h3>28,00,000<sup style="font-size: 20px"> INR</sup></h3>
               <p>Balance</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-xs-6">
-          <div class="small-box bg-green">
+        <div class="col-lg-8 col-xs-12">
+          <div class="small-box bg-black">
             <div class="inner">
               <h3>53<sup style="font-size: 20px">INR</sup></h3>
-              <p>Profit</p>
+              <p>NSE</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-xs-6">
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65<sup style="font-size: 20px">INR</sup></h3>
-              <p>Loss</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Top Active</h3>
+            </div>
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tr>
+                  <th>Company</th>
+                  <th>Price</th>
+                  <th>Change</th>
+                </tr>
+                <tr *ngFor="let topPerformers of list">
+                  <td>{{list.ShortCompanyName}}</td>
+                  <td>{{list.Price}}</td>
+                  <td>{{list.Change}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Top Gainers</h3>
+            </div>
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tr>
+                  <th>Company</th>
+                  <th>Price</th>
+                  <th>Change</th>
+                  <th>% Gain</th>
+                </tr>
+                <tr>
+                  <td>abc corp</td>
+                  <td>100</td>
+                  <td>10</td>
+                  <td>55%</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="box-header with-border">
+              <h3 class="box-title">Top Losers</h3>
+            </div>
+            <div class="box-body">
+              <table class="table table-bordered">
+                <tr>
+                  <th>Company</th>
+                  <th>Price</th>
+                  <th>Change</th>
+                  <th>% Gain</th>
+                </tr>
+                <tr>
+                  <td>abc corp</td>
+                  <td>100</td>
+                  <td>10</td>
+                  <td>55%</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
