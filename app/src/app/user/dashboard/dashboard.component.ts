@@ -13,16 +13,17 @@ export class DashboardComponent implements OnInit {
   constructor(private dashboardService: DashboardService) { }
 
   ngOnInit() {
+    // this.dashboardService.getIndices().subscribe(response => {console.log("========"+response)});
     this.getIndices();
     this.getTopPerfomers();
   }
 
   getIndices(){
-    this.dashboardService.getIndices().subscribe(data => {this.indices=data;console.log(data)});
+    this.dashboardService.getIndices().subscribe(data => {this.indices=data.data.HIGH;console.log(data)});
     // console.log(this.indices);
   }
   getTopPerfomers(){
-    this.dashboardService.getTopPerfomers().subscribe(data => {this.topPerformers=data.nseGainer;console.log(data)});
+    this.dashboardService.getTopPerfomers().subscribe(data => {this.topPerformers=data;console.log(data)});
     // console.log(this.topPerformers);
   }
 
