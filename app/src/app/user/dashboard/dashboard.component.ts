@@ -9,22 +9,23 @@ import { DashboardService } from "../../services/dashboard.service";
 export class DashboardComponent implements OnInit {
 
   indices:any;
-  topPerformers:any;
+  nseGainer:any;
+  nseLoser:any;
   constructor(private dashboardService: DashboardService) { }
 
   ngOnInit() {
-    // this.dashboardService.getIndices().subscribe(response => {console.log("========"+response)});
-    this.getIndices();
-    this.getTopPerfomers();
+    setTimeout(() => {
+      this.getIndices();
+      this.getTopPerfomers();
+    }, 10);
   }
 
   getIndices(){
-    this.dashboardService.getIndices().subscribe(data => {this.indices=data.data.HIGH;console.log(data)});
-    // console.log(this.indices);
+    this.dashboardService.getIndices().timer .subscribe(data => {this.indices=data.indices[1].LastTradedPrice;});
   }
   getTopPerfomers(){
-    this.dashboardService.getTopPerfomers().subscribe(data => {this.topPerformers=data;console.log(data)});
-    // console.log(this.topPerformers);
+    this.dashboardService.getTopPerfomers().subscribe(data => {this.nseGainer=data.nseGainer;
+                                                              this.nseLoser=data.nseLoser;});
   }
 
 }

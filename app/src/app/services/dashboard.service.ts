@@ -9,9 +9,7 @@ export class DashboardService {
 
   constructor(private httpClient: HttpClient) { }
   getIndices(): Observable<any>{
-    // https://priceapi-aws.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BNSX
-    
-    return this.httpClient.get<any>("https://priceapi-aws.moneycontrol.com/pricefeed/notapplicable/inidicesindia/in%3BSEN");
+    return this.httpClient.get<any>("https://money.rediff.com/updateticker");
   }
   getTopPerfomers(): Observable<any>{
     return this.httpClient.get<any>("https://money.rediff.com/updatense");
