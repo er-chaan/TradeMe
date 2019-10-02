@@ -21,7 +21,7 @@ export class DashboardComponent implements OnInit {
   }
 
   getIndices(){
-    this.dashboardService.getIndices().timer .subscribe(data => {this.indices=data.indices[1].LastTradedPrice;});
+    this.dashboardService.getIndices().subscribe(data => {this.indices=data.indices[1].LastTradedPrice;});
   }
   getTopPerfomers(){
     this.dashboardService.getTopPerfomers().subscribe(data => {this.nseGainer=data.nseGainer;
