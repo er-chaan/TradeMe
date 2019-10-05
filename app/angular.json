@@ -59,6 +59,8 @@
               "./node_modules/admin-lte/dist/js/pages/dashboard2.js",
               "./node_modules/admin-lte/dist/js/demo.js",
               "./node_modules/admin-lte/plugins/iCheck/icheck.min.js",
+              "./node_modules/admin-lte/bower_components/datatables.net/js/jquery.dataTables.min.js",
+              "./node_modules/admin-lte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js",
               "src/scripts.js"
             ]
           },
