@@ -36,6 +36,7 @@
               "./node_modules/admin-lte/bower_components/bootstrap-daterangepicker/daterangepicker.css",
               "./node_modules/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css",
               "./node_modules/admin-lte/plugins/iCheck/square/blue.css",
+              "./node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
             ],
             "scripts": [

@@ -6,8 +6,6 @@ import { Observable } from "rxjs";
   providedIn: 'root'
 })
 export class DashboardService {
-
-  // https://money.rediff.com/money1/chart_compPage.php?companyCode=14030001&mode=day&exchange=BSE&output=csv
   // https://money.rediff.com/money1/currentstatus.php?companycode=14030001
   constructor(private httpClient: HttpClient) { }
   getIndices(): Observable<any>{

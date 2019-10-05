@@ -1,8 +1,10 @@
 import { ErrorHandler, Injectable } from '@angular/core';
 import { HttpErrorResponse } from '@angular/common/http';
 
-@Injectable()
-export class ErrorsSErvice implements ErrorHandler {
+@Injectable({
+  providedIn: 'root'
+})
+export class ErrorService implements ErrorHandler {
   handleError(error: Error | HttpErrorResponse) {
     if (error instanceof HttpErrorResponse) {
       if (!navigator.onLine) {
