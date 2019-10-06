@@ -11,13 +11,31 @@
                 </div>
                 <div class="box-body">
                     <ul class="nav nav-tabs nav-justified">
-                      <li [ngClass]="paymentTab == 'balance' ? 'active': ''" (click)="togglePaymentTab('balance')"><a>Balance</a></li>
                       <li [ngClass]="paymentTab == 'payIN' ? 'active': ''" (click)="togglePaymentTab('payIN')"><a>Pay IN</a></li>
                       <li [ngClass]="paymentTab == 'payOUT' ? 'active': ''" (click)="togglePaymentTab('payOUT')"><a>Pay OUT</a></li>
                     </ul>
-                    <div *ngIf="paymentTab == 'balance'">balance div</div>
-                    <div *ngIf="paymentTab == 'payIN'">payIN div</div>
-                    <div *ngIf="paymentTab == 'payOUT'">payOUT div</div>
+                    <div *ngIf="paymentTab == 'payIN'">
+                        <form role="form">
+                          <div class="box-body">
+                            <div class="form-group">
+                              <label for="amount">Amount</label>
+                              <input type="number" class="form-control" id="amount" placeholder="0 INR"><br>
+                              <button type="submit" class="btn btn-primary" style="width: 100%">Pay IN</button>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                    <div *ngIf="paymentTab == 'payOUT'">
+                        <form role="form">
+                          <div class="box-body">
+                            <div class="form-group">
+                              <label for="amount">Amount</label>
+                              <input type="number" class="form-control" id="amount" placeholder="0 INR"><br>
+                              <button type="submit" class="btn btn-primary" style="width: 100%">Pay OUT</button>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
                 </div>
               </div>
           </div>

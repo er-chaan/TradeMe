@@ -13,7 +13,7 @@ export class AccountsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.paymentTab="balance";
+    this.paymentTab="";
     $('#transactionBook').DataTable({
       'paging'      : true,
       'lengthChange': false,
