@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { stockList } from "../../data/stockList";
-import { FormBuilder, FormGroup, Validators} from "@angular/forms";
+import { FormControl, FormBuilder, FormGroup, Validators} from "@angular/forms";
 declare var jquery:any;
 declare var $ :any;
 
@@ -19,8 +19,12 @@ export class InplayComponent implements OnInit {
     $('.select2').select2();
     this.stockList = stockList;
     this.getStockForm = this.formBuilder.group({
-      stockList: [null, Validators.required]
+      stockListX: ['']
     });
+
+    // this.getStockForm  = new FormGroup({
+    //   stockList: new FormControl(this.stockList[1]),
+    // });
   }
 
   getStockStatus(){
