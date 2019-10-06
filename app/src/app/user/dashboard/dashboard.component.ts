@@ -14,10 +14,10 @@ export class DashboardComponent implements OnInit {
   constructor(private dashboardService: DashboardService) { }
 
   ngOnInit() {
-    setTimeout(() => {
+    setInterval(() => {
       this.getIndices();
       this.getTopPerfomers();
-    }, 10);
+    }, 2000);
   }
 
   getIndices(){
