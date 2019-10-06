@@ -19,7 +19,7 @@ export class InplayComponent implements OnInit {
     $('.select2').select2();
     this.stockList = stockList;
     this.getStockForm = this.formBuilder.group({
-      stockListX: ['']
+      stockList: ['']
     });
 
     // this.getStockForm  = new FormGroup({

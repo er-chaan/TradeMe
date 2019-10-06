@@ -13,7 +13,7 @@
                     <form class="form" [formGroup]="getStockForm" (ngSubmit)="getStockStatus()">
                         <div class="form-group">
                             <label for="stockList">stockList:</label>
-                            <select id="stockList" [formControlName]="stockListX" class="form-control select2" style="width: 100%;" data-placeholder="Select a Stock">
+                            <select id="stockList" [formControlName]="stockList" class="form-control select2" style="width: 100%;" data-placeholder="Select a Stock">
                                 <!-- <option selected="selected" value="" disabled>x</option> -->
                                 <option *ngFor="let item of stockList" [ngValue]="item.Symbol">{{item.Company}}</option>
                               </select>

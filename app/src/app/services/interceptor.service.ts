@@ -5,9 +5,9 @@ import { ToastrService } from 'ngx-toastr';
 import { NgxSpinnerService } from "ngx-spinner";
 import { Component } from '@angular/core';
 
-@Component({
-  template: '<ngx-spinner name="mySpinner"></ngx-spinner>',
-})
+// @Component({
+//   template: '<ngx-spinner name="mySpinner"></ngx-spinner>',
+// })
 
 @Injectable({
   providedIn: 'root'
