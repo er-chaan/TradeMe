@@ -38,6 +38,7 @@
               "./node_modules/admin-lte/plugins/iCheck/square/blue.css",
               "./node_modules/ngx-toastr/toastr.css",
               "./node_modules/admin-lte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css",
+              "./node_modules/admin-lte/bower_components/select2/dist/css/select2.min.css",
               "src/styles.css"
             ],
             "scripts": [
@@ -63,6 +64,7 @@
               "./node_modules/admin-lte/plugins/iCheck/icheck.min.js",
               "./node_modules/admin-lte/bower_components/datatables.net/js/jquery.dataTables.min.js",
               "./node_modules/admin-lte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js",
+              "./node_modules/admin-lte/bower_components/select2/dist/js/select2.full.min.js",
               "src/scripts.js"
             ]
           },
