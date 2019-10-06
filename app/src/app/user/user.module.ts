@@ -9,13 +9,16 @@ import { SettingsComponent } from './settings/settings.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { InplayComponent } from './inplay/inplay.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent],
   imports: [
-    LayoutModule,
-    CommonModule,
-    UserRoutingModule
+      FormsModule,
+      ReactiveFormsModule,
+      LayoutModule,
+      CommonModule,
+      UserRoutingModule
     ],
     providers:[]
   })
