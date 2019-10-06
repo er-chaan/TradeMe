@@ -1,12 +1,7 @@
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Accounts
-        </h1>
+      <h1>Accounts</h1>
     </section>
-
-    <!-- Main content -->
     <section class="content">
       <div class="row">
           <div class="col-xs-12">
@@ -16,10 +11,13 @@
                 </div>
                 <div class="box-body">
                     <ul class="nav nav-tabs nav-justified">
-                      <li role="presentation" class="active"><a>Balance</a></li>
-                      <li role="presentation"><a>Pay IN</a></li>
-                      <li role="presentation"><a>Pay OUT</a></li>
+                      <li [ngClass]="paymentTab == 'balance' ? 'active': ''" (click)="togglePaymentTab('balance')"><a>Balance</a></li>
+                      <li [ngClass]="paymentTab == 'payIN' ? 'active': ''" (click)="togglePaymentTab('payIN')"><a>Pay IN</a></li>
+                      <li [ngClass]="paymentTab == 'payOUT' ? 'active': ''" (click)="togglePaymentTab('payOUT')"><a>Pay OUT</a></li>
                     </ul>
+                    <div *ngIf="paymentTab == 'balance'">balance div</div>
+                    <div *ngIf="paymentTab == 'payIN'">payIN div</div>
+                    <div *ngIf="paymentTab == 'payOUT'">payOUT div</div>
                 </div>
               </div>
           </div>
@@ -29,9 +27,8 @@
             <div class="box-header">
               <h3 class="box-title">Transaction Book</h3>
             </div>
-            <!-- /.box-header -->
             <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped">
+              <table id="transactionBook" class="table table-bordered table-striped" >
                 <thead>
                 <tr>
                   <th>TID</th>
@@ -42,7 +39,7 @@
                   <th>Balance</th>
                 </tr>
                 </thead>
-                <!-- <tbody>
+                <tbody>
                   <tr>
                     <td>TM0010</td>
                     <td>Aug 1st 2019</td>
@@ -83,167 +80,21 @@
                     <td>100</td>
                     <td>100</td>
                   </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                </tbody> -->
-                <!-- <tfoot>
-                <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
-                </tr>
-                </tfoot> -->
+                </tbody> 
+                <tfoot>
+                <!-- <tr>
+                  <th>TID</th>
+                  <th>Description</th>
+                  <th>Date</th>
+                  <th>Debit</th>
+                  <th>Credit</th>
+                  <th>Balance</th>
+                </tr> -->
+                </tfoot>
               </table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- /.col -->
       </div>
-      <!-- /.row -->
     </section>
-    <!-- /.content -->
   </div>
-  <!-- /.content-wrapper -->
-  <script>
-    $(function () {
-      // $('#example1').DataTable()
-      $('#example2').DataTable({
-        'paging'      : true,
-        'lengthChange': false,
-        'searching'   : false,
-        'ordering'    : true,
-        'info'        : true,
-        'autoWidth'   : false
-      })
-    })
-  </script>

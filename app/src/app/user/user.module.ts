@@ -10,7 +10,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { InplayComponent } from './inplay/inplay.component';
 
-
 @NgModule({
   declarations: [UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent],
   imports: [
