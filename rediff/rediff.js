@@ -29,7 +29,7 @@ fs.createReadStream('LDE_EQUITIES_MORE_THAN_5_YEARS.csv')
                     data = [{
                             code: company_code,
                             symbol: company_symbol,
-                            name: row.company
+                            name: row.Company
                             }];
                       
                     csvWriter.writeRecords(data);

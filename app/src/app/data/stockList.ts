@@ -1,16042 +1,8017 @@
 export const stockList = [
  {
-   "Symbol": "IIFLSEC",
-   "ISIN": "INE489L01022",
-   "Company": "IIFL Securities Limited",
-   "First Listing Date": "20-Sep-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "IIFLWAM",
-   "ISIN": "INE466L01020",
-   "Company": "Iifl Wealth Management Limited",
-   "First Listing Date": "19-Sep-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "SAFARI",
-   "ISIN": "INE429E01023",
-   "Company": "Safari Industries (India) Limited",
-   "First Listing Date": "12-Sep-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12310115",
    "Symbol": "KRISHANA",
-   "ISIN": "INE506W01012",
-   "Company": "Krishana Phoschem Limited",
-   "First Listing Date": "22-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Krishana Phoschem Limited"
  },
  {
-   "Symbol": "MBAPL",
-   "ISIN": "INE900L01010",
-   "Company": "Madhya Bharat Agro Products Limited",
-   "First Listing Date": "22-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12580003",
+   "Symbol": "SAFARI",
+   "Name": "Safari Industries (India) Limited"
  },
  {
+   "Code": "13520894",
    "Symbol": "SWSOLAR",
-   "ISIN": "INE00M201021",
-   "Company": "Sterling And Wilson Solar Limited",
-   "First Listing Date": "20-Aug-2019",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sterling And Wilson Solar Limited"
  },
  {
-   "Symbol": "VIKASPROP",
-   "ISIN": "INE767B01022",
-   "Company": "Vikas Proppant & Granite Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11330106",
+   "Symbol": "MBAPL",
+   "Name": "Madhya Bharat Agro Products Limited"
  },
  {
+   "Code": "14011027",
    "Symbol": "SPANDANA",
-   "ISIN": "INE572J01011",
-   "Company": "Spandana Sphoorty Financial Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Spandana Sphoorty Financial Limited"
  },
  {
-   "Symbol": "HNDFDS",
-   "ISIN": "INE254N01018",
-   "Company": "Hindustan Foods Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14010232",
+   "Symbol": "VIKASPROP",
+   "Name": "Vikas Proppant & Granite Limited"
  },
  {
+   "Code": "17153069",
    "Symbol": "JIYAECO",
-   "ISIN": "INE023S01016",
-   "Company": "Jiya Eco-Products Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jiya Eco-Products Limited"
  },
  {
+   "Code": "11050070",
+   "Symbol": "HNDFDS",
+   "Name": "Hindustan Foods Limited"
+ },
+ {
+   "Code": "14090349",
    "Symbol": "DOLAT",
-   "ISIN": "INE966A01022",
-   "Company": "Dolat Investments Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dolat Investments Limited"
  },
  {
+   "Code": "14060363",
    "Symbol": "JUMPNET",
-   "ISIN": "INE974C01022",
-   "Company": "Jump Networks Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jump Networks Limited"
  },
  {
-   "Symbol": "VISHAL",
-   "ISIN": "INE755Q01025",
-   "Company": "Vishal Fabrics Limited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14090428",
    "Symbol": "WESTLIFE",
-   "ISIN": "INE274F01020",
-   "Company": "Westlife Development Ltd",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Westlife Development Ltd"
  },
  {
-   "Symbol": "ZOTA",
-   "ISIN": "INE358U01012",
-   "Company": "Zota Health Care LImited",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16020182",
+   "Symbol": "VISHAL",
+   "Name": "Vishal Fabrics Limited"
  },
  {
+   "Code": "15050094",
    "Symbol": "BCP",
-   "ISIN": "INE905P01028",
-   "Company": "B.C. Power Controls Ltd",
-   "First Listing Date": "19-Aug-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "B.C. Power Controls Ltd"
  },
  {
-   "Symbol": "AFFLE",
-   "ISIN": "INE00WC01019",
-   "Company": "Affle (India) Limited",
-   "First Listing Date": "08-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "",
+   "Symbol": "ZOTA",
+   "Name": "Zota Health Care LImited"
  },
  {
+   "Code": "13030067",
    "Symbol": "CREATIVE",
-   "ISIN": "INE985W01018",
-   "Company": "Creative Peripherals and Distribution Limited",
-   "First Listing Date": "05-Aug-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Creative Peripherals and Distribution Limited"
  },
  {
+   "Code": "14094934",
+   "Symbol": "AFFLE",
+   "Name": "Affle (India) Limited"
+ },
+ {
+   "Code": "16530330",
    "Symbol": "SHRENIK",
-   "ISIN": "INE632X01022",
-   "Company": "Shrenik Limited",
-   "First Listing Date": "02-Aug-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shrenik Limited"
  },
  {
+   "Code": "11623428",
    "Symbol": "SUMIT",
-   "ISIN": "INE748Z01013",
-   "Company": "Sumit Woods Limited",
-   "First Listing Date": "30-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sumit Woods Limited"
  },
  {
+   "Code": "16070225",
    "Symbol": "LIBAS",
-   "ISIN": "INE908V01012",
-   "Company": "Libas Designs Limited",
-   "First Listing Date": "23-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Libas Designs Limited"
  },
  {
+   "Code": "16070225",
    "Symbol": "LIBAS",
-   "ISIN": "INE908V01012",
-   "Company": "Libas Designs Limited",
-   "First Listing Date": "23-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Libas Designs Limited"
  },
  {
+   "Code": "11580078",
    "Symbol": "SIRCA",
-   "ISIN": "INE792Z01011",
-   "Company": "Sirca Paints India Limited",
-   "First Listing Date": "22-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sirca Paints India Limited"
  },
  {
-   "Symbol": "GFSTEELS",
-   "ISIN": "INE534A01028",
-   "Company": "Grand Foundry Limited",
-   "First Listing Date": "22-Jul-2019",
-   "Face Value": 4,
-   "Paid Up Value": 4,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16530166",
    "Symbol": "SATIA",
-   "ISIN": "INE170E01015",
-   "Company": "Satia Industries Limited",
-   "First Listing Date": "17-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Satia Industries Limited"
  },
  {
+   "Code": "15520011",
+   "Symbol": "GFSTEELS",
+   "Name": "Grand Foundry Limited"
+ },
+ {
+   "Code": "16030295",
    "Symbol": "DCMNVL",
-   "ISIN": "INE08KP01019",
-   "Company": "DCM Nouvelle Limited",
-   "First Listing Date": "16-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCM Nouvelle Limited"
  },
  {
+   "Code": "12070134",
    "Symbol": "SANGINITA",
-   "ISIN": "INE753W01010",
-   "Company": "Sanginita Chemicals Limited",
-   "First Listing Date": "15-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sanginita Chemicals Limited"
  },
  {
+   "Code": "13192341",
    "Symbol": "INFOBEAN",
-   "ISIN": "INE344S01016",
-   "Company": "InfoBeans Technologies Limited",
-   "First Listing Date": "15-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "InfoBeans Technologies Limited"
  },
  {
+   "Code": "12070026",
    "Symbol": "SEYAIND",
-   "ISIN": "INE573R01012",
-   "Company": "Seya Industries Limited",
-   "First Listing Date": "11-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Seya Industries Limited"
  },
  {
+   "Code": "12070003",
    "Symbol": "OAL",
-   "ISIN": "INE959C01023",
-   "Company": "Oriental Aromatics Limited",
-   "First Listing Date": "11-Jul-2019",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Aromatics Limited"
  },
  {
+   "Code": "13191988",
    "Symbol": "INDIAMART",
-   "ISIN": "INE933S01016",
-   "Company": "Indiamart Intermesh Limited",
-   "First Listing Date": "04-Jul-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indiamart Intermesh Limited"
  },
  {
-   "Symbol": "STEELCITY",
-   "ISIN": "INE395H01011",
-   "Company": "Steel City Securities Limited",
-   "First Listing Date": "27-Jun-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17041012",
    "Symbol": "DGCONTENT",
-   "ISIN": "INE03JI01017",
-   "Company": "Digicontent Limited",
-   "First Listing Date": "18-Jun-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Digicontent Limited"
  },
  {
-   "Symbol": "PPL",
-   "ISIN": "INE050001010",
-   "Company": "Prakash Pipes Limited",
-   "First Listing Date": "14-Jun-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14010481",
+   "Symbol": "STEELCITY",
+   "Name": "Steel City Securities Limited"
  },
  {
+   "Code": "14560025",
    "Symbol": "CONFIPET",
-   "ISIN": "INE552D01024",
-   "Company": "Confidence Petroleum India Limited",
-   "First Listing Date": "13-Jun-2019",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Confidence Petroleum India Limited"
  },
  {
+   "Code": "15580176",
+   "Symbol": "PPL",
+   "Name": "Prakash Pipes Limited"
+ },
+ {
+   "Code": "16530114",
    "Symbol": "EMAMIPAP",
-   "ISIN": "INE830C01026",
-   "Company": "Emami Paper Mills Limited",
-   "First Listing Date": "30-May-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emami Paper Mills Limited"
  },
  {
+   "Code": "13240166",
    "Symbol": "ONEPOINT",
-   "ISIN": "INE840Y01011",
-   "Company": "One Point One Solutions Limited",
-   "First Listing Date": "09-May-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "One Point One Solutions Limited"
  },
  {
-   "Symbol": "NEOGEN",
-   "ISIN": "INE136S01016",
-   "Company": "Neogen Chemicals Limited",
-   "First Listing Date": "08-May-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17028812",
    "Symbol": "VIKASMCORP",
-   "ISIN": "INE161L01027",
-   "Company": "Vikas Multicorp Limited",
-   "First Listing Date": "08-May-2019",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vikas Multicorp Limited"
  },
  {
+   "Code": "12060124",
+   "Symbol": "NEOGEN",
+   "Name": "Neogen Chemicals Limited"
+ },
+ {
+   "Code": "14094804",
    "Symbol": "AIRAN",
-   "ISIN": "INE645W01026",
-   "Company": "Airan Limited",
-   "First Listing Date": "03-May-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Airan Limited"
  },
  {
+   "Code": "17154051",
    "Symbol": "KPITTECH",
-   "ISIN": "INE04I401011",
-   "Company": "KPIT Technologies Limited",
-   "First Listing Date": "22-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KPIT Technologies Limited"
  },
  {
+   "Code": "15120087",
    "Symbol": "SOUTHWEST",
-   "ISIN": "INE980Y01015",
-   "Company": "South West Pinnacle Exploration Limited",
-   "First Listing Date": "18-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "South West Pinnacle Exploration Limited"
  },
  {
+   "Code": "15050067",
    "Symbol": "POLYCAB",
-   "ISIN": "INE455K01017",
-   "Company": "Polycab India Limited",
-   "First Listing Date": "16-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Polycab India Limited"
  },
  {
+   "Code": "16550066",
    "Symbol": "METROPOLIS",
-   "ISIN": "INE112L01020",
-   "Company": "Metropolis Healthcare Limited",
-   "First Listing Date": "15-Apr-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Metropolis Healthcare Limited"
  },
  {
+   "Code": "16590067",
    "Symbol": "MAHESHWARI",
-   "ISIN": "INE263W01010",
-   "Company": "Maheshwari Logistics Limited",
-   "First Listing Date": "15-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maheshwari Logistics Limited"
  },
  {
-   "Symbol": "RVNL",
-   "ISIN": "INE415G01027",
-   "Company": "Rail Vikas Nigam Limited",
-   "First Listing Date": "11-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17090024",
    "Symbol": "CKFSL",
-   "ISIN": "INE391Z01012",
-   "Company": "Cox & Kings Financial Service Limited",
-   "First Listing Date": "11-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cox & Kings Financial Service Limited"
  },
  {
+   "Code": "11600132",
+   "Symbol": "RVNL",
+   "Name": "Rail Vikas Nigam Limited"
+ },
+ {
+   "Code": "16550326",
    "Symbol": "SAKAR",
-   "ISIN": "INE732S01012",
-   "Company": "Sakar Healthcare Limited",
-   "First Listing Date": "11-Apr-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sakar Healthcare Limited"
  },
  {
+   "Code": "16610125",
    "Symbol": "MSTCLTD",
-   "ISIN": "INE255X01014",
-   "Company": "Mstc Limited",
-   "First Listing Date": "29-Mar-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mstc Limited"
  },
  {
+   "Code": "16070063",
    "Symbol": "ARVINDFASN",
-   "ISIN": "INE955V01021",
-   "Company": "Arvind Fashions Limited",
-   "First Listing Date": "08-Mar-2019",
-   "Face Value": 4,
-   "Paid Up Value": 4,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arvind Fashions Limited"
  },
  {
+   "Code": "12324353",
    "Symbol": "AGROPHOS",
-   "ISIN": "INE740V01019",
-   "Company": "Agro Phos India Limited",
-   "First Listing Date": "08-Mar-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Agro Phos India Limited"
  },
  {
+   "Code": "13510160",
    "Symbol": "ANUP",
-   "ISIN": "INE294Z01018",
-   "Company": "The Anup Engineering Limited",
-   "First Listing Date": "01-Mar-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Anup Engineering Limited"
  },
  {
-   "Symbol": "CHALET",
-   "ISIN": "INE427F01016",
-   "Company": "Chalet Hotels Limited",
-   "First Listing Date": "07-Feb-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13192671",
    "Symbol": "XELPMOC",
-   "ISIN": "INE01P501012",
-   "Company": "Xelpmoc Design And Tech Limited",
-   "First Listing Date": "04-Feb-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Xelpmoc Design And Tech Limited"
  },
  {
-   "Symbol": "CESCVENT",
-   "ISIN": "INE425Y01011",
-   "Company": "CESC Ventures Limited",
-   "First Listing Date": "25-Jan-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15170029",
    "Symbol": "SAGARDEEP",
-   "ISIN": "INE976T01013",
-   "Company": "Sagardeep Alloys Limited",
-   "First Listing Date": "25-Jan-2019",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sagardeep Alloys Limited"
  },
  {
+   "Code": "",
    "Symbol": "SPENCERS",
-   "ISIN": "INE020801028",
-   "Company": "Spencer's Retail Limited",
-   "First Listing Date": "25-Jan-2019",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Spencer's Retail Limited"
  },
  {
+   "Code": "15110065",
    "Symbol": "DALBHARAT",
-   "ISIN": "INE00R701025",
-   "Company": "Dalmia Bharat Limited",
-   "First Listing Date": "22-Jan-2019",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dalmia Bharat Limited"
  },
  {
+   "Code": "",
    "Symbol": "TREJHARA",
-   "ISIN": "INE00CA01015",
-   "Company": "TREJHARA SOLUTIONS LIMITED",
-   "First Listing Date": "28-Dec-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TREJHARA SOLUTIONS LIMITED"
  },
  {
+   "Code": "11623376",
    "Symbol": "NILASPACES",
-   "ISIN": "INE00S901012",
-   "Company": "Nila Spaces Limited",
-   "First Listing Date": "28-Dec-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nila Spaces Limited"
  },
  {
+   "Code": "15130281",
    "Symbol": "TECHNOE",
-   "ISIN": "INE285K01026",
-   "Company": "Techno Electric & Engineering Company Limited",
-   "First Listing Date": "04-Dec-2018",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Techno Electric & Engineering Company Limited"
  },
  {
-   "Symbol": "ADANIGAS",
-   "ISIN": "INE399L01023",
-   "Company": "Adani Gas Limited",
-   "First Listing Date": "05-Nov-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16680001",
    "Symbol": "GRSE",
-   "ISIN": "INE382Z01011",
-   "Company": "Garden Reach Shipbuilders & Engineers Limited",
-   "First Listing Date": "10-Oct-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Garden Reach Shipbuilders & Engineers Limited"
  },
  {
+   "Code": "17027894",
+   "Symbol": "ADANIGAS",
+   "Name": "Adani Gas Limited"
+ },
+ {
+   "Code": "14080119",
    "Symbol": "AAVAS",
-   "ISIN": "INE216P01012",
-   "Company": "Aavas Financiers Limited",
-   "First Listing Date": "08-Oct-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aavas Financiers Limited"
  },
  {
+   "Code": "11600033",
    "Symbol": "IRCON",
-   "ISIN": "INE962Y01013",
-   "Company": "Ircon International Limited",
-   "First Listing Date": "28-Sep-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ircon International Limited"
  },
  {
+   "Code": "15560010",
    "Symbol": "AIONJSW",
-   "ISIN": "INE743C01021",
-   "Company": "Monnet Ispat & Energy Limited",
-   "First Listing Date": "12-Sep-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Monnet Ispat & Energy Limited"
  },
  {
+   "Code": "17020459",
    "Symbol": "SIGIND",
-   "ISIN": "INE529F01035",
-   "Company": "Signet Industries Limited",
-   "First Listing Date": "29-Aug-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Signet Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "CREDITACC",
-   "ISIN": "INE741K01010",
-   "Company": "CREDITACCESS GRAMEEN LIMITED",
-   "First Listing Date": "23-Aug-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CREDITACCESS GRAMEEN LIMITED"
  },
  {
+   "Code": "14050596",
    "Symbol": "HDFCAMC",
-   "ISIN": "INE127D01025",
-   "Company": "HDFC Asset Management Company Limited",
-   "First Listing Date": "06-Aug-2018",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HDFC Asset Management Company Limited"
  },
  {
+   "Code": "16490518",
    "Symbol": "TCNSBRANDS",
-   "ISIN": "INE778U01029",
-   "Company": "TCNS Clothing Co. Limited",
-   "First Listing Date": "30-Jul-2018",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TCNS Clothing Co. Limited"
  },
  {
+   "Code": "14060044",
    "Symbol": "HBSL",
-   "ISIN": "INE550B01022",
-   "Company": "HB Stockholdings Limited",
-   "First Listing Date": "23-Jul-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HB Stockholdings Limited"
  },
  {
+   "Code": "10610049",
    "Symbol": "VARROC",
-   "ISIN": "INE665L01035",
-   "Company": "Varroc Engineering Limited",
-   "First Listing Date": "06-Jul-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Varroc Engineering Limited"
  },
  {
+   "Code": "16620536",
+   "Symbol": "CHALET",
+   "Name": "Chalet Hotels Limited"
+ },
+ {
+   "Code": "16690082",
    "Symbol": "RITES",
-   "ISIN": "INE320J01015",
-   "Company": "RITES Limited",
-   "First Listing Date": "02-Jul-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RITES Limited"
  },
  {
+   "Code": "12070173",
    "Symbol": "FINEORG",
-   "ISIN": "INE686Y01026",
-   "Company": "Fine Organic Industries Limited",
-   "First Listing Date": "02-Jul-2018",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Fine Organic Industries Limited"
  },
  {
+   "Code": "13240168",
+   "Symbol": "CESCVENT",
+   "Name": "CESC Ventures Limited"
+ },
+ {
+   "Code": "10780012",
    "Symbol": "TALWGYM",
-   "ISIN": "INE627Z01019",
-   "Company": "Talwalkars Healthclubs Limited",
-   "First Listing Date": "29-Jun-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Talwalkars Healthclubs Limited"
  },
  {
+   "Code": "15210705",
    "Symbol": "GAYAHWS",
-   "ISIN": "INE287Z01012",
-   "Company": "Gayatri Highways Limited",
-   "First Listing Date": "28-Jun-2018",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gayatri Highways Limited"
  },
  {
+   "Code": "12541558",
    "Symbol": "SOLARA",
-   "ISIN": "INE624Z01016",
-   "Company": "Solara Active Pharma Sciences Limited",
-   "First Listing Date": "27-Jun-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Solara Active Pharma Sciences Limited"
  },
  {
+   "Code": "15130762",
    "Symbol": "ADANIGREEN",
-   "ISIN": "INE364U01010",
-   "Company": "Adani Green Energy Limited",
-   "First Listing Date": "18-Jun-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Adani Green Energy Limited"
  },
  {
-   "Symbol": "BOROSIL",
-   "ISIN": "INE666D01022",
-   "Company": "Borosil Glass Works Limited",
-   "First Listing Date": "25-May-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14094914",
    "Symbol": "INDOSTAR",
-   "ISIN": "INE896L01010",
-   "Company": "IndoStar Capital Finance Limited",
-   "First Listing Date": "21-May-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IndoStar Capital Finance Limited"
  },
  {
+   "Code": "13150256",
    "Symbol": "ORIENTELEC",
-   "ISIN": "INE142Z01019",
-   "Company": "Orient Electric Limited",
-   "First Listing Date": "14-May-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Electric Limited"
  },
  {
+   "Code": "15580141",
    "Symbol": "HITECH",
-   "ISIN": "INE106T01017",
-   "Company": "Hi-Tech Pipes Limited",
-   "First Listing Date": "07-May-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hi-Tech Pipes Limited"
  },
  {
+   "Code": "17151540",
    "Symbol": "CHEMFAB",
-   "ISIN": "INE783X01023",
-   "Company": "Chemfab Alkalis Limited",
-   "First Listing Date": "25-Apr-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Chemfab Alkalis Limited"
  },
  {
+   "Code": "16620202",
    "Symbol": "LEMONTREE",
-   "ISIN": "INE970X01018",
-   "Company": "Lemon Tree Hotels Limited",
-   "First Listing Date": "09-Apr-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lemon Tree Hotels Limited"
  },
  {
+   "Code": "14040001.03",
    "Symbol": "ISEC",
-   "ISIN": "INE763G01038",
-   "Company": "ICICI Securities Limited",
-   "First Listing Date": "04-Apr-2018",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ICICI Securities Limited"
  },
  {
+   "Code": "14010227",
    "Symbol": "CENTRUM",
-   "ISIN": "INE660C01027",
-   "Company": "Centrum Capital Limited",
-   "First Listing Date": "04-Apr-2018",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Centrum Capital Limited"
  },
  {
+   "Code": "15520047",
    "Symbol": "MIDHANI",
-   "ISIN": "INE099Z01011",
-   "Company": "Mishra Dhatu Nigam Limited",
-   "First Listing Date": "04-Apr-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mishra Dhatu Nigam Limited"
  },
  {
+   "Code": "10670192",
    "Symbol": "SANDHAR",
-   "ISIN": "INE278H01035",
-   "Company": "Sandhar Technologies Limited",
-   "First Listing Date": "02-Apr-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sandhar Technologies Limited"
  },
  {
+   "Code": "11623372",
    "Symbol": "KARDA",
-   "ISIN": "INE278R01018",
-   "Company": "Karda Constructions Limited",
-   "First Listing Date": "02-Apr-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Karda Constructions Limited"
  },
  {
+   "Code": "13510030",
    "Symbol": "HAL",
-   "ISIN": "INE066F01012",
-   "Company": "Hindustan Aeronautics Limited",
-   "First Listing Date": "28-Mar-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Aeronautics Limited"
  },
  {
+   "Code": "14030287",
    "Symbol": "BANDHANBNK",
-   "ISIN": "INE545U01014",
-   "Company": "Bandhan Bank Limited",
-   "First Listing Date": "27-Mar-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bandhan Bank Limited"
  },
  {
+   "Code": "14060001.03",
    "Symbol": "SUNDARMHLD",
-   "ISIN": "INE202Z01029",
-   "Company": "Sundaram Finance Holdings Limited",
-   "First Listing Date": "26-Mar-2018",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sundaram Finance Holdings Limited"
  },
  {
+   "Code": "13520141",
    "Symbol": "BDL",
-   "ISIN": "INE171Z01018",
-   "Company": "Bharat Dynamics Limited",
-   "First Listing Date": "23-Mar-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Dynamics Limited"
  },
  {
+   "Code": "",
    "Symbol": "HGINFRA",
-   "ISIN": "INE926X01010",
-   "Company": "H.G. Infra Engineering Limited",
-   "First Listing Date": "09-Mar-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "H.G. Infra Engineering Limited"
  },
  {
+   "Code": "13510006",
    "Symbol": "GMMPFAUDLR",
-   "ISIN": "INE541A01023",
-   "Company": "GMM Pfaudler Limited",
-   "First Listing Date": "05-Mar-2018",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GMM Pfaudler Limited"
  },
  {
+   "Code": "16550441",
    "Symbol": "ASTERDM",
-   "ISIN": "INE914M01019",
-   "Company": "Aster DM Healthcare Limited",
-   "First Listing Date": "26-Feb-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aster DM Healthcare Limited"
  },
  {
+   "Code": "16490756",
    "Symbol": "SHIVAMILLS",
-   "ISIN": "INE644Y01017",
-   "Company": "Shiva Mills Limited",
-   "First Listing Date": "26-Feb-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shiva Mills Limited"
  },
  {
+   "Code": "12010007",
    "Symbol": "GALAXYSURF",
-   "ISIN": "INE600K01018",
-   "Company": "Galaxy Surfactants Limited",
-   "First Listing Date": "08-Feb-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Galaxy Surfactants Limited"
  },
  {
-   "Symbol": "PRAXIS",
-   "ISIN": "INE546Y01022",
-   "Company": "Praxis Home Retail Limited",
-   "First Listing Date": "31-Jan-2018",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14580004",
+   "Symbol": "BOROSIL",
+   "Name": "Borosil Glass Works Limited"
  },
  {
+   "Code": "13210012",
    "Symbol": "AMBER",
-   "ISIN": "INE371P01015",
-   "Company": "Amber Enterprises India Limited",
-   "First Listing Date": "30-Jan-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Amber Enterprises India Limited"
  },
  {
+   "Code": "13190138",
    "Symbol": "NEWGEN",
-   "ISIN": "INE619B01017",
-   "Company": "Newgen Software Technologies Limited",
-   "First Listing Date": "29-Jan-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Newgen Software Technologies Limited"
  },
  {
+   "Code": "13192114",
    "Symbol": "APOLLO",
-   "ISIN": "INE713T01010",
-   "Company": "Apollo Micro Systems Limited",
-   "First Listing Date": "22-Jan-2018",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apollo Micro Systems Limited"
  },
  {
+   "Code": "16530291",
    "Symbol": "ASTRON",
-   "ISIN": "INE646X01014",
-   "Company": "Astron Paper & Board Mill Limited",
-   "First Listing Date": "29-Dec-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Astron Paper & Board Mill Limited"
  },
  {
+   "Code": "14060026",
    "Symbol": "SHIVATEX",
-   "ISIN": "INE705C01020",
-   "Company": "Shiva Texyarn Limited",
-   "First Listing Date": "26-Dec-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shiva Texyarn Limited"
  },
  {
+   "Code": "17160039",
    "Symbol": "FSC",
-   "ISIN": "INE935Q01015",
-   "Company": "Future Supply Chain Solutions Limited",
-   "First Listing Date": "18-Dec-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Future Supply Chain Solutions Limited"
  },
  {
+   "Code": "16550439",
    "Symbol": "SHALBY",
-   "ISIN": "INE597J01018",
-   "Company": "Shalby Limited",
-   "First Listing Date": "15-Dec-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shalby Limited"
  },
  {
+   "Code": "17040725",
    "Symbol": "DNAMEDIA",
-   "ISIN": "INE016M01021",
-   "Company": "Diligent Media Corporation Limited",
-   "First Listing Date": "11-Dec-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Diligent Media Corporation Limited"
  },
  {
+   "Code": "14020008",
    "Symbol": "HDFCLIFE",
-   "ISIN": "INE795G01014",
-   "Company": "HDFC Life Insurance Company Limited",
-   "First Listing Date": "17-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HDFC Life Insurance Company Limited"
  },
  {
+   "Code": "14010689",
    "Symbol": "5PAISA",
-   "ISIN": "INE618L01018",
-   "Company": "5Paisa Capital Limited",
-   "First Listing Date": "16-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "5Paisa Capital Limited"
  },
  {
+   "Code": "14550010",
    "Symbol": "IFGLEXPOR",
-   "ISIN": "INE133Y01011",
-   "Company": "IFGL Refractories Limited",
-   "First Listing Date": "14-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IFGL Refractories Limited"
  },
  {
+   "Code": "16510037",
    "Symbol": "KHADIM",
-   "ISIN": "INE834I01025",
-   "Company": "Khadim India Limited",
-   "First Listing Date": "14-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Khadim India Limited"
  },
  {
+   "Code": "14020003",
    "Symbol": "NIACL",
-   "ISIN": "INE470Y01017",
-   "Company": "The New India Assurance Company Limited",
-   "First Listing Date": "13-Nov-2017",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The New India Assurance Company Limited"
  },
  {
+   "Code": "17025512",
    "Symbol": "MAHLOG",
-   "ISIN": "INE766P01016",
-   "Company": "Mahindra Logistics Limited",
-   "First Listing Date": "10-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra Logistics Limited"
  },
  {
+   "Code": "14060009.08",
    "Symbol": "RNAM",
-   "ISIN": "INE298J01013",
-   "Company": "Reliance Nippon Life Asset Management Limited",
-   "First Listing Date": "06-Nov-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Nippon Life Asset Management Limited"
  },
  {
+   "Code": "14094896",
    "Symbol": "TIINDIA",
-   "ISIN": "INE974X01010",
-   "Company": "Tube Investments of India Limited",
-   "First Listing Date": "02-Nov-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tube Investments of India Limited"
  },
  {
+   "Code": "12052001",
    "Symbol": "GICRE",
-   "ISIN": "INE481Y01014",
-   "Company": "General Insurance Corporation of India",
-   "First Listing Date": "25-Oct-2017",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "General Insurance Corporation of India"
  },
  {
+   "Code": "17025175",
    "Symbol": "IEX",
-   "ISIN": "INE022Q01020",
-   "Company": "Indian Energy Exchange Limited",
-   "First Listing Date": "23-Oct-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indian Energy Exchange Limited"
  },
  {
+   "Code": "14091040",
    "Symbol": "MASFIN",
-   "ISIN": "INE348L01012",
-   "Company": "MAS Financial Services Limited",
-   "First Listing Date": "18-Oct-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MAS Financial Services Limited"
  },
  {
+   "Code": "17020001",
    "Symbol": "TCPLPACK",
-   "ISIN": "INE822C01015",
-   "Company": "TCPL Packaging Limited",
-   "First Listing Date": "17-Oct-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TCPL Packaging Limited"
  },
  {
+   "Code": "10760029",
+   "Symbol": "PRAXIS",
+   "Name": "Praxis Home Retail Limited"
+ },
+ {
+   "Code": "12520018.01",
    "Symbol": "GODREJAGRO",
-   "ISIN": "INE850D01014",
-   "Company": "Godrej Agrovet Limited",
-   "First Listing Date": "16-Oct-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godrej Agrovet Limited"
  },
  {
+   "Code": "14090244",
    "Symbol": "SCAPDVR",
-   "ISIN": "INE224E01036",
-   "Company": "Stampede Capital Limited",
-   "First Listing Date": "10-Oct-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Stampede Capital Limited"
  },
  {
+   "Code": "11290401",
    "Symbol": "DIAMONDYD",
-   "ISIN": "INE393P01035",
-   "Company": "Prataap Snacks Limited",
-   "First Listing Date": "05-Oct-2017",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prataap Snacks Limited"
  },
  {
+   "Code": "14020014",
    "Symbol": "SBILIFE",
-   "ISIN": "INE123W01016",
-   "Company": "SBI Life Insurance Company Limited",
-   "First Listing Date": "03-Oct-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SBI Life Insurance Company Limited"
  },
  {
-   "Symbol": "ICICIGI",
-   "ISIN": "INE765G01017",
-   "Company": "ICICI Lombard General Insurance Company Limited",
-   "First Listing Date": "27-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12590003",
    "Symbol": "CHOLAHLDNG",
-   "ISIN": "INE149A01033",
-   "Company": "Cholamandalam Financial Holdings Limited",
-   "First Listing Date": "25-Sep-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cholamandalam Financial Holdings Limited"
  },
  {
-   "Symbol": "CAPACITE",
-   "ISIN": "INE264T01014",
-   "Company": "Capacit'e Infraprojects Limited",
-   "First Listing Date": "25-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14020007",
+   "Symbol": "ICICIGI",
+   "Name": "ICICI Lombard General Insurance Company Limited"
  },
  {
+   "Code": "14080152",
    "Symbol": "RHFL",
-   "ISIN": "INE217K01011",
-   "Company": "Reliance Home Finance Limited",
-   "First Listing Date": "22-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Home Finance Limited"
  },
  {
+   "Code": "",
+   "Symbol": "CAPACITE",
+   "Name": "Capacit'e Infraprojects Limited"
+ },
+ {
+   "Code": "17025327",
    "Symbol": "DCAL",
-   "ISIN": "INE385W01011",
-   "Company": "Dishman Carbogen Amcis Limited",
-   "First Listing Date": "21-Sep-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dishman Carbogen Amcis Limited"
  },
  {
+   "Code": "12060116",
    "Symbol": "LASA",
-   "ISIN": "INE670X01014",
-   "Company": "Lasa Supergenerics Limited",
-   "First Listing Date": "21-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lasa Supergenerics Limited"
  },
  {
-   "Symbol": "MATRIMONY",
-   "ISIN": "INE866R01028",
-   "Company": "Matrimony.Com Limited",
-   "First Listing Date": "21-Sep-2017",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12680028",
    "Symbol": "DIXON",
-   "ISIN": "INE935N01012",
-   "Company": "Dixon Technologies (India) Limited",
-   "First Listing Date": "18-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dixon Technologies (India) Limited"
  },
  {
+   "Code": "16690584",
+   "Symbol": "MATRIMONY",
+   "Name": "Matrimony.Com Limited"
+ },
+ {
+   "Code": "11623323",
    "Symbol": "BRNL",
-   "ISIN": "INE727S01012",
-   "Company": "Bharat Road Network Limited",
-   "First Listing Date": "18-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Road Network Limited"
  },
  {
+   "Code": "11290430",
    "Symbol": "APEX",
-   "ISIN": "INE346W01013",
-   "Company": "Apex Frozen Foods Limited",
-   "First Listing Date": "04-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apex Frozen Foods Limited"
  },
  {
+   "Code": "14094863",
    "Symbol": "ABCAPITAL",
-   "ISIN": "INE674K01013",
-   "Company": "Aditya Birla Capital Limited",
-   "First Listing Date": "01-Sep-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aditya Birla Capital Limited"
  },
  {
+   "Code": "12541503",
    "Symbol": "SMSLIFE",
-   "ISIN": "INE320X01016",
-   "Company": "SMS Lifesciences India Limited",
-   "First Listing Date": "17-Aug-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SMS Lifesciences India Limited"
  },
  {
-   "Symbol": "COCHINSHIP",
-   "ISIN": "INE704P01017",
-   "Company": "Cochin Shipyard Limited",
-   "First Listing Date": "11-Aug-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17150513",
    "Symbol": "SIS",
-   "ISIN": "INE285J01010",
-   "Company": "Security and Intelligence Services (India) Limited",
-   "First Listing Date": "10-Aug-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Security and Intelligence Services (India) Limited"
  },
  {
-   "Symbol": "SPTL",
-   "ISIN": "INE501W01021",
-   "Company": "Sintex Plastics Technology Limited",
-   "First Listing Date": "08-Aug-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16680006",
+   "Symbol": "COCHINSHIP",
+   "Name": "Cochin Shipyard Limited"
  },
  {
+   "Code": "14060224",
    "Symbol": "OPTIEMUS",
-   "ISIN": "INE350C01017",
-   "Company": "Optiemus Infracom Limited",
-   "First Listing Date": "08-Aug-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Optiemus Infracom Limited"
  },
  {
-   "Symbol": "THEINVEST",
-   "ISIN": "INE924D01017",
-   "Company": "The Investment Trust Of India Limited",
-   "First Listing Date": "02-Aug-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17180011",
+   "Symbol": "SPTL",
+   "Name": "Sintex Plastics Technology Limited"
  },
  {
+   "Code": "14094548",
    "Symbol": "GANGESSECU",
-   "ISIN": "INE335W01016",
-   "Company": "Ganges Securities Limited",
-   "First Listing Date": "28-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ganges Securities Limited"
  },
  {
+   "Code": "14060223",
+   "Symbol": "THEINVEST",
+   "Name": "The Investment Trust Of India Limited"
+ },
+ {
+   "Code": "11320117",
    "Symbol": "AVADHSUGAR",
-   "ISIN": "INE349W01017",
-   "Company": "Avadh Sugar & Energy Limited",
-   "First Listing Date": "28-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Avadh Sugar & Energy Limited"
  },
  {
+   "Code": "14094552",
    "Symbol": "PALASHSECU",
-   "ISIN": "INE471W01019",
-   "Company": "Palash Securities Limited",
-   "First Listing Date": "28-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Palash Securities Limited"
  },
  {
+   "Code": "11320118",
    "Symbol": "MAGADSUGAR",
-   "ISIN": "INE347W01011",
-   "Company": "Magadh Sugar & Energy Limited",
-   "First Listing Date": "28-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Magadh Sugar & Energy Limited"
  },
  {
+   "Code": "13520388",
    "Symbol": "SALASAR",
-   "ISIN": "INE170V01019",
-   "Company": "Salasar Techno Engineering Limited",
-   "First Listing Date": "25-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Salasar Techno Engineering Limited"
  },
  {
+   "Code": "11620211",
    "Symbol": "BHAGYAPROP",
-   "ISIN": "INE363W01018",
-   "Company": "Bhagyanagar Properties Limited",
-   "First Listing Date": "20-Jul-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bhagyanagar Properties Limited"
  },
  {
+   "Code": "",
    "Symbol": "STEELXIND",
-   "ISIN": "INE503B01013",
-   "Company": "STEEL EXCHANGE INDIA LIMITED",
-   "First Listing Date": "20-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "STEEL EXCHANGE INDIA LIMITED"
  },
  {
-   "Symbol": "AGLSL",
-   "ISIN": "INE517U01013",
-   "Company": "Artemis Global Life Sciences Limited",
-   "First Listing Date": "20-Jul-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11220006",
    "Symbol": "DYNPRO",
-   "ISIN": "INE256H01015",
-   "Company": "Dynemic Products Limited",
-   "First Listing Date": "19-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dynemic Products Limited"
  },
  {
+   "Code": "",
+   "Symbol": "AGLSL",
+   "Name": "Artemis Global Life Sciences Limited"
+ },
+ {
+   "Code": "14094831",
    "Symbol": "AUBANK",
-   "ISIN": "INE949L01017",
-   "Company": "AU Small Finance Bank Limited",
-   "First Listing Date": "10-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AU Small Finance Bank Limited"
  },
  {
+   "Code": "17040498",
    "Symbol": "GTPL",
-   "ISIN": "INE869I01013",
-   "Company": "GTPL Hathway Limited",
-   "First Listing Date": "04-Jul-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GTPL Hathway Limited"
  },
  {
+   "Code": "14010235",
    "Symbol": "CDSL",
-   "ISIN": "INE736A01011",
-   "Company": "Central Depository Services (India) Limited",
-   "First Listing Date": "30-Jun-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Central Depository Services (India) Limited"
  },
  {
+   "Code": "12541321",
    "Symbol": "ERIS",
-   "ISIN": "INE406M01024",
-   "Company": "Eris Lifesciences Limited",
-   "First Listing Date": "29-Jun-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eris Lifesciences Limited"
  },
  {
+   "Code": "13010056",
    "Symbol": "TEJASNET",
-   "ISIN": "INE010J01012",
-   "Company": "Tejas Networks Limited",
-   "First Listing Date": "27-Jun-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tejas Networks Limited"
  },
  {
+   "Code": "11520082",
    "Symbol": "STARCEMENT",
-   "ISIN": "INE460H01021",
-   "Company": "Star Cement Limited",
-   "First Listing Date": "16-Jun-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Star Cement Limited"
  },
  {
+   "Code": "11623232",
    "Symbol": "PSPPROJECT",
-   "ISIN": "INE488V01015",
-   "Company": "PSP Projects Limited",
-   "First Listing Date": "29-May-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PSP Projects Limited"
  },
  {
+   "Code": "14080001",
    "Symbol": "HUDCO",
-   "ISIN": "INE031A01017",
-   "Company": "Housing & Urban Development Corporation Limited",
-   "First Listing Date": "19-May-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Housing & Urban Development Corporation Limited"
  },
  {
+   "Code": "15100008",
    "Symbol": "BHAGYANGR",
-   "ISIN": "INE458B01036",
-   "Company": "Bhagyanagar India Limited",
-   "First Listing Date": "17-May-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bhagyanagar India Limited"
  },
  {
-   "Symbol": "SCHAND",
-   "ISIN": "INE807K01035",
-   "Company": "S Chand And Company Limited",
-   "First Listing Date": "09-May-2017",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16080078",
    "Symbol": "DOLLAR",
-   "ISIN": "INE325C01035",
-   "Company": "Dollar Industries Limited",
-   "First Listing Date": "21-Apr-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dollar Industries Limited"
  },
  {
-   "Symbol": "WIPL",
-   "ISIN": "INE215F01023",
-   "Company": "The Western India Plywoods Limited",
-   "First Listing Date": "17-Apr-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17153703",
+   "Symbol": "SCHAND",
+   "Name": "S Chand And Company Limited"
  },
  {
+   "Code": "17020051",
    "Symbol": "PODDARHOUS",
-   "ISIN": "INE888B01018",
-   "Company": "Poddar Housing and Development Limited",
-   "First Listing Date": "10-Apr-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Poddar Housing and Development Limited"
  },
  {
-   "Symbol": "APCL",
-   "ISIN": "INE071F01012",
-   "Company": "Anjani Portland Cement Limited",
-   "First Listing Date": "10-Apr-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "",
+   "Symbol": "WIPL",
+   "Name": "The Western India Plywoods Limited"
  },
  {
+   "Code": "12120024",
    "Symbol": "NACLIND",
-   "ISIN": "INE295D01020",
-   "Company": "NACL Industries Limited",
-   "First Listing Date": "07-Apr-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NACL Industries Limited"
  },
  {
+   "Code": "11520027",
+   "Symbol": "APCL",
+   "Name": "Anjani Portland Cement Limited"
+ },
+ {
+   "Code": "11623231",
    "Symbol": "SHANKARA",
-   "ISIN": "INE274V01019",
-   "Company": "Shankara Building Products Limited",
-   "First Listing Date": "05-Apr-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shankara Building Products Limited"
  },
  {
+   "Code": "16530141",
    "Symbol": "NRAIL",
-   "ISIN": "INE740D01017",
-   "Company": "N R Agarwal Industries Limited",
-   "First Listing Date": "05-Apr-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "N R Agarwal Industries Limited"
  },
  {
-   "Symbol": "CLEDUCATE",
-   "ISIN": "INE201M01011",
-   "Company": "CL Educate Limited",
-   "First Listing Date": "31-Mar-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14090118",
    "Symbol": "URJA",
-   "ISIN": "INE550C01020",
-   "Company": "Urja Global Limited",
-   "First Listing Date": "28-Mar-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Urja Global Limited"
  },
  {
+   "Code": "17151028",
+   "Symbol": "CLEDUCATE",
+   "Name": "CL Educate Limited"
+ },
+ {
+   "Code": "16090038",
    "Symbol": "AKSHARCHEM",
-   "ISIN": "INE542B01011",
-   "Company": "AksharChem India Limited",
-   "First Listing Date": "28-Mar-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AksharChem India Limited"
  },
  {
+   "Code": "17024114",
    "Symbol": "ARIHANTSUP",
-   "ISIN": "INE643K01018",
-   "Company": "Arihant Superstructures Limited",
-   "First Listing Date": "28-Mar-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arihant Superstructures Limited"
  },
  {
-   "Symbol": "INTENTECH",
-   "ISIN": "INE781A01025",
-   "Company": "Intense Technologies Limited",
-   "First Listing Date": "23-Mar-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11120009",
    "Symbol": "TASTYBITE",
-   "ISIN": "INE488B01017",
-   "Company": "Tasty Bite Eatables Limited",
-   "First Listing Date": "23-Mar-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tasty Bite Eatables Limited"
  },
  {
-   "Symbol": "DMART",
-   "ISIN": "INE192R01011",
-   "Company": "Avenue Supermarts Limited",
-   "First Listing Date": "21-Mar-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13020089",
+   "Symbol": "INTENTECH",
+   "Name": "Intense Technologies Limited"
  },
  {
+   "Code": "17040727",
    "Symbol": "RADIOCITY",
-   "ISIN": "INE919I01024",
-   "Company": "Music Broadcast Limited",
-   "First Listing Date": "17-Mar-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Music Broadcast Limited"
  },
  {
-   "Symbol": "JITFINFRA",
-   "ISIN": "INE863T01013",
-   "Company": "JITF Infralogistics Limited",
-   "First Listing Date": "27-Feb-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "10760016",
+   "Symbol": "DMART",
+   "Name": "Avenue Supermarts Limited"
  },
  {
+   "Code": "17024321",
    "Symbol": "KALYANI",
-   "ISIN": "INE610E01010",
-   "Company": "Kalyani Commercials Limited",
-   "First Listing Date": "13-Feb-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kalyani Commercials Limited"
  },
  {
+   "Code": "16690270",
+   "Symbol": "JITFINFRA",
+   "Name": "JITF Infralogistics Limited"
+ },
+ {
+   "Code": "10630003",
    "Symbol": "PRICOLLTD",
-   "ISIN": "INE726V01018",
-   "Company": "Pricol Limited",
-   "First Listing Date": "10-Feb-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pricol Limited"
  },
  {
+   "Code": "BSE Indices",
    "Symbol": "BSE",
-   "ISIN": "INE118H01025",
-   "Company": "BSE Limited",
-   "First Listing Date": "03-Feb-2017",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BSE Limited"
  },
  {
-   "Symbol": "BHANDARI",
-   "ISIN": "INE474E01029",
-   "Company": "Bhandari Hosiery Exports Limited",
-   "First Listing Date": "30-Jan-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14060178",
    "Symbol": "CAPTRUST",
-   "ISIN": "INE707C01018",
-   "Company": "Capital Trust Limited",
-   "First Listing Date": "16-Jan-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Capital Trust Limited"
  },
  {
+   "Code": "16080006",
+   "Symbol": "BHANDARI",
+   "Name": "Bhandari Hosiery Exports Limited"
+ },
+ {
+   "Code": "13191935",
    "Symbol": "SPCENET",
-   "ISIN": "INE970N01027",
-   "Company": "Spacenet Enterprises India Limited",
-   "First Listing Date": "10-Jan-2017",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Spacenet Enterprises India Limited"
  },
  {
-   "Symbol": "HISARMETAL",
-   "ISIN": "INE598C01011",
-   "Company": "Hisar Metal Industries Limited",
-   "First Listing Date": "05-Jan-2017",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "ITDC",
-   "ISIN": "INE353K01014",
-   "Company": "India Tourism Development Corporation Limited",
-   "First Listing Date": "30-Dec-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13190049",
    "Symbol": "TERASOFT",
-   "ISIN": "INE482B01010",
-   "Company": "Tera Software Limited",
-   "First Listing Date": "29-Dec-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tera Software Limited"
  },
  {
+   "Code": "17090004",
+   "Symbol": "ITDC",
+   "Name": "India Tourism Development Corporation Limited"
+ },
+ {
+   "Code": "11120026",
    "Symbol": "DFMFOODS",
-   "ISIN": "INE456C01020",
-   "Company": "DFM Foods Limited",
-   "First Listing Date": "29-Dec-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DFM Foods Limited"
  },
  {
+   "Code": "12541431",
    "Symbol": "LAURUSLABS",
-   "ISIN": "INE947Q01010",
-   "Company": "Laurus Labs Limited",
-   "First Listing Date": "19-Dec-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Laurus Labs Limited"
  },
  {
+   "Code": "17030029",
    "Symbol": "TCIEXP",
-   "ISIN": "INE586V01016",
-   "Company": "TCI Express Limited",
-   "First Listing Date": "15-Dec-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TCI Express Limited"
  },
  {
+   "Code": "10760018",
    "Symbol": "TMRVL",
-   "ISIN": "INE759V01019",
-   "Company": "The Mandhana Retail Ventures Limited",
-   "First Listing Date": "14-Dec-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Mandhana Retail Ventures Limited"
  },
  {
-   "Symbol": "SFL",
-   "ISIN": "INE916U01025",
-   "Company": "Sheela Foam Limited",
-   "First Listing Date": "09-Dec-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15110023",
    "Symbol": "KIOCL",
-   "ISIN": "INE880L01014",
-   "Company": "KIOCL Limited",
-   "First Listing Date": "29-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KIOCL Limited"
  },
  {
+   "Code": "12130096",
+   "Symbol": "SFL",
+   "Name": "Sheela Foam Limited"
+ },
+ {
+   "Code": "13520065",
    "Symbol": "CMICABLES",
-   "ISIN": "INE981B01011",
-   "Company": "CMI Limited",
-   "First Listing Date": "29-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CMI Limited"
  },
  {
+   "Code": "14060549",
    "Symbol": "NBIFIN",
-   "ISIN": "INE365I01020",
-   "Company": "N. B. I. Industrial Finance Company Limited",
-   "First Listing Date": "23-Nov-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "N. B. I. Industrial Finance Company Limited"
  },
  {
+   "Code": "15170015",
    "Symbol": "SANCO",
-   "ISIN": "INE782L01012",
-   "Company": "Sanco Industries Limited",
-   "First Listing Date": "22-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sanco Industries Limited"
  },
  {
-   "Symbol": "PODDARMENT",
-   "ISIN": "INE371C01013",
-   "Company": "Poddar Pigments Limited",
-   "First Listing Date": "22-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16530013",
    "Symbol": "ROLLT",
-   "ISIN": "INE927A01040",
-   "Company": "Rollatainers Limited",
-   "First Listing Date": "22-Nov-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rollatainers Limited"
  },
  {
+   "Code": "16090033",
+   "Symbol": "PODDARMENT",
+   "Name": "Poddar Pigments Limited"
+ },
+ {
+   "Code": "12200010",
    "Symbol": "KINGFA",
-   "ISIN": "INE473D01015",
-   "Company": "Kingfa Science & Technology (India) Limited",
-   "First Listing Date": "15-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kingfa Science & Technology (India) Limited"
  },
  {
+   "Code": "11230006",
    "Symbol": "VBL",
-   "ISIN": "INE200M01013",
-   "Company": "Varun Beverages Limited",
-   "First Listing Date": "08-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Varun Beverages Limited"
  },
  {
+   "Code": "14080038",
    "Symbol": "PNBHOUSING",
-   "ISIN": "INE572E01012",
-   "Company": "PNB Housing Finance Limited",
-   "First Listing Date": "07-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PNB Housing Finance Limited"
  },
  {
+   "Code": "13610019",
    "Symbol": "MAZDA",
-   "ISIN": "INE885E01034",
-   "Company": "Mazda Limited",
-   "First Listing Date": "01-Nov-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mazda Limited"
  },
  {
+   "Code": "16490960",
    "Symbol": "NIRAJISPAT",
-   "ISIN": "INE326T01011",
-   "Company": "Niraj Ispat Industries Limited",
-   "First Listing Date": "27-Oct-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Niraj Ispat Industries Limited"
  },
  {
+   "Code": "13191641",
    "Symbol": "ENDURANCE",
-   "ISIN": "INE913H01037",
-   "Company": "Endurance Technologies Limited",
-   "First Listing Date": "19-Oct-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Endurance Technologies Limited"
  },
  {
+   "Code": "15990004",
+   "Symbol": "HISARMETAL",
+   "Name": "Hisar Metal Industries Limited"
+ },
+ {
+   "Code": "14090312",
    "Symbol": "MASKINVEST",
-   "ISIN": "INE885F01015",
-   "Company": "Mask Investments Limited",
-   "First Listing Date": "14-Oct-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mask Investments Limited"
  },
  {
+   "Code": "13150166",
    "Symbol": "HPL",
-   "ISIN": "INE495S01016",
-   "Company": "HPL Electric & Power Limited",
-   "First Listing Date": "04-Oct-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HPL Electric & Power Limited"
  },
  {
+   "Code": "16010008",
    "Symbol": "MARATHON",
-   "ISIN": "INE182D01020",
-   "Company": "Marathon Nextgen Realty Limited",
-   "First Listing Date": "29-Sep-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Marathon Nextgen Realty Limited"
  },
  {
+   "Code": "14020006",
    "Symbol": "ICICIPRULI",
-   "ISIN": "INE726G01019",
-   "Company": "ICICI Prudential Life Insurance Company Limited",
-   "First Listing Date": "29-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ICICI Prudential Life Insurance Company Limited"
  },
  {
-   "Symbol": "GNA",
-   "ISIN": "INE934S01014",
-   "Company": "GNA Axles Limited",
-   "First Listing Date": "26-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "",
    "Symbol": "LTTS",
-   "ISIN": "INE010V01017",
-   "Company": "L&T Technology Services Limited",
-   "First Listing Date": "23-Sep-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "L&T Technology Services Limited"
  },
  {
+   "Code": "10610046",
+   "Symbol": "GNA",
+   "Name": "GNA Axles Limited"
+ },
+ {
+   "Code": "12530006",
    "Symbol": "CUPID",
-   "ISIN": "INE509F01011",
-   "Company": "Cupid Limited",
-   "First Listing Date": "16-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cupid Limited"
  },
  {
+   "Code": "17040895",
    "Symbol": "SABEVENTS",
-   "ISIN": "INE860T01019",
-   "Company": "Sab Events & Governance Now Media Limited",
-   "First Listing Date": "15-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sab Events & Governance Now Media Limited"
  },
  {
+   "Code": "17040337",
    "Symbol": "TVVISION",
-   "ISIN": "INE871L01013",
-   "Company": "TV Vision Limited",
-   "First Listing Date": "15-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TV Vision Limited"
  },
  {
+   "Code": "11623201",
    "Symbol": "BIGBLOC",
-   "ISIN": "INE412U01017",
-   "Company": "Bigbloc Construction Limited",
-   "First Listing Date": "02-Sep-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bigbloc Construction Limited"
  },
  {
+   "Code": "14030078",
    "Symbol": "RBLBANK",
-   "ISIN": "INE976G01028",
-   "Company": "RBL Bank Limited",
-   "First Listing Date": "31-Aug-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RBL Bank Limited"
  },
  {
+   "Code": "14080013",
    "Symbol": "NDGL",
-   "ISIN": "INE756C01015",
-   "Company": "Naga Dhunseri Group Limited",
-   "First Listing Date": "29-Aug-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Naga Dhunseri Group Limited"
  },
  {
-   "Symbol": "FRETAIL",
-   "ISIN": "INE752P01024",
-   "Company": "Future Retail Limited",
-   "First Listing Date": "29-Aug-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16070220",
    "Symbol": "SPAL",
-   "ISIN": "INE212I01016",
-   "Company": "S. P. Apparels Limited",
-   "First Listing Date": "12-Aug-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "S. P. Apparels Limited"
  },
  {
+   "Code": "10760014",
+   "Symbol": "FRETAIL",
+   "Name": "Future Retail Limited"
+ },
+ {
+   "Code": "11621742",
    "Symbol": "DBL",
-   "ISIN": "INE917M01012",
-   "Company": "Dilip Buildcon Limited",
-   "First Listing Date": "11-Aug-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dilip Buildcon Limited"
  },
  {
+   "Code": "13010019",
    "Symbol": "MINDTECK",
-   "ISIN": "INE110B01017",
-   "Company": "Mindteck (India) Limited",
-   "First Listing Date": "02-Aug-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mindteck (India) Limited"
  },
  {
+   "Code": "11180007",
    "Symbol": "ADVENZYMES",
-   "ISIN": "INE837H01020",
-   "Company": "Advanced Enzyme Technologies Limited",
-   "First Listing Date": "01-Aug-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Advanced Enzyme Technologies Limited"
  },
  {
+   "Code": "14090244",
    "Symbol": "STAMPEDE",
-   "ISIN": "INE224E01028",
-   "Company": "Stampede Capital Limited",
-   "First Listing Date": "25-Jul-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Stampede Capital Limited"
  },
  {
-   "Symbol": "LTI",
-   "ISIN": "INE214T01019",
-   "Company": "Larsen & Toubro Infotech Limited",
-   "First Listing Date": "21-Jul-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17025230",
    "Symbol": "SOMICONVEY",
-   "ISIN": "INE323J01019",
-   "Company": "Somi Conveyor Beltings Limited",
-   "First Listing Date": "18-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Somi Conveyor Beltings Limited"
  },
  {
-   "Symbol": "LSIL",
-   "ISIN": "INE093R01011",
-   "Company": "Lloyds Steels Industries Limited",
-   "First Listing Date": "18-Jul-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17010013",
+   "Symbol": "LTI",
+   "Name": "Larsen & Toubro Infotech Limited"
  },
  {
+   "Code": "11040023",
    "Symbol": "GROBTEA",
-   "ISIN": "INE646C01018",
-   "Company": "The Grob Tea Company Limited",
-   "First Listing Date": "14-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Grob Tea Company Limited"
  },
  {
-   "Symbol": "MAXINDIA",
-   "ISIN": "INE153U01017",
-   "Company": "Max India Limited",
-   "First Listing Date": "14-Jul-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15510582",
+   "Symbol": "LSIL",
+   "Name": "Lloyds Steels Industries Limited"
  },
  {
+   "Code": "14094171",
    "Symbol": "QUESS",
-   "ISIN": "INE615P01015",
-   "Company": "Quess Corp Limited",
-   "First Listing Date": "12-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Quess Corp Limited"
  },
  {
+   "Code": "14620183",
+   "Symbol": "MAXINDIA",
+   "Name": "Max India Limited"
+ },
+ {
+   "Code": "11530013",
    "Symbol": "GPTINFRA",
-   "ISIN": "INE390G01014",
-   "Company": "GPT Infraprojects Limited",
-   "First Listing Date": "11-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GPT Infraprojects Limited"
  },
  {
+   "Code": "14060456",
    "Symbol": "VIJIFIN",
-   "ISIN": "INE159N01027",
-   "Company": "Viji Finance Limited",
-   "First Listing Date": "11-Jul-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Viji Finance Limited"
  },
  {
+   "Code": "14590049",
    "Symbol": "MOLDTECH",
-   "ISIN": "INE835B01035",
-   "Company": "Mold-Tek Technologies Limited",
-   "First Listing Date": "07-Jul-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mold-Tek Technologies Limited"
  },
  {
+   "Code": "11550059",
    "Symbol": "POKARNA",
-   "ISIN": "INE637C01025",
-   "Company": "Pokarna Limited",
-   "First Listing Date": "07-Jul-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pokarna Limited"
  },
  {
-   "Symbol": "COMPINFO",
-   "ISIN": "INE070C01037",
-   "Company": "Compuage Infocom Limited",
-   "First Listing Date": "07-Jul-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16040067",
    "Symbol": "DAMODARIND",
-   "ISIN": "INE497D01022",
-   "Company": "Damodar Industries Limited",
-   "First Listing Date": "04-Jul-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Damodar Industries Limited"
  },
  {
-   "Symbol": "MGL",
-   "ISIN": "INE002S01010",
-   "Company": "Mahanagar Gas Limited",
-   "First Listing Date": "01-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13030015",
+   "Symbol": "COMPINFO",
+   "Name": "Compuage Infocom Limited"
  },
  {
+   "Code": "13520031",
    "Symbol": "SETCO",
-   "ISIN": "INE878E01021",
-   "Company": "Setco Automotive Limited",
-   "First Listing Date": "01-Jul-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Setco Automotive Limited"
  },
  {
+   "Code": "15540023",
    "Symbol": "MAHASTEEL",
-   "ISIN": "INE451L01014",
-   "Company": "Mahamaya Steel Industries Limited",
-   "First Listing Date": "01-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahamaya Steel Industries Limited"
  },
  {
-   "Symbol": "ADHUNIKIND",
-   "ISIN": "INE452L01012",
-   "Company": "Adhunik Industries Limited",
-   "First Listing Date": "01-Jul-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14560035",
+   "Symbol": "MGL",
+   "Name": "Mahanagar Gas Limited"
  },
  {
+   "Code": "15580059",
    "Symbol": "UVSL",
-   "ISIN": "INE292A01023",
-   "Company": "Uttam Value Steels Limited",
-   "First Listing Date": "24-Jun-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Uttam Value Steels Limited"
  },
  {
-   "Symbol": "CONTROLPR",
-   "ISIN": "INE663B01015",
-   "Company": "Control Print Limited",
-   "First Listing Date": "24-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "MAXVIL",
-   "ISIN": "INE154U01015",
-   "Company": "Max Ventures and Industries Limited",
-   "First Listing Date": "22-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15080008",
    "Symbol": "PREMEXPLN",
-   "ISIN": "INE863B01011",
-   "Company": "Premier Explosives Limited",
-   "First Listing Date": "17-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Premier Explosives Limited"
  },
  {
-   "Symbol": "SALONA",
-   "ISIN": "INE498E01010",
-   "Company": "Salona Cotspin Limited",
-   "First Listing Date": "16-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14620184",
+   "Symbol": "MAXVIL",
+   "Name": "Max Ventures and Industries Limited"
  },
  {
+   "Code": "17023960",
    "Symbol": "ABMINTLTD",
-   "ISIN": "INE251C01017",
-   "Company": "ABM International Limited",
-   "First Listing Date": "14-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ABM International Limited"
  },
  {
-   "Symbol": "ALBERTDAVD",
-   "ISIN": "INE155C01010",
-   "Company": "Albert David Limited",
-   "First Listing Date": "14-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16030175",
+   "Symbol": "SALONA",
+   "Name": "Salona Cotspin Limited"
  },
  {
+   "Code": "14060338",
    "Symbol": "ARMANFIN",
-   "ISIN": "INE109C01017",
-   "Company": "Arman Financial Services Limited",
-   "First Listing Date": "14-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arman Financial Services Limited"
  },
  {
+   "Code": "12540053",
+   "Symbol": "ALBERTDAVD",
+   "Name": "Albert David Limited"
+ },
+ {
+   "Code": "17020079",
    "Symbol": "ASPINWALL",
-   "ISIN": "INE991I01015",
-   "Company": "Aspinwall and Company Limited",
-   "First Listing Date": "14-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aspinwall and Company Limited"
  },
  {
+   "Code": "16690562",
    "Symbol": "BLS",
-   "ISIN": "INE153T01027",
-   "Company": "BLS International Services Limited",
-   "First Listing Date": "14-Jun-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BLS International Services Limited"
  },
  {
+   "Code": "10670034",
    "Symbol": "SHRIPISTON",
-   "ISIN": "INE526E01018",
-   "Company": "Shriram Pistons & Rings Limited",
-   "First Listing Date": "02-Jun-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shriram Pistons & Rings Limited"
  },
  {
+   "Code": "11290168",
    "Symbol": "PARAGMILK",
-   "ISIN": "INE883N01014",
-   "Company": "Parag Milk Foods Limited",
-   "First Listing Date": "19-May-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Parag Milk Foods Limited"
  },
  {
-   "Symbol": "CROMPTON",
-   "ISIN": "INE299U01018",
-   "Company": "Crompton Greaves Consumer Electricals Limited",
-   "First Listing Date": "13-May-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14011114",
    "Symbol": "UJJIVAN",
-   "ISIN": "INE334L01012",
-   "Company": "Ujjivan Financial Services Limited",
-   "First Listing Date": "10-May-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ujjivan Financial Services Limited"
  },
  {
-   "Symbol": "PALREDTEC",
-   "ISIN": "INE218G01033",
-   "Company": "Palred Technologies Limited",
-   "First Listing Date": "09-May-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13150237",
+   "Symbol": "CROMPTON",
+   "Name": "Crompton Greaves Consumer Electricals Limited"
  },
  {
+   "Code": "16550390",
    "Symbol": "THYROCARE",
-   "ISIN": "INE594H01019",
-   "Company": "Thyrocare Technologies Limited",
-   "First Listing Date": "09-May-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Thyrocare Technologies Limited"
  },
  {
+   "Code": "13190592",
+   "Symbol": "PALREDTEC",
+   "Name": "Palred Technologies Limited"
+ },
+ {
+   "Code": "14093624",
    "Symbol": "EQUITAS",
-   "ISIN": "INE988K01017",
-   "Company": "Equitas Holdings Limited",
-   "First Listing Date": "21-Apr-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Equitas Holdings Limited"
  },
  {
+   "Code": "17170004",
    "Symbol": "INFIBEAM",
-   "ISIN": "INE483S01020",
-   "Company": "Infibeam Avenues Limited",
-   "First Listing Date": "04-Apr-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Infibeam Avenues Limited"
  },
  {
+   "Code": "15510266",
+   "Symbol": "ADHUNIKIND",
+   "Name": "Adhunik Industries Limited"
+ },
+ {
+   "Code": "15640035",
    "Symbol": "BHARATWIRE",
-   "ISIN": "INE316L01019",
-   "Company": "Bharat Wire Ropes Limited",
-   "First Listing Date": "01-Apr-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Wire Ropes Limited"
  },
  {
+   "Code": "16550204",
    "Symbol": "HCG",
-   "ISIN": "INE075I01017",
-   "Company": "Healthcare Global Enterprises Limited",
-   "First Listing Date": "30-Mar-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Healthcare Global Enterprises Limited"
  },
  {
-   "Symbol": "PDMJEPAPER",
-   "ISIN": "INE865T01018",
-   "Company": "Pudumjee Paper Products Limited",
-   "First Listing Date": "30-Mar-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17020098",
+   "Symbol": "CONTROLPR",
+   "Name": "Control Print Limited"
  },
  {
+   "Code": "17020148",
    "Symbol": "KDDL",
-   "ISIN": "INE291D01011",
-   "Company": "KDDL Limited",
-   "First Listing Date": "23-Mar-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KDDL Limited"
  },
  {
-   "Symbol": "SIMBHALS",
-   "ISIN": "INE748T01016",
-   "Company": "Simbhaoli Sugars Limited",
-   "First Listing Date": "14-Mar-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16530317",
+   "Symbol": "PDMJEPAPER",
+   "Name": "Pudumjee Paper Products Limited"
  },
  {
+   "Code": "11120204",
    "Symbol": "GOKULAGRO",
-   "ISIN": "INE314T01025",
-   "Company": "Gokul Agro Resources Limited",
-   "First Listing Date": "11-Mar-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gokul Agro Resources Limited"
  },
  {
+   "Code": "11080014",
+   "Symbol": "SIMBHALS",
+   "Name": "Simbhaoli Sugars Limited"
+ },
+ {
+   "Code": "14010276",
    "Symbol": "SEQUENT",
-   "ISIN": "INE807F01027",
-   "Company": "Sequent Scientific Limited",
-   "First Listing Date": "10-Mar-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sequent Scientific Limited"
  },
  {
+   "Code": "17023986",
    "Symbol": "NECCLTD",
-   "ISIN": "INE553C01016",
-   "Company": "North Eastern Carrying Corporation Limited",
-   "First Listing Date": "02-Mar-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "North Eastern Carrying Corporation Limited"
  },
  {
-   "Symbol": "VIDHIING",
-   "ISIN": "INE632C01026",
-   "Company": "Vidhi Specialty Food Ingredients Limited",
-   "First Listing Date": "02-Mar-2016",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16090049",
    "Symbol": "BHAGERIA",
-   "ISIN": "INE354C01027",
-   "Company": "Bhageria Industries Limited",
-   "First Listing Date": "02-Mar-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bhageria Industries Limited"
  },
  {
+   "Code": "16090059",
+   "Symbol": "VIDHIING",
+   "Name": "Vidhi Specialty Food Ingredients Limited"
+ },
+ {
+   "Code": "11110045",
    "Symbol": "KELLTONTEC",
-   "ISIN": "INE164B01022",
-   "Company": "Kellton Tech Solutions Limited",
-   "First Listing Date": "02-Mar-2016",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kellton Tech Solutions Limited"
  },
  {
+   "Code": "13191983",
    "Symbol": "QUICKHEAL",
-   "ISIN": "INE306L01010",
-   "Company": "Quick Heal Technologies Limited",
-   "First Listing Date": "18-Feb-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Quick Heal Technologies Limited"
  },
  {
-   "Symbol": "TEAMLEASE",
-   "ISIN": "INE985S01024",
-   "Company": "Teamlease Services Limited",
-   "First Listing Date": "12-Feb-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13520468",
    "Symbol": "PRECAM",
-   "ISIN": "INE484I01029",
-   "Company": "Precision Camshafts Limited",
-   "First Listing Date": "08-Feb-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Precision Camshafts Limited"
  },
  {
+   "Code": "15990088",
    "Symbol": "JSLHISAR",
-   "ISIN": "INE455T01018",
-   "Company": "Jindal Stainless (Hisar) Limited",
-   "First Listing Date": "28-Jan-2016",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Stainless (Hisar) Limited"
  },
  {
+   "Code": "10700004",
    "Symbol": "OCCL",
-   "ISIN": "INE321D01016",
-   "Company": "Oriental Carbon & Chemicals Limited",
-   "First Listing Date": "27-Jan-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Carbon & Chemicals Limited"
  },
  {
-   "Symbol": "NH",
-   "ISIN": "INE410P01011",
-   "Company": "Narayana Hrudayalaya Ltd.",
-   "First Listing Date": "06-Jan-2016",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "",
    "Symbol": "LALPATHLAB",
-   "ISIN": "INE600L01024",
-   "Company": "Dr. Lal Path Labs Ltd.",
-   "First Listing Date": "23-Dec-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dr. Lal Path Labs Ltd."
  },
  {
+   "Code": "",
+   "Symbol": "NH",
+   "Name": "Narayana Hrudayalaya Ltd."
+ },
+ {
+   "Code": "12540464",
    "Symbol": "ALKEM",
-   "ISIN": "INE540L01014",
-   "Company": "Alkem Laboratories Limited",
-   "First Listing Date": "23-Dec-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alkem Laboratories Limited"
  },
  {
+   "Code": "12540326",
    "Symbol": "LINCOLN",
-   "ISIN": "INE405C01035",
-   "Company": "Lincoln Pharmaceuticals Limited",
-   "First Listing Date": "17-Dec-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lincoln Pharmaceuticals Limited"
  },
  {
+   "Code": "15210347",
    "Symbol": "KRIDHANINF",
-   "ISIN": "INE524L01026",
-   "Company": "Kridhan Infra Limited",
-   "First Listing Date": "11-Dec-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kridhan Infra Limited"
  },
  {
+   "Code": "14090067",
    "Symbol": "PILANIINVS",
-   "ISIN": "INE417C01014",
-   "Company": "Pilani Investment and Industries Corporation Limited",
-   "First Listing Date": "08-Dec-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pilani Investment and Industries Corporation Limited"
  },
  {
+   "Code": "13130011",
    "Symbol": "SALZERELEC",
-   "ISIN": "INE457F01013",
-   "Company": "Salzer Electronics Limited",
-   "First Listing Date": "02-Dec-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Salzer Electronics Limited"
  },
  {
+   "Code": "12540048",
    "Symbol": "TTKHLTCARE",
-   "ISIN": "INE910C01018",
-   "Company": "TTK Healthcare Limited",
-   "First Listing Date": "02-Dec-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TTK Healthcare Limited"
  },
  {
-   "Symbol": "UMANGDAIRY",
-   "ISIN": "INE864B01027",
-   "Company": "Umang Dairies Limited",
-   "First Listing Date": "02-Dec-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17025232",
    "Symbol": "LUXIND",
-   "ISIN": "INE150G01020",
-   "Company": "Lux Industries Limited",
-   "First Listing Date": "30-Nov-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lux Industries Limited"
  },
  {
+   "Code": "11120016",
+   "Symbol": "UMANGDAIRY",
+   "Name": "Umang Dairies Limited"
+ },
+ {
+   "Code": "14610015",
    "Symbol": "BALAXI",
-   "ISIN": "INE618N01014",
-   "Company": "Balaxi Ventures Limited",
-   "First Listing Date": "30-Nov-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balaxi Ventures Limited"
  },
  {
+   "Code": "12070132",
    "Symbol": "SHK",
-   "ISIN": "INE500L01026",
-   "Company": "S H Kelkar and Company Limited",
-   "First Listing Date": "16-Nov-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "S H Kelkar and Company Limited"
  },
  {
+   "Code": "16690529",
    "Symbol": "INDIGO",
-   "ISIN": "INE646L01027",
-   "Company": "InterGlobe Aviation Limited",
-   "First Listing Date": "10-Nov-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "InterGlobe Aviation Limited"
  },
  {
+   "Code": "14093696",
+   "Symbol": "TEAMLEASE",
+   "Name": "Teamlease Services Limited"
+ },
+ {
+   "Code": "14100051",
    "Symbol": "IDFCFIRSTB",
-   "ISIN": "INE092T01019",
-   "Company": "IDFC First Bank Limited",
-   "First Listing Date": "06-Nov-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IDFC First Bank Limited"
  },
  {
-   "Symbol": "COFFEEDAY",
-   "ISIN": "INE335K01011",
-   "Company": "Coffee Day Enterprises Limited",
-   "First Listing Date": "02-Nov-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11290107",
    "Symbol": "PRABHAT",
-   "ISIN": "INE302M01033",
-   "Company": "Prabhat Dairy Limited",
-   "First Listing Date": "21-Sep-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prabhat Dairy Limited"
  },
  {
+   "Code": "11250580",
+   "Symbol": "COFFEEDAY",
+   "Name": "Coffee Day Enterprises Limited"
+ },
+ {
+   "Code": "15210280",
    "Symbol": "SADBHIN",
-   "ISIN": "INE764L01010",
-   "Company": "Sadbhav Infrastructure Project Limited",
-   "First Listing Date": "16-Sep-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sadbhav Infrastructure Project Limited"
  },
  {
+   "Code": "17152816",
    "Symbol": "GUJGASLTD",
-   "ISIN": "INE844O01030",
-   "Company": "Gujarat Gas Limited",
-   "First Listing Date": "15-Sep-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Gas Limited"
  },
  {
+   "Code": "12310319",
    "Symbol": "SHREEPUSHK",
-   "ISIN": "INE712K01011",
-   "Company": "Shree Pushkar Chemicals & Fertilisers Limited",
-   "First Listing Date": "10-Sep-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shree Pushkar Chemicals & Fertilisers Limited"
  },
  {
+   "Code": "17160078",
    "Symbol": "NAVKARCORP",
-   "ISIN": "INE278M01019",
-   "Company": "Navkar Corporation Limited",
-   "First Listing Date": "09-Sep-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Navkar Corporation Limited"
  },
  {
+   "Code": "10990002",
    "Symbol": "SHARDAMOTR",
-   "ISIN": "INE597I01010",
-   "Company": "Sharda Motor Industries Limited",
-   "First Listing Date": "03-Sep-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sharda Motor Industries Limited"
  },
  {
+   "Code": "13520778",
    "Symbol": "POWERMECH",
-   "ISIN": "INE211R01019",
-   "Company": "Power Mech Projects Limited",
-   "First Listing Date": "26-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Power Mech Projects Limited"
  },
  {
-   "Symbol": "ARVSMART",
-   "ISIN": "INE034S01021",
-   "Company": "Arvind SmartSpaces Limited",
-   "First Listing Date": "26-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14060507",
    "Symbol": "SATIN",
-   "ISIN": "INE836B01017",
-   "Company": "Satin Creditcare Network Limited",
-   "First Listing Date": "26-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Satin Creditcare Network Limited"
  },
  {
+   "Code": "15210337",
+   "Symbol": "ARVSMART",
+   "Name": "Arvind SmartSpaces Limited"
+ },
+ {
+   "Code": "14090110",
    "Symbol": "MUTHOOTCAP",
-   "ISIN": "INE296G01013",
-   "Company": "Muthoot Capital Services Limited",
-   "First Listing Date": "24-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Muthoot Capital Services Limited"
  },
  {
+   "Code": "12540404",
    "Symbol": "ORTINLABSS",
-   "ISIN": "INE749B01012",
-   "Company": "Ortin Laboratories Limited",
-   "First Listing Date": "21-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ortin Laboratories Limited"
  },
  {
-   "Symbol": "RAMASTEEL",
-   "ISIN": "INE230R01027",
-   "Company": "Rama Steel Tubes Limited",
-   "First Listing Date": "19-Aug-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13192382",
    "Symbol": "MAJESCO",
-   "ISIN": "INE898S01029",
-   "Company": "Majesco Limited",
-   "First Listing Date": "19-Aug-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Majesco Limited"
  },
  {
-   "Symbol": "PKTEA",
-   "ISIN": "INE431F01018",
-   "Company": "The Peria Karamalai Tea & Produce Company Limited",
-   "First Listing Date": "19-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15580093",
+   "Symbol": "RAMASTEEL",
+   "Name": "Rama Steel Tubes Limited"
  },
  {
+   "Code": "16030064",
    "Symbol": "AYMSYNTEX",
-   "ISIN": "INE193B01039",
-   "Company": "AYM Syntex Limited",
-   "First Listing Date": "14-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AYM Syntex Limited"
  },
  {
-   "Symbol": "KAYA",
-   "ISIN": "INE587G01015",
-   "Company": "Kaya Limited",
-   "First Listing Date": "14-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11040030",
+   "Symbol": "PKTEA",
+   "Name": "The Peria Karamalai Tea & Produce Company Limited"
  },
  {
+   "Code": "11140028",
    "Symbol": "SYNGENE",
-   "ISIN": "INE398R01022",
-   "Company": "Syngene International Limited",
-   "First Listing Date": "11-Aug-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Syngene International Limited"
  },
  {
-   "Symbol": "ADANITRANS",
-   "ISIN": "INE931S01010",
-   "Company": "Adani Transmission Limited",
-   "First Listing Date": "31-Jul-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17025290",
+   "Symbol": "KAYA",
+   "Name": "Kaya Limited"
  },
  {
+   "Code": "16530304",
    "Symbol": "BALKRISHNA",
-   "ISIN": "INE875R01011",
-   "Company": "Balkrishna Paper Mills Limited",
-   "First Listing Date": "28-Jul-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balkrishna Paper Mills Limited"
  },
  {
-   "Symbol": "SHYAMCENT",
-   "ISIN": "INE979R01011",
-   "Company": "Shyam Century Ferrous Limited",
-   "First Listing Date": "28-Jul-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17152581",
+   "Symbol": "ADANITRANS",
+   "Name": "Adani Transmission Limited"
  },
  {
+   "Code": "14600005",
    "Symbol": "ORICONENT",
-   "ISIN": "INE730A01022",
-   "Company": "Oricon Enterprises Limited",
-   "First Listing Date": "24-Jul-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oricon Enterprises Limited"
  },
  {
-   "Symbol": "ALANKIT",
-   "ISIN": "INE914E01040",
-   "Company": "Alankit Limited",
-   "First Listing Date": "30-Jun-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15520134",
+   "Symbol": "SHYAMCENT",
+   "Name": "Shyam Century Ferrous Limited"
  },
  {
+   "Code": "17152271",
    "Symbol": "SKIPPER",
-   "ISIN": "INE439E01022",
-   "Company": "Skipper Limited",
-   "First Listing Date": "27-May-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Skipper Limited"
  },
  {
-   "Symbol": "PNCINFRA",
-   "ISIN": "INE195J01029",
-   "Company": "PNC Infratech Limited",
-   "First Listing Date": "26-May-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15070035",
+   "Symbol": "ALANKIT",
+   "Name": "Alankit Limited"
  },
  {
+   "Code": "11610043",
    "Symbol": "NILAINFRA",
-   "ISIN": "INE937C01029",
-   "Company": "Nila Infrastructures Limited",
-   "First Listing Date": "21-May-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nila Infrastructures Limited"
  },
  {
+   "Code": "15210341",
+   "Symbol": "PNCINFRA",
+   "Name": "PNC Infratech Limited"
+ },
+ {
+   "Code": "16530096",
    "Symbol": "ARROWGREEN",
-   "ISIN": "INE570D01018",
-   "Company": "Arrow Greentech Limited",
-   "First Listing Date": "21-May-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arrow Greentech Limited"
  },
  {
+   "Code": "12200053",
    "Symbol": "TPLPLASTEH",
-   "ISIN": "INE413G01014",
-   "Company": "TPL Plastech Limited",
-   "First Listing Date": "20-May-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TPL Plastech Limited"
  },
  {
+   "Code": "17040677",
    "Symbol": "UFO",
-   "ISIN": "INE527H01019",
-   "Company": "UFO Moviez India Limited",
-   "First Listing Date": "14-May-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "UFO Moviez India Limited"
  },
  {
+   "Code": "11070135",
    "Symbol": "FAIRCHEM",
-   "ISIN": "INE959A01019",
-   "Company": "Fairchem Speciality Limited",
-   "First Listing Date": "08-May-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Fairchem Speciality Limited"
  },
  {
-   "Symbol": "BCG",
-   "ISIN": "INE425B01027",
-   "Company": "Brightcom Group Limited",
-   "First Listing Date": "08-May-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15210578",
    "Symbol": "MEP",
-   "ISIN": "INE776I01010",
-   "Company": "MEP Infrastructure Developers Limited",
-   "First Listing Date": "06-May-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MEP Infrastructure Developers Limited"
  },
  {
+   "Code": "13190085",
+   "Symbol": "BCG",
+   "Name": "Brightcom Group Limited"
+ },
+ {
+   "Code": "17160024",
    "Symbol": "VRLLOG",
-   "ISIN": "INE366I01010",
-   "Company": "VRL Logistics Limited",
-   "First Listing Date": "30-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VRL Logistics Limited"
  },
  {
+   "Code": "15050073",
    "Symbol": "VETO",
-   "ISIN": "INE918N01018",
-   "Company": "Veto Switchgears And Cables Limited",
-   "First Listing Date": "29-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Veto Switchgears And Cables Limited"
  },
  {
+   "Code": "14060243",
    "Symbol": "VIPULLTD",
-   "ISIN": "INE946H01037",
-   "Company": "Vipul Limited",
-   "First Listing Date": "23-Apr-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vipul Limited"
  },
  {
+   "Code": "14010238",
    "Symbol": "LFIC",
-   "ISIN": "INE850E01012",
-   "Company": "Lakshmi Finance & Industrial Corporation Limited",
-   "First Listing Date": "15-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lakshmi Finance & Industrial Corporation Limited"
  },
  {
+   "Code": "11170001",
    "Symbol": "AVANTIFEED",
-   "ISIN": "INE871C01038",
-   "Company": "Avanti Feeds Limited",
-   "First Listing Date": "15-Apr-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Avanti Feeds Limited"
  },
  {
+   "Code": "14010091",
    "Symbol": "BYKE",
-   "ISIN": "INE319B01014",
-   "Company": "The Byke Hospitality Ltd",
-   "First Listing Date": "15-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Byke Hospitality Ltd"
  },
  {
-   "Symbol": "INOXWIND",
-   "ISIN": "INE066P01011",
-   "Company": "Inox Wind Limited",
-   "First Listing Date": "09-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17040842",
    "Symbol": "ADLABS",
-   "ISIN": "INE172N01012",
-   "Company": "Adlabs Entertainment Limited",
-   "First Listing Date": "06-Apr-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Adlabs Entertainment Limited"
  },
  {
+   "Code": "12070125",
+   "Symbol": "INOXWIND",
+   "Name": "Inox Wind Limited"
+ },
+ {
+   "Code": "15510157",
    "Symbol": "MANAKSTEEL",
-   "ISIN": "INE824Q01011",
-   "Company": "Manaksia Steels Limited",
-   "First Listing Date": "30-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Manaksia Steels Limited"
  },
  {
+   "Code": "14620164",
    "Symbol": "BKMINDST",
-   "ISIN": "INE831Q01016",
-   "Company": "Bkm Industries Limited",
-   "First Listing Date": "30-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bkm Industries Limited"
  },
  {
+   "Code": "17028354",
    "Symbol": "MANAKALUCO",
-   "ISIN": "INE859Q01017",
-   "Company": "Manaksia Aluminium Company Limited",
-   "First Listing Date": "30-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Manaksia Aluminium Company Limited"
  },
  {
-   "Symbol": "MANAKCOAT",
-   "ISIN": "INE830Q01018",
-   "Company": "Manaksia Coated Metals & Industries Limited",
-   "First Listing Date": "30-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13190158",
    "Symbol": "ZENTEC",
-   "ISIN": "INE251B01027",
-   "Company": "Zen Technologies Limited",
-   "First Listing Date": "30-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zen Technologies Limited"
  },
  {
+   "Code": "17028356",
+   "Symbol": "MANAKCOAT",
+   "Name": "Manaksia Coated Metals & Industries Limited"
+ },
+ {
+   "Code": "10610019",
    "Symbol": "JMA",
-   "ISIN": "INE412C01023",
-   "Company": "Jullundur Motor Agency (Delhi) Limited",
-   "First Listing Date": "16-Mar-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jullundur Motor Agency (Delhi) Limited"
  },
  {
+   "Code": "12540193",
    "Symbol": "HESTERBIO",
-   "ISIN": "INE782E01017",
-   "Company": "Hester Biosciences Limited",
-   "First Listing Date": "13-Mar-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hester Biosciences Limited"
  },
  {
-   "Symbol": "GANECOS",
-   "ISIN": "INE845D01014",
-   "Company": "Ganesha Ecosphere Limited",
-   "First Listing Date": "09-Mar-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020344",
    "Symbol": "LINCPEN",
-   "ISIN": "INE802B01019",
-   "Company": "Linc Pen & Plastics Limited",
-   "First Listing Date": "09-Mar-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Linc Pen & Plastics Limited"
  },
  {
-   "Symbol": "MENONBE",
-   "ISIN": "INE071D01033",
-   "Company": "Menon Bearings Limited",
-   "First Listing Date": "09-Mar-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16020019",
+   "Symbol": "GANECOS",
+   "Name": "Ganesha Ecosphere Limited"
  },
  {
+   "Code": "12080043",
    "Symbol": "VISHNU",
-   "ISIN": "INE270I01014",
-   "Company": "Vishnu Chemicals Limited",
-   "First Listing Date": "05-Mar-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vishnu Chemicals Limited"
  },
  {
+   "Code": "14510012",
+   "Symbol": "MENONBE",
+   "Name": "Menon Bearings Limited"
+ },
+ {
+   "Code": "17150629",
    "Symbol": "GREENLAM",
-   "ISIN": "INE544R01013",
-   "Company": "Greenlam Industries Limited",
-   "First Listing Date": "02-Mar-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Greenlam Industries Limited"
  },
  {
-   "Symbol": "MOLDTKPAC",
-   "ISIN": "INE893J01029",
-   "Company": "Mold-Tek Packaging Limited",
-   "First Listing Date": "23-Feb-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "GENUSPAPER",
-   "ISIN": "INE949P01018",
-   "Company": "Genus Paper & Boards Limited",
-   "First Listing Date": "16-Feb-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14610020",
    "Symbol": "GRPLTD",
-   "ISIN": "INE137I01015",
-   "Company": "GRP Limited",
-   "First Listing Date": "12-Feb-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GRP Limited"
  },
  {
-   "Symbol": "LAMBODHARA",
-   "ISIN": "INE112F01022",
-   "Company": "Lambodhara Textiles Limited",
-   "First Listing Date": "04-Feb-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16530215",
+   "Symbol": "GENUSPAPER",
+   "Name": "Genus Paper & Boards Limited"
  },
  {
+   "Code": "16560048",
    "Symbol": "CCHHL",
-   "ISIN": "INE652F01027",
-   "Company": "Country Club Hospitality & Holidays Limited",
-   "First Listing Date": "03-Feb-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Country Club Hospitality & Holidays Limited"
  },
  {
-   "Symbol": "SHAKTIPUMP",
-   "ISIN": "INE908D01010",
-   "Company": "Shakti Pumps (India) Limited",
-   "First Listing Date": "29-Jan-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12200107",
+   "Symbol": "MOLDTKPAC",
+   "Name": "Mold-Tek Packaging Limited"
  },
  {
+   "Code": "16030152",
+   "Symbol": "LAMBODHARA",
+   "Name": "Lambodhara Textiles Limited"
+ },
+ {
+   "Code": "16620043",
    "Symbol": "APOLSINHOT",
-   "ISIN": "INE451F01024",
-   "Company": "Apollo Sindoori Hotels Limited",
-   "First Listing Date": "28-Jan-2015",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apollo Sindoori Hotels Limited"
  },
  {
-   "Symbol": "GULPOLY",
-   "ISIN": "INE255D01024",
-   "Company": "Gulshan Polyols Limited",
-   "First Listing Date": "28-Jan-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13600008",
+   "Symbol": "SHAKTIPUMP",
+   "Name": "Shakti Pumps (India) Limited"
  },
  {
+   "Code": "11040095",
    "Symbol": "UNITEDTEA",
-   "ISIN": "INE458F01011",
-   "Company": "The United Nilgiri Tea Estates Company Limited",
-   "First Listing Date": "28-Jan-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The United Nilgiri Tea Estates Company Limited"
  },
  {
-   "Symbol": "DTIL",
-   "ISIN": "INE341R01014",
-   "Company": "Dhunseri Tea & Industries Limited",
-   "First Listing Date": "20-Jan-2015",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17024331",
+   "Symbol": "GULPOLY",
+   "Name": "Gulshan Polyols Limited"
  },
  {
+   "Code": "12310036",
    "Symbol": "CAMLINFINE",
-   "ISIN": "INE052I01032",
-   "Company": "Camlin Fine Sciences Limited",
-   "First Listing Date": "20-Jan-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Camlin Fine Sciences Limited"
  },
  {
-   "Symbol": "FCL",
-   "ISIN": "INE045J01026",
-   "Company": "Fineotex Chemical Limited",
-   "First Listing Date": "15-Jan-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11040266",
+   "Symbol": "DTIL",
+   "Name": "Dhunseri Tea & Industries Limited"
  },
  {
+   "Code": "12150003",
    "Symbol": "BEARDSELL",
-   "ISIN": "INE520H01022",
-   "Company": "Beardsell Limited",
-   "First Listing Date": "13-Jan-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Beardsell Limited"
  },
  {
+   "Code": "12060093",
+   "Symbol": "FCL",
+   "Name": "Fineotex Chemical Limited"
+ },
+ {
+   "Code": "15580077",
    "Symbol": "GOODLUCK",
-   "ISIN": "INE127I01024",
-   "Company": "Goodluck India Limited",
-   "First Listing Date": "08-Jan-2015",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Goodluck India Limited"
  },
  {
+   "Code": "12540004",
    "Symbol": "AMRUTANJAN",
-   "ISIN": "INE098F01031",
-   "Company": "Amrutanjan Health Care Limited",
-   "First Listing Date": "02-Jan-2015",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Amrutanjan Health Care Limited"
  },
  {
-   "Symbol": "MONTECARLO",
-   "ISIN": "INE950M01013",
-   "Company": "Monte Carlo Fashions Limited",
-   "First Listing Date": "19-Dec-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13192325",
    "Symbol": "INTELLECT",
-   "ISIN": "INE306R01017",
-   "Company": "Intellect Design Arena Limited",
-   "First Listing Date": "18-Dec-2014",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Intellect Design Arena Limited"
  },
  {
-   "Symbol": "MANAPPURAM",
-   "ISIN": "INE522D01027",
-   "Company": "Manappuram Finance Limited",
-   "First Listing Date": "01-Dec-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16490453",
    "Symbol": "PDSMFL",
-   "ISIN": "INE111Q01013",
-   "Company": "PDS Multinational Fashions Limited",
-   "First Listing Date": "21-Oct-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PDS Multinational Fashions Limited"
  },
  {
+   "Code": "14060339",
+   "Symbol": "MANAPPURAM",
+   "Name": "Manappuram Finance Limited"
+ },
+ {
+   "Code": "10670088",
    "Symbol": "MINDACORP",
-   "ISIN": "INE842C01021",
-   "Company": "Minda Corporation Limited",
-   "First Listing Date": "16-Oct-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Minda Corporation Limited"
  },
  {
+   "Code": "13190144",
    "Symbol": "CIGNITITEC",
-   "ISIN": "INE675C01017",
-   "Company": "Cigniti Technologies Limited",
-   "First Listing Date": "13-Oct-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cigniti Technologies Limited"
  },
  {
-   "Symbol": "SHEMAROO",
-   "ISIN": "INE363M01019",
-   "Company": "Shemaroo Entertainment Limited",
-   "First Listing Date": "01-Oct-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16520001",
    "Symbol": "SUPERHOUSE",
-   "ISIN": "INE712B01010",
-   "Company": "Superhouse Limited",
-   "First Listing Date": "26-Sep-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Superhouse Limited"
  },
  {
-   "Symbol": "SHARDACROP",
-   "ISIN": "INE221J01015",
-   "Company": "Sharda Cropchem Limited",
-   "First Listing Date": "23-Sep-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17040823",
+   "Symbol": "SHEMAROO",
+   "Name": "Shemaroo Entertainment Limited"
  },
  {
+   "Code": "17150007",
    "Symbol": "SNOWMAN",
-   "ISIN": "INE734N01019",
-   "Company": "Snowman Logistics Limited",
-   "First Listing Date": "12-Sep-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Snowman Logistics Limited"
  },
  {
+   "Code": "13550044",
    "Symbol": "GULFOILLUB",
-   "ISIN": "INE635Q01029",
-   "Company": "Gulf Oil Lubricants India Limited",
-   "First Listing Date": "31-Jul-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gulf Oil Lubricants India Limited"
  },
  {
+   "Code": "15080002",
    "Symbol": "GOCLCORP",
-   "ISIN": "INE077F01035",
-   "Company": "GOCL Corporation Limited",
-   "First Listing Date": "26-Jun-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GOCL Corporation Limited"
  },
  {
+   "Code": "12540222",
    "Symbol": "CAPLIPOINT",
-   "ISIN": "INE475E01026",
-   "Company": "Caplin Point Laboratories Limited",
-   "First Listing Date": "23-Jun-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Caplin Point Laboratories Limited"
  },
  {
+   "Code": "11050105",
    "Symbol": "HATSUN",
-   "ISIN": "INE473B01035",
-   "Company": "Hatsun Agro Product Limited",
-   "First Listing Date": "20-Jun-2014",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hatsun Agro Product Limited"
  },
  {
+   "Code": "16590027",
    "Symbol": "AGARIND",
-   "ISIN": "INE204E01012",
-   "Company": "Agarwal Industrial Corporation Limited",
-   "First Listing Date": "26-May-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Agarwal Industrial Corporation Limited"
  },
  {
+   "Code": "17090083",
    "Symbol": "WONDERLA",
-   "ISIN": "INE066O01014",
-   "Company": "Wonderla Holidays Limited",
-   "First Listing Date": "09-May-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wonderla Holidays Limited"
  },
  {
-   "Symbol": "BUTTERFLY",
-   "ISIN": "INE295F01017",
-   "Company": "Butterfly Gandhimathi Appliances Limited",
-   "First Listing Date": "28-Apr-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15100007",
    "Symbol": "ARCOTECH",
-   "ISIN": "INE574I01035",
-   "Company": "Arcotech Limited",
-   "First Listing Date": "16-Apr-2014",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arcotech Limited"
  },
  {
-   "Symbol": "SDBL",
-   "ISIN": "INE480C01012",
-   "Company": "Som Distilleries & Breweries Limited",
-   "First Listing Date": "18-Mar-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13090009",
+   "Symbol": "BUTTERFLY",
+   "Name": "Butterfly Gandhimathi Appliances Limited"
  },
  {
+   "Code": "13550003",
    "Symbol": "CASTROLIND",
-   "ISIN": "INE172A01027",
-   "Company": "Castrol India Limited",
-   "First Listing Date": "14-Mar-2014",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Castrol India Limited"
  },
  {
+   "Code": "11100013",
+   "Symbol": "SDBL",
+   "Name": "Som Distilleries & Breweries Limited"
+ },
+ {
+   "Code": "16070195",
+   "Symbol": "MONTECARLO",
+   "Name": "Monte Carlo Fashions Limited"
+ },
+ {
+   "Code": "11140092",
    "Symbol": "NATHBIOGEN",
-   "ISIN": "INE448G01010",
-   "Company": "Nath Bio-Genes (India) Limited",
-   "First Listing Date": "28-Jan-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nath Bio-Genes (India) Limited"
  },
  {
+   "Code": "11140091",
    "Symbol": "AGRITECH",
-   "ISIN": "INE449G01018",
-   "Company": "Agri-Tech (India) Limited",
-   "First Listing Date": "28-Jan-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Agri-Tech (India) Limited"
  },
  {
+   "Code": "14090341",
    "Symbol": "SREEL",
-   "ISIN": "INE099F01013",
-   "Company": "Sreeleathers Limited",
-   "First Listing Date": "01-Jan-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sreeleathers Limited"
  },
  {
+   "Code": "16490352",
    "Symbol": "CNOVAPETRO",
-   "ISIN": "INE672K01025",
-   "Company": "CIL Nova Petrochemicals Limited",
-   "First Listing Date": "01-Jan-2014",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CIL Nova Petrochemicals Limited"
  },
  {
-   "Symbol": "JPOLYINVST",
-   "ISIN": "INE147P01019",
-   "Company": "Jindal Poly Investment and Finance Company Limited",
-   "First Listing Date": "11-Nov-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16020100",
    "Symbol": "ORBTEXP",
-   "ISIN": "INE231G01010",
-   "Company": "Orbit Exports Limited",
-   "First Listing Date": "05-Nov-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orbit Exports Limited"
  },
  {
+   "Code": "14093737",
+   "Symbol": "JPOLYINVST",
+   "Name": "Jindal Poly Investment and Finance Company Limited"
+ },
+ {
+   "Code": "14590160",
    "Symbol": "LYPSAGEMS",
-   "ISIN": "INE142K01011",
-   "Company": "Lypsa Gems & Jewellery Limited",
-   "First Listing Date": "05-Nov-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lypsa Gems & Jewellery Limited"
  },
  {
+   "Code": "",
    "Symbol": "PILITA",
-   "ISIN": "INE600A01035",
-   "Company": "PIL ITALICA LIFESTYLE LIMITED",
-   "First Listing Date": "07-Oct-2013",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PIL ITALICA LIFESTYLE LIMITED"
  },
  {
-   "Symbol": "FLFL",
-   "ISIN": "INE452O01016",
-   "Company": "Future Lifestyle Fashions Limited",
-   "First Listing Date": "01-Oct-2013",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15210043",
    "Symbol": "NTL",
-   "ISIN": "INE333I01036",
-   "Company": "Neueon Towers Limited",
-   "First Listing Date": "11-Sep-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Neueon Towers Limited"
  },
  {
+   "Code": "10770006",
+   "Symbol": "FLFL",
+   "Name": "Future Lifestyle Fashions Limited"
+ },
+ {
+   "Code": "11250258",
    "Symbol": "INTEGRA",
-   "ISIN": "INE418N01027",
-   "Company": "Integra Garments and Textiles Limited",
-   "First Listing Date": "20-Aug-2013",
-   "Face Value": 3,
-   "Paid Up Value": 3,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Integra Garments and Textiles Limited"
  },
  {
+   "Code": "14010549",
    "Symbol": "IBULHSGFIN",
-   "ISIN": "INE148I01020",
-   "Company": "Indiabulls Housing Finance Limited",
-   "First Listing Date": "23-Jul-2013",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indiabulls Housing Finance Limited"
  },
  {
-   "Symbol": "ABFRL",
-   "ISIN": "INE647O01011",
-   "Company": "Aditya Birla Fashion and Retail Limited",
-   "First Listing Date": "17-Jul-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12120089",
+   "Symbol": "SHARDACROP",
+   "Name": "Sharda Cropchem Limited"
  },
  {
+   "Code": "11510100",
    "Symbol": "ORIENTCEM",
-   "ISIN": "INE876N01018",
-   "Company": "Orient Cement Limited",
-   "First Listing Date": "12-Jul-2013",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Cement Limited"
  },
  {
-   "Symbol": "FCONSUMER",
-   "ISIN": "INE220J01025",
-   "Company": "Future Consumer Limited",
-   "First Listing Date": "04-Jul-2013",
-   "Face Value": 6,
-   "Paid Up Value": 6,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "10770005",
+   "Symbol": "ABFRL",
+   "Name": "Aditya Birla Fashion and Retail Limited"
  },
  {
+   "Code": "10540017",
    "Symbol": "ATULAUTO",
-   "ISIN": "INE951D01028",
-   "Company": "Atul Auto Limited",
-   "First Listing Date": "26-Jun-2013",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Atul Auto Limited"
  },
  {
+   "Code": "17028141",
+   "Symbol": "FCONSUMER",
+   "Name": "Future Consumer Limited"
+ },
+ {
+   "Code": "13190021",
    "Symbol": "CEREBRAINT",
-   "ISIN": "INE345B01019",
-   "Company": "Cerebra Integrated Technologies Limited",
-   "First Listing Date": "26-Jun-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cerebra Integrated Technologies Limited"
  },
  {
+   "Code": "16690415",
    "Symbol": "JUSTDIAL",
-   "ISIN": "INE599M01018",
-   "Company": "Just Dial Limited",
-   "First Listing Date": "05-Jun-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Just Dial Limited"
  },
  {
+   "Code": "14090401",
    "Symbol": "VIVIDHA",
-   "ISIN": "INE370E01029",
-   "Company": "Visagar Polytex Limited",
-   "First Listing Date": "21-May-2013",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Visagar Polytex Limited"
  },
  {
+   "Code": "11070103",
    "Symbol": "VIMALOIL",
-   "ISIN": "INE067D01015",
-   "Company": "Vimal Oil & Foods Limited",
-   "First Listing Date": "21-May-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vimal Oil & Foods Limited"
  },
  {
+   "Code": "11510029",
    "Symbol": "GSCLCEMENT",
-   "ISIN": "INE542A01039",
-   "Company": "Gujarat Sidhee Cement Limited",
-   "First Listing Date": "15-May-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Sidhee Cement Limited"
  },
  {
+   "Code": "14510042",
    "Symbol": "NIBL",
-   "ISIN": "INE047O01014",
-   "Company": "NRB Industrial Bearings Limited",
-   "First Listing Date": "09-Apr-2013",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NRB Industrial Bearings Limited"
  },
  {
+   "Code": "14080146",
    "Symbol": "REPCOHOME",
-   "ISIN": "INE612J01015",
-   "Company": "Repco Home Finance Limited",
-   "First Listing Date": "01-Apr-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Repco Home Finance Limited"
  },
  {
-   "Symbol": "ANKITMETAL",
-   "ISIN": "INE106I01010",
-   "Company": "Ankit Metal & Power Limited",
-   "First Listing Date": "14-Mar-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16020054",
    "Symbol": "MOHITIND",
-   "ISIN": "INE954E01012",
-   "Company": "Mohit Industries Limited",
-   "First Listing Date": "14-Mar-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mohit Industries Limited"
  },
  {
+   "Code": "15560023",
+   "Symbol": "ANKITMETAL",
+   "Name": "Ankit Metal & Power Limited"
+ },
+ {
+   "Code": "10760013",
    "Symbol": "VMART",
-   "ISIN": "INE665J01013",
-   "Company": "V-Mart Retail Limited",
-   "First Listing Date": "20-Feb-2013",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "V-Mart Retail Limited"
  },
  {
+   "Code": "15200071",
    "Symbol": "INFRATEL",
-   "ISIN": "INE121J01017",
-   "Company": "Bharti Infratel Limited",
-   "First Listing Date": "28-Dec-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharti Infratel Limited"
  },
  {
+   "Code": "15070224",
    "Symbol": "PCJEWELLER",
-   "ISIN": "INE785M01013",
-   "Company": "PC Jeweller Limited",
-   "First Listing Date": "27-Dec-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PC Jeweller Limited"
  },
  {
+   "Code": "16690363",
    "Symbol": "CARERATING",
-   "ISIN": "INE752H01013",
-   "Company": "CARE Ratings Limited",
-   "First Listing Date": "26-Dec-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CARE Ratings Limited"
  },
  {
+   "Code": "12324327.5",
    "Symbol": "ZUARI",
-   "ISIN": "INE840M01016",
-   "Company": "Zuari Agro Chemicals Limited",
-   "First Listing Date": "27-Nov-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zuari Agro Chemicals Limited"
  },
  {
-   "Symbol": "SUNCLAYLTD",
-   "ISIN": "INE105A01035",
-   "Company": "Sundaram Clayton Limited",
-   "First Listing Date": "23-Oct-2012",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13240028",
    "Symbol": "PROSEED",
-   "ISIN": "INE217G01027",
-   "Company": "Proseed India Limited",
-   "First Listing Date": "16-Oct-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Proseed India Limited"
  },
  {
+   "Code": "13520019",
+   "Symbol": "SUNCLAYLTD",
+   "Name": "Sundaram Clayton Limited"
+ },
+ {
+   "Code": "17028028",
    "Symbol": "DUCON",
-   "ISIN": "INE741L01018",
-   "Company": "Ducon Infratechnologies Limited",
-   "First Listing Date": "09-Oct-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ducon Infratechnologies Limited"
  },
  {
+   "Code": "16070031",
    "Symbol": "KITEX",
-   "ISIN": "INE602G01020",
-   "Company": "Kitex Garments Limited",
-   "First Listing Date": "25-Sep-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kitex Garments Limited"
  },
  {
+   "Code": "12200057",
    "Symbol": "MAYURUNIQ",
-   "ISIN": "INE040D01038",
-   "Company": "Mayur Uniquoters Ltd",
-   "First Listing Date": "25-Sep-2012",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mayur Uniquoters Ltd"
  },
  {
+   "Code": "11040132",
    "Symbol": "ROSSELLIND",
-   "ISIN": "INE847C01020",
-   "Company": "Rossell India Limited",
-   "First Listing Date": "25-Sep-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rossell India Limited"
  },
  {
+   "Code": "16490200",
    "Symbol": "MORARJEE",
-   "ISIN": "INE161G01027",
-   "Company": "Morarjee Textiles Limited",
-   "First Listing Date": "14-Sep-2012",
-   "Face Value": 7,
-   "Paid Up Value": 7,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Morarjee Textiles Limited"
  },
  {
-   "Symbol": "PROZONINTU",
-   "ISIN": "INE195N01013",
-   "Company": "Prozone Intu Properties Limited",
-   "First Listing Date": "12-Sep-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17028850",
    "Symbol": "RTNINFRA",
-   "ISIN": "INE834M01019",
-   "Company": "RattanIndia Infrastructure Limited",
-   "First Listing Date": "30-Jul-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RattanIndia Infrastructure Limited"
  },
  {
+   "Code": "17029203",
+   "Symbol": "PROZONINTU",
+   "Name": "Prozone Intu Properties Limited"
+ },
+ {
+   "Code": "15130007",
    "Symbol": "SEPOWER",
-   "ISIN": "INE735M01018",
-   "Company": "S.E. Power Limited",
-   "First Listing Date": "27-Jul-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "S.E. Power Limited"
  },
  {
+   "Code": "17040163",
    "Symbol": "CINELINE",
-   "ISIN": "INE704H01022",
-   "Company": "Cineline India Limited",
-   "First Listing Date": "13-Jun-2012",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cineline India Limited"
  },
  {
+   "Code": "13130028",
    "Symbol": "EON",
-   "ISIN": "INE076H01025",
-   "Company": "Eon Electric Limited",
-   "First Listing Date": "07-Jun-2012",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eon Electric Limited"
  },
  {
+   "Code": "16620219",
    "Symbol": "SPECIALITY",
-   "ISIN": "INE247M01014",
-   "Company": "Speciality Restaurants Limited",
-   "First Listing Date": "30-May-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Speciality Restaurants Limited"
  },
  {
-   "Symbol": "CHROMATIC",
-   "ISIN": "INE662C01015",
-   "Company": "Chromatic India Limited",
-   "First Listing Date": "29-May-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16020020",
    "Symbol": "SWANENERGY",
-   "ISIN": "INE665A01038",
-   "Company": "Swan Energy Limited",
-   "First Listing Date": "29-May-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Swan Energy Limited"
  },
  {
-   "Symbol": "VSSL",
-   "ISIN": "INE050M01012",
-   "Company": "Vardhman Special Steels Limited",
-   "First Listing Date": "17-May-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16090041",
+   "Symbol": "CHROMATIC",
+   "Name": "Chromatic India Limited"
  },
  {
+   "Code": "15070183",
    "Symbol": "TBZ",
-   "ISIN": "INE760L01018",
-   "Company": "Tribhovandas Bhimji Zaveri Limited",
-   "First Listing Date": "09-May-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tribhovandas Bhimji Zaveri Limited"
  },
  {
-   "Symbol": "HEXATRADEX",
-   "ISIN": "INE750M01017",
-   "Company": "Hexa Tradex Limited",
-   "First Listing Date": "20-Apr-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15510147",
+   "Symbol": "VSSL",
+   "Name": "Vardhman Special Steels Limited"
  },
  {
+   "Code": "16690264",
    "Symbol": "MTEDUCARE",
-   "ISIN": "INE472M01018",
-   "Company": "MT Educare Limited",
-   "First Listing Date": "12-Apr-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MT Educare Limited"
  },
  {
+   "Code": "17028502",
+   "Symbol": "HEXATRADEX",
+   "Name": "Hexa Tradex Limited"
+ },
+ {
+   "Code": "11600065",
    "Symbol": "NBCC",
-   "ISIN": "INE095N01031",
-   "Company": "NBCC (India) Limited",
-   "First Listing Date": "12-Apr-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NBCC (India) Limited"
  },
  {
+   "Code": "16610052",
    "Symbol": "MMTC",
-   "ISIN": "INE123F01029",
-   "Company": "MMTC Limited",
-   "First Listing Date": "09-Apr-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MMTC Limited"
  },
  {
-   "Symbol": "NAGAROIL",
-   "ISIN": "INE453M01018",
-   "Company": "Nagarjuna Oil Refinery Limited",
-   "First Listing Date": "28-Mar-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16610445",
    "Symbol": "PROVOGE",
-   "ISIN": "INE968G01033",
-   "Company": "Provogue (India) Limited",
-   "First Listing Date": "26-Mar-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Provogue (India) Limited"
  },
  {
+   "Code": "15120057",
+   "Symbol": "NAGAROIL",
+   "Name": "Nagarjuna Oil Refinery Limited"
+ },
+ {
+   "Code": "16110004",
    "Symbol": "NDL",
-   "ISIN": "INE875G01030",
-   "Company": "Nandan Denim Limited",
-   "First Listing Date": "23-Mar-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nandan Denim Limited"
  },
  {
-   "Symbol": "SCHNEIDER",
-   "ISIN": "INE839M01018",
-   "Company": "Schneider Electric Infrastructure Limited",
-   "First Listing Date": "20-Mar-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "ORIENTREF",
-   "ISIN": "INE743M01012",
-   "Company": "Orient Refractories Limited",
-   "First Listing Date": "12-Mar-2012",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11250011",
    "Symbol": "MCX",
-   "ISIN": "INE745G01035",
-   "Company": "Multi Commodity Exchange of India Limited",
-   "First Listing Date": "09-Mar-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Multi Commodity Exchange of India Limited"
  },
  {
-   "Symbol": "COMPUSOFT",
-   "ISIN": "INE453B01029",
-   "Company": "Compucom Software Limited",
-   "First Listing Date": "02-Mar-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13110124",
+   "Symbol": "SCHNEIDER",
+   "Name": "Schneider Electric Infrastructure Limited"
  },
  {
+   "Code": "17028419",
+   "Symbol": "ORIENTREF",
+   "Name": "Orient Refractories Limited"
+ },
+ {
+   "Code": "14010017",
    "Symbol": "DBSTOCKBRO",
-   "ISIN": "INE921B01025",
-   "Company": "DB (International) Stock Brokers Limited",
-   "First Listing Date": "29-Feb-2012",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DB (International) Stock Brokers Limited"
  },
  {
+   "Code": "13020093",
+   "Symbol": "COMPUSOFT",
+   "Name": "Compucom Software Limited"
+ },
+ {
+   "Code": "16070116",
    "Symbol": "THOMASCOTT",
-   "ISIN": "INE480M01011",
-   "Company": "Thomas Scott (India) Limited",
-   "First Listing Date": "30-Jan-2012",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Thomas Scott (India) Limited"
  },
  {
+   "Code": "14010230",
    "Symbol": "KANANIIND",
-   "ISIN": "INE879E01037",
-   "Company": "Kanani Industries Limited",
-   "First Listing Date": "14-Dec-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kanani Industries Limited"
  },
  {
+   "Code": "15580082",
    "Symbol": "APLAPOLLO",
-   "ISIN": "INE702C01019",
-   "Company": "APL Apollo Tubes Limited",
-   "First Listing Date": "14-Dec-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "APL Apollo Tubes Limited"
  },
  {
+   "Code": "14060298",
    "Symbol": "VIKASECO",
-   "ISIN": "INE806A01020",
-   "Company": "Vikas EcoTech Limited",
-   "First Listing Date": "12-Dec-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vikas EcoTech Limited"
  },
  {
-   "Symbol": "POLYMED",
-   "ISIN": "INE205C01021",
-   "Company": "Poly Medicure Limited",
-   "First Listing Date": "07-Dec-2011",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16080043",
    "Symbol": "RUPA",
-   "ISIN": "INE895B01021",
-   "Company": "Rupa & Company Limited",
-   "First Listing Date": "07-Dec-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rupa & Company Limited"
  },
  {
-   "Symbol": "DSSL",
-   "ISIN": "INE417B01040",
-   "Company": "Dynacons Systems & Solutions Limited",
-   "First Listing Date": "01-Dec-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12670012",
+   "Symbol": "POLYMED",
+   "Name": "Poly Medicure Limited"
  },
  {
+   "Code": "17020012",
    "Symbol": "JISLDVREQS",
-   "ISIN": "IN9175A01010",
-   "Company": "Jain Irrigation Systems Limited",
-   "First Listing Date": "30-Nov-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jain Irrigation Systems Limited"
  },
  {
-   "Symbol": "ESSARSHPNG",
-   "ISIN": "INE122M01019",
-   "Company": "Essar Shipping Limited",
-   "First Listing Date": "15-Nov-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13190024",
+   "Symbol": "DSSL",
+   "Name": "Dynacons Systems & Solutions Limited"
  },
  {
+   "Code": "14091051",
    "Symbol": "INDOTHAI",
-   "ISIN": "INE337M01013",
-   "Company": "Indo Thai Securities Limited",
-   "First Listing Date": "02-Nov-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indo Thai Securities Limited"
  },
  {
+   "Code": "16580048",
+   "Symbol": "ESSARSHPNG",
+   "Name": "Essar Shipping Limited"
+ },
+ {
+   "Code": "17024576",
    "Symbol": "TRITURBINE",
-   "ISIN": "INE152M01016",
-   "Company": "Triveni Turbine Limited",
-   "First Listing Date": "28-Oct-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Triveni Turbine Limited"
  },
  {
+   "Code": "13140032",
    "Symbol": "UJAAS",
-   "ISIN": "INE899L01022",
-   "Company": "Ujaas Energy Limited",
-   "First Listing Date": "20-Oct-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ujaas Energy Limited"
  },
  {
+   "Code": "14620048",
    "Symbol": "FLEXITUFF",
-   "ISIN": "INE060J01017",
-   "Company": "Flexituff Ventures International Limited",
-   "First Listing Date": "19-Oct-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Flexituff Ventures International Limited"
  },
  {
+   "Code": "14091052",
    "Symbol": "ONELIFECAP",
-   "ISIN": "INE912L01015",
-   "Company": "Onelife Capital Advisors Limited",
-   "First Listing Date": "17-Oct-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Onelife Capital Advisors Limited"
  },
  {
+   "Code": "14060475",
    "Symbol": "PAISALO",
-   "ISIN": "INE420C01042",
-   "Company": "Paisalo Digital Limited",
-   "First Listing Date": "17-Oct-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Paisalo Digital Limited"
  },
  {
+   "Code": "12190034",
    "Symbol": "TIJARIA",
-   "ISIN": "INE440L01017",
-   "Company": "Tijaria Polypipes Limited",
-   "First Listing Date": "14-Oct-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tijaria Polypipes Limited"
  },
  {
+   "Code": "11621147",
    "Symbol": "SETUINFRA",
-   "ISIN": "INE023M01027",
-   "Company": "Setubandhan Infrastructure Limited",
-   "First Listing Date": "04-Oct-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Setubandhan Infrastructure Limited"
  },
  {
+   "Code": "12060009",
    "Symbol": "PANAMAPET",
-   "ISIN": "INE305C01029",
-   "Company": "Panama Petrochem Limited",
-   "First Listing Date": "30-Sep-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Panama Petrochem Limited"
  },
  {
+   "Code": "13110121",
    "Symbol": "PGEL",
-   "ISIN": "INE457L01011",
-   "Company": "PG Electroplast Limited",
-   "First Listing Date": "26-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PG Electroplast Limited"
  },
  {
+   "Code": "12540995",
    "Symbol": "APLLTD",
-   "ISIN": "INE901L01018",
-   "Company": "Alembic Pharmaceuticals Limited",
-   "First Listing Date": "20-Sep-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alembic Pharmaceuticals Limited"
  },
  {
+   "Code": "15560046",
    "Symbol": "VASWANI",
-   "ISIN": "INE590L01019",
-   "Company": "Vaswani Industries Limited",
-   "First Listing Date": "20-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vaswani Industries Limited"
  },
  {
+   "Code": "11070109",
    "Symbol": "TECHIN",
-   "ISIN": "INE778A01021",
-   "Company": "Techindia Nirman Limited",
-   "First Listing Date": "08-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Techindia Nirman Limited"
  },
  {
+   "Code": "13510003",
    "Symbol": "CIMMCO",
-   "ISIN": "INE184C01028",
-   "Company": "Cimmco Limited",
-   "First Listing Date": "08-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cimmco Limited"
  },
  {
+   "Code": "13120108",
    "Symbol": "TDPOWERSYS",
-   "ISIN": "INE419M01019",
-   "Company": "TD Power Systems Limited",
-   "First Listing Date": "08-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TD Power Systems Limited"
  },
  {
-   "Symbol": "BROOKS",
-   "ISIN": "INE650L01011",
-   "Company": "Brooks Laboratories Limited",
-   "First Listing Date": "05-Sep-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12070113",
    "Symbol": "ASAHISONG",
-   "ISIN": "INE228I01012",
-   "Company": "Asahi Songwon Colors Limited",
-   "First Listing Date": "29-Aug-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asahi Songwon Colors Limited"
  },
  {
+   "Code": "12540990",
+   "Symbol": "BROOKS",
+   "Name": "Brooks Laboratories Limited"
+ },
+ {
+   "Code": "16490121",
    "Symbol": "FILATEX",
-   "ISIN": "INE816B01027",
-   "Company": "Filatex India Limited",
-   "First Listing Date": "29-Aug-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Filatex India Limited"
  },
  {
+   "Code": "16690235",
    "Symbol": "TREEHOUSE",
-   "ISIN": "INE040M01013",
-   "Company": "Tree House Education & Accessories Limited",
-   "First Listing Date": "26-Aug-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tree House Education & Accessories Limited"
  },
  {
+   "Code": "16030105",
    "Symbol": "WINSOME",
-   "ISIN": "INE784B01035",
-   "Company": "Winsome Yarns Limited",
-   "First Listing Date": "25-Aug-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Winsome Yarns Limited"
  },
  {
+   "Code": "15210034",
    "Symbol": "GAYAPROJ",
-   "ISIN": "INE336H01023",
-   "Company": "Gayatri Projects Limited",
-   "First Listing Date": "22-Aug-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gayatri Projects Limited"
  },
  {
+   "Code": "16090017",
    "Symbol": "BODALCHEM",
-   "ISIN": "INE338D01028",
-   "Company": "Bodal Chemicals Limited",
-   "First Listing Date": "22-Aug-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bodal Chemicals Limited"
  },
  {
+   "Code": "17025653",
    "Symbol": "IBULISL",
-   "ISIN": "INE126M01010",
-   "Company": "Indiabulls Integrated Services Limited",
-   "First Listing Date": "18-Aug-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indiabulls Integrated Services Limited"
  },
  {
+   "Code": "13510010",
    "Symbol": "WINDMACHIN",
-   "ISIN": "INE052A01021",
-   "Company": "Windsor Machines Limited",
-   "First Listing Date": "17-Aug-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Windsor Machines Limited"
  },
  {
+   "Code": "",
    "Symbol": "L&TFH",
-   "ISIN": "INE498L01015",
-   "Company": "L&T Finance Holdings Limited",
-   "First Listing Date": "12-Aug-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "L&T Finance Holdings Limited"
  },
  {
+   "Code": "14610001",
    "Symbol": "ELGIRUBCO",
-   "ISIN": "INE819L01012",
-   "Company": "Elgi Rubber Company Limited",
-   "First Listing Date": "10-Aug-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Elgi Rubber Company Limited"
  },
  {
+   "Code": "14011161",
    "Symbol": "INVENTURE",
-   "ISIN": "INE878H01016",
-   "Company": "Inventure Growth & Securities Limited",
-   "First Listing Date": "04-Aug-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Inventure Growth & Securities Limited"
  },
  {
-   "Symbol": "BGLOBAL",
-   "ISIN": "INE224M01013",
-   "Company": "Bharatiya Global Infomedia Limited",
-   "First Listing Date": "28-Jul-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11560019",
    "Symbol": "RUSHIL",
-   "ISIN": "INE573K01017",
-   "Company": "Rushil Decor Limited",
-   "First Listing Date": "07-Jul-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rushil Decor Limited"
  },
  {
+   "Code": "",
    "Symbol": "KWALITY",
-   "ISIN": "INE775B01025",
-   "Company": "kwality limited",
-   "First Listing Date": "05-Jul-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "kwality limited"
  },
  {
+   "Code": "14520022",
    "Symbol": "MAITHANALL",
-   "ISIN": "INE683C01011",
-   "Company": "Maithan Alloys Limited",
-   "First Listing Date": "05-Jul-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maithan Alloys Limited"
  },
  {
+   "Code": "11610007",
    "Symbol": "ASHIANA",
-   "ISIN": "INE365D01021",
-   "Company": "Ashiana Housing Limited",
-   "First Listing Date": "29-Jun-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ashiana Housing Limited"
  },
  {
+   "Code": "12120003",
    "Symbol": "DHANUKA",
-   "ISIN": "INE435G01025",
-   "Company": "Dhanuka Agritech Limited",
-   "First Listing Date": "29-Jun-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dhanuka Agritech Limited"
  },
  {
-   "Symbol": "KARMAENG",
-   "ISIN": "INE725L01011",
-   "Company": "Karma Energy Limited",
-   "First Listing Date": "28-Jun-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14011160",
    "Symbol": "WEIZFOREX",
-   "ISIN": "INE726L01019",
-   "Company": "Weizmann Forex Limited",
-   "First Listing Date": "28-Jun-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Weizmann Forex Limited"
  },
  {
+   "Code": "15130326",
+   "Symbol": "KARMAENG",
+   "Name": "Karma Energy Limited"
+ },
+ {
+   "Code": "12160004",
    "Symbol": "ESTER",
-   "ISIN": "INE778B01029",
-   "Company": "Ester Industries Limited",
-   "First Listing Date": "20-Jun-2011",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ester Industries Limited"
  },
  {
+   "Code": "17040370",
    "Symbol": "DQE",
-   "ISIN": "INE656K01010",
-   "Company": "DQ Entertainment (International) Limited",
-   "First Listing Date": "20-Jun-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DQ Entertainment (International) Limited"
  },
  {
-   "Symbol": "VSTTILLERS",
-   "ISIN": "INE764D01017",
-   "Company": "V.S.T Tillers Tractors Limited",
-   "First Listing Date": "20-Jun-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15580079",
    "Symbol": "OMMETALS",
-   "ISIN": "INE239D01028",
-   "Company": "OM Metals Infraprojects Limited",
-   "First Listing Date": "17-Jun-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "OM Metals Infraprojects Limited"
  },
  {
-   "Symbol": "RELAXO",
-   "ISIN": "INE131B01039",
-   "Company": "Relaxo Footwears Limited",
-   "First Listing Date": "17-Jun-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "10530005",
+   "Symbol": "VSTTILLERS",
+   "Name": "V.S.T Tillers Tractors Limited"
  },
  {
+   "Code": "12120019",
    "Symbol": "PIIND",
-   "ISIN": "INE603J01030",
-   "Company": "PI Industries Limited",
-   "First Listing Date": "15-Jun-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PI Industries Limited"
  },
  {
-   "Symbol": "SYMPHONY",
-   "ISIN": "INE225D01027",
-   "Company": "Symphony Limited",
-   "First Listing Date": "15-Jun-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16510019",
+   "Symbol": "RELAXO",
+   "Name": "Relaxo Footwears Limited"
  },
  {
+   "Code": "13191588",
+   "Symbol": "BGLOBAL",
+   "Name": "Bharatiya Global Infomedia Limited"
+ },
+ {
+   "Code": "11050062",
    "Symbol": "VADILALIND",
-   "ISIN": "INE694D01016",
-   "Company": "Vadilal Industries Limited",
-   "First Listing Date": "15-Jun-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vadilal Industries Limited"
  },
  {
-   "Symbol": "SANGHVIFOR",
-   "ISIN": "INE263L01013",
-   "Company": "Sanghvi Forging and Engineering Limited",
-   "First Listing Date": "23-May-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13090018",
+   "Symbol": "SYMPHONY",
+   "Name": "Symphony Limited"
  },
  {
+   "Code": "14011139",
    "Symbol": "MUTHOOTFIN",
-   "ISIN": "INE414G01012",
-   "Company": "Muthoot Finance Limited",
-   "First Listing Date": "06-May-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Muthoot Finance Limited"
  },
  {
-   "Symbol": "TCIDEVELOP",
-   "ISIN": "INE662L01016",
-   "Company": "TCI Developers Limited",
-   "First Listing Date": "19-Apr-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13570048",
+   "Symbol": "SANGHVIFOR",
+   "Name": "Sanghvi Forging and Engineering Limited"
  },
  {
+   "Code": "14010634",
    "Symbol": "PFS",
-   "ISIN": "INE560K01014",
-   "Company": "PTC India Financial Services Limited",
-   "First Listing Date": "30-Mar-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PTC India Financial Services Limited"
  },
  {
+   "Code": "16590045",
+   "Symbol": "TCIDEVELOP",
+   "Name": "TCI Developers Limited"
+ },
+ {
+   "Code": "17028046",
    "Symbol": "LOVABLE",
-   "ISIN": "INE597L01014",
-   "Company": "Lovable Lingerie Limited",
-   "First Listing Date": "24-Mar-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lovable Lingerie Limited"
  },
  {
+   "Code": "14091039",
    "Symbol": "DHUNINV",
-   "ISIN": "INE320L01011",
-   "Company": "Dhunseri Investments Limited",
-   "First Listing Date": "18-Mar-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dhunseri Investments Limited"
  },
  {
-   "Symbol": "INDTERRAIN",
-   "ISIN": "INE611L01021",
-   "Company": "Indian Terrain Fashions Limited",
-   "First Listing Date": "11-Mar-2011",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15140003",
    "Symbol": "HFCL",
-   "ISIN": "INE548A01028",
-   "Company": "Himachal Futuristic Communications Limited",
-   "First Listing Date": "09-Mar-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Himachal Futuristic Communications Limited"
  },
  {
+   "Code": "16070114",
+   "Symbol": "INDTERRAIN",
+   "Name": "Indian Terrain Fashions Limited"
+ },
+ {
+   "Code": "13510097",
    "Symbol": "TEXRAIL",
-   "ISIN": "INE621L01012",
-   "Company": "Texmaco Rail & Engineering Limited",
-   "First Listing Date": "03-Mar-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Texmaco Rail & Engineering Limited"
  },
  {
+   "Code": "13510097",
    "Symbol": "TEXRAIL",
-   "ISIN": "INE621L01012",
-   "Company": "Texmaco Rail & Engineering Limited",
-   "First Listing Date": "03-Mar-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Texmaco Rail & Engineering Limited"
  },
  {
-   "Symbol": "HINDMOTORS",
-   "ISIN": "INE253A01025",
-   "Company": "Hindustan Motors Limited",
-   "First Listing Date": "21-Feb-2011",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17027916",
    "Symbol": "BILENERGY",
-   "ISIN": "INE607L01029",
-   "Company": "Bil Energy Systems Limited",
-   "First Listing Date": "15-Feb-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bil Energy Systems Limited"
  },
  {
+   "Code": "17028042",
    "Symbol": "JUBLINDS",
-   "ISIN": "INE645L01011",
-   "Company": "Jubilant Industries Limited",
-   "First Listing Date": "14-Feb-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jubilant Industries Limited"
  },
  {
+   "Code": "12060092",
    "Symbol": "OMKARCHEM",
-   "ISIN": "INE474L01016",
-   "Company": "Omkar Speciality Chemicals Limited",
-   "First Listing Date": "10-Feb-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Omkar Speciality Chemicals Limited"
  },
  {
-   "Symbol": "STEL",
-   "ISIN": "INE577L01016",
-   "Company": "Stel Holdings Limited",
-   "First Listing Date": "09-Feb-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14580047",
    "Symbol": "SUMMITSEC",
-   "ISIN": "INE519C01017",
-   "Company": "Summit Securities Limited",
-   "First Listing Date": "28-Jan-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Summit Securities Limited"
  },
  {
+   "Code": "14091035",
    "Symbol": "BFINVEST",
-   "ISIN": "INE878K01010",
-   "Company": "BF Investment Limited",
-   "First Listing Date": "14-Jan-2011",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BF Investment Limited"
  },
  {
+   "Code": "14091036",
    "Symbol": "KICL",
-   "ISIN": "INE029L01018",
-   "Company": "Kalyani Investment Company Limited",
-   "First Listing Date": "14-Jan-2011",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kalyani Investment Company Limited"
  },
  {
+   "Code": "10510005",
+   "Symbol": "HINDMOTORS",
+   "Name": "Hindustan Motors Limited"
+ },
+ {
+   "Code": "16020174",
    "Symbol": "SPYL",
-   "ISIN": "INE268L01020",
-   "Company": "Shekhawati Poly-Yarn Limited",
-   "First Listing Date": "12-Jan-2011",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shekhawati Poly-Yarn Limited"
  },
  {
-   "Symbol": "SURANASOL",
-   "ISIN": "INE272L01022",
-   "Company": "Surana Solar Limited",
-   "First Listing Date": "07-Jan-2011",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17025657",
    "Symbol": "FMNL",
-   "ISIN": "INE360L01017",
-   "Company": "Future Market Networks Limited",
-   "First Listing Date": "31-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Future Market Networks Limited"
  },
  {
-   "Symbol": "PSB",
-   "ISIN": "INE608A01012",
-   "Company": "Punjab & Sind Bank",
-   "First Listing Date": "30-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17028045",
+   "Symbol": "SURANASOL",
+   "Name": "Surana Solar Limited"
  },
  {
-   "Symbol": "RKDL",
-   "ISIN": "INE722J01012",
-   "Company": "Ravi Kumar Distilleries Limited",
-   "First Listing Date": "27-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13540020",
    "Symbol": "KIRLOSENG",
-   "ISIN": "INE146L01010",
-   "Company": "Kirloskar Oil Engines Limited",
-   "First Listing Date": "24-Dec-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kirloskar Oil Engines Limited"
  },
  {
+   "Code": "11100053",
+   "Symbol": "RKDL",
+   "Name": "Ravi Kumar Distilleries Limited"
+ },
+ {
+   "Code": "14030016",
+   "Symbol": "PSB",
+   "Name": "Punjab & Sind Bank"
+ },
+ {
+   "Code": "13520357",
    "Symbol": "A2ZINFRA",
-   "ISIN": "INE619I01012",
-   "Company": "A2Z Infra Engineering Limited",
-   "First Listing Date": "23-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "A2Z Infra Engineering Limited"
  },
  {
+   "Code": "17025800",
    "Symbol": "KTIL",
-   "ISIN": "INE096L01025",
-   "Company": "Kesar Terminals & Infrastructure Limited",
-   "First Listing Date": "22-Dec-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kesar Terminals & Infrastructure Limited"
  },
  {
+   "Code": "17027967",
    "Symbol": "ZEELEARN",
-   "ISIN": "INE565L01011",
-   "Company": "Zee Learn Limited",
-   "First Listing Date": "20-Dec-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zee Learn Limited"
  },
  {
+   "Code": "15110040",
    "Symbol": "MOIL",
-   "ISIN": "INE490G01020",
-   "Company": "MOIL Limited",
-   "First Listing Date": "15-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MOIL Limited"
  },
  {
+   "Code": "16020063",
    "Symbol": "SUMEETINDS",
-   "ISIN": "INE235C01010",
-   "Company": "Sumeet Industries Limited",
-   "First Listing Date": "10-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sumeet Industries Limited"
  },
  {
+   "Code": "11040011.06",
+   "Symbol": "STEL",
+   "Name": "Stel Holdings Limited"
+ },
+ {
+   "Code": "10650003",
    "Symbol": "JAMNAAUTO",
-   "ISIN": "INE039C01032",
-   "Company": "Jamna Auto Industries Limited",
-   "First Listing Date": "10-Dec-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jamna Auto Industries Limited"
  },
  {
+   "Code": "11600402",
    "Symbol": "RPPINFRA",
-   "ISIN": "INE324L01013",
-   "Company": "R.P.P. Infra Projects Limited",
-   "First Listing Date": "06-Dec-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "R.P.P. Infra Projects Limited"
  },
  {
+   "Code": "15540012",
    "Symbol": "PENIND",
-   "ISIN": "INE932A01024",
-   "Company": "Pennar Industries Limited",
-   "First Listing Date": "25-Nov-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pennar Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "JINDWORLD",
-   "ISIN": "INE247D01039",
-   "Company": "Jindal Worldwide Limited",
-   "First Listing Date": "25-Nov-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Worldwide Limited"
  },
  {
+   "Code": "17027970",
    "Symbol": "GRAVITA",
-   "ISIN": "INE024L01027",
-   "Company": "Gravita India Limited",
-   "First Listing Date": "16-Nov-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gravita India Limited"
  },
  {
+   "Code": "11510002",
    "Symbol": "ANDHRACEMT",
-   "ISIN": "INE666E01012",
-   "Company": "Andhra Cements Limited",
-   "First Listing Date": "08-Nov-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Andhra Cements Limited"
  },
  {
+   "Code": "12080062",
    "Symbol": "IOLCP",
-   "ISIN": "INE485C01011",
-   "Company": "IOL Chemicals and Pharmaceuticals Limited",
-   "First Listing Date": "08-Nov-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IOL Chemicals and Pharmaceuticals Limited"
  },
  {
+   "Code": "15110007",
    "Symbol": "COALINDIA",
-   "ISIN": "INE522F01014",
-   "Company": "Coal India Limited",
-   "First Listing Date": "04-Nov-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Coal India Limited"
  },
  {
+   "Code": "14010233",
    "Symbol": "RESPONIND",
-   "ISIN": "INE688D01026",
-   "Company": "Responsive Industries Limited",
-   "First Listing Date": "29-Oct-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Responsive Industries Limited"
  },
  {
+   "Code": "14010124",
    "Symbol": "CGCL",
-   "ISIN": "INE180C01026",
-   "Company": "Capri Global Capital Limited",
-   "First Listing Date": "29-Oct-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Capri Global Capital Limited"
  },
  {
+   "Code": "11621016",
    "Symbol": "PRESTIGE",
-   "ISIN": "INE811K01011",
-   "Company": "Prestige Estates Projects Limited",
-   "First Listing Date": "27-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prestige Estates Projects Limited"
  },
  {
+   "Code": "15600061",
    "Symbol": "GAL",
-   "ISIN": "INE482J01021",
-   "Company": "Gyscoal Alloys Limited",
-   "First Listing Date": "27-Oct-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gyscoal Alloys Limited"
  },
  {
+   "Code": "11621009",
    "Symbol": "OBEROIRLTY",
-   "ISIN": "INE093I01010",
-   "Company": "Oberoi Realty Limited",
-   "First Listing Date": "20-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oberoi Realty Limited"
  },
  {
+   "Code": "13520348",
    "Symbol": "CEBBCO",
-   "ISIN": "INE209L01016",
-   "Company": "Commercial Engineers & Body Builders Co Limited",
-   "First Listing Date": "18-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Commercial Engineers & Body Builders Co Limited"
  },
  {
+   "Code": "15640009",
    "Symbol": "BEDMUTHA",
-   "ISIN": "INE844K01012",
-   "Company": "Bedmutha Industries Limited",
-   "First Listing Date": "14-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bedmutha Industries Limited"
  },
  {
+   "Code": "11600156",
    "Symbol": "ASHOKA",
-   "ISIN": "INE442H01029",
-   "Company": "Ashoka Buildcon Limited",
-   "First Listing Date": "14-Oct-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ashoka Buildcon Limited"
  },
  {
+   "Code": "17025082",
    "Symbol": "WABAG",
-   "ISIN": "INE956G01038",
-   "Company": "VA Tech Wabag Limited",
-   "First Listing Date": "13-Oct-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VA Tech Wabag Limited"
  },
  {
+   "Code": "16070113",
    "Symbol": "CANTABIL",
-   "ISIN": "INE068L01016",
-   "Company": "Cantabil Retail India Limited",
-   "First Listing Date": "12-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cantabil Retail India Limited"
  },
  {
-   "Symbol": "GALLISPAT",
-   "ISIN": "INE528K01029",
-   "Company": "Gallantt Ispat Limited",
-   "First Listing Date": "11-Oct-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15130276",
    "Symbol": "GREENPOWER",
-   "ISIN": "INE999K01014",
-   "Company": "Orient Green Power Company Limited",
-   "First Listing Date": "08-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Green Power Company Limited"
  },
  {
+   "Code": "11300006",
+   "Symbol": "GALLISPAT",
+   "Name": "Gallantt Ispat Limited"
+ },
+ {
+   "Code": "15210030",
    "Symbol": "RAMKY",
-   "ISIN": "INE874I01013",
-   "Company": "Ramky Infrastructure Limited",
-   "First Listing Date": "08-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ramky Infrastructure Limited"
  },
  {
+   "Code": "17040405",
    "Symbol": "EROSMEDIA",
-   "ISIN": "INE416L01017",
-   "Company": "Eros International Media Limited",
-   "First Listing Date": "06-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eros International Media Limited"
  },
  {
-   "Symbol": "CAREERP",
-   "ISIN": "INE521J01018",
-   "Company": "Career Point Limited",
-   "First Listing Date": "06-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14011115",
    "Symbol": "SASTASUNDR",
-   "ISIN": "INE019J01013",
-   "Company": "Sastasundar Ventures Limited",
-   "First Listing Date": "05-Oct-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sastasundar Ventures Limited"
  },
  {
+   "Code": "17027840",
+   "Symbol": "CAREERP",
+   "Name": "Career Point Limited"
+ },
+ {
+   "Code": "",
    "Symbol": "KILITCH",
-   "ISIN": "INE729D01010",
-   "Company": "Kilitch Drugs (India) Limited",
-   "First Listing Date": "29-Sep-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kilitch Drugs (India) Limited"
  },
  {
-   "Symbol": "DEEPAKNTR",
-   "ISIN": "INE288B01029",
-   "Company": "Deepak Nitrite Limited",
-   "First Listing Date": "29-Sep-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "",
    "Symbol": "ORISSAMINE",
-   "ISIN": "INE725E01024",
-   "Company": "The Orissa Minerals Development Company Limited",
-   "First Listing Date": "29-Sep-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Orissa Minerals Development Company Limited"
  },
  {
+   "Code": "14090999",
    "Symbol": "WELINV",
-   "ISIN": "INE389K01018",
-   "Company": "Welspun Investments and Commercials Limited",
-   "First Listing Date": "20-Sep-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Welspun Investments and Commercials Limited"
  },
  {
+   "Code": "11050075",
    "Symbol": "ADFFOODS",
-   "ISIN": "INE982B01019",
-   "Company": "ADF Foods Limited",
-   "First Listing Date": "15-Sep-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ADF Foods Limited"
  },
  {
+   "Code": "15100035",
    "Symbol": "HINDCOPPER",
-   "ISIN": "INE531E01026",
-   "Company": "Hindustan Copper Limited",
-   "First Listing Date": "15-Sep-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Copper Limited"
  },
  {
-   "Symbol": "GPPL",
-   "ISIN": "INE517F01014",
-   "Company": "Gujarat Pipavav Port Limited",
-   "First Listing Date": "09-Sep-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15580114",
    "Symbol": "PRAKASHSTL",
-   "ISIN": "INE696K01024",
-   "Company": "Prakash Steelage Limited",
-   "First Listing Date": "25-Aug-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prakash Steelage Limited"
  },
  {
+   "Code": "16680010",
+   "Symbol": "GPPL",
+   "Name": "Gujarat Pipavav Port Limited"
+ },
+ {
+   "Code": "",
    "Symbol": "UGARSUGAR",
-   "ISIN": "INE071E01023",
-   "Company": "The Ugar Sugar Works Limited",
-   "First Listing Date": "23-Aug-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Ugar Sugar Works Limited"
  },
  {
+   "Code": "12540209",
    "Symbol": "PDPL",
-   "ISIN": "INE904D01019",
-   "Company": "Parenteral Drugs (India) Limited",
-   "First Listing Date": "19-Aug-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Parenteral Drugs (India) Limited"
  },
  {
+   "Code": "12520177",
    "Symbol": "BAJAJCON",
-   "ISIN": "INE933K01021",
-   "Company": "Bajaj Consumer Care Limited",
-   "First Listing Date": "18-Aug-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Consumer Care Limited"
  },
  {
+   "Code": "14090014",
    "Symbol": "IITL",
-   "ISIN": "INE886A01014",
-   "Company": "Industrial Investment Trust Limited",
-   "First Listing Date": "17-Aug-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Industrial Investment Trust Limited"
  },
  {
+   "Code": "16620085",
    "Symbol": "AHLEAST",
-   "ISIN": "INE926K01017",
-   "Company": "Asian Hotels (East) Limited",
-   "First Listing Date": "11-Aug-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asian Hotels (East) Limited"
  },
  {
+   "Code": "16620084",
    "Symbol": "AHLWEST",
-   "ISIN": "INE915K01010",
-   "Company": "Asian Hotels (West) Limited",
-   "First Listing Date": "05-Aug-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asian Hotels (West) Limited"
  },
  {
+   "Code": "11620978",
    "Symbol": "EMAMIREAL",
-   "ISIN": "INE778K01012",
-   "Company": "Emami Realty Limited",
-   "First Listing Date": "28-Jul-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emami Realty Limited"
  },
  {
+   "Code": "12530001",
    "Symbol": "BLISSGVS",
-   "ISIN": "INE416D01022",
-   "Company": "Bliss GVS Pharma Limited",
-   "First Listing Date": "26-Jul-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bliss GVS Pharma Limited"
  },
  {
+   "Code": "15620001",
    "Symbol": "IMFA",
-   "ISIN": "INE919H01018",
-   "Company": "Indian Metals & Ferro Alloys Limited",
-   "First Listing Date": "23-Jul-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indian Metals & Ferro Alloys Limited"
  },
  {
+   "Code": "17080023",
    "Symbol": "HMVL",
-   "ISIN": "INE871K01015",
-   "Company": "Hindustan Media Ventures Limited",
-   "First Listing Date": "21-Jul-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Media Ventures Limited"
  },
  {
+   "Code": "11100009",
    "Symbol": "TI",
-   "ISIN": "INE133E01013",
-   "Company": "Tilaknagar Industries Limited",
-   "First Listing Date": "16-Jul-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tilaknagar Industries Limited"
  },
  {
-   "Symbol": "TECHNOFAB",
-   "ISIN": "INE509K01011",
-   "Company": "Technofab Engineering Limited",
-   "First Listing Date": "16-Jul-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13190175",
    "Symbol": "UMESLTD",
-   "ISIN": "INE240C01028",
-   "Company": "Usha Martin Education & Solutions Limited",
-   "First Listing Date": "12-Jul-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Usha Martin Education & Solutions Limited"
  },
  {
+   "Code": "13530029",
+   "Symbol": "TECHNOFAB",
+   "Name": "Technofab Engineering Limited"
+ },
+ {
+   "Code": "12080004",
+   "Symbol": "DEEPAKNTR",
+   "Name": "Deepak Nitrite Limited"
+ },
+ {
+   "Code": "12540922",
    "Symbol": "PARABDRUGS",
-   "ISIN": "INE618H01016",
-   "Company": "Parabolic Drugs Limited",
-   "First Listing Date": "01-Jul-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Parabolic Drugs Limited"
  },
  {
+   "Code": "13610017",
    "Symbol": "KIRLOSIND",
-   "ISIN": "INE250A01039",
-   "Company": "Kirloskar Industries Limited",
-   "First Listing Date": "24-Jun-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kirloskar Industries Limited"
  },
  {
+   "Code": "11100021",
    "Symbol": "PIONDIST",
-   "ISIN": "INE889E01010",
-   "Company": "Pioneer Distilleries Limited",
-   "First Listing Date": "15-Jun-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pioneer Distilleries Limited"
  },
  {
+   "Code": "17020377",
    "Symbol": "SUNDARAM",
-   "ISIN": "INE108E01023",
-   "Company": "Sundaram Multi Pap Limited",
-   "First Listing Date": "02-Jun-2010",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sundaram Multi Pap Limited"
  },
  {
+   "Code": "11620144",
    "Symbol": "JPINFRATEC",
-   "ISIN": "INE099J01015",
-   "Company": "Jaypee Infratech Limited",
-   "First Listing Date": "21-May-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jaypee Infratech Limited"
  },
  {
+   "Code": "15130124",
    "Symbol": "SJVN",
-   "ISIN": "INE002L01015",
-   "Company": "SJVN Limited",
-   "First Listing Date": "20-May-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SJVN Limited"
  },
  {
+   "Code": "15600003",
    "Symbol": "KSL",
-   "ISIN": "INE907A01026",
-   "Company": "Kalyani Steels Limited",
-   "First Listing Date": "19-May-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kalyani Steels Limited"
  },
  {
-   "Symbol": "TARAPUR",
-   "ISIN": "INE747K01017",
-   "Company": "Tarapur Transformers Limited",
-   "First Listing Date": "18-May-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11620954",
    "Symbol": "NITESHEST",
-   "ISIN": "INE639K01016",
-   "Company": "NEL Holdings Limited",
-   "First Listing Date": "13-May-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NEL Holdings Limited"
  },
  {
+   "Code": "15100054",
+   "Symbol": "TARAPUR",
+   "Name": "Tarapur Transformers Limited"
+ },
+ {
+   "Code": "17027640",
    "Symbol": "TALWALKARS",
-   "ISIN": "INE502K01016",
-   "Company": "Talwalkars Better Value Fitness Limited",
-   "First Listing Date": "10-May-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Talwalkars Better Value Fitness Limited"
  },
  {
+   "Code": "14091019",
    "Symbol": "KIRLOSBROS",
-   "ISIN": "INE732A01036",
-   "Company": "Kirloskar Brothers Limited",
-   "First Listing Date": "20-Apr-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kirloskar Brothers Limited"
  },
  {
-   "Symbol": "ISFT",
-   "ISIN": "INE566K01011",
-   "Company": "Intrasoft Technologies Limited",
-   "First Listing Date": "12-Apr-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16560001",
    "Symbol": "ASIANHOTNR",
-   "ISIN": "INE363A01022",
-   "Company": "Asian Hotels (North) Limited",
-   "First Listing Date": "07-Apr-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asian Hotels (North) Limited"
  },
  {
-   "Symbol": "WHIRLPOOL",
-   "ISIN": "INE716A01013",
-   "Company": "Whirlpool of India Limited",
-   "First Listing Date": "06-Apr-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17040371",
+   "Symbol": "ISFT",
+   "Name": "Intrasoft Technologies Limited"
  },
  {
+   "Code": "13191103",
    "Symbol": "PERSISTENT",
-   "ISIN": "INE262H01013",
-   "Company": "Persistent Systems Limited",
-   "First Listing Date": "06-Apr-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Persistent Systems Limited"
  },
  {
+   "Code": "13180001",
+   "Symbol": "WHIRLPOOL",
+   "Name": "Whirlpool of India Limited"
+ },
+ {
+   "Code": "16490331",
    "Symbol": "PRADIP",
-   "ISIN": "INE495J01015",
-   "Company": "Pradip Overseas Limited",
-   "First Listing Date": "05-Apr-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pradip Overseas Limited"
  },
  {
+   "Code": "13520033",
    "Symbol": "LGBBROSLTD",
-   "ISIN": "INE337A01034",
-   "Company": "LG Balakrishnan & Bros Limited",
-   "First Listing Date": "30-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "LG Balakrishnan & Bros Limited"
  },
  {
-   "Symbol": "TRF",
-   "ISIN": "INE391D01019",
-   "Company": "TRF Limited",
-   "First Listing Date": "26-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14030059",
    "Symbol": "UNITEDBNK",
-   "ISIN": "INE695A01019",
-   "Company": "United Bank of India",
-   "First Listing Date": "18-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "United Bank of India"
  },
  {
+   "Code": "13510013",
+   "Symbol": "TRF",
+   "Name": "TRF Limited"
+ },
+ {
+   "Code": "11600159",
    "Symbol": "MANINFRA",
-   "ISIN": "INE949H01023",
-   "Company": "Man Infraconstruction Limited",
-   "First Listing Date": "11-Mar-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Man Infraconstruction Limited"
  },
  {
+   "Code": "12190031",
    "Symbol": "TEXMOPIPES",
-   "ISIN": "INE141K01013",
-   "Company": "Texmo Pipes and Products Limited",
-   "First Listing Date": "10-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Texmo Pipes and Products Limited"
  },
  {
+   "Code": "16690075",
    "Symbol": "DEEPIND",
-   "ISIN": "INE677H01012",
-   "Company": "Deep Industries Limited",
-   "First Listing Date": "09-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Deep Industries Limited"
  },
  {
+   "Code": "13150011",
    "Symbol": "KECL",
-   "ISIN": "INE134B01017",
-   "Company": "Kirloskar Electric Company Limited",
-   "First Listing Date": "09-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kirloskar Electric Company Limited"
  },
  {
+   "Code": "17020175",
    "Symbol": "ORIENTLTD",
-   "ISIN": "INE609C01024",
-   "Company": "Orient Press Limited",
-   "First Listing Date": "03-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Press Limited"
  },
  {
+   "Code": "11600362",
    "Symbol": "ARSSINFRA",
-   "ISIN": "INE267I01010",
-   "Company": "ARSS Infrastructure Projects Limited",
-   "First Listing Date": "03-Mar-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ARSS Infrastructure Projects Limited"
  },
  {
+   "Code": "17040367",
    "Symbol": "HATHWAY",
-   "ISIN": "INE982F01036",
-   "Company": "Hathway Cable & Datacom Limited",
-   "First Listing Date": "25-Feb-2010",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hathway Cable & Datacom Limited"
  },
  {
+   "Code": "11620116",
    "Symbol": "DBREALTY",
-   "ISIN": "INE879I01012",
-   "Company": "D B Realty Limited",
-   "First Listing Date": "24-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "D B Realty Limited"
  },
  {
+   "Code": "12200117",
    "Symbol": "EMMBI",
-   "ISIN": "INE753K01015",
-   "Company": "Emmbi Industries Limited",
-   "First Listing Date": "24-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emmbi Industries Limited"
  },
  {
-   "Symbol": "THANGAMAYL",
-   "ISIN": "INE085J01014",
-   "Company": "Thangamayil Jewellery Limited",
-   "First Listing Date": "19-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11620941",
    "Symbol": "VASCONEQ",
-   "ISIN": "INE893I01013",
-   "Company": "Vascon Engineers Limited",
-   "First Listing Date": "15-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vascon Engineers Limited"
  },
  {
-   "Symbol": "SYNCOM",
-   "ISIN": "INE602K01014",
-   "Company": "Syncom Healthcare Limited",
-   "First Listing Date": "15-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15070160",
+   "Symbol": "THANGAMAYL",
+   "Name": "Thangamayil Jewellery Limited"
  },
  {
+   "Code": "11290023",
    "Symbol": "JUBLFOOD",
-   "ISIN": "INE797F01012",
-   "Company": "Jubilant Foodworks Limited",
-   "First Listing Date": "08-Feb-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jubilant Foodworks Limited"
  },
  {
-   "Symbol": "MBLINFRA",
-   "ISIN": "INE912H01013",
-   "Company": "MBL Infrastructures Limited",
-   "First Listing Date": "11-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12540867",
+   "Symbol": "SYNCOM",
+   "Name": "Syncom Healthcare Limited"
  },
  {
+   "Code": "12540008",
    "Symbol": "ABBOTINDIA",
-   "ISIN": "INE358A01014",
-   "Company": "Abbott India Limited",
-   "First Listing Date": "08-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Abbott India Limited"
  },
  {
-   "Symbol": "NESTLEIND",
-   "ISIN": "INE239A01016",
-   "Company": "Nestle India Limited",
-   "First Listing Date": "08-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11600361",
+   "Symbol": "MBLINFRA",
+   "Name": "MBL Infrastructures Limited"
  },
  {
+   "Code": "12120001",
    "Symbol": "BAYERCROP",
-   "ISIN": "INE462A01022",
-   "Company": "Bayer Cropscience Limited",
-   "First Listing Date": "08-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bayer Cropscience Limited"
  },
  {
-   "Symbol": "DBCORP",
-   "ISIN": "INE950I01011",
-   "Company": "D.B.Corp Limited",
-   "First Listing Date": "06-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11120007",
+   "Symbol": "NESTLEIND",
+   "Name": "Nestle India Limited"
  },
  {
+   "Code": "12520018.05",
    "Symbol": "GODREJPROP",
-   "ISIN": "INE484J01027",
-   "Company": "Godrej Properties Limited",
-   "First Listing Date": "05-Jan-2010",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godrej Properties Limited"
  },
  {
-   "Symbol": "JSWENERGY",
-   "ISIN": "INE121E01018",
-   "Company": "JSW Energy Limited",
-   "First Listing Date": "04-Jan-2010",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17080067",
+   "Symbol": "DBCORP",
+   "Name": "D.B.Corp Limited"
  },
  {
+   "Code": "16690191",
    "Symbol": "DLINKINDIA",
-   "ISIN": "INE250K01012",
-   "Company": "D-Link (India) Limited",
-   "First Listing Date": "18-Dec-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "D-Link (India) Limited"
  },
  {
-   "Symbol": "GILLANDERS",
-   "ISIN": "INE047B01011",
-   "Company": "Gillanders Arbuthnot & Company Limited",
-   "First Listing Date": "14-Dec-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15130147",
+   "Symbol": "JSWENERGY",
+   "Name": "JSW Energy Limited"
  },
  {
+   "Code": "15530028",
    "Symbol": "ARSHIYA",
-   "ISIN": "INE968D01022",
-   "Company": "Arshiya Limited",
-   "First Listing Date": "14-Dec-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arshiya Limited"
  },
  {
-   "Symbol": "AHLUCONT",
-   "ISIN": "INE758C01029",
-   "Company": "Ahluwalia Contracts (India) Limited",
-   "First Listing Date": "14-Dec-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11040009",
+   "Symbol": "GILLANDERS",
+   "Name": "Gillanders Arbuthnot & Company Limited"
  },
  {
+   "Code": "17090024",
    "Symbol": "COX&KINGS",
-   "ISIN": "INE008I01026",
-   "Company": "Cox & Kings Limited",
-   "First Listing Date": "11-Dec-2009",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cox & Kings Limited"
  },
  {
-   "Symbol": "SHILPAMED",
-   "ISIN": "INE790G01031",
-   "Company": "Shilpa Medicare Limited",
-   "First Listing Date": "03-Dec-2009",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11600049",
+   "Symbol": "AHLUCONT",
+   "Name": "Ahluwalia Contracts (India) Limited"
  },
  {
+   "Code": "17024958",
    "Symbol": "REFEX",
-   "ISIN": "INE056I01017",
-   "Company": "Refex Industries Limited",
-   "First Listing Date": "03-Dec-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Refex Industries Limited"
  },
  {
-   "Symbol": "SARDAEN",
-   "ISIN": "INE385C01013",
-   "Company": "Sarda Energy & Minerals Limited",
-   "First Listing Date": "03-Dec-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12540270",
+   "Symbol": "SHILPAMED",
+   "Name": "Shilpa Medicare Limited"
  },
  {
+   "Code": "12540651",
    "Symbol": "ASTEC",
-   "ISIN": "INE563J01010",
-   "Company": "Astec LifeSciences Limited",
-   "First Listing Date": "25-Nov-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Astec LifeSciences Limited"
  },
  {
-   "Symbol": "DEN",
-   "ISIN": "INE947J01015",
-   "Company": "Den Networks Limited",
-   "First Listing Date": "24-Nov-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15620015",
+   "Symbol": "SARDAEN",
+   "Name": "Sarda Energy & Minerals Limited"
  },
  {
+   "Code": "14580040",
    "Symbol": "SUNTECK",
-   "ISIN": "INE805D01034",
-   "Company": "Sunteck Realty Limited",
-   "First Listing Date": "13-Nov-2009",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sunteck Realty Limited"
  },
  {
-   "Symbol": "ZYDUSWELL",
-   "ISIN": "INE768C01010",
-   "Company": "Zydus Wellness Limited",
-   "First Listing Date": "13-Nov-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17040361",
+   "Symbol": "DEN",
+   "Name": "Den Networks Limited"
  },
  {
+   "Code": "15130185",
    "Symbol": "RTNPOWER",
-   "ISIN": "INE399K01017",
-   "Company": "RattanIndia Power Limited",
-   "First Listing Date": "30-Oct-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RattanIndia Power Limited"
  },
  {
+   "Code": "13191377",
    "Symbol": "EXPLEOSOL",
-   "ISIN": "INE201K01015",
-   "Company": "Expleo Solutions Limited",
-   "First Listing Date": "26-Oct-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Expleo Solutions Limited"
  },
  {
+   "Code": "13030039",
    "Symbol": "EUROMULTI",
-   "ISIN": "INE063J01011",
-   "Company": "Euro Multivision Limited",
-   "First Listing Date": "15-Oct-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Euro Multivision Limited"
  },
  {
+   "Code": "11060041",
+   "Symbol": "ZYDUSWELL",
+   "Name": "Zydus Wellness Limited"
+ },
+ {
+   "Code": "16680028",
    "Symbol": "RNAVAL",
-   "ISIN": "INE542F01012",
-   "Company": "Reliance Naval and Engineering Limited",
-   "First Listing Date": "09-Oct-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Naval and Engineering Limited"
  },
  {
+   "Code": "12140038",
    "Symbol": "OIL",
-   "ISIN": "INE274J01014",
-   "Company": "Oil India Limited",
-   "First Listing Date": "30-Sep-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oil India Limited"
  },
  {
-   "Symbol": "GLOBUSSPR",
-   "ISIN": "INE615I01010",
-   "Company": "Globus Spirits Limited",
-   "First Listing Date": "23-Sep-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16490325",
    "Symbol": "JINDCOT",
-   "ISIN": "INE904J01016",
-   "Company": "Jindal Cotex Limited",
-   "First Listing Date": "22-Sep-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Cotex Limited"
  },
  {
+   "Code": "15130012",
    "Symbol": "NHPC",
-   "ISIN": "INE848E01016",
-   "Company": "NHPC Limited",
-   "First Listing Date": "01-Sep-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NHPC Limited"
  },
  {
+   "Code": "11100046",
+   "Symbol": "GLOBUSSPR",
+   "Name": "Globus Spirits Limited"
+ },
+ {
+   "Code": "16610491",
    "Symbol": "ADANIPOWER",
-   "ISIN": "INE814H01011",
-   "Company": "Adani Power Limited",
-   "First Listing Date": "20-Aug-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Adani Power Limited"
  },
  {
+   "Code": "13240070",
    "Symbol": "EXCEL",
-   "ISIN": "INE688J01015",
-   "Company": "Excel Realty N Infra Limited",
-   "First Listing Date": "03-Aug-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Excel Realty N Infra Limited"
  },
  {
+   "Code": "12070094",
    "Symbol": "VINATIORGA",
-   "ISIN": "INE410B01029",
-   "Company": "Vinati Organics Limited",
-   "First Listing Date": "28-Jul-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vinati Organics Limited"
  },
  {
+   "Code": "14540001",
    "Symbol": "GKWLIMITED",
-   "ISIN": "INE528A01020",
-   "Company": "GKW Limited",
-   "First Listing Date": "20-Jul-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GKW Limited"
  },
  {
+   "Code": "16560125",
    "Symbol": "MHRIL",
-   "ISIN": "INE998I01010",
-   "Company": "Mahindra Holidays & Resorts India Limited",
-   "First Listing Date": "16-Jul-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra Holidays & Resorts India Limited"
  },
  {
+   "Code": "15550007",
    "Symbol": "AJMERA",
-   "ISIN": "INE298G01027",
-   "Company": "Ajmera Realty & Infra India Limited",
-   "First Listing Date": "16-Jun-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ajmera Realty & Infra India Limited"
  },
  {
+   "Code": "16490308",
    "Symbol": "ARROWTEX",
-   "ISIN": "INE933J01015",
-   "Company": "Arrow Textiles Limited",
-   "First Listing Date": "11-May-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arrow Textiles Limited"
  },
  {
-   "Symbol": "HINDNATGLS",
-   "ISIN": "INE952A01022",
-   "Company": "Hindusthan National Glass & Industries Limited",
-   "First Listing Date": "15-Apr-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "10670003",
    "Symbol": "HARITASEAT",
-   "ISIN": "INE939D01015",
-   "Company": "Harita Seating Systems Limited",
-   "First Listing Date": "06-Apr-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Harita Seating Systems Limited"
  },
  {
-   "Symbol": "MAWANASUG",
-   "ISIN": "INE636A01039",
-   "Company": "Mawana Sugars Limited",
-   "First Listing Date": "20-Mar-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14580035",
+   "Symbol": "HINDNATGLS",
+   "Name": "Hindusthan National Glass & Industries Limited"
  },
  {
+   "Code": "16070001",
    "Symbol": "FELDVR",
-   "ISIN": "IN9623B01058",
-   "Company": "Future Enterprises Limited",
-   "First Listing Date": "13-Feb-2009",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Future Enterprises Limited"
  },
  {
+   "Code": "11080022",
+   "Symbol": "MAWANASUG",
+   "Name": "Mawana Sugars Limited"
+ },
+ {
+   "Code": "13191234",
    "Symbol": "GISOLUTION",
-   "ISIN": "INE065J01016",
-   "Company": "GI Engineering Solutions Limited",
-   "First Listing Date": "30-Jan-2009",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GI Engineering Solutions Limited"
  },
  {
+   "Code": "",
    "Symbol": "COUNCODOS",
-   "ISIN": "INE695B01025",
-   "Company": "Country Condo's Limited",
-   "First Listing Date": "22-Jan-2009",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Country Condo's Limited"
  },
  {
+   "Code": "14010075",
    "Symbol": "JIKIND",
-   "ISIN": "INE026B01049",
-   "Company": "JIK Industries Limited",
-   "First Listing Date": "26-Nov-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JIK Industries Limited"
  },
  {
+   "Code": "12060043",
    "Symbol": "ALKALI",
-   "ISIN": "INE773I01017",
-   "Company": "Alkali Metals Limited",
-   "First Listing Date": "06-Nov-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alkali Metals Limited"
  },
  {
+   "Code": "10510008",
    "Symbol": "TATAMTRDVR",
-   "ISIN": "IN9155A01020",
-   "Company": "Tata Motors Limited",
-   "First Listing Date": "05-Nov-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Motors Limited"
  },
  {
+   "Code": "12540199",
    "Symbol": "NEULANDLAB",
-   "ISIN": "INE794A01010",
-   "Company": "Neuland Laboratories Limited",
-   "First Listing Date": "13-Oct-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Neuland Laboratories Limited"
  },
  {
+   "Code": "12060010",
    "Symbol": "JOCIL",
-   "ISIN": "INE839G01010",
-   "Company": "Jocil Limited",
-   "First Listing Date": "08-Oct-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jocil Limited"
  },
  {
+   "Code": "14010003",
    "Symbol": "INDBANK",
-   "ISIN": "INE841B01017",
-   "Company": "Indbank Merchant Banking Services Limited",
-   "First Listing Date": "08-Oct-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indbank Merchant Banking Services Limited"
  },
  {
+   "Code": "15110088",
    "Symbol": "20MICRONS",
-   "ISIN": "INE144J01027",
-   "Company": "20 Microns Limited",
-   "First Listing Date": "06-Oct-2008",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "20 Microns Limited"
  },
  {
+   "Code": "10660012",
    "Symbol": "WABCOINDIA",
-   "ISIN": "INE342J01019",
-   "Company": "WABCO India Limited",
-   "First Listing Date": "01-Oct-2008",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "WABCO India Limited"
  },
  {
+   "Code": "17024845",
    "Symbol": "SICAGEN",
-   "ISIN": "INE176J01011",
-   "Company": "Sicagen India Limited",
-   "First Listing Date": "21-Aug-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sicagen India Limited"
  },
  {
+   "Code": "11620132",
    "Symbol": "LPDC",
-   "ISIN": "INE197J01017",
-   "Company": "Landmark Property Development Company Limited",
-   "First Listing Date": "12-Aug-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Landmark Property Development Company Limited"
  },
  {
+   "Code": "13570040",
    "Symbol": "LGBFORGE",
-   "ISIN": "INE201J01017",
-   "Company": "LGB Forge Limited",
-   "First Listing Date": "01-Aug-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "LGB Forge Limited"
  },
  {
-   "Symbol": "OISL",
-   "ISIN": "INE196J01019",
-   "Company": "OCL Iron and Steel Limited",
-   "First Listing Date": "01-Aug-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020003",
    "Symbol": "KOKUYOCMLN",
-   "ISIN": "INE760A01029",
-   "Company": "Kokuyo Camlin Limited",
-   "First Listing Date": "28-Jul-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kokuyo Camlin Limited"
  },
  {
+   "Code": "11090043",
    "Symbol": "UBL",
-   "ISIN": "INE686F01025",
-   "Company": "United Breweries Limited",
-   "First Listing Date": "28-Jul-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "United Breweries Limited"
  },
  {
+   "Code": "",
    "Symbol": "VINYLINDIA",
-   "ISIN": "INE250B01029",
-   "Company": "Vinyl Chemicals (India) Limited",
-   "First Listing Date": "21-Jul-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vinyl Chemicals (India) Limited"
  },
  {
+   "Code": "15130155",
    "Symbol": "KSK",
-   "ISIN": "INE143H01015",
-   "Company": "KSK Energy Ventures Limited",
-   "First Listing Date": "14-Jul-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KSK Energy Ventures Limited"
  },
  {
+   "Code": "16550084",
    "Symbol": "LOTUSEYE",
-   "ISIN": "INE947I01017",
-   "Company": "Lotus Eye Hospital and Institute Limited",
-   "First Listing Date": "11-Jul-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lotus Eye Hospital and Institute Limited"
  },
  {
+   "Code": "11570044",
    "Symbol": "ARCHIDPLY",
-   "ISIN": "INE877I01016",
-   "Company": "Archidply Industries Limited",
-   "First Listing Date": "04-Jul-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Archidply Industries Limited"
  },
  {
+   "Code": "13130005",
    "Symbol": "GET&D",
-   "ISIN": "INE200A01026",
-   "Company": "GE T&D India Limited",
-   "First Listing Date": "30-Jun-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GE T&D India Limited"
  },
  {
+   "Code": "11620123",
    "Symbol": "MVL",
-   "ISIN": "INE744I01034",
-   "Company": "MVL Limited",
-   "First Listing Date": "30-Jun-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MVL Limited"
  },
  {
+   "Code": "10610026",
    "Symbol": "RANEENGINE",
-   "ISIN": "INE222J01013",
-   "Company": "Rane Engine Valve Limited",
-   "First Listing Date": "24-Jun-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rane Engine Valve Limited"
  },
  {
+   "Code": "10660011",
    "Symbol": "RBL",
-   "ISIN": "INE244J01017",
-   "Company": "Rane Brake Lining Limited",
-   "First Listing Date": "20-Jun-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rane Brake Lining Limited"
  },
  {
+   "Code": "14090206",
    "Symbol": "ALMONDZ",
-   "ISIN": "INE326B01027",
-   "Company": "Almondz Global Securities Limited",
-   "First Listing Date": "16-Jun-2008",
-   "Face Value": 6,
-   "Paid Up Value": 6,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Almondz Global Securities Limited"
  },
  {
+   "Code": "12540671",
    "Symbol": "RPGLIFE",
-   "ISIN": "INE105J01010",
-   "Company": "RPG Life Sciences Limited",
-   "First Listing Date": "10-Jun-2008",
-   "Face Value": 8,
-   "Paid Up Value": 8,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RPG Life Sciences Limited"
  },
  {
+   "Code": "11120066",
    "Symbol": "GOKUL",
-   "ISIN": "INE020J01029",
-   "Company": "Gokul Refoils and Solvent Limited",
-   "First Listing Date": "04-Jun-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gokul Refoils and Solvent Limited"
  },
  {
+   "Code": "12540670",
    "Symbol": "PIRPHYTO",
-   "ISIN": "INE122J01015",
-   "Company": "Piramal Phytocare Limited",
-   "First Listing Date": "29-May-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Piramal Phytocare Limited"
  },
  {
+   "Code": "13010005",
    "Symbol": "DIGISPICE",
-   "ISIN": "INE927C01020",
-   "Company": "DiGiSPICE Technologies Limited",
-   "First Listing Date": "27-May-2008",
-   "Face Value": 3,
-   "Paid Up Value": 3,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DiGiSPICE Technologies Limited"
  },
  {
+   "Code": "10540026",
    "Symbol": "BAJAJ-AUTO",
-   "ISIN": "INE917I01010",
-   "Company": "Bajaj Auto Limited",
-   "First Listing Date": "26-May-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Auto Limited"
  },
  {
+   "Code": "14010665",
    "Symbol": "BAJAJFINSV",
-   "ISIN": "INE918I01018",
-   "Company": "Bajaj Finserv Limited",
-   "First Listing Date": "26-May-2008",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Finserv Limited"
  },
  {
+   "Code": "11050031",
    "Symbol": "ANIKINDS",
-   "ISIN": "INE087B01017",
-   "Company": "Anik Industries Limited",
-   "First Listing Date": "21-May-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Anik Industries Limited"
  },
  {
+   "Code": "16090072",
    "Symbol": "KIRIINDUS",
-   "ISIN": "INE415I01015",
-   "Company": "Kiri Industries Limited",
-   "First Listing Date": "22-Apr-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kiri Industries Limited"
  },
  {
+   "Code": "15130020",
    "Symbol": "DPSCLTD",
-   "ISIN": "INE360C01024",
-   "Company": "DPSC Limited",
-   "First Listing Date": "21-Apr-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DPSC Limited"
  },
  {
+   "Code": "13510068",
    "Symbol": "TWL",
-   "ISIN": "INE615H01020",
-   "Company": "Titagarh Wagons Limited",
-   "First Listing Date": "21-Apr-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Titagarh Wagons Limited"
  },
  {
+   "Code": "16560009",
    "Symbol": "EIHAHOTELS",
-   "ISIN": "INE276C01014",
-   "Company": "EIH Associated Hotels Limited",
-   "First Listing Date": "08-Apr-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "EIH Associated Hotels Limited"
  },
  {
+   "Code": "13510022",
    "Symbol": "NESCO",
-   "ISIN": "INE317F01035",
-   "Company": "Nesco Limited",
-   "First Listing Date": "08-Apr-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nesco Limited"
  },
  {
+   "Code": "11600094",
    "Symbol": "GAMMNINFRA",
-   "ISIN": "INE181G01025",
-   "Company": "Gammon Infrastructure Projects Limited",
-   "First Listing Date": "03-Apr-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gammon Infrastructure Projects Limited"
  },
  {
+   "Code": "14010497",
    "Symbol": "IBVENTURES",
-   "ISIN": "INE274G01010",
-   "Company": "Indiabulls Ventures Limited",
-   "First Listing Date": "02-Apr-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indiabulls Ventures Limited"
  },
  {
+   "Code": "16530004",
    "Symbol": "BALLARPUR",
-   "ISIN": "INE294A01037",
-   "Company": "Ballarpur Industries Limited",
-   "First Listing Date": "31-Mar-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ballarpur Industries Limited"
  },
  {
-   "Symbol": "VGUARD",
-   "ISIN": "INE951I01027",
-   "Company": "V-Guard Industries Limited",
-   "First Listing Date": "13-Mar-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14040025",
    "Symbol": "RECLTD",
-   "ISIN": "INE020B01018",
-   "Company": "REC Limited",
-   "First Listing Date": "12-Mar-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "REC Limited"
  },
  {
+   "Code": "14010584",
    "Symbol": "NAHARCAP",
-   "ISIN": "INE049I01012",
-   "Company": "Nahar Capital and Financial Services Limited",
-   "First Listing Date": "11-Mar-2008",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nahar Capital and Financial Services Limited"
  },
  {
+   "Code": "13191071",
    "Symbol": "GSS",
-   "ISIN": "INE871H01011",
-   "Company": "GSS Infotech Limited",
-   "First Listing Date": "07-Mar-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GSS Infotech Limited"
  },
  {
+   "Code": "11510013",
    "Symbol": "RAIN",
-   "ISIN": "INE855B01025",
-   "Company": "Rain Industries Limited",
-   "First Listing Date": "03-Mar-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rain Industries Limited"
  },
  {
+   "Code": "15110018",
    "Symbol": "NMDC",
-   "ISIN": "INE584A01023",
-   "Company": "NMDC Limited",
-   "First Listing Date": "03-Mar-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NMDC Limited"
  },
  {
+   "Code": "11580008",
    "Symbol": "SHALPAINTS",
-   "ISIN": "INE849C01026",
-   "Company": "Shalimar Paints Limited",
-   "First Listing Date": "03-Mar-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shalimar Paints Limited"
  },
  {
+   "Code": "11600148",
    "Symbol": "IRB",
-   "ISIN": "INE821I01014",
-   "Company": "IRB Infrastructure Developers Limited",
-   "First Listing Date": "25-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IRB Infrastructure Developers Limited"
  },
  {
+   "Code": "16070099",
    "Symbol": "BANG",
-   "ISIN": "INE863I01016",
-   "Company": "Bang Overseas Limited",
-   "First Listing Date": "20-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bang Overseas Limited"
  },
  {
+   "Code": "15150031",
    "Symbol": "SHRIRAMEPC",
-   "ISIN": "INE964H01014",
-   "Company": "Shriram EPC Limited",
-   "First Listing Date": "20-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shriram EPC Limited"
  },
  {
+   "Code": "13170007",
    "Symbol": "SUJANAUNI",
-   "ISIN": "INE216G01011",
-   "Company": "Sujana Universal Industries Limited",
-   "First Listing Date": "19-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sujana Universal Industries Limited"
  },
  {
+   "Code": "13150060",
+   "Symbol": "VGUARD",
+   "Name": "V-Guard Industries Limited"
+ },
+ {
+   "Code": "11600113",
    "Symbol": "TANTIACONS",
-   "ISIN": "INE388G01018",
-   "Company": "Tantia Constructions Limited",
-   "First Listing Date": "19-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tantia Constructions Limited"
  },
  {
+   "Code": "15200058",
    "Symbol": "ONMOBILE",
-   "ISIN": "INE809I01019",
-   "Company": "OnMobile Global Limited",
-   "First Listing Date": "19-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "OnMobile Global Limited"
  },
  {
+   "Code": "13520072",
    "Symbol": "HERCULES",
-   "ISIN": "INE688E01024",
-   "Company": "Hercules Hoists Limited",
-   "First Listing Date": "19-Feb-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hercules Hoists Limited"
  },
  {
+   "Code": "15510034",
+   "Symbol": "OISL",
+   "Name": "OCL Iron and Steel Limited"
+ },
+ {
+   "Code": "15210025",
    "Symbol": "KNRCON",
-   "ISIN": "INE634I01029",
-   "Company": "KNR Constructions Limited",
-   "First Listing Date": "18-Feb-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KNR Constructions Limited"
  },
  {
+   "Code": "15050050",
    "Symbol": "CORDSCABLE",
-   "ISIN": "INE792I01017",
-   "Company": "Cords Cable Industries Limited",
-   "First Listing Date": "13-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cords Cable Industries Limited"
  },
  {
+   "Code": "11600146",
    "Symbol": "JKIL",
-   "ISIN": "INE576I01022",
-   "Company": "J.Kumar Infraprojects Limited",
-   "First Listing Date": "12-Feb-2008",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "J.Kumar Infraprojects Limited"
  },
  {
+   "Code": "15130035",
    "Symbol": "RPOWER",
-   "ISIN": "INE614G01033",
-   "Company": "Reliance Power Limited",
-   "First Listing Date": "11-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Power Limited"
  },
  {
+   "Code": "14010479",
    "Symbol": "BIRLAMONEY",
-   "ISIN": "INE865C01022",
-   "Company": "Aditya Birla Money Limited",
-   "First Listing Date": "07-Feb-2008",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aditya Birla Money Limited"
  },
  {
+   "Code": "10680003",
    "Symbol": "CEATLTD",
-   "ISIN": "INE482A01020",
-   "Company": "CEAT Limited",
-   "First Listing Date": "01-Feb-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CEAT Limited"
  },
  {
+   "Code": "16030178",
    "Symbol": "AMBIKCO",
-   "ISIN": "INE540G01014",
-   "Company": "Ambika Cotton Mills Limited",
-   "First Listing Date": "29-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ambika Cotton Mills Limited"
  },
  {
+   "Code": "15140047",
    "Symbol": "KAVVERITEL",
-   "ISIN": "INE641C01019",
-   "Company": "Kavveri Telecom Products Limited",
-   "First Listing Date": "29-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kavveri Telecom Products Limited"
  },
  {
+   "Code": "10670071",
    "Symbol": "PPAP",
-   "ISIN": "INE095I01015",
-   "Company": "PPAP Automotive Limited",
-   "First Listing Date": "11-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PPAP Automotive Limited"
  },
  {
+   "Code": "16590010",
    "Symbol": "PATINTLOG",
-   "ISIN": "INE529D01014",
-   "Company": "Patel Integrated Logistics Limited",
-   "First Listing Date": "11-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Patel Integrated Logistics Limited"
  },
  {
+   "Code": "11040032",
    "Symbol": "DVL",
-   "ISIN": "INE477B01010",
-   "Company": "Dhunseri Ventures Limited",
-   "First Listing Date": "11-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dhunseri Ventures Limited"
  },
  {
+   "Code": "12120063",
    "Symbol": "ARIES",
-   "ISIN": "INE298I01015",
-   "Company": "Aries Agro Limited",
-   "First Listing Date": "11-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aries Agro Limited"
  },
  {
+   "Code": "17024027",
    "Symbol": "MANAKSIA",
-   "ISIN": "INE015D01022",
-   "Company": "Manaksia Limited",
-   "First Listing Date": "08-Jan-2008",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Manaksia Limited"
  },
  {
-   "Symbol": "BURNPUR",
-   "ISIN": "INE817H01014",
-   "Company": "Burnpur Cement Limited",
-   "First Listing Date": "03-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13520218",
    "Symbol": "BGRENERGY",
-   "ISIN": "INE661I01014",
-   "Company": "BGR Energy Systems Limited",
-   "First Listing Date": "03-Jan-2008",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BGR Energy Systems Limited"
  },
  {
+   "Code": "11510060",
+   "Symbol": "BURNPUR",
+   "Name": "Burnpur Cement Limited"
+ },
+ {
+   "Code": "13240056",
    "Symbol": "ECLERX",
-   "ISIN": "INE738I01010",
-   "Company": "eClerx Services Limited",
-   "First Listing Date": "31-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "eClerx Services Limited"
  },
  {
+   "Code": "11620110",
    "Symbol": "BRIGADE",
-   "ISIN": "INE791I01019",
-   "Company": "Brigade Enterprises Limited",
-   "First Listing Date": "31-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Brigade Enterprises Limited"
  },
  {
+   "Code": "15150029",
    "Symbol": "TRIL",
-   "ISIN": "INE763I01026",
-   "Company": "Transformers And Rectifiers (India) Limited",
-   "First Listing Date": "28-Dec-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Transformers And Rectifiers (India) Limited"
  },
  {
+   "Code": "14590041",
    "Symbol": "HITECHCORP",
-   "ISIN": "INE120D01012",
-   "Company": "Hitech Corporation Limited",
-   "First Listing Date": "20-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hitech Corporation Limited"
  },
  {
+   "Code": "11540021",
    "Symbol": "MADHAV",
-   "ISIN": "INE925C01016",
-   "Company": "Madhav Marbles and Granites Limited",
-   "First Listing Date": "20-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Madhav Marbles and Granites Limited"
  },
  {
+   "Code": "13560049",
    "Symbol": "KALYANIFRG",
-   "ISIN": "INE314G01014",
-   "Company": "Kalyani Forge Limited",
-   "First Listing Date": "20-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kalyani Forge Limited"
  },
  {
+   "Code": "12520131",
    "Symbol": "JYOTHYLAB",
-   "ISIN": "INE668F01031",
-   "Company": "Jyothy Labs Limited",
-   "First Listing Date": "19-Dec-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jyothy Labs Limited"
  },
  {
+   "Code": "12520001",
    "Symbol": "COLPAL",
-   "ISIN": "INE259A01022",
-   "Company": "Colgate Palmolive (India) Limited",
-   "First Listing Date": "17-Dec-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Colgate Palmolive (India) Limited"
  },
  {
+   "Code": "",
    "Symbol": "KAUSHALYA",
-   "ISIN": "INE234I01010",
-   "Company": "Kaushalya Infrastructure Development Corporation Limited",
-   "First Listing Date": "14-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kaushalya Infrastructure Development Corporation Limited"
  },
  {
+   "Code": "11620098",
    "Symbol": "KOLTEPATIL",
-   "ISIN": "INE094I01018",
-   "Company": "Kolte - Patil Developers Limited",
-   "First Listing Date": "13-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kolte - Patil Developers Limited"
  },
  {
-   "Symbol": "EDELWEISS",
-   "ISIN": "INE532F01054",
-   "Company": "Edelweiss Financial Services Limited",
-   "First Listing Date": "12-Dec-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15070075",
    "Symbol": "RGL",
-   "ISIN": "INE722H01016",
-   "Company": "Renaissance Global Limited",
-   "First Listing Date": "12-Dec-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Renaissance Global Limited"
  },
  {
-   "Symbol": "ADANIPORTS",
-   "ISIN": "INE742F01042",
-   "Company": "Adani Ports and Special Economic Zone Limited",
-   "First Listing Date": "27-Nov-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14010601",
+   "Symbol": "EDELWEISS",
+   "Name": "Edelweiss Financial Services Limited"
  },
  {
+   "Code": "11600041",
    "Symbol": "JMCPROJECT",
-   "ISIN": "INE890A01024",
-   "Company": "JMC Projects (India)  Limited",
-   "First Listing Date": "26-Nov-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JMC Projects (India)  Limited"
  },
  {
-   "Symbol": "ALKYLAMINE",
-   "ISIN": "INE150B01021",
-   "Company": "Alkyl Amines Chemicals Limited",
-   "First Listing Date": "26-Nov-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14620010",
    "Symbol": "RMCL",
-   "ISIN": "INE172H01014",
-   "Company": "Radha Madhav Corporation Limited",
-   "First Listing Date": "26-Nov-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Radha Madhav Corporation Limited"
  },
  {
+   "Code": "12070001",
+   "Symbol": "ALKYLAMINE",
+   "Name": "Alkyl Amines Chemicals Limited"
+ },
+ {
+   "Code": "11510058",
    "Symbol": "BVCL",
-   "ISIN": "INE139I01011",
-   "Company": "Barak Valley Cements Limited",
-   "First Listing Date": "23-Nov-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Barak Valley Cements Limited"
  },
  {
-   "Symbol": "RELIGARE",
-   "ISIN": "INE621H01010",
-   "Company": "Religare Enterprises Limited",
-   "First Listing Date": "21-Nov-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "SABTN",
-   "ISIN": "INE416A01036",
-   "Company": "Sri Adhikari Brothers Television Network Limited",
-   "First Listing Date": "16-Nov-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11120054",
    "Symbol": "CERA",
-   "ISIN": "INE739E01017",
-   "Company": "Cera Sanitaryware Limited",
-   "First Listing Date": "02-Nov-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cera Sanitaryware Limited"
  },
  {
+   "Code": "14010630",
+   "Symbol": "RELIGARE",
+   "Name": "Religare Enterprises Limited"
+ },
+ {
+   "Code": "17020330",
+   "Symbol": "SABTN",
+   "Name": "Sri Adhikari Brothers Television Network Limited"
+ },
+ {
+   "Code": "15060001.01",
    "Symbol": "DELTACORP",
-   "ISIN": "INE124G01033",
-   "Company": "Delta Corp Limited",
-   "First Listing Date": "02-Nov-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Delta Corp Limited"
  },
  {
+   "Code": "15130030",
    "Symbol": "ENERGYDEV",
-   "ISIN": "INE306C01019",
-   "Company": "Energy Development Company Limited",
-   "First Listing Date": "02-Nov-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Energy Development Company Limited"
  },
  {
+   "Code": "16610002",
    "Symbol": "BAJAJELEC",
-   "ISIN": "INE193E01025",
-   "Company": "Bajaj Electricals Limited",
-   "First Listing Date": "02-Nov-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Electricals Limited"
  },
  {
+   "Code": "12100008",
    "Symbol": "MANGCHEFER",
-   "ISIN": "INE558B01017",
-   "Company": "Mangalore Chemicals & Fertilizers Limited",
-   "First Listing Date": "22-Oct-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mangalore Chemicals & Fertilizers Limited"
  },
  {
+   "Code": "15040022",
    "Symbol": "MAANALU",
-   "ISIN": "INE215I01019",
-   "Company": "Maan Aluminium Limited",
-   "First Listing Date": "22-Oct-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maan Aluminium Limited"
  },
  {
+   "Code": "13110033",
    "Symbol": "CENTUM",
-   "ISIN": "INE320B01020",
-   "Company": "Centum Electronics Limited",
-   "First Listing Date": "05-Oct-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Centum Electronics Limited"
  },
  {
+   "Code": "15130029",
    "Symbol": "POWERGRID",
-   "ISIN": "INE752E01010",
-   "Company": "Power Grid Corporation of India Limited",
-   "First Listing Date": "05-Oct-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Power Grid Corporation of India Limited"
  },
  {
+   "Code": "11140043",
    "Symbol": "KSCL",
-   "ISIN": "INE455I01029",
-   "Company": "Kaveri Seed Company Limited",
-   "First Listing Date": "04-Oct-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kaveri Seed Company Limited"
  },
  {
-   "Symbol": "MAGNUM",
-   "ISIN": "INE387I01016",
-   "Company": "Magnum Ventures Limited",
-   "First Listing Date": "20-Sep-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14090890",
    "Symbol": "NAGREEKCAP",
-   "ISIN": "INE245I01016",
-   "Company": "Nagreeka Capital & Infrastructure Limited",
-   "First Listing Date": "18-Sep-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nagreeka Capital & Infrastructure Limited"
  },
  {
-   "Symbol": "INDOWIND",
-   "ISIN": "INE227G01018",
-   "Company": "Indowind Energy Limited",
-   "First Listing Date": "14-Sep-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16530167",
+   "Symbol": "MAGNUM",
+   "Name": "Magnum Ventures Limited"
  },
  {
+   "Code": "17025086",
+   "Symbol": "ADANIPORTS",
+   "Name": "Adani Ports and Special Economic Zone Limited"
+ },
+ {
+   "Code": "14010615",
    "Symbol": "MOTILALOFS",
-   "ISIN": "INE338I01027",
-   "Company": "Motilal Oswal Financial Services Limited",
-   "First Listing Date": "11-Sep-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Motilal Oswal Financial Services Limited"
  },
  {
-   "Symbol": "PURVA",
-   "ISIN": "INE323I01011",
-   "Company": "Puravankara Limited",
-   "First Listing Date": "30-Aug-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15130075",
+   "Symbol": "INDOWIND",
+   "Name": "Indowind Energy Limited"
  },
  {
+   "Code": "15510021",
    "Symbol": "MAHINDCIE",
-   "ISIN": "INE536H01010",
-   "Company": "Mahindra CIE Automotive Limited",
-   "First Listing Date": "30-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra CIE Automotive Limited"
  },
  {
-   "Symbol": "KPRMILL",
-   "ISIN": "INE930H01023",
-   "Company": "K.P.R. Mill Limited",
-   "First Listing Date": "28-Aug-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11620085",
+   "Symbol": "PURVA",
+   "Name": "Puravankara Limited"
  },
  {
+   "Code": "15620019",
    "Symbol": "SRIPIPES",
-   "ISIN": "INE943C01027",
-   "Company": "Srikalahasthi Pipes Limited",
-   "First Listing Date": "28-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Srikalahasthi Pipes Limited"
  },
  {
+   "Code": "16070089",
+   "Symbol": "KPRMILL",
+   "Name": "K.P.R. Mill Limited"
+ },
+ {
+   "Code": "15600055",
    "Symbol": "ISMTLTD",
-   "ISIN": "INE732F01019",
-   "Company": "ISMT Limited",
-   "First Listing Date": "28-Aug-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ISMT Limited"
  },
  {
+   "Code": "13191001",
    "Symbol": "TAKE",
-   "ISIN": "INE142I01023",
-   "Company": "Take Solutions Limited",
-   "First Listing Date": "27-Aug-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Take Solutions Limited"
  },
  {
+   "Code": "11540067",
    "Symbol": "ASIANTILES",
-   "ISIN": "INE022I01019",
-   "Company": "Asian Granito India Limited",
-   "First Listing Date": "23-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asian Granito India Limited"
  },
  {
+   "Code": "16490238",
    "Symbol": "SELMCL",
-   "ISIN": "INE105I01012",
-   "Company": "SEL Manufacturing Company Limited",
-   "First Listing Date": "21-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SEL Manufacturing Company Limited"
  },
  {
+   "Code": "14030013",
    "Symbol": "CENTRALBK",
-   "ISIN": "INE483A01010",
-   "Company": "Central Bank of India",
-   "First Listing Date": "21-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Central Bank of India"
  },
  {
+   "Code": "16560035",
    "Symbol": "VICEROY",
-   "ISIN": "INE048C01017",
-   "Company": "Viceroy Hotels Limited",
-   "First Listing Date": "21-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Viceroy Hotels Limited"
  },
  {
+   "Code": "13520150",
    "Symbol": "ELECTHERM",
-   "ISIN": "INE822G01016",
-   "Company": "Electrotherm (India) Limited",
-   "First Listing Date": "20-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Electrotherm (India) Limited"
  },
  {
+   "Code": "11620053",
    "Symbol": "OMAXE",
-   "ISIN": "INE800H01010",
-   "Company": "Omaxe Limited",
-   "First Listing Date": "09-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Omaxe Limited"
  },
  {
+   "Code": "16070011",
    "Symbol": "VIPCLOTHNG",
-   "ISIN": "INE450G01024",
-   "Company": "VIP Clothing Limited",
-   "First Listing Date": "06-Aug-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VIP Clothing Limited"
  },
  {
+   "Code": "12540643",
    "Symbol": "ALPA",
-   "ISIN": "INE385I01010",
-   "Company": "Alpa Laboratories Limited",
-   "First Listing Date": "06-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alpa Laboratories Limited"
  },
  {
+   "Code": "11520002",
    "Symbol": "DECCANCE",
-   "ISIN": "INE583C01021",
-   "Company": "Deccan Cements Limited",
-   "First Listing Date": "02-Aug-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Deccan Cements Limited"
  },
  {
+   "Code": "13150009",
    "Symbol": "WSI",
-   "ISIN": "INE100D01014",
-   "Company": "W S Industries (I) Limited",
-   "First Listing Date": "01-Aug-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "W S Industries (I) Limited"
  },
  {
+   "Code": "17010059",
    "Symbol": "ALCHEM",
-   "ISIN": "INE964B01033",
-   "Company": "Alchemist Limited",
-   "First Listing Date": "31-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alchemist Limited"
  },
  {
+   "Code": "13240040",
    "Symbol": "ADSL",
-   "ISIN": "INE102I01027",
-   "Company": "Allied Digital Services Limited",
-   "First Listing Date": "25-Jul-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Allied Digital Services Limited"
  },
  {
+   "Code": "11620084",
    "Symbol": "HDIL",
-   "ISIN": "INE191I01012",
-   "Company": "Housing Development and Infrastructure Limited",
-   "First Listing Date": "24-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Housing Development and Infrastructure Limited"
  },
  {
+   "Code": "13190177",
    "Symbol": "MEGASOFT",
-   "ISIN": "INE933B01012",
-   "Company": "Megasoft Limited",
-   "First Listing Date": "19-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Megasoft Limited"
  },
  {
+   "Code": "12540617",
    "Symbol": "SPARC",
-   "ISIN": "INE232I01014",
-   "Company": "Sun Pharma Advanced Research Company Limited",
-   "First Listing Date": "18-Jul-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sun Pharma Advanced Research Company Limited"
  },
  {
+   "Code": "12540642",
    "Symbol": "CELESTIAL",
-   "ISIN": "INE221I01017",
-   "Company": "Celestial Biolabs Limited",
-   "First Listing Date": "17-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Celestial Biolabs Limited"
  },
  {
+   "Code": "15210038",
    "Symbol": "TARMAT",
-   "ISIN": "INE924H01018",
-   "Company": "Tarmat Limited",
-   "First Listing Date": "09-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tarmat Limited"
  },
  {
+   "Code": "13520062",
    "Symbol": "DLF",
-   "ISIN": "INE271C01023",
-   "Company": "DLF Limited",
-   "First Listing Date": "05-Jul-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DLF Limited"
  },
  {
+   "Code": "16610468",
    "Symbol": "V2RETAIL",
-   "ISIN": "INE945H01013",
-   "Company": "V2 Retail Limited",
-   "First Listing Date": "04-Jul-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "V2 Retail Limited"
  },
  {
+   "Code": "12120059",
    "Symbol": "MEGH",
-   "ISIN": "INE974H01013",
-   "Company": "Meghmani Organics Limited",
-   "First Listing Date": "28-Jun-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Meghmani Organics Limited"
  },
  {
+   "Code": "13560108",
    "Symbol": "NELCAST",
-   "ISIN": "INE189I01024",
-   "Company": "Nelcast Limited",
-   "First Listing Date": "27-Jun-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nelcast Limited"
  },
  {
+   "Code": "16560013",
    "Symbol": "ADVANIHOTR",
-   "ISIN": "INE199C01026",
-   "Company": "Advani Hotels & Resorts (India) Limited",
-   "First Listing Date": "25-Jun-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Advani Hotels & Resorts (India) Limited"
  },
  {
+   "Code": "13240039",
    "Symbol": "HGS",
-   "ISIN": "INE170I01016",
-   "Company": "Hinduja Global Solutions Limited",
-   "First Listing Date": "19-Jun-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hinduja Global Solutions Limited"
  },
  {
+   "Code": "16030102",
    "Symbol": "NAGREEKEXP",
-   "ISIN": "INE123B01028",
-   "Company": "Nagreeka Exports Limited",
-   "First Listing Date": "18-Jun-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nagreeka Exports Limited"
  },
  {
+   "Code": "17024927",
    "Symbol": "TIMETECHNO",
-   "ISIN": "INE508G01029",
-   "Company": "Time Technoplast Limited",
-   "First Listing Date": "13-Jun-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Time Technoplast Limited"
  },
  {
+   "Code": "10700001",
    "Symbol": "GOACARBON",
-   "ISIN": "INE426D01013",
-   "Company": "Goa Carbon Limited",
-   "First Listing Date": "05-Jun-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Goa Carbon Limited"
  },
  {
+   "Code": "13510029",
    "Symbol": "GUJAPOLLO",
-   "ISIN": "INE826C01016",
-   "Company": "Gujarat Apollo Industries Limited",
-   "First Listing Date": "04-Jun-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Apollo Industries Limited"
  },
  {
+   "Code": "12310029",
    "Symbol": "NAVINFLUOR",
-   "ISIN": "INE048G01026",
-   "Company": "Navin Fluorine International Limited",
-   "First Listing Date": "01-Jun-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Navin Fluorine International Limited"
  },
  {
+   "Code": "11320018",
    "Symbol": "KMSUGAR",
-   "ISIN": "INE157H01023",
-   "Company": "K.M.Sugar Mills Limited",
-   "First Listing Date": "31-May-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "K.M.Sugar Mills Limited"
  },
  {
+   "Code": "15140079",
    "Symbol": "MIC",
-   "ISIN": "INE287C01029",
-   "Company": "MIC Electronics Limited",
-   "First Listing Date": "30-May-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MIC Electronics Limited"
  },
  {
+   "Code": "12210012",
    "Symbol": "INSECTICID",
-   "ISIN": "INE070I01018",
-   "Company": "Insecticides (India) Limited",
-   "First Listing Date": "30-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Insecticides (India) Limited"
  },
  {
+   "Code": "11100041",
    "Symbol": "MCDHOLDING",
-   "ISIN": "INE836H01014",
-   "Company": "McDowell Holdings Limited",
-   "First Listing Date": "30-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "McDowell Holdings Limited"
  },
  {
+   "Code": "13570036",
    "Symbol": "HILTON",
-   "ISIN": "INE788H01017",
-   "Company": "Hilton Metal Forging Limited",
-   "First Listing Date": "24-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hilton Metal Forging Limited"
  },
  {
+   "Code": "16620065",
    "Symbol": "TGBHOTELS",
-   "ISIN": "INE797H01018",
-   "Company": "TGB Banquets And Hotels Limited",
-   "First Listing Date": "17-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TGB Banquets And Hotels Limited"
  },
  {
+   "Code": "17020264",
    "Symbol": "WEBELSOLAR",
-   "ISIN": "INE855C01015",
-   "Company": "Websol Energy System Limited",
-   "First Listing Date": "15-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Websol Energy System Limited"
  },
  {
+   "Code": "17020072",
    "Symbol": "ALPHAGEO",
-   "ISIN": "INE137C01018",
-   "Company": "Alphageo (India) Limited",
-   "First Listing Date": "11-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alphageo (India) Limited"
  },
  {
+   "Code": "12540511",
    "Symbol": "FORTIS",
-   "ISIN": "INE061F01013",
-   "Company": "Fortis Healthcare Limited",
-   "First Listing Date": "09-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Fortis Healthcare Limited"
  },
  {
+   "Code": "12080081",
    "Symbol": "SRHHYPOLTD",
-   "ISIN": "INE917H01012",
-   "Company": "Sree Rayalaseema Hi-Strength Hypo Limited",
-   "First Listing Date": "08-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sree Rayalaseema Hi-Strength Hypo Limited"
  },
  {
+   "Code": "15130048",
    "Symbol": "BFUTILITIE",
-   "ISIN": "INE243D01012",
-   "Company": "BF Utilities Limited",
-   "First Listing Date": "03-May-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BF Utilities Limited"
  },
  {
+   "Code": "13190063",
    "Symbol": "KGL",
-   "ISIN": "INE299C01024",
-   "Company": "Karuturi Global Limited",
-   "First Listing Date": "03-May-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Karuturi Global Limited"
  },
  {
+   "Code": "16580003",
    "Symbol": "GLOBOFFS",
-   "ISIN": "INE446C01013",
-   "Company": "Global Offshore Services Limited",
-   "First Listing Date": "03-May-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Global Offshore Services Limited"
  },
  {
+   "Code": "17010018",
    "Symbol": "ZENITHBIR",
-   "ISIN": "INE318D01020",
-   "Company": "Zenith Birla (India) Limited",
-   "First Listing Date": "30-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zenith Birla (India) Limited"
  },
  {
+   "Code": "14090278",
    "Symbol": "HINDUJAVEN",
-   "ISIN": "INE353A01023",
-   "Company": "Hinduja Ventures Limited",
-   "First Listing Date": "24-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hinduja Ventures Limited"
  },
  {
+   "Code": "11550043",
    "Symbol": "AROGRANITE",
-   "ISIN": "INE210C01013",
-   "Company": "Aro Granite Industries Limited",
-   "First Listing Date": "24-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aro Granite Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "PHOENIXLTD",
-   "ISIN": "INE211B01039",
-   "Company": "The Phoenix Mills Limited",
-   "First Listing Date": "23-Apr-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Phoenix Mills Limited"
  },
  {
+   "Code": "17040190",
    "Symbol": "DISHTV",
-   "ISIN": "INE836F01026",
-   "Company": "Dish TV India Limited",
-   "First Listing Date": "18-Apr-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dish TV India Limited"
  },
  {
+   "Code": "14010386",
    "Symbol": "ICRA",
-   "ISIN": "INE725G01011",
-   "Company": "ICRA Limited",
-   "First Listing Date": "13-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ICRA Limited"
  },
  {
+   "Code": "12150002",
    "Symbol": "BANSWRAS",
-   "ISIN": "INE629D01012",
-   "Company": "Banswara Syntex Limited",
-   "First Listing Date": "11-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Banswara Syntex Limited"
  },
  {
+   "Code": "12080060",
    "Symbol": "BALAMINES",
-   "ISIN": "INE050E01027",
-   "Company": "Balaji Amines Limited",
-   "First Listing Date": "05-Apr-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balaji Amines Limited"
  },
  {
+   "Code": "16040010",
    "Symbol": "GARFIBRES",
-   "ISIN": "INE276A01018",
-   "Company": "Garware Technical Fibres Limited",
-   "First Listing Date": "03-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Garware Technical Fibres Limited"
  },
  {
+   "Code": "11520006",
    "Symbol": "NCLIND",
-   "ISIN": "INE732C01016",
-   "Company": "NCL Industries Limited",
-   "First Listing Date": "03-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NCL Industries Limited"
  },
  {
+   "Code": "12540269",
    "Symbol": "THEMISMED",
-   "ISIN": "INE083B01016",
-   "Company": "Themis Medicare Limited",
-   "First Listing Date": "02-Apr-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Themis Medicare Limited"
  },
  {
+   "Code": "10670044",
    "Symbol": "JMTAUTOLTD",
-   "ISIN": "INE988E01036",
-   "Company": "JMT Auto Limited",
-   "First Listing Date": "02-Apr-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JMT Auto Limited"
  },
  {
-   "Symbol": "IBREALEST",
-   "ISIN": "INE069I01010",
-   "Company": "Indiabulls Real Estate Limited",
-   "First Listing Date": "23-Mar-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16080002",
    "Symbol": "NAHARSPING",
-   "ISIN": "INE290A01027",
-   "Company": "Nahar Spinning Mills Limited",
-   "First Listing Date": "23-Mar-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nahar Spinning Mills Limited"
  },
  {
+   "Code": "11620069",
+   "Symbol": "IBREALEST",
+   "Name": "Indiabulls Real Estate Limited"
+ },
+ {
+   "Code": "16030020",
    "Symbol": "NAHARPOLY",
-   "ISIN": "INE308A01027",
-   "Company": "Nahar Poly Films Limited",
-   "First Listing Date": "23-Mar-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nahar Poly Films Limited"
  },
  {
+   "Code": "12190030",
    "Symbol": "ASTRAL",
-   "ISIN": "INE006I01046",
-   "Company": "Astral Poly Technik Limited",
-   "First Listing Date": "20-Mar-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Astral Poly Technik Limited"
  },
  {
+   "Code": "14620011",
    "Symbol": "AMDIND",
-   "ISIN": "INE005I01014",
-   "Company": "AMD Industries Limited",
-   "First Listing Date": "19-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AMD Industries Limited"
  },
  {
+   "Code": "10680007",
    "Symbol": "JKTYRE",
-   "ISIN": "INE573A01042",
-   "Company": "JK Tyre & Industries Limited",
-   "First Listing Date": "19-Mar-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JK Tyre & Industries Limited"
  },
  {
+   "Code": "16070088",
    "Symbol": "PAGEIND",
-   "ISIN": "INE761H01022",
-   "Company": "Page Industries Limited",
-   "First Listing Date": "16-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Page Industries Limited"
  },
  {
+   "Code": "14580030",
    "Symbol": "LAOPALA",
-   "ISIN": "INE059D01020",
-   "Company": "La Opala RG Limited",
-   "First Listing Date": "16-Mar-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "La Opala RG Limited"
  },
  {
+   "Code": "17040184",
    "Symbol": "RAJTV",
-   "ISIN": "INE952H01027",
-   "Company": "Raj Television Network Limited",
-   "First Listing Date": "16-Mar-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Raj Television Network Limited"
  },
  {
+   "Code": "15200008",
    "Symbol": "IDEA",
-   "ISIN": "INE669E01016",
-   "Company": "Vodafone Idea Limited",
-   "First Listing Date": "09-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vodafone Idea Limited"
  },
  {
-   "Symbol": "PUNJABCHEM",
-   "ISIN": "INE277B01014",
-   "Company": "Punjab Chemicals & Crop Protection Limited",
-   "First Listing Date": "08-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11570043",
    "Symbol": "UNIPLY",
-   "ISIN": "INE950G01023",
-   "Company": "Uniply Industries Limited",
-   "First Listing Date": "08-Mar-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Uniply Industries Limited"
  },
  {
+   "Code": "12070012",
+   "Symbol": "PUNJABCHEM",
+   "Name": "Punjab Chemicals & Crop Protection Limited"
+ },
+ {
+   "Code": "13190978",
    "Symbol": "MINDTREE",
-   "ISIN": "INE018I01017",
-   "Company": "MindTree Limited",
-   "First Listing Date": "07-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MindTree Limited"
  },
  {
+   "Code": "11550082",
    "Symbol": "ORIENTALTL",
-   "ISIN": "INE998H01012",
-   "Company": "Oriental Trimex Limited",
-   "First Listing Date": "07-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Trimex Limited"
  },
  {
+   "Code": "11550082",
    "Symbol": "ORIENTALTL",
-   "ISIN": "INE998H01012",
-   "Company": "Oriental Trimex Limited",
-   "First Listing Date": "07-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Trimex Limited"
  },
  {
-   "Symbol": "HSCL",
-   "ISIN": "INE019C01026",
-   "Company": "Himadri Speciality Chemical Limited",
-   "First Listing Date": "02-Mar-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14080010",
    "Symbol": "GANESHHOUC",
-   "ISIN": "INE460C01014",
-   "Company": "Ganesh Housing Corporation Limited",
-   "First Listing Date": "02-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ganesh Housing Corporation Limited"
  },
  {
-   "Symbol": "INDIANB",
-   "ISIN": "INE562A01011",
-   "Company": "Indian Bank",
-   "First Listing Date": "01-Mar-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12080022",
+   "Symbol": "HSCL",
+   "Name": "Himadri Speciality Chemical Limited"
  },
  {
+   "Code": "12540635",
    "Symbol": "SMSPHARMA",
-   "ISIN": "INE812G01025",
-   "Company": "SMS Pharmaceuticals Limited",
-   "First Listing Date": "28-Feb-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SMS Pharmaceuticals Limited"
  },
  {
+   "Code": "14030019",
+   "Symbol": "INDIANB",
+   "Name": "Indian Bank"
+ },
+ {
+   "Code": "14010533",
    "Symbol": "TFL",
-   "ISIN": "INE804H01012",
-   "Company": "Transwarranty Finance Limited",
-   "First Listing Date": "26-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Transwarranty Finance Limited"
  },
  {
+   "Code": "14040029",
    "Symbol": "PFC",
-   "ISIN": "INE134E01011",
-   "Company": "Power Finance Corporation Limited",
-   "First Listing Date": "23-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Power Finance Corporation Limited"
  },
  {
+   "Code": "14010399",
    "Symbol": "FSL",
-   "ISIN": "INE684F01012",
-   "Company": "Firstsource Solutions Limited",
-   "First Listing Date": "22-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Firstsource Solutions Limited"
  },
  {
+   "Code": "16080003",
    "Symbol": "TTL",
-   "ISIN": "INE592B01016",
-   "Company": "T T Limited",
-   "First Listing Date": "22-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "T T Limited"
  },
  {
+   "Code": "16070084",
    "Symbol": "PGIL",
-   "ISIN": "INE940H01014",
-   "Company": "Pearl Global Industries Limited",
-   "First Listing Date": "15-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pearl Global Industries Limited"
  },
  {
+   "Code": "13190973",
    "Symbol": "REDINGTON",
-   "ISIN": "INE891D01026",
-   "Company": "Redington (India) Limited",
-   "First Listing Date": "15-Feb-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Redington (India) Limited"
  },
  {
+   "Code": "11540049",
    "Symbol": "ORIENTBELL",
-   "ISIN": "INE607D01018",
-   "Company": "Orient Bell Limited",
-   "First Listing Date": "14-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Bell Limited"
  },
  {
+   "Code": "10680010",
    "Symbol": "TVSSRICHAK",
-   "ISIN": "INE421C01016",
-   "Company": "TVS Srichakra Limited",
-   "First Listing Date": "13-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TVS Srichakra Limited"
  },
  {
+   "Code": "17010090",
    "Symbol": "TIIL",
-   "ISIN": "INE545H01011",
-   "Company": "Technocraft Industries (India) Limited",
-   "First Listing Date": "12-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Technocraft Industries (India) Limited"
  },
  {
+   "Code": "17040160",
    "Symbol": "TV18BRDCST",
-   "ISIN": "INE886H01027",
-   "Company": "TV18 Broadcast Limited",
-   "First Listing Date": "08-Feb-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TV18 Broadcast Limited"
  },
  {
+   "Code": "11620061",
    "Symbol": "HUBTOWN",
-   "ISIN": "INE703H01016",
-   "Company": "Hubtown Limited",
-   "First Listing Date": "07-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hubtown Limited"
  },
  {
+   "Code": "13190880",
    "Symbol": "CTE",
-   "ISIN": "INE627H01017",
-   "Company": "Cambridge Technology Enterprises Limited",
-   "First Listing Date": "07-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cambridge Technology Enterprises Limited"
  },
  {
+   "Code": "14510007",
    "Symbol": "TIMKEN",
-   "ISIN": "INE325A01013",
-   "Company": "Timken India Limited",
-   "First Listing Date": "06-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Timken India Limited"
  },
  {
+   "Code": "13020097",
    "Symbol": "IZMO",
-   "ISIN": "INE848A01014",
-   "Company": "IZMO Limited",
-   "First Listing Date": "05-Feb-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IZMO Limited"
  },
  {
+   "Code": "14010566",
    "Symbol": "NETWORK18",
-   "ISIN": "INE870H01013",
-   "Company": "Network18 Media & Investments Limited",
-   "First Listing Date": "02-Feb-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Network18 Media & Investments Limited"
  },
  {
+   "Code": "10600006",
    "Symbol": "MINDAIND",
-   "ISIN": "INE405E01023",
-   "Company": "Minda Industries Limited",
-   "First Listing Date": "02-Feb-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Minda Industries Limited"
  },
  {
+   "Code": "13520114",
    "Symbol": "PITTIENG",
-   "ISIN": "INE450D01021",
-   "Company": "Pitti Engineering Limited",
-   "First Listing Date": "02-Feb-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pitti Engineering Limited"
  },
  {
+   "Code": "10610025",
    "Symbol": "AUTOIND",
-   "ISIN": "INE718H01014",
-   "Company": "Autoline Industries Limited",
-   "First Listing Date": "31-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Autoline Industries Limited"
  },
  {
-   "Symbol": "GANDHITUBE",
-   "ISIN": "INE524B01027",
-   "Company": "Gandhi Special Tubes Limited",
-   "First Listing Date": "31-Jan-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16040024",
    "Symbol": "SIYSIL",
-   "ISIN": "INE076B01028",
-   "Company": "Siyaram Silk Mills Limited",
-   "First Listing Date": "29-Jan-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Siyaram Silk Mills Limited"
  },
  {
+   "Code": "15580005",
+   "Symbol": "GANDHITUBE",
+   "Name": "Gandhi Special Tubes Limited"
+ },
+ {
+   "Code": "12030006",
    "Symbol": "IGPL",
-   "ISIN": "INE204A01010",
-   "Company": "IG Petrochemicals Limited",
-   "First Listing Date": "29-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IG Petrochemicals Limited"
  },
  {
+   "Code": "10680009",
    "Symbol": "PTL",
-   "ISIN": "INE034D01031",
-   "Company": "PTL Enterprises Limited",
-   "First Listing Date": "29-Jan-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PTL Enterprises Limited"
  },
  {
+   "Code": "12540065",
    "Symbol": "WANBURY",
-   "ISIN": "INE107F01022",
-   "Company": "Wanbury Limited",
-   "First Listing Date": "29-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wanbury Limited"
  },
  {
+   "Code": "11520009",
    "Symbol": "SAGCEM",
-   "ISIN": "INE229C01013",
-   "Company": "Sagar Cements Limited",
-   "First Listing Date": "29-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sagar Cements Limited"
  },
  {
+   "Code": "13520113",
    "Symbol": "SANGHVIMOV",
-   "ISIN": "INE989A01024",
-   "Company": "Sanghvi Movers Limited",
-   "First Listing Date": "24-Jan-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sanghvi Movers Limited"
  },
  {
+   "Code": "16040081",
    "Symbol": "SARLAPOLY",
-   "ISIN": "INE453D01025",
-   "Company": "Sarla Performance Fibers Limited",
-   "First Listing Date": "19-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sarla Performance Fibers Limited"
  },
  {
+   "Code": "13550006",
    "Symbol": "TIDEWATER",
-   "ISIN": "INE484C01022",
-   "Company": "Tide Water Oil Company (India) Limited",
-   "First Listing Date": "16-Jan-2007",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tide Water Oil Company (India) Limited"
  },
  {
+   "Code": "10670065",
    "Symbol": "LUMAXTECH",
-   "ISIN": "INE872H01027",
-   "Company": "Lumax Auto Technologies Limited",
-   "First Listing Date": "16-Jan-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lumax Auto Technologies Limited"
  },
  {
+   "Code": "17040181",
    "Symbol": "ZEEMEDIA",
-   "ISIN": "INE966H01019",
-   "Company": "Zee Media Corporation Limited",
-   "First Listing Date": "10-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zee Media Corporation Limited"
  },
  {
+   "Code": "17040180",
    "Symbol": "SITINET",
-   "ISIN": "INE965H01011",
-   "Company": "Siti Networks Limited",
-   "First Listing Date": "10-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Siti Networks Limited"
  },
  {
+   "Code": "11070001",
    "Symbol": "AVTNPL",
-   "ISIN": "INE488D01021",
-   "Company": "AVT Natural Products Limited",
-   "First Listing Date": "10-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AVT Natural Products Limited"
  },
  {
+   "Code": "11050111",
    "Symbol": "TANLA",
-   "ISIN": "INE483C01032",
-   "Company": "Tanla Solutions Limited",
-   "First Listing Date": "05-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tanla Solutions Limited"
  },
  {
+   "Code": "13150013",
    "Symbol": "HBLPOWER",
-   "ISIN": "INE292B01021",
-   "Company": "HBL Power Systems Limited",
-   "First Listing Date": "04-Jan-2007",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HBL Power Systems Limited"
  },
  {
-   "Symbol": "PARACABLES",
-   "ISIN": "INE074B01023",
-   "Company": "Paramount Communications Limited",
-   "First Listing Date": "03-Jan-2007",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11080006",
    "Symbol": "KESARENT",
-   "ISIN": "INE133B01019",
-   "Company": "Kesar Enterprises Limited",
-   "First Listing Date": "02-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kesar Enterprises Limited"
  },
  {
+   "Code": "11610070",
    "Symbol": "PRAENG",
-   "ISIN": "INE505C01016",
-   "Company": "Prajay Engineers Syndicate Limited",
-   "First Listing Date": "02-Jan-2007",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prajay Engineers Syndicate Limited"
  },
  {
+   "Code": "15140078",
    "Symbol": "XLENERGY",
-   "ISIN": "INE183H01011",
-   "Company": "XL Energy Limited",
-   "First Listing Date": "28-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "XL Energy Limited"
  },
  {
+   "Code": "12200039",
    "Symbol": "PLASTIBLEN",
-   "ISIN": "INE083C01022",
-   "Company": "Plastiblends India Limited",
-   "First Listing Date": "28-Dec-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Plastiblends India Limited"
  },
  {
+   "Code": "12100019",
    "Symbol": "NFL",
-   "ISIN": "INE870D01012",
-   "Company": "National Fertilizers Limited",
-   "First Listing Date": "28-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "National Fertilizers Limited"
  },
  {
+   "Code": "14090048",
    "Symbol": "CREST",
-   "ISIN": "INE559D01011",
-   "Company": "Crest Ventures Limited",
-   "First Listing Date": "27-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Crest Ventures Limited"
  },
  {
+   "Code": "15590006",
    "Symbol": "SATHAISPAT",
-   "ISIN": "INE176C01016",
-   "Company": "Sathavahana Ispat Limited",
-   "First Listing Date": "27-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sathavahana Ispat Limited"
  },
  {
+   "Code": "13150003",
    "Symbol": "HIRECT",
-   "ISIN": "INE835D01023",
-   "Company": "Hind Rectifiers Limited",
-   "First Listing Date": "26-Dec-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hind Rectifiers Limited"
  },
  {
+   "Code": "11610058",
    "Symbol": "ARIHANT",
-   "ISIN": "INE413D01011",
-   "Company": "Arihant Foundations & Housing Limited",
-   "First Listing Date": "26-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arihant Foundations & Housing Limited"
  },
  {
+   "Code": "15120003",
    "Symbol": "JINDRILL",
-   "ISIN": "INE742C01031",
-   "Company": "Jindal Drilling And Industries Limited",
-   "First Listing Date": "22-Dec-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Drilling And Industries Limited"
  },
  {
+   "Code": "10610001",
    "Symbol": "BANCOINDIA",
-   "ISIN": "INE213C01025",
-   "Company": "Banco Products (I) Limited",
-   "First Listing Date": "22-Dec-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Banco Products (I) Limited"
  },
  {
+   "Code": "16660008",
    "Symbol": "RUCHIRA",
-   "ISIN": "INE803H01014",
-   "Company": "Ruchira Papers Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ruchira Papers Limited"
  },
  {
+   "Code": "16130004",
    "Symbol": "DONEAR",
-   "ISIN": "INE668D01028",
-   "Company": "Donear Industries Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Donear Industries Limited"
  },
  {
+   "Code": "16490071",
    "Symbol": "SPENTEX",
-   "ISIN": "INE376C01020",
-   "Company": "Spentex Industries Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Spentex Industries Limited"
  },
  {
+   "Code": "12540262",
    "Symbol": "VENUSREM",
-   "ISIN": "INE411B01019",
-   "Company": "Venus Remedies Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Venus Remedies Limited"
  },
  {
+   "Code": "13560065",
    "Symbol": "MMFL",
-   "ISIN": "INE227C01017",
-   "Company": "MM Forgings Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MM Forgings Limited"
  },
  {
+   "Code": "11620058",
    "Symbol": "SOBHA",
-   "ISIN": "INE671H01015",
-   "Company": "Sobha Limited",
-   "First Listing Date": "20-Dec-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sobha Limited"
  },
  {
-   "Symbol": "DAAWAT",
-   "ISIN": "INE818H01020",
-   "Company": "LT Foods Limited",
-   "First Listing Date": "18-Dec-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16490223",
    "Symbol": "SUTLEJTEX",
-   "ISIN": "INE645H01027",
-   "Company": "Sutlej Textiles and Industries Limited",
-   "First Listing Date": "14-Dec-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sutlej Textiles and Industries Limited"
  },
  {
+   "Code": "12130018",
    "Symbol": "MANALIPETC",
-   "ISIN": "INE201A01024",
-   "Company": "Manali Petrochemicals Limited",
-   "First Listing Date": "06-Dec-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Manali Petrochemicals Limited"
  },
  {
+   "Code": "11620056",
    "Symbol": "PARSVNATH",
-   "ISIN": "INE561H01026",
-   "Company": "Parsvnath Developers Limited",
-   "First Listing Date": "30-Nov-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Parsvnath Developers Limited"
  },
  {
+   "Code": "15130120",
    "Symbol": "TORNTPOWER",
-   "ISIN": "INE813H01021",
-   "Company": "Torrent Power Limited",
-   "First Listing Date": "28-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Torrent Power Limited"
  },
  {
+   "Code": "",
    "Symbol": "GESHIP",
-   "ISIN": "INE017A01032",
-   "Company": "The Great Eastern Shipping Company Limited",
-   "First Listing Date": "27-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Great Eastern Shipping Company Limited"
  },
  {
+   "Code": "16690077",
    "Symbol": "NAUKRI",
-   "ISIN": "INE663F01024",
-   "Company": "Info Edge (India) Limited",
-   "First Listing Date": "21-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Info Edge (India) Limited"
  },
  {
+   "Code": "13140001",
    "Symbol": "BBL",
-   "ISIN": "INE464A01028",
-   "Company": "Bharat Bijlee Limited",
-   "First Listing Date": "21-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Bijlee Limited"
  },
  {
+   "Code": "10670063",
    "Symbol": "SHIVAMAUTO",
-   "ISIN": "INE637H01024",
-   "Company": "Shivam Autotech Limited",
-   "First Listing Date": "21-Nov-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shivam Autotech Limited"
  },
  {
+   "Code": "15100034",
    "Symbol": "HINDZINC",
-   "ISIN": "INE267A01025",
-   "Company": "Hindustan Zinc Limited",
-   "First Listing Date": "21-Nov-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Zinc Limited"
  },
  {
+   "Code": "16110001",
    "Symbol": "AARVEEDEN",
-   "ISIN": "INE273D01019",
-   "Company": "Aarvee Denims & Exports Limited",
-   "First Listing Date": "21-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aarvee Denims & Exports Limited"
  },
  {
+   "Code": "17024837",
+   "Symbol": "DAAWAT",
+   "Name": "LT Foods Limited"
+ },
+ {
+   "Code": "13190872",
    "Symbol": "GTLINFRA",
-   "ISIN": "INE221H01019",
-   "Company": "GTL Infrastructure Limited",
-   "First Listing Date": "09-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GTL Infrastructure Limited"
  },
  {
+   "Code": "15140023",
    "Symbol": "SHYAMTEL",
-   "ISIN": "INE635A01023",
-   "Company": "Shyam Telecom Limited",
-   "First Listing Date": "06-Nov-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shyam Telecom Limited"
  },
  {
+   "Code": "13240014",
    "Symbol": "INSPIRISYS",
-   "ISIN": "INE020G01017",
-   "Company": "Inspirisys Solutions Limited",
-   "First Listing Date": "30-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Inspirisys Solutions Limited"
  },
  {
+   "Code": "14030104",
    "Symbol": "DCBBANK",
-   "ISIN": "INE503A01015",
-   "Company": "DCB Bank Limited",
-   "First Listing Date": "27-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCB Bank Limited"
  },
  {
+   "Code": "16600022",
    "Symbol": "GLOBALVECT",
-   "ISIN": "INE792H01019",
-   "Company": "Global Vectra Helicorp Limited",
-   "First Listing Date": "27-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Global Vectra Helicorp Limited"
  },
  {
+   "Code": "12520150",
    "Symbol": "JHS",
-   "ISIN": "INE544H01014",
-   "Company": "JHS Svendgaard Laboratories Limited",
-   "First Listing Date": "21-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JHS Svendgaard Laboratories Limited"
  },
  {
+   "Code": "10620029",
    "Symbol": "FIEMIND",
-   "ISIN": "INE737H01014",
-   "Company": "Fiem Industries Limited",
-   "First Listing Date": "19-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Fiem Industries Limited"
  },
  {
+   "Code": "16590029",
    "Symbol": "GATI",
-   "ISIN": "INE152B01027",
-   "Company": "GATI Limited",
-   "First Listing Date": "10-Oct-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GATI Limited"
  },
  {
+   "Code": "14090003",
    "Symbol": "JMFINANCIL",
-   "ISIN": "INE780C01023",
-   "Company": "JM Financial Limited",
-   "First Listing Date": "10-Oct-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JM Financial Limited"
  },
  {
+   "Code": "13520109",
    "Symbol": "MBECL",
-   "ISIN": "INE748A01016",
-   "Company": "Mcnally Bharat Engineering Company Limited",
-   "First Listing Date": "06-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mcnally Bharat Engineering Company Limited"
  },
  {
+   "Code": "11610001",
    "Symbol": "ANSALHSG",
-   "ISIN": "INE880B01015",
-   "Company": "Ansal Housing Limited",
-   "First Listing Date": "06-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ansal Housing Limited"
  },
  {
+   "Code": "16530139",
    "Symbol": "KSERASERA",
-   "ISIN": "INE216D01026",
-   "Company": "KSS Limited",
-   "First Listing Date": "05-Oct-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KSS Limited"
  },
  {
+   "Code": "11600045",
    "Symbol": "MADHUCON",
-   "ISIN": "INE378D01032",
-   "Company": "Madhucon Projects Limited",
-   "First Listing Date": "05-Oct-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Madhucon Projects Limited"
  },
  {
+   "Code": "12310032",
    "Symbol": "GEECEE",
-   "ISIN": "INE916G01016",
-   "Company": "GeeCee Ventures Limited",
-   "First Listing Date": "04-Oct-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GeeCee Ventures Limited"
  },
  {
+   "Code": "13510004",
    "Symbol": "ELECON",
-   "ISIN": "INE205B01023",
-   "Company": "Elecon Engineering Company Limited",
-   "First Listing Date": "29-Sep-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Elecon Engineering Company Limited"
  },
  {
+   "Code": "11040002",
    "Symbol": "ASSAMCO",
-   "ISIN": "INE442A01024",
-   "Company": "Assam Company India Limited",
-   "First Listing Date": "29-Sep-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Assam Company India Limited"
  },
  {
+   "Code": "13560079",
    "Symbol": "ALICON",
-   "ISIN": "INE062D01024",
-   "Company": "Alicon Castalloy Limited",
-   "First Listing Date": "29-Sep-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alicon Castalloy Limited"
  },
  {
+   "Code": "10610008",
    "Symbol": "TALBROAUTO",
-   "ISIN": "INE187D01011",
-   "Company": "Talbros Automotive Components Limited",
-   "First Listing Date": "29-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Talbros Automotive Components Limited"
  },
  {
+   "Code": "11540019",
    "Symbol": "ANANTRAJ",
-   "ISIN": "INE242C01024",
-   "Company": "Anant Raj Limited",
-   "First Listing Date": "27-Sep-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Anant Raj Limited"
  },
  {
+   "Code": "13240035",
    "Symbol": "HOVS",
-   "ISIN": "INE596H01014",
-   "Company": "HOV Services Limited",
-   "First Listing Date": "27-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HOV Services Limited"
  },
  {
+   "Code": "17020281",
    "Symbol": "SELAN",
-   "ISIN": "INE818A01017",
-   "Company": "Selan Exploration Technology Limited",
-   "First Listing Date": "26-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Selan Exploration Technology Limited"
  },
  {
+   "Code": "15060017",
+   "Symbol": "PARACABLES",
+   "Name": "Paramount Communications Limited"
+ },
+ {
+   "Code": "13510065",
    "Symbol": "ACE",
-   "ISIN": "INE731H01025",
-   "Company": "Action Construction Equipment Limited",
-   "First Listing Date": "26-Sep-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Action Construction Equipment Limited"
  },
  {
+   "Code": "14090127",
    "Symbol": "ATLANTA",
-   "ISIN": "INE285H01022",
-   "Company": "Atlanta  Limited",
-   "First Listing Date": "25-Sep-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Atlanta  Limited"
  },
  {
+   "Code": "16530071",
    "Symbol": "RAMANEWS",
-   "ISIN": "INE278B01020",
-   "Company": "Shree Rama Newsprint Limited",
-   "First Listing Date": "20-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shree Rama Newsprint Limited"
  },
  {
+   "Code": "15150025",
    "Symbol": "VOLTAMP",
-   "ISIN": "INE540H01012",
-   "Company": "Voltamp Transformers Limited",
-   "First Listing Date": "20-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Voltamp Transformers Limited"
  },
  {
+   "Code": "13610004",
    "Symbol": "DYNAMATECH",
-   "ISIN": "INE221B01012",
-   "Company": "Dynamatic Technologies Limited",
-   "First Listing Date": "14-Sep-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dynamatic Technologies Limited"
  },
  {
+   "Code": "13510019",
    "Symbol": "MANUGRAPH",
-   "ISIN": "INE867A01022",
-   "Company": "Manugraph India Limited",
-   "First Listing Date": "14-Sep-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Manugraph India Limited"
  },
  {
-   "Symbol": "GRINDWELL",
-   "ISIN": "INE536A01023",
-   "Company": "Grindwell Norton Limited",
-   "First Listing Date": "11-Sep-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "10520003.01",
    "Symbol": "TECHM",
-   "ISIN": "INE669C01036",
-   "Company": "Tech Mahindra Limited",
-   "First Listing Date": "28-Aug-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tech Mahindra Limited"
  },
  {
+   "Code": "15210029",
    "Symbol": "GMRINFRA",
-   "ISIN": "INE776C01039",
-   "Company": "GMR Infrastructure Limited",
-   "First Listing Date": "21-Aug-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GMR Infrastructure Limited"
  },
  {
+   "Code": "13620015",
    "Symbol": "WENDT",
-   "ISIN": "INE274C01019",
-   "Company": "Wendt (India) Limited",
-   "First Listing Date": "07-Aug-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wendt (India) Limited"
  },
  {
+   "Code": "12520109",
    "Symbol": "EMAMILTD",
-   "ISIN": "INE548C01032",
-   "Company": "Emami Limited",
-   "First Listing Date": "03-Aug-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emami Limited"
  },
  {
-   "Symbol": "MUNJALAU",
-   "ISIN": "INE672B01032",
-   "Company": "Munjal Auto Industries Limited",
-   "First Listing Date": "19-Jul-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17110005",
    "Symbol": "ALLCARGO",
-   "ISIN": "INE418H01029",
-   "Company": "Allcargo Logistics Limited",
-   "First Listing Date": "23-Jun-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Allcargo Logistics Limited"
  },
  {
+   "Code": "12590002",
+   "Symbol": "MUNJALAU",
+   "Name": "Munjal Auto Industries Limited"
+ },
+ {
+   "Code": "17040159",
    "Symbol": "PFOCUS",
-   "ISIN": "INE367G01038",
-   "Company": "Prime Focus Limited",
-   "First Listing Date": "20-Jun-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prime Focus Limited"
  },
  {
+   "Code": "16530019",
    "Symbol": "JKLAKSHMI",
-   "ISIN": "INE786A01032",
-   "Company": "JK Lakshmi Cement Limited",
-   "First Listing Date": "19-Jun-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JK Lakshmi Cement Limited"
  },
  {
+   "Code": "16490215",
    "Symbol": "GTNTEX",
-   "ISIN": "INE302H01017",
-   "Company": "GTN Textiles Limited",
-   "First Listing Date": "18-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GTN Textiles Limited"
  },
  {
+   "Code": "16080010",
    "Symbol": "PIONEEREMB",
-   "ISIN": "INE156C01018",
-   "Company": "Pioneer Embroideries Limited",
-   "First Listing Date": "16-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pioneer Embroideries Limited"
  },
  {
+   "Code": "15630005",
    "Symbol": "KAMDHENU",
-   "ISIN": "INE390H01012",
-   "Company": "Kamdhenu Limited",
-   "First Listing Date": "09-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kamdhenu Limited"
  },
  {
+   "Code": "13150051",
    "Symbol": "SWELECTES",
-   "ISIN": "INE409B01013",
-   "Company": "Swelect Energy Systems Limited",
-   "First Listing Date": "09-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Swelect Energy Systems Limited"
  },
  {
+   "Code": "15580045",
    "Symbol": "RATNAMANI",
-   "ISIN": "INE703B01027",
-   "Company": "Ratnamani Metals & Tubes Limited",
-   "First Listing Date": "09-May-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ratnamani Metals & Tubes Limited"
  },
  {
+   "Code": "12540247",
    "Symbol": "BALPHARMA",
-   "ISIN": "INE083D01012",
-   "Company": "Bal Pharma Limited",
-   "First Listing Date": "08-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bal Pharma Limited"
  },
  {
-   "Symbol": "LOKESHMACH",
-   "ISIN": "INE397H01017",
-   "Company": "Lokesh Machines Limited",
-   "First Listing Date": "05-May-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14010522",
    "Symbol": "EMKAY",
-   "ISIN": "INE296H01011",
-   "Company": "Emkay Global Financial Services Limited",
-   "First Listing Date": "28-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emkay Global Financial Services Limited"
  },
  {
+   "Code": "13620049",
+   "Symbol": "LOKESHMACH",
+   "Name": "Lokesh Machines Limited"
+ },
+ {
+   "Code": "14550003",
+   "Symbol": "GRINDWELL",
+   "Name": "Grindwell Norton Limited"
+ },
+ {
+   "Code": "13240021",
    "Symbol": "RSYSTEMS",
-   "ISIN": "INE411H01032",
-   "Company": "R Systems International Limited",
-   "First Listing Date": "26-Apr-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "R Systems International Limited"
  },
  {
+   "Code": "",
    "Symbol": "GPIL",
-   "ISIN": "INE177H01013",
-   "Company": "Godawari Power And Ispat limited",
-   "First Listing Date": "25-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godawari Power And Ispat limited"
  },
  {
-   "Symbol": "SUNTV",
-   "ISIN": "INE424H01027",
-   "Company": "Sun TV Network Limited",
-   "First Listing Date": "24-Apr-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13110043",
    "Symbol": "ZICOM",
-   "ISIN": "INE871B01014",
-   "Company": "Zicom Electronic Security Systems Limited",
-   "First Listing Date": "18-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zicom Electronic Security Systems Limited"
  },
  {
+   "Code": "17040158",
+   "Symbol": "SUNTV",
+   "Name": "Sun TV Network Limited"
+ },
+ {
+   "Code": "16070083",
    "Symbol": "KKCL",
-   "ISIN": "INE401H01017",
-   "Company": "Kewal Kiran Clothing Limited",
-   "First Listing Date": "13-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kewal Kiran Clothing Limited"
  },
  {
-   "Symbol": "ROHITFERRO",
-   "ISIN": "INE248H01012",
-   "Company": "Rohit Ferro-Tech Limited",
-   "First Listing Date": "13-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11320023",
    "Symbol": "UTTAMSUGAR",
-   "ISIN": "INE786F01031",
-   "Company": "Uttam Sugar Mills Limited",
-   "First Listing Date": "10-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Uttam Sugar Mills Limited"
  },
  {
+   "Code": "14520025",
+   "Symbol": "ROHITFERRO",
+   "Name": "Rohit Ferro-Tech Limited"
+ },
+ {
+   "Code": "16490213",
    "Symbol": "SGL",
-   "ISIN": "INE353H01010",
-   "Company": "STL Global Limited",
-   "First Listing Date": "10-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "STL Global Limited"
  },
  {
-   "Symbol": "MALUPAPER",
-   "ISIN": "INE383H01017",
-   "Company": "Malu Paper Mills Limited",
-   "First Listing Date": "05-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15560017",
    "Symbol": "GALLANTT",
-   "ISIN": "INE297H01019",
-   "Company": "Gallantt Metal Limited",
-   "First Listing Date": "04-Apr-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gallantt Metal Limited"
  },
  {
-   "Symbol": "VAKRANGEE",
-   "ISIN": "INE051B01021",
-   "Company": "Vakrangee Limited",
-   "First Listing Date": "03-Apr-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16670003",
+   "Symbol": "MALUPAPER",
+   "Name": "Malu Paper Mills Limited"
  },
  {
+   "Code": "15080013",
    "Symbol": "SOLARINDS",
-   "ISIN": "INE343H01029",
-   "Company": "Solar Industries India Limited",
-   "First Listing Date": "03-Apr-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Solar Industries India Limited"
  },
  {
+   "Code": "14090062",
+   "Symbol": "VAKRANGEE",
+   "Name": "Vakrangee Limited"
+ },
+ {
+   "Code": "11070095",
    "Symbol": "SANWARIA",
-   "ISIN": "INE890C01046",
-   "Company": "Sanwaria Consumer Limited",
-   "First Listing Date": "27-Mar-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sanwaria Consumer Limited"
  },
  {
+   "Code": "15050033",
    "Symbol": "KEI",
-   "ISIN": "INE878B01027",
-   "Company": "KEI Industries Limited",
-   "First Listing Date": "23-Mar-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KEI Industries Limited"
  },
  {
+   "Code": "11570034",
    "Symbol": "CENTURYPLY",
-   "ISIN": "INE348B01021",
-   "Company": "Century Plyboards (India) Limited",
-   "First Listing Date": "23-Mar-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Century Plyboards (India) Limited"
  },
  {
-   "Symbol": "NITCO",
-   "ISIN": "INE858F01012",
-   "Company": "Nitco Limited",
-   "First Listing Date": "21-Mar-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15510023",
    "Symbol": "VISASTEEL",
-   "ISIN": "INE286H01012",
-   "Company": "Visa Steel Limited",
-   "First Listing Date": "17-Mar-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Visa Steel Limited"
  },
  {
+   "Code": "11600114",
    "Symbol": "BLKASHYAP",
-   "ISIN": "INE350H01032",
-   "Company": "B. L. Kashyap and Sons Limited",
-   "First Listing Date": "17-Mar-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "B. L. Kashyap and Sons Limited"
  },
  {
+   "Code": "10520003",
    "Symbol": "M&MFIN",
-   "ISIN": "INE774D01024",
-   "Company": "Mahindra & Mahindra Financial Services Limited",
-   "First Listing Date": "17-Mar-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra & Mahindra Financial Services Limited"
  },
  {
+   "Code": "15150021",
    "Symbol": "INDOTECH",
-   "ISIN": "INE332H01014",
-   "Company": "Indo Tech Transformers Limited",
-   "First Listing Date": "16-Mar-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indo Tech Transformers Limited"
  },
  {
+   "Code": "11520077",
    "Symbol": "JKCEMENT",
-   "ISIN": "INE823G01014",
-   "Company": "JK Cement Limited",
-   "First Listing Date": "14-Mar-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JK Cement Limited"
  },
  {
+   "Code": "15150022",
    "Symbol": "KEC",
-   "ISIN": "INE389H01022",
-   "Company": "KEC International Limited",
-   "First Listing Date": "10-Mar-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KEC International Limited"
  },
  {
+   "Code": "16610457",
    "Symbol": "SAKUMA",
-   "ISIN": "INE190H01024",
-   "Company": "Sakuma Exports Limited",
-   "First Listing Date": "08-Mar-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sakuma Exports Limited"
  },
  {
+   "Code": "15200050",
    "Symbol": "RCOM",
-   "ISIN": "INE330H01018",
-   "Company": "Reliance Communications Limited",
-   "First Listing Date": "06-Mar-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Communications Limited"
  },
  {
+   "Code": "15210023",
    "Symbol": "SADBHAV",
-   "ISIN": "INE226H01026",
-   "Company": "Sadbhav Engineering Limited",
-   "First Listing Date": "01-Mar-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sadbhav Engineering Limited"
  },
  {
+   "Code": "15130101",
    "Symbol": "GVKPIL",
-   "ISIN": "INE251H01024",
-   "Company": "GVK Power & Infrastructure Limited",
-   "First Listing Date": "27-Feb-2006",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GVK Power & Infrastructure Limited"
  },
  {
+   "Code": "17024141",
    "Symbol": "INOXLEISUR",
-   "ISIN": "INE312H01016",
-   "Company": "INOX Leisure Limited",
-   "First Listing Date": "23-Feb-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "INOX Leisure Limited"
  },
  {
+   "Code": "17080029",
    "Symbol": "JAGRAN",
-   "ISIN": "INE199G01027",
-   "Company": "Jagran Prakashan Limited",
-   "First Listing Date": "22-Feb-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jagran Prakashan Limited"
  },
  {
+   "Code": "12140048",
    "Symbol": "GSPL",
-   "ISIN": "INE246F01010",
-   "Company": "Gujarat State Petronet Limited",
-   "First Listing Date": "16-Feb-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat State Petronet Limited"
  },
  {
+   "Code": "17040155",
    "Symbol": "ENIL",
-   "ISIN": "INE265F01028",
-   "Company": "Entertainment Network (India) Limited",
-   "First Listing Date": "15-Feb-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Entertainment Network (India) Limited"
  },
  {
+   "Code": "16620051",
    "Symbol": "ROHLTD",
-   "ISIN": "INE283H01019",
-   "Company": "Royal Orchid Hotels Limited",
-   "First Listing Date": "06-Feb-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Royal Orchid Hotels Limited"
  },
  {
+   "Code": "14550018",
    "Symbol": "STERTOOLS",
-   "ISIN": "INE334A01023",
-   "Company": "Sterling Tools Limited",
-   "First Listing Date": "02-Feb-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sterling Tools Limited"
  },
  {
+   "Code": "16490210",
    "Symbol": "NITINSPIN",
-   "ISIN": "INE229H01012",
-   "Company": "Nitin Spinners Limited",
-   "First Listing Date": "02-Feb-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nitin Spinners Limited"
  },
  {
+   "Code": "11610152",
+   "Symbol": "NITCO",
+   "Name": "Nitco Limited"
+ },
+ {
+   "Code": "16530003",
    "Symbol": "BALKRISIND",
-   "ISIN": "INE787D01026",
-   "Company": "Balkrishna Industries Limited",
-   "First Listing Date": "27-Jan-2006",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balkrishna Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "TINPLATE",
-   "ISIN": "INE422C01014",
-   "Company": "The Tinplate Company of India Limited",
-   "First Listing Date": "27-Jan-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Tinplate Company of India Limited"
  },
  {
+   "Code": "11610009",
    "Symbol": "ANSALAPI",
-   "ISIN": "INE436A01026",
-   "Company": "Ansal Properties & Infrastructure Limited",
-   "First Listing Date": "27-Jan-2006",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ansal Properties & Infrastructure Limited"
  },
  {
+   "Code": "13190645",
    "Symbol": "BARTRONICS",
-   "ISIN": "INE855F01034",
-   "Company": "Bartronics India Limited",
-   "First Listing Date": "12-Jan-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bartronics India Limited"
  },
  {
+   "Code": "16070079",
    "Symbol": "CELEBRITY",
-   "ISIN": "INE185H01016",
-   "Company": "Celebrity Fashions Limited",
-   "First Listing Date": "12-Jan-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Celebrity Fashions Limited"
  },
  {
+   "Code": "17040122",
    "Symbol": "PVR",
-   "ISIN": "INE191H01014",
-   "Company": "PVR Limited",
-   "First Listing Date": "04-Jan-2006",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PVR Limited"
  },
  {
+   "Code": "17020571",
    "Symbol": "REPRO",
-   "ISIN": "INE461B01014",
-   "Company": "Repro India Limited",
-   "First Listing Date": "22-Dec-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Repro India Limited"
  },
  {
+   "Code": "13190814",
    "Symbol": "KERNEX",
-   "ISIN": "INE202H01019",
-   "Company": "Kernex Microsystems (India) Limited",
-   "First Listing Date": "20-Dec-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kernex Microsystems (India) Limited"
  },
  {
+   "Code": "13140004",
    "Symbol": "EMCO",
-   "ISIN": "INE078A01026",
-   "Company": "Emco Limited",
-   "First Listing Date": "15-Dec-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Emco Limited"
  },
  {
+   "Code": "17024786",
    "Symbol": "EKC",
-   "ISIN": "INE184H01027",
-   "Company": "Everest Kanto Cylinder Limited",
-   "First Listing Date": "15-Dec-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Everest Kanto Cylinder Limited"
  },
  {
+   "Code": "11070010",
    "Symbol": "NAHARINDUS",
-   "ISIN": "INE289A01011",
-   "Company": "Nahar Industrial Enterprises Limited",
-   "First Listing Date": "15-Dec-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nahar Industrial Enterprises Limited"
  },
  {
+   "Code": "14550005",
    "Symbol": "ORIENTABRA",
-   "ISIN": "INE569C01020",
-   "Company": "Orient Abrasives Limited",
-   "First Listing Date": "15-Dec-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Abrasives Limited"
  },
  {
+   "Code": "17020229",
    "Symbol": "VIMTALABS",
-   "ISIN": "INE579C01029",
-   "Company": "Vimta Labs Limited",
-   "First Listing Date": "15-Dec-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vimta Labs Limited"
  },
  {
+   "Code": "13510066",
    "Symbol": "AIAENG",
-   "ISIN": "INE212H01026",
-   "Company": "AIA Engineering Limited",
-   "First Listing Date": "14-Dec-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AIA Engineering Limited"
  },
  {
+   "Code": "15120011",
    "Symbol": "TRIVENI",
-   "ISIN": "INE256C01024",
-   "Company": "Triveni Engineering & Industries Limited",
-   "First Listing Date": "13-Dec-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Triveni Engineering & Industries Limited"
  },
  {
+   "Code": "16070080",
    "Symbol": "SORILINFRA",
-   "ISIN": "INE034H01016",
-   "Company": "SORIL Infra Resources Limited",
-   "First Listing Date": "06-Dec-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SORIL Infra Resources Limited"
  },
  {
+   "Code": "16490208",
    "Symbol": "BRFL",
-   "ISIN": "INE589G01011",
-   "Company": "Bombay Rayon Fashions Limited",
-   "First Listing Date": "05-Dec-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bombay Rayon Fashions Limited"
  },
  {
+   "Code": "16490207",
    "Symbol": "BASML",
-   "ISIN": "INE186H01014",
-   "Company": "Bannari Amman Spinning Mills Limited",
-   "First Listing Date": "14-Nov-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bannari Amman Spinning Mills Limited"
  },
  {
+   "Code": "11320019",
    "Symbol": "RENUKA",
-   "ISIN": "INE087H01022",
-   "Company": "Shree Renuka Sugars Limited",
-   "First Listing Date": "31-Oct-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shree Renuka Sugars Limited"
  },
  {
+   "Code": "13190809",
    "Symbol": "AURIONPRO",
-   "ISIN": "INE132H01018",
-   "Company": "Aurionpro Solutions Limited",
-   "First Listing Date": "25-Oct-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aurionpro Solutions Limited"
  },
  {
+   "Code": "15130070",
    "Symbol": "SUZLON",
-   "ISIN": "INE040H01021",
-   "Company": "Suzlon Energy Limited",
-   "First Listing Date": "19-Oct-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Suzlon Energy Limited"
  },
  {
+   "Code": "16610009",
    "Symbol": "IMPAL",
-   "ISIN": "INE547E01014",
-   "Company": "India Motor Parts and Accessories Limited",
-   "First Listing Date": "07-Oct-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "India Motor Parts and Accessories Limited"
  },
  {
-   "Symbol": "SUNFLAG",
-   "ISIN": "INE947A01014",
-   "Company": "Sunflag Iron And Steel Company Limited",
-   "First Listing Date": "29-Sep-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13190146",
    "Symbol": "FCSSOFT",
-   "ISIN": "INE512B01022",
-   "Company": "FCS Software Solutions Limited",
-   "First Listing Date": "21-Sep-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "FCS Software Solutions Limited"
  },
  {
+   "Code": "15520008",
+   "Symbol": "SUNFLAG",
+   "Name": "Sunflag Iron And Steel Company Limited"
+ },
+ {
+   "Code": "16490206",
    "Symbol": "RAJVIR",
-   "ISIN": "INE011H01014",
-   "Company": "Rajvir Industries Limited",
-   "First Listing Date": "20-Sep-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rajvir Industries Limited"
  },
  {
+   "Code": "16030008",
    "Symbol": "ICIL",
-   "ISIN": "INE483B01026",
-   "Company": "Indo Count Industries Limited",
-   "First Listing Date": "12-Sep-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indo Count Industries Limited"
  },
  {
+   "Code": "13190210",
    "Symbol": "SASKEN",
-   "ISIN": "INE231F01020",
-   "Company": "Sasken Technologies Limited",
-   "First Listing Date": "09-Sep-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sasken Technologies Limited"
  },
  {
+   "Code": "17080024",
    "Symbol": "HTMEDIA",
-   "ISIN": "INE501G01024",
-   "Company": "HT Media Limited",
-   "First Listing Date": "01-Sep-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HT Media Limited"
  },
  {
-   "Symbol": "RML",
-   "ISIN": "INE050H01012",
-   "Company": "Rane (Madras) Limited",
-   "First Listing Date": "30-Aug-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020288",
    "Symbol": "GOLDIAM",
-   "ISIN": "INE025B01017",
-   "Company": "Goldiam International Limited",
-   "First Listing Date": "29-Aug-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Goldiam International Limited"
  },
  {
-   "Symbol": "PRECOT",
-   "ISIN": "INE283A01014",
-   "Company": "Precot Meridian Limited",
-   "First Listing Date": "19-Aug-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "10580014",
+   "Symbol": "RML",
+   "Name": "Rane (Madras) Limited"
  },
  {
+   "Code": "12520142",
    "Symbol": "VIVIMEDLAB",
-   "ISIN": "INE526G01021",
-   "Company": "Vivimed Labs Limited",
-   "First Listing Date": "17-Aug-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vivimed Labs Limited"
  },
  {
-   "Symbol": "IDFC",
-   "ISIN": "INE043D01016",
-   "Company": "IDFC Limited",
-   "First Listing Date": "12-Aug-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16030017",
+   "Symbol": "PRECOT",
+   "Name": "Precot Meridian Limited"
  },
  {
+   "Code": "13610011",
    "Symbol": "REVATHI",
-   "ISIN": "INE617A01013",
-   "Company": "Revathi Equipment Limited",
-   "First Listing Date": "11-Aug-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Revathi Equipment Limited"
  },
  {
+   "Code": "14100051",
+   "Symbol": "IDFC",
+   "Name": "IDFC Limited"
+ },
+ {
+   "Code": "11040017",
    "Symbol": "MCLEODRUSS",
-   "ISIN": "INE942G01012",
-   "Company": "Mcleod Russel India Limited",
-   "First Listing Date": "29-Jul-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mcleod Russel India Limited"
  },
  {
-   "Symbol": "SPLIL",
-   "ISIN": "INE978G01016",
-   "Company": "SPL Industries Limited",
-   "First Listing Date": "26-Jul-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12540563",
    "Symbol": "NECLIFE",
-   "ISIN": "INE023H01027",
-   "Company": "Nectar Lifesciences Limited",
-   "First Listing Date": "18-Jul-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nectar Lifesciences Limited"
  },
  {
-   "Symbol": "MSPL",
-   "ISIN": "INE752G01015",
-   "Company": "MSP Steel & Power Limited",
-   "First Listing Date": "18-Jul-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "10630002",
    "Symbol": "SUBROS",
-   "ISIN": "INE287B01021",
-   "Company": "Subros Limited",
-   "First Listing Date": "13-Jul-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Subros Limited"
  },
  {
+   "Code": "14030144",
    "Symbol": "YESBANK",
-   "ISIN": "INE528G01027",
-   "Company": "Yes Bank Limited",
-   "First Listing Date": "12-Jul-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Yes Bank Limited"
  },
  {
+   "Code": "13110038",
    "Symbol": "GENUSPOWER",
-   "ISIN": "INE955D01029",
-   "Company": "Genus Power Infrastructures Limited",
-   "First Listing Date": "08-Jul-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Genus Power Infrastructures Limited"
  },
  {
+   "Code": "12010002",
    "Symbol": "INDIAGLYCO",
-   "ISIN": "INE560A01015",
-   "Company": "India Glycols Limited",
-   "First Listing Date": "01-Jul-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "India Glycols Limited"
  },
  {
+   "Code": "14090194",
    "Symbol": "GEOJITFSL",
-   "ISIN": "INE007B01023",
-   "Company": "Geojit Financial Services Limited",
-   "First Listing Date": "01-Jul-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Geojit Financial Services Limited"
  },
  {
+   "Code": "16040029",
    "Symbol": "VHL",
-   "ISIN": "INE701A01023",
-   "Company": "Vardhman Holdings Limited",
-   "First Listing Date": "30-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vardhman Holdings Limited"
  },
  {
+   "Code": "10670051",
    "Symbol": "CASTEXTECH",
-   "ISIN": "INE068D01021",
-   "Company": "Castex Technologies Limited",
-   "First Listing Date": "27-Jun-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Castex Technologies Limited"
  },
  {
+   "Code": "14590139",
+   "Symbol": "SPLIL",
+   "Name": "SPL Industries Limited"
+ },
+ {
+   "Code": "15010008",
    "Symbol": "MANINDS",
-   "ISIN": "INE993A01026",
-   "Company": "Man Industries (India) Limited",
-   "First Listing Date": "24-Jun-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Man Industries (India) Limited"
  },
  {
+   "Code": "17024746",
    "Symbol": "JSWHL",
-   "ISIN": "INE824G01012",
-   "Company": "JSW Holdings Limited",
-   "First Listing Date": "21-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JSW Holdings Limited"
  },
  {
+   "Code": "",
    "Symbol": "63MOONS",
-   "ISIN": "INE111B01023",
-   "Company": "63 moons technologies limited",
-   "First Listing Date": "20-Jun-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "63 moons technologies limited"
  },
  {
+   "Code": "16580012",
    "Symbol": "MERCATOR",
-   "ISIN": "INE934B01028",
-   "Company": "Mercator Limited",
-   "First Listing Date": "20-Jun-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mercator Limited"
  },
  {
+   "Code": "12540301",
    "Symbol": "GRANULES",
-   "ISIN": "INE101D01020",
-   "Company": "Granules India Limited",
-   "First Listing Date": "20-Jun-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Granules India Limited"
  },
  {
+   "Code": "14090071",
    "Symbol": "PRIMESECU",
-   "ISIN": "INE032B01021",
-   "Company": "Prime Securities Limited",
-   "First Listing Date": "17-Jun-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prime Securities Limited"
  },
  {
+   "Code": "13560017",
    "Symbol": "SHAHALLOYS",
-   "ISIN": "INE640C01011",
-   "Company": "Shah Alloys Limited",
-   "First Listing Date": "16-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shah Alloys Limited"
  },
  {
+   "Code": "16530044",
    "Symbol": "JKPAPER",
-   "ISIN": "INE789E01012",
-   "Company": "JK Paper Limited",
-   "First Listing Date": "16-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JK Paper Limited"
  },
  {
+   "Code": "16030022",
    "Symbol": "SURYALAXMI",
-   "ISIN": "INE713B01026",
-   "Company": "Suryalakshmi Cotton Mills Limited",
-   "First Listing Date": "15-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Suryalakshmi Cotton Mills Limited"
  },
  {
+   "Code": "17040135",
    "Symbol": "CYBERMEDIA",
-   "ISIN": "INE278G01037",
-   "Company": "Cyber Media (India) Limited",
-   "First Listing Date": "10-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cyber Media (India) Limited"
  },
  {
+   "Code": "10590003",
    "Symbol": "SSWL",
-   "ISIN": "INE802C01017",
-   "Company": "Steel Strips Wheels Limited",
-   "First Listing Date": "06-Jun-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Steel Strips Wheels Limited"
  },
  {
+   "Code": "15580090",
    "Symbol": "WELCORP",
-   "ISIN": "INE191B01025",
-   "Company": "Welspun Corp Limited",
-   "First Listing Date": "24-May-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Welspun Corp Limited"
  },
  {
+   "Code": "12540551",
    "Symbol": "MANGALAM",
-   "ISIN": "INE584F01014",
-   "Company": "Mangalam Drugs And Organics Limited",
-   "First Listing Date": "23-May-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mangalam Drugs And Organics Limited"
  },
  {
+   "Code": "16610345",
    "Symbol": "SHOPERSTOP",
-   "ISIN": "INE498B01024",
-   "Company": "Shoppers Stop Limited",
-   "First Listing Date": "23-May-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shoppers Stop Limited"
  },
  {
+   "Code": "14010485",
    "Symbol": "IIFL",
-   "ISIN": "INE530B01024",
-   "Company": "IIFL Finance Limited",
-   "First Listing Date": "17-May-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IIFL Finance Limited"
  },
  {
+   "Code": "13190758",
    "Symbol": "SAKSOFT",
-   "ISIN": "INE667G01015",
-   "Company": "Saksoft Limited",
-   "First Listing Date": "09-May-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Saksoft Limited"
  },
  {
+   "Code": "13240027",
    "Symbol": "ALLSEC",
-   "ISIN": "INE835G01018",
-   "Company": "Allsec Technologies Limited",
-   "First Listing Date": "09-May-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Allsec Technologies Limited"
  },
  {
+   "Code": "14530003",
    "Symbol": "EVEREADY",
-   "ISIN": "INE128A01029",
-   "Company": "Eveready Industries India Limited",
-   "First Listing Date": "27-Apr-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eveready Industries India Limited"
  },
  {
+   "Code": "16070075",
    "Symbol": "GOKEX",
-   "ISIN": "INE887G01027",
-   "Company": "Gokaldas Exports Limited",
-   "First Listing Date": "27-Apr-2005",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gokaldas Exports Limited"
  },
  {
+   "Code": "13190098",
    "Symbol": "3IINFOTECH",
-   "ISIN": "INE748C01020",
-   "Company": "3i Infotech Limited",
-   "First Listing Date": "22-Apr-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "3i Infotech Limited"
  },
  {
+   "Code": "10640001",
    "Symbol": "GABRIEL",
-   "ISIN": "INE524A01029",
-   "Company": "Gabriel India Limited",
-   "First Listing Date": "20-Apr-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gabriel India Limited"
  },
  {
+   "Code": "15130060",
    "Symbol": "JPPOWER",
-   "ISIN": "INE351F01018",
-   "Company": "Jaiprakash Power Ventures Limited",
-   "First Listing Date": "18-Apr-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jaiprakash Power Ventures Limited"
  },
  {
+   "Code": "16570011",
    "Symbol": "JINDALPHOT",
-   "ISIN": "INE796G01012",
-   "Company": "Jindal Photo Limited",
-   "First Listing Date": "07-Apr-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Photo Limited"
  },
  {
+   "Code": "14060171",
    "Symbol": "SHRIRAMCIT",
-   "ISIN": "INE722A01011",
-   "Company": "Shriram City Union Finance Limited",
-   "First Listing Date": "04-Apr-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shriram City Union Finance Limited"
  },
  {
+   "Code": "16590031",
    "Symbol": "GDL",
-   "ISIN": "INE852F01015",
-   "Company": "Gateway Distriparks Limited",
-   "First Listing Date": "31-Mar-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gateway Distriparks Limited"
  },
  {
+   "Code": "16570003",
    "Symbol": "CONSOFINVT",
-   "ISIN": "INE025A01027",
-   "Company": "Consolidated Finvest & Holdings Limited",
-   "First Listing Date": "29-Mar-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Consolidated Finvest & Holdings Limited"
  },
  {
+   "Code": "15530059",
    "Symbol": "JSWSTEEL",
-   "ISIN": "INE019A01038",
-   "Company": "JSW Steel Limited",
-   "First Listing Date": "23-Mar-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JSW Steel Limited"
  },
  {
+   "Code": "12130003",
    "Symbol": "BEPL",
-   "ISIN": "INE922A01025",
-   "Company": "Bhansali Engineering Polymers Limited",
-   "First Listing Date": "21-Mar-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bhansali Engineering Polymers Limited"
  },
  {
+   "Code": "13190754",
    "Symbol": "XCHANGING",
-   "ISIN": "INE692G01013",
-   "Company": "Xchanging Solutions Limited",
-   "First Listing Date": "09-Mar-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Xchanging Solutions Limited"
  },
  {
+   "Code": "12580005",
    "Symbol": "VIPIND",
-   "ISIN": "INE054A01027",
-   "Company": "VIP Industries Limited",
-   "First Listing Date": "02-Mar-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VIP Industries Limited"
  },
  {
+   "Code": "11600067",
    "Symbol": "PATELENG",
-   "ISIN": "INE244B01030",
-   "Company": "Patel Engineering Limited",
-   "First Listing Date": "24-Feb-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Patel Engineering Limited"
  },
  {
+   "Code": "11080042",
    "Symbol": "RANASUG",
-   "ISIN": "INE625B01014",
-   "Company": "Rana Sugars Limited",
-   "First Listing Date": "24-Feb-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rana Sugars Limited"
  },
  {
+   "Code": "10630007",
    "Symbol": "SUPRAJIT",
-   "ISIN": "INE399C01030",
-   "Company": "Suprajit Engineering Limited",
-   "First Listing Date": "18-Feb-2005",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Suprajit Engineering Limited"
  },
  {
+   "Code": "14520023",
    "Symbol": "IMPEXFERRO",
-   "ISIN": "INE691G01015",
-   "Company": "Impex Ferro Tech Limited",
-   "First Listing Date": "03-Feb-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Impex Ferro Tech Limited"
  },
  {
+   "Code": "12540545",
    "Symbol": "INDOCO",
-   "ISIN": "INE873D01024",
-   "Company": "Indoco Remedies Limited",
-   "First Listing Date": "14-Jan-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indoco Remedies Limited"
  },
  {
+   "Code": "12130017",
    "Symbol": "MRPL",
-   "ISIN": "INE103A01014",
-   "Company": "Mangalore Refinery and Petrochemicals Limited",
-   "First Listing Date": "07-Jan-2005",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mangalore Refinery and Petrochemicals Limited"
  },
  {
+   "Code": "14070011",
    "Symbol": "PRESSMN",
-   "ISIN": "INE980A01023",
-   "Company": "Pressman Advertising Limited",
-   "First Listing Date": "05-Jan-2005",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pressman Advertising Limited"
  },
  {
+   "Code": "11320004",
    "Symbol": "DWARKESH",
-   "ISIN": "INE366A01041",
-   "Company": "Dwarikesh Sugar Industries Limited",
-   "First Listing Date": "31-Dec-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dwarikesh Sugar Industries Limited"
  },
  {
+   "Code": "15510031",
+   "Symbol": "MSPL",
+   "Name": "MSP Steel & Power Limited"
+ },
+ {
+   "Code": "10670055",
    "Symbol": "JBMA",
-   "ISIN": "INE927D01028",
-   "Company": "JBM Auto Limited",
-   "First Listing Date": "17-Dec-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JBM Auto Limited"
  },
  {
+   "Code": "11080007",
    "Symbol": "KOTARISUG",
-   "ISIN": "INE419A01022",
-   "Company": "Kothari Sugars And Chemicals Limited",
-   "First Listing Date": "13-Dec-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kothari Sugars And Chemicals Limited"
  },
  {
+   "Code": "",
    "Symbol": "SALSTEEL",
-   "ISIN": "INE658G01014",
-   "Company": "S.A.L. Steel Limited",
-   "First Listing Date": "24-Nov-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "S.A.L. Steel Limited"
  },
  {
+   "Code": "15130025",
    "Symbol": "NTPC",
-   "ISIN": "INE733E01010",
-   "Company": "NTPC Limited",
-   "First Listing Date": "05-Nov-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NTPC Limited"
  },
  {
+   "Code": "11600096",
    "Symbol": "WELENT",
-   "ISIN": "INE625G01013",
-   "Company": "Welspun Enterprises Limited",
-   "First Listing Date": "04-Nov-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Welspun Enterprises Limited"
  },
  {
+   "Code": "13110035",
    "Symbol": "ASTRAMICRO",
-   "ISIN": "INE386C01029",
-   "Company": "Astra Microwave Products Limited",
-   "First Listing Date": "01-Nov-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Astra Microwave Products Limited"
  },
  {
-   "Symbol": "GUFICBIO",
-   "ISIN": "INE742B01025",
-   "Company": "Gufic Biosciences Limited",
-   "First Listing Date": "19-Oct-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12540186",
    "Symbol": "INDSWFTLTD",
-   "ISIN": "INE788B01028",
-   "Company": "Ind-Swift Limited",
-   "First Listing Date": "18-Oct-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ind-Swift Limited"
  },
  {
+   "Code": "14090030",
+   "Symbol": "GUFICBIO",
+   "Name": "Gufic Biosciences Limited"
+ },
+ {
+   "Code": "14590014",
    "Symbol": "PAPERPROD",
-   "ISIN": "INE275B01026",
-   "Company": "Huhtamaki PPL Limited",
-   "First Listing Date": "01-Oct-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Huhtamaki PPL Limited"
  },
  {
+   "Code": "12600001",
    "Symbol": "TITAN",
-   "ISIN": "INE280A01028",
-   "Company": "Titan Company Limited",
-   "First Listing Date": "24-Sep-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Titan Company Limited"
  },
  {
+   "Code": "13550028",
    "Symbol": "GULFPETRO",
-   "ISIN": "INE586G01017",
-   "Company": "GP Petroleums Limited",
-   "First Listing Date": "24-Sep-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GP Petroleums Limited"
  },
  {
+   "Code": "14080005",
    "Symbol": "GRUH",
-   "ISIN": "INE580B01029",
-   "Company": "Gruh Finance Limited",
-   "First Listing Date": "10-Sep-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gruh Finance Limited"
  },
  {
+   "Code": "17010025",
    "Symbol": "TEXINFRA",
-   "ISIN": "INE435C01024",
-   "Company": "Texmaco Infrastructure & Holdings Limited",
-   "First Listing Date": "09-Sep-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Texmaco Infrastructure & Holdings Limited"
  },
  {
+   "Code": "13540001",
    "Symbol": "GREAVESCOT",
-   "ISIN": "INE224A01026",
-   "Company": "Greaves Cotton Limited",
-   "First Listing Date": "09-Sep-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Greaves Cotton Limited"
  },
  {
+   "Code": "10510004",
    "Symbol": "EICHERMOT",
-   "ISIN": "INE066A01013",
-   "Company": "Eicher Motors Limited",
-   "First Listing Date": "07-Sep-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eicher Motors Limited"
  },
  {
+   "Code": "13190705",
    "Symbol": "NIITTECH",
-   "ISIN": "INE591G01017",
-   "Company": "NIIT Technologies Limited",
-   "First Listing Date": "30-Aug-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NIIT Technologies Limited"
  },
  {
+   "Code": "13020033",
    "Symbol": "TCS",
-   "ISIN": "INE467B01029",
-   "Company": "Tata Consultancy Services Limited",
-   "First Listing Date": "25-Aug-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Consultancy Services Limited"
  },
  {
+   "Code": "15570003",
    "Symbol": "MAHSEAMLES",
-   "ISIN": "INE271B01025",
-   "Company": "Maharashtra Seamless Limited",
-   "First Listing Date": "25-Aug-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maharashtra Seamless Limited"
  },
  {
+   "Code": "11520068",
    "Symbol": "ULTRACEMCO",
-   "ISIN": "INE481G01011",
-   "Company": "UltraTech Cement Limited",
-   "First Listing Date": "24-Aug-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "UltraTech Cement Limited"
  },
  {
+   "Code": "13190705",
    "Symbol": "NIITLTD",
-   "ISIN": "INE161A01038",
-   "Company": "NIIT Limited",
-   "First Listing Date": "16-Aug-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NIIT Limited"
  },
  {
+   "Code": "17010019",
    "Symbol": "3MINDIA",
-   "ISIN": "INE470A01017",
-   "Company": "3M India Limited",
-   "First Listing Date": "13-Aug-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "3M India Limited"
  },
  {
-   "Symbol": "CENTEXT",
-   "ISIN": "INE281A01026",
-   "Company": "Century Extrusions Limited",
-   "First Listing Date": "20-Jul-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14610009",
    "Symbol": "APARINDS",
-   "ISIN": "INE372A01015",
-   "Company": "Apar Industries Limited",
-   "First Listing Date": "12-Jul-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apar Industries Limited"
  },
  {
-   "Symbol": "SUPERSPIN",
-   "ISIN": "INE662A01027",
-   "Company": "Super Spinning Mills Limited",
-   "First Listing Date": "08-Jul-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15010002",
+   "Symbol": "CENTEXT",
+   "Name": "Century Extrusions Limited"
  },
  {
+   "Code": "12520009",
    "Symbol": "PGHH",
-   "ISIN": "INE179A01014",
-   "Company": "Procter & Gamble Hygiene and Health Care Limited",
-   "First Listing Date": "07-Jul-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Procter & Gamble Hygiene and Health Care Limited"
  },
  {
+   "Code": "16030019",
+   "Symbol": "SUPERSPIN",
+   "Name": "Super Spinning Mills Limited"
+ },
+ {
+   "Code": "17010013",
    "Symbol": "LT",
-   "ISIN": "INE018A01030",
-   "Company": "Larsen & Toubro Limited",
-   "First Listing Date": "23-Jun-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Larsen & Toubro Limited"
  },
  {
+   "Code": "12120004",
    "Symbol": "EXCELINDUS",
-   "ISIN": "INE369A01029",
-   "Company": "Excel Industries Limited",
-   "First Listing Date": "16-Jun-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Excel Industries Limited"
  },
  {
+   "Code": "11520073",
    "Symbol": "JPASSOCIAT",
-   "ISIN": "INE455F01025",
-   "Company": "Jaiprakash Associates Limited",
-   "First Listing Date": "14-Jun-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jaiprakash Associates Limited"
  },
  {
+   "Code": "12520005",
    "Symbol": "TRENT",
-   "ISIN": "INE849A01020",
-   "Company": "Trent Limited",
-   "First Listing Date": "07-Jun-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Trent Limited"
  },
  {
-   "Symbol": "CCL",
-   "ISIN": "INE421D01022",
-   "Company": "CCL Products (India) Limited",
-   "First Listing Date": "07-Jun-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13020026",
    "Symbol": "MPHASIS",
-   "ISIN": "INE356A01018",
-   "Company": "MphasiS Limited",
-   "First Listing Date": "04-Jun-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MphasiS Limited"
  },
  {
-   "Symbol": "KAJARIACER",
-   "ISIN": "INE217B01036",
-   "Company": "Kajaria Ceramics Limited",
-   "First Listing Date": "01-Jun-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11040106",
+   "Symbol": "CCL",
+   "Name": "CCL Products (India) Limited"
  },
  {
+   "Code": "11540011",
    "Symbol": "MURUDCERA",
-   "ISIN": "INE692B01014",
-   "Company": "Murudeshwar Ceramics Limited",
-   "First Listing Date": "28-May-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Murudeshwar Ceramics Limited"
  },
  {
+   "Code": "11540007",
+   "Symbol": "KAJARIACER",
+   "Name": "Kajaria Ceramics Limited"
+ },
+ {
+   "Code": "13090047",
    "Symbol": "MIRCELECTR",
-   "ISIN": "INE831A01028",
-   "Company": "MIRC Electronics Limited",
-   "First Listing Date": "24-May-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MIRC Electronics Limited"
  },
  {
+   "Code": "17040124",
    "Symbol": "NDTV",
-   "ISIN": "INE155G01029",
-   "Company": "New Delhi Television Limited",
-   "First Listing Date": "19-May-2004",
-   "Face Value": 4,
-   "Paid Up Value": 4,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "New Delhi Television Limited"
  },
  {
+   "Code": "16530001",
    "Symbol": "IPAPPM",
-   "ISIN": "INE435A01028",
-   "Company": "International Paper APPM Limited",
-   "First Listing Date": "13-May-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "International Paper APPM Limited"
  },
  {
+   "Code": "13190069",
    "Symbol": "DATAMATICS",
-   "ISIN": "INE365B01017",
-   "Company": "Datamatics Global Services Limited",
-   "First Listing Date": "07-May-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Datamatics Global Services Limited"
  },
  {
+   "Code": "13570022",
    "Symbol": "RKFORGE",
-   "ISIN": "INE399G01015",
-   "Company": "Ramkrishna Forgings Limited",
-   "First Listing Date": "05-May-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ramkrishna Forgings Limited"
  },
  {
+   "Code": "14560019",
    "Symbol": "MAGMA",
-   "ISIN": "INE511C01022",
-   "Company": "Magma Fincorp Limited",
-   "First Listing Date": "27-Apr-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Magma Fincorp Limited"
  },
  {
+   "Code": "14590022",
    "Symbol": "XPROINDIA",
-   "ISIN": "INE445C01015",
-   "Company": "Xpro India Limited",
-   "First Listing Date": "27-Apr-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Xpro India Limited"
  },
  {
+   "Code": "14030012",
    "Symbol": "MAHABANK",
-   "ISIN": "INE457A01014",
-   "Company": "Bank of Maharashtra",
-   "First Listing Date": "12-Apr-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bank of Maharashtra"
  },
  {
+   "Code": "15130047",
    "Symbol": "PTC",
-   "ISIN": "INE877F01012",
-   "Company": "PTC India Limited",
-   "First Listing Date": "07-Apr-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PTC India Limited"
  },
  {
+   "Code": "11140013",
    "Symbol": "BIOCON",
-   "ISIN": "INE376G01013",
-   "Company": "Biocon Limited",
-   "First Listing Date": "07-Apr-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Biocon Limited"
  },
  {
-   "Symbol": "VAIBHAVGBL",
-   "ISIN": "INE884A01019",
-   "Company": "Vaibhav Global Limited",
-   "First Listing Date": "05-Apr-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14030067",
    "Symbol": "DHANBANK",
-   "ISIN": "INE680A01011",
-   "Company": "Dhanlaxmi Bank Limited",
-   "First Listing Date": "01-Apr-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dhanlaxmi Bank Limited"
  },
  {
+   "Code": "15070050",
+   "Symbol": "VAIBHAVGBL",
+   "Name": "Vaibhav Global Limited"
+ },
+ {
+   "Code": "12140039",
    "Symbol": "PETRONET",
-   "ISIN": "INE347G01014",
-   "Company": "Petronet LNG Limited",
-   "First Listing Date": "26-Mar-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Petronet LNG Limited"
  },
  {
+   "Code": "11600023",
    "Symbol": "SIMPLEXINF",
-   "ISIN": "INE059B01024",
-   "Company": "Simplex Infrastructures Limited",
-   "First Listing Date": "09-Mar-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Simplex Infrastructures Limited"
  },
  {
+   "Code": "16020005",
    "Symbol": "JBFIND",
-   "ISIN": "INE187A01017",
-   "Company": "JBF Industries Limited",
-   "First Listing Date": "25-Feb-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JBF Industries Limited"
  },
  {
+   "Code": "15520004",
    "Symbol": "MUKANDLTD",
-   "ISIN": "INE304A01026",
-   "Company": "Mukand Limited",
-   "First Listing Date": "23-Feb-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mukand Limited"
  },
  {
+   "Code": "17010016",
    "Symbol": "SIL",
-   "ISIN": "INE173A01025",
-   "Company": "Standard Industries Limited",
-   "First Listing Date": "27-Jan-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Standard Industries Limited"
  },
  {
+   "Code": "12060021",
    "Symbol": "UPL",
-   "ISIN": "INE628A01036",
-   "Company": "UPL Limited",
-   "First Listing Date": "23-Jan-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "UPL Limited"
  },
  {
+   "Code": "12120011",
    "Symbol": "UNIENTER",
-   "ISIN": "INE037A01022",
-   "Company": "Uniphos Enterprises Limited",
-   "First Listing Date": "23-Jan-2004",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Uniphos Enterprises Limited"
  },
  {
+   "Code": "17040119",
    "Symbol": "TVTODAY",
-   "ISIN": "INE038F01029",
-   "Company": "TV Today Network Limited",
-   "First Listing Date": "16-Jan-2004",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TV Today Network Limited"
  },
  {
+   "Code": "17020285",
    "Symbol": "DREDGECORP",
-   "ISIN": "INE506A01018",
-   "Company": "Dredging Corporation of India Limited",
-   "First Listing Date": "15-Jan-2004",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dredging Corporation of India Limited"
  },
  {
+   "Code": "10560007",
    "Symbol": "JTEKTINDIA",
-   "ISIN": "INE643A01035",
-   "Company": "Jtekt India Limited",
-   "First Listing Date": "12-Jan-2004",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jtekt India Limited"
  },
  {
+   "Code": "12300008",
    "Symbol": "IGL",
-   "ISIN": "INE203G01027",
-   "Company": "Indraprastha Gas Limited",
-   "First Listing Date": "26-Dec-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indraprastha Gas Limited"
  },
  {
-   "Symbol": "TVSELECT",
-   "ISIN": "INE236G01019",
-   "Company": "TVS Electronics Limited",
-   "First Listing Date": "26-Dec-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15560011",
    "Symbol": "JAIBALAJI",
-   "ISIN": "INE091G01018",
-   "Company": "Jai Balaji Industries Limited",
-   "First Listing Date": "09-Dec-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jai Balaji Industries Limited"
  },
  {
+   "Code": "12150015",
    "Symbol": "WELSPUNIND",
-   "ISIN": "INE192B01031",
-   "Company": "Welspun India Limited",
-   "First Listing Date": "04-Dec-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Welspun India Limited"
  },
  {
+   "Code": "15540019",
    "Symbol": "TATASTLBSL",
-   "ISIN": "INE824B01021",
-   "Company": "Tata Steel Bsl Limited",
-   "First Listing Date": "21-Nov-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Steel Bsl Limited"
  },
  {
+   "Code": "15990019",
    "Symbol": "JSL",
-   "ISIN": "INE220G01021",
-   "Company": "Jindal Stainless Limited",
-   "First Listing Date": "17-Nov-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Stainless Limited"
  },
  {
-   "Symbol": "NSIL",
-   "ISIN": "INE023A01030",
-   "Company": "Nalwa Sons Investments Limited",
-   "First Listing Date": "17-Nov-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13510039",
    "Symbol": "BHEL",
-   "ISIN": "INE257A01026",
-   "Company": "Bharat Heavy Electricals Limited",
-   "First Listing Date": "11-Nov-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Heavy Electricals Limited"
  },
  {
+   "Code": "15540009",
+   "Symbol": "NSIL",
+   "Name": "Nalwa Sons Investments Limited"
+ },
+ {
+   "Code": "17010049",
    "Symbol": "BEML",
-   "ISIN": "INE258A01016",
-   "Company": "BEML Limited",
-   "First Listing Date": "05-Nov-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BEML Limited"
  },
  {
+   "Code": "12540250",
    "Symbol": "SUVEN",
-   "ISIN": "INE495B01038",
-   "Company": "Suven Life Sciences Limited",
-   "First Listing Date": "23-Oct-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Suven Life Sciences Limited"
  },
  {
+   "Code": "",
    "Symbol": "BAGFILMS",
-   "ISIN": "INE116D01028",
-   "Company": "B.A.G Films and Media Limited",
-   "First Listing Date": "17-Oct-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "B.A.G Films and Media Limited"
  },
  {
+   "Code": "11610008",
    "Symbol": "NCC",
-   "ISIN": "INE868B01028",
-   "Company": "NCC Limited",
-   "First Listing Date": "14-Oct-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NCC Limited"
  },
  {
+   "Code": "14030017",
    "Symbol": "UCOBANK",
-   "ISIN": "INE691A01018",
-   "Company": "UCO Bank",
-   "First Listing Date": "09-Oct-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "UCO Bank"
  },
  {
+   "Code": "13120004",
    "Symbol": "IGARASHI",
-   "ISIN": "INE188B01013",
-   "Company": "Igarashi Motors India Limited",
-   "First Listing Date": "09-Oct-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Igarashi Motors India Limited"
  },
  {
-   "Symbol": "VARDHACRLC",
-   "ISIN": "INE116G01013",
-   "Company": "Vardhman Acrylics Limited",
-   "First Listing Date": "30-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020035",
    "Symbol": "HINDOILEXP",
-   "ISIN": "INE345A01011",
-   "Company": "Hindustan Oil Exploration Company Limited",
-   "First Listing Date": "23-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Oil Exploration Company Limited"
  },
  {
+   "Code": "12150036",
+   "Symbol": "VARDHACRLC",
+   "Name": "Vardhman Acrylics Limited"
+ },
+ {
+   "Code": "12540082",
    "Symbol": "AARTIDRUGS",
-   "ISIN": "INE767A01016",
-   "Company": "Aarti Drugs Limited",
-   "First Listing Date": "19-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aarti Drugs Limited"
  },
  {
+   "Code": "13010013",
    "Symbol": "TATAELXSI",
-   "ISIN": "INE670A01012",
-   "Company": "Tata Elxsi Limited",
-   "First Listing Date": "17-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Elxsi Limited"
  },
  {
+   "Code": "15140018",
    "Symbol": "ITI",
-   "ISIN": "INE248A01017",
-   "Company": "ITI Limited",
-   "First Listing Date": "15-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ITI Limited"
  },
  {
+   "Code": "11580005",
    "Symbol": "KANSAINER",
-   "ISIN": "INE531A01024",
-   "Company": "Kansai Nerolac Paints Limited",
-   "First Listing Date": "15-Sep-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kansai Nerolac Paints Limited"
  },
  {
+   "Code": "12630004",
    "Symbol": "VSTIND",
-   "ISIN": "INE710A01016",
-   "Company": "VST Industries Limited",
-   "First Listing Date": "05-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VST Industries Limited"
  },
  {
+   "Code": "16610403",
+   "Symbol": "TVSELECT",
+   "Name": "TVS Electronics Limited"
+ },
+ {
+   "Code": "13020096",
    "Symbol": "SUBEX",
-   "ISIN": "INE754A01014",
-   "Company": "Subex Limited",
-   "First Listing Date": "05-Sep-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Subex Limited"
  },
  {
+   "Code": "13150010",
    "Symbol": "AMARAJABAT",
-   "ISIN": "INE885A01032",
-   "Company": "Amara Raja Batteries Limited",
-   "First Listing Date": "05-Sep-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Amara Raja Batteries Limited"
  },
  {
+   "Code": "10510007",
    "Symbol": "SMLISUZU",
-   "ISIN": "INE294B01019",
-   "Company": "SML Isuzu Limited",
-   "First Listing Date": "29-Aug-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SML Isuzu Limited"
  },
  {
-   "Symbol": "OPTOCIRCUI",
-   "ISIN": "INE808B01016",
-   "Company": "Opto Circuits (India) Limited",
-   "First Listing Date": "25-Aug-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11510046",
    "Symbol": "PRSMJOHNSN",
-   "ISIN": "INE010A01011",
-   "Company": "Prism Johnson Limited",
-   "First Listing Date": "20-Aug-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prism Johnson Limited"
  },
  {
-   "Symbol": "SRF",
-   "ISIN": "INE647A01010",
-   "Company": "SRF Limited",
-   "First Listing Date": "18-Aug-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12090005",
    "Symbol": "GHCL",
-   "ISIN": "INE539A01019",
-   "Company": "GHCL Limited",
-   "First Listing Date": "31-Jul-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GHCL Limited"
  },
  {
+   "Code": "12520003",
    "Symbol": "GILLETTE",
-   "ISIN": "INE322A01010",
-   "Company": "Gillette India Limited",
-   "First Listing Date": "30-Jul-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gillette India Limited"
  },
  {
+   "Code": "",
    "Symbol": "VENKEYS",
-   "ISIN": "INE398A01010",
-   "Company": "Venky's (India) Limited",
-   "First Listing Date": "28-Jul-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Venky's (India) Limited"
  },
  {
+   "Code": "15140006",
    "Symbol": "AGCNET",
-   "ISIN": "INE676A01019",
-   "Company": "AGC Networks Limited",
-   "First Listing Date": "22-Jul-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AGC Networks Limited"
  },
  {
+   "Code": "12670014",
+   "Symbol": "OPTOCIRCUI",
+   "Name": "Opto Circuits (India) Limited"
+ },
+ {
+   "Code": "13040004",
    "Symbol": "HONAUT",
-   "ISIN": "INE671A01010",
-   "Company": "Honeywell Automation India Limited",
-   "First Listing Date": "18-Jul-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Honeywell Automation India Limited"
  },
  {
+   "Code": "13010004",
    "Symbol": "ZENSARTECH",
-   "ISIN": "INE520A01027",
-   "Company": "Zensar Technologies Limited",
-   "First Listing Date": "09-Jul-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zensar Technologies Limited"
  },
  {
+   "Code": "10520005",
    "Symbol": "MARUTI",
-   "ISIN": "INE585B01010",
-   "Company": "Maruti Suzuki India Limited",
-   "First Listing Date": "09-Jul-2003",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maruti Suzuki India Limited"
  },
  {
-   "Symbol": "CENTURYTEX",
-   "ISIN": "INE055A01016",
-   "Company": "Century Textiles & Industries Limited",
-   "First Listing Date": "27-Jun-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12170004",
+   "Symbol": "SRF",
+   "Name": "SRF Limited"
  },
  {
+   "Code": "16040015",
    "Symbol": "INDORAMA",
-   "ISIN": "INE156A01020",
-   "Company": "Indo Rama Synthetics (India) Limited",
-   "First Listing Date": "20-Jun-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indo Rama Synthetics (India) Limited"
  },
  {
+   "Code": "17010003",
+   "Symbol": "CENTURYTEX",
+   "Name": "Century Textiles & Industries Limited"
+ },
+ {
+   "Code": "13560002",
    "Symbol": "ELECTCAST",
-   "ISIN": "INE086A01029",
-   "Company": "Electrosteel Castings Limited",
-   "First Listing Date": "20-Jun-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Electrosteel Castings Limited"
  },
  {
+   "Code": "16510001",
    "Symbol": "BATAINDIA",
-   "ISIN": "INE176A01028",
-   "Company": "Bata India Limited",
-   "First Listing Date": "18-Jun-2003",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bata India Limited"
  },
  {
-   "Symbol": "RADICO",
-   "ISIN": "INE944F01028",
-   "Company": "Radico Khaitan Limited",
-   "First Listing Date": "18-Jun-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "10550001",
    "Symbol": "EXIDEIND",
-   "ISIN": "INE302A01020",
-   "Company": "Exide Industries Limited",
-   "First Listing Date": "17-Jun-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Exide Industries Limited"
  },
  {
-   "Symbol": "GSKCONS",
-   "ISIN": "INE264A01014",
-   "Company": "GlaxoSmithKline Consumer Healthcare Limited",
-   "First Listing Date": "16-Jun-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11510024",
+   "Symbol": "RADICO",
+   "Name": "Radico Khaitan Limited"
  },
  {
+   "Code": "12070015",
    "Symbol": "JUBILANT",
-   "ISIN": "INE700A01033",
-   "Company": "Jubilant Life Sciences Limited",
-   "First Listing Date": "16-Jun-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jubilant Life Sciences Limited"
  },
  {
+   "Code": "11120005.08",
+   "Symbol": "GSKCONS",
+   "Name": "GlaxoSmithKline Consumer Healthcare Limited"
+ },
+ {
+   "Code": "",
    "Symbol": "DRREDDY",
-   "ISIN": "INE089A01023",
-   "Company": "Dr. Reddy's Laboratories Limited",
-   "First Listing Date": "30-May-2003",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dr. Reddy's Laboratories Limited"
  },
  {
+   "Code": "10580001",
    "Symbol": "AUTOAXLES",
-   "ISIN": "INE449A01011",
-   "Company": "Automotive Axles Limited",
-   "First Listing Date": "29-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Automotive Axles Limited"
  },
  {
+   "Code": "15580071",
    "Symbol": "PSL",
-   "ISIN": "INE474B01017",
-   "Company": "PSL Limited",
-   "First Listing Date": "29-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PSL Limited"
  },
  {
+   "Code": "11080003",
    "Symbol": "BANARISUG",
-   "ISIN": "INE459A01010",
-   "Company": "Bannari Amman Sugars Limited",
-   "First Listing Date": "28-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bannari Amman Sugars Limited"
  },
  {
-   "Symbol": "NELCO",
-   "ISIN": "INE045B01015",
-   "Company": "NELCO Limited",
-   "First Listing Date": "28-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15620008",
    "Symbol": "TATAMETALI",
-   "ISIN": "INE056C01010",
-   "Company": "Tata Metaliks Limited",
-   "First Listing Date": "27-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Metaliks Limited"
  },
  {
+   "Code": "13090032",
+   "Symbol": "NELCO",
+   "Name": "NELCO Limited"
+ },
+ {
+   "Code": "12540026",
    "Symbol": "SANOFI",
-   "ISIN": "INE058A01010",
-   "Company": "Sanofi India Limited",
-   "First Listing Date": "19-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sanofi India Limited"
  },
  {
+   "Code": "12030004",
    "Symbol": "TIRUMALCHM",
-   "ISIN": "INE338A01024",
-   "Company": "Thirumalai Chemicals Limited",
-   "First Listing Date": "14-May-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Thirumalai Chemicals Limited"
  },
  {
+   "Code": "10580007",
    "Symbol": "RICOAUTO",
-   "ISIN": "INE209B01025",
-   "Company": "Rico Auto Industries Limited",
-   "First Listing Date": "12-May-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rico Auto Industries Limited"
  },
  {
+   "Code": "16030029",
    "Symbol": "VARDMNPOLY",
-   "ISIN": "INE835A01011",
-   "Company": "Vardhman Polytex Limited",
-   "First Listing Date": "12-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vardhman Polytex Limited"
  },
  {
+   "Code": "10610013",
    "Symbol": "BOSCHLTD",
-   "ISIN": "INE323A01026",
-   "Company": "Bosch Limited",
-   "First Listing Date": "12-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bosch Limited"
  },
  {
+   "Code": "10640002",
    "Symbol": "MUNJALSHOW",
-   "ISIN": "INE577A01027",
-   "Company": "Munjal Showa Limited",
-   "First Listing Date": "12-May-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Munjal Showa Limited"
  },
  {
+   "Code": "12070037",
    "Symbol": "FOSECOIND",
-   "ISIN": "INE519A01011",
-   "Company": "Foseco India Limited",
-   "First Listing Date": "05-May-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Foseco India Limited"
  },
  {
+   "Code": "12540030",
    "Symbol": "JBCHEPHARM",
-   "ISIN": "INE572A01028",
-   "Company": "JB Chemicals & Pharmaceuticals Limited",
-   "First Listing Date": "29-Apr-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "JB Chemicals & Pharmaceuticals Limited"
  },
  {
+   "Code": "15580014",
    "Symbol": "JINDALSAW",
-   "ISIN": "INE324A01024",
-   "Company": "Jindal Saw Limited",
-   "First Listing Date": "29-Apr-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jindal Saw Limited"
  },
  {
+   "Code": "14590015",
    "Symbol": "POLYPLEX",
-   "ISIN": "INE633B01018",
-   "Company": "Polyplex Corporation Limited",
-   "First Listing Date": "11-Apr-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Polyplex Corporation Limited"
  },
  {
+   "Code": "10540005",
    "Symbol": "HEROMOTOCO",
-   "ISIN": "INE158A01026",
-   "Company": "Hero MotoCorp Limited",
-   "First Listing Date": "11-Apr-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hero MotoCorp Limited"
  },
  {
+   "Code": "13570004",
    "Symbol": "BHARATFORG",
-   "ISIN": "INE465A01025",
-   "Company": "Bharat Forge Limited",
-   "First Listing Date": "04-Apr-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Forge Limited"
  },
  {
+   "Code": "",
    "Symbol": "STCINDIA",
-   "ISIN": "INE655A01013",
-   "Company": "The State Trading Corporation of India Limited",
-   "First Listing Date": "01-Apr-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The State Trading Corporation of India Limited"
  },
  {
+   "Code": "13120003",
    "Symbol": "HONDAPOWER",
-   "ISIN": "INE634A01018",
-   "Company": "Honda Siel Power Products Limited",
-   "First Listing Date": "01-Apr-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Honda Siel Power Products Limited"
  },
  {
+   "Code": "14060023",
    "Symbol": "BAJFINANCE",
-   "ISIN": "INE296A01024",
-   "Company": "Bajaj Finance Limited",
-   "First Listing Date": "01-Apr-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Finance Limited"
  },
  {
+   "Code": "11600006",
    "Symbol": "HCC",
-   "ISIN": "INE549A01026",
-   "Company": "Hindustan Construction Company Limited",
-   "First Listing Date": "01-Apr-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Construction Company Limited"
  },
  {
+   "Code": "16040009",
    "Symbol": "GARDENSILK",
-   "ISIN": "INE526A01016",
-   "Company": "Garden Silk Mills Limited",
-   "First Listing Date": "01-Apr-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Garden Silk Mills Limited"
  },
  {
+   "Code": "",
    "Symbol": "DIVISLAB",
-   "ISIN": "INE361B01024",
-   "Company": "Divi's Laboratories Limited",
-   "First Listing Date": "12-Mar-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Divi's Laboratories Limited"
  },
  {
+   "Code": "",
    "Symbol": "RADAAN",
-   "ISIN": "INE874F01027",
-   "Company": "Radaan Mediaworks India Limited",
-   "First Listing Date": "27-Feb-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Radaan Mediaworks India Limited"
  },
  {
+   "Code": "12520018",
    "Symbol": "GODREJIND",
-   "ISIN": "INE233A01035",
-   "Company": "Godrej Industries Limited",
-   "First Listing Date": "25-Feb-2003",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godrej Industries Limited"
  },
  {
+   "Code": "15560006",
    "Symbol": "TATASTLLP",
-   "ISIN": "INE674A01014",
-   "Company": "Tata Steel Long Products Limited",
-   "First Listing Date": "24-Feb-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Steel Long Products Limited"
  },
  {
+   "Code": "10670006",
    "Symbol": "OMAXAUTO",
-   "ISIN": "INE090B01011",
-   "Company": "Omax Autos Limited",
-   "First Listing Date": "20-Feb-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Omax Autos Limited"
  },
  {
+   "Code": "13580002",
    "Symbol": "GRAPHITE",
-   "ISIN": "INE371A01025",
-   "Company": "Graphite India Limited",
-   "First Listing Date": "07-Feb-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Graphite India Limited"
  },
  {
-   "Symbol": "TNTELE",
-   "ISIN": "INE141D01018",
-   "Company": "Tamilnadu Telecommunication Limited",
-   "First Listing Date": "04-Feb-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020471",
    "Symbol": "GENESYS",
-   "ISIN": "INE727B01026",
-   "Company": "Genesys International Corporation Limited",
-   "First Listing Date": "23-Jan-2003",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Genesys International Corporation Limited"
  },
  {
+   "Code": "15140013",
+   "Symbol": "TNTELE",
+   "Name": "Tamilnadu Telecommunication Limited"
+ },
+ {
+   "Code": "",
    "Symbol": "DEEPAKFERT",
-   "ISIN": "INE501A01019",
-   "Company": "Deepak Fertilizers and Petrochemicals Corporation Limited",
-   "First Listing Date": "17-Jan-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Deepak Fertilizers and Petrochemicals Corporation Limited"
  },
  {
-   "Symbol": "VTL",
-   "ISIN": "INE825A01012",
-   "Company": "Vardhman Textiles Limited",
-   "First Listing Date": "14-Jan-2003",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11070014",
    "Symbol": "RUCHISOYA",
-   "ISIN": "INE619A01027",
-   "Company": "Ruchi Soya Industries Limited",
-   "First Listing Date": "02-Jan-2003",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ruchi Soya Industries Limited"
  },
  {
+   "Code": "14030061",
    "Symbol": "CANBK",
-   "ISIN": "INE476A01014",
-   "Company": "Canara Bank",
-   "First Listing Date": "23-Dec-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Canara Bank"
  },
  {
+   "Code": "13020046",
    "Symbol": "NUCLEUS",
-   "ISIN": "INE096B01018",
-   "Company": "Nucleus Software Exports Limited",
-   "First Listing Date": "19-Dec-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nucleus Software Exports Limited"
  },
  {
+   "Code": "17020238",
    "Symbol": "BLUEDART",
-   "ISIN": "INE233B01017",
-   "Company": "Blue Dart Express Limited",
-   "First Listing Date": "12-Dec-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Blue Dart Express Limited"
  },
  {
+   "Code": "15210002",
    "Symbol": "NOIDATOLL",
-   "ISIN": "INE781B01015",
-   "Company": "Noida Toll Bridge Company Limited",
-   "First Listing Date": "06-Dec-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Noida Toll Bridge Company Limited"
  },
  {
+   "Code": "11070036",
    "Symbol": "ATFL",
-   "ISIN": "INE209A01019",
-   "Company": "Agro Tech Foods Limited",
-   "First Listing Date": "06-Dec-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Agro Tech Foods Limited"
  },
  {
+   "Code": "14030009",
    "Symbol": "ALBK",
-   "ISIN": "INE428A01015",
-   "Company": "Allahabad Bank",
-   "First Listing Date": "29-Nov-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Allahabad Bank"
  },
  {
+   "Code": "",
    "Symbol": "SANDESH",
-   "ISIN": "INE583B01015",
-   "Company": "The Sandesh Limited",
-   "First Listing Date": "26-Nov-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Sandesh Limited"
  },
  {
+   "Code": "12540226",
    "Symbol": "TORNTPHARM",
-   "ISIN": "INE685A01028",
-   "Company": "Torrent Pharmaceuticals Limited",
-   "First Listing Date": "25-Nov-2002",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Torrent Pharmaceuticals Limited"
  },
  {
+   "Code": "14550014",
    "Symbol": "VESUVIUS",
-   "ISIN": "INE386A01015",
-   "Company": "Vesuvius India Limited",
-   "First Listing Date": "04-Oct-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vesuvius India Limited"
  },
  {
+   "Code": "14080006",
    "Symbol": "DHFL",
-   "ISIN": "INE202B01012",
-   "Company": "Dewan Housing Finance Corporation Limited",
-   "First Listing Date": "01-Oct-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dewan Housing Finance Corporation Limited"
  },
  {
+   "Code": "13020130",
    "Symbol": "APTECHT",
-   "ISIN": "INE266F01018",
-   "Company": "Aptech Limited",
-   "First Listing Date": "27-Sep-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aptech Limited"
  },
  {
+   "Code": "15550002",
    "Symbol": "NATNLSTEEL",
-   "ISIN": "INE088B01015",
-   "Company": "National Steel And Agro Industries Limited",
-   "First Listing Date": "26-Sep-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "National Steel And Agro Industries Limited"
  },
  {
+   "Code": "14030018",
    "Symbol": "UNIONBANK",
-   "ISIN": "INE692A01016",
-   "Company": "Union Bank of India",
-   "First Listing Date": "24-Sep-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Union Bank of India"
  },
  {
+   "Code": "13190253",
    "Symbol": "OFSS",
-   "ISIN": "INE881D01027",
-   "Company": "Oracle Financial Services Software Limited",
-   "First Listing Date": "28-Jun-2002",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oracle Financial Services Software Limited"
  },
  {
+   "Code": "13020069",
    "Symbol": "HEXAWARE",
-   "ISIN": "INE093A01033",
-   "Company": "Hexaware Technologies Limited",
-   "First Listing Date": "14-Jun-2002",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hexaware Technologies Limited"
  },
  {
-   "Symbol": "TIMESGTY",
-   "ISIN": "INE289C01025",
-   "Company": "Times Guaranty Limited",
-   "First Listing Date": "11-Jun-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15060012",
    "Symbol": "SURANAT&P",
-   "ISIN": "INE130B01031",
-   "Company": "Surana Telecom and Power Limited",
-   "First Listing Date": "22-May-2002",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Surana Telecom and Power Limited"
  },
  {
+   "Code": "14060160",
+   "Symbol": "TIMESGTY",
+   "Name": "Times Guaranty Limited"
+ },
+ {
+   "Code": "16030027",
+   "Symbol": "VTL",
+   "Name": "Vardhman Textiles Limited"
+ },
+ {
+   "Code": "14030016",
    "Symbol": "PNB",
-   "ISIN": "INE160A01022",
-   "Company": "Punjab National Bank",
-   "First Listing Date": "24-Apr-2002",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Punjab National Bank"
  },
  {
+   "Code": "11320009",
    "Symbol": "PONNIERODE",
-   "ISIN": "INE838E01017",
-   "Company": "Ponni Sugars (Erode) Limited",
-   "First Listing Date": "16-Apr-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ponni Sugars (Erode) Limited"
  },
  {
+   "Code": "15200013",
    "Symbol": "OLECTRA",
-   "ISIN": "INE260D01016",
-   "Company": "Olectra Greentech Limited",
-   "First Listing Date": "20-Mar-2002",
-   "Face Value": 4,
-   "Paid Up Value": 4,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Olectra Greentech Limited"
  },
  {
+   "Code": "10670023",
    "Symbol": "ASAL",
-   "ISIN": "INE900C01027",
-   "Company": "Automotive Stampings and Assemblies Limited",
-   "First Listing Date": "12-Mar-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Automotive Stampings and Assemblies Limited"
  },
  {
+   "Code": "15200022",
    "Symbol": "BHARTIARTL",
-   "ISIN": "INE397D01024",
-   "Company": "Bharti Airtel Limited",
-   "First Listing Date": "15-Feb-2002",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharti Airtel Limited"
  },
  {
+   "Code": "14590005",
    "Symbol": "ESSELPACK",
-   "ISIN": "INE255A01020",
-   "Company": "Essel Propack Limited",
-   "First Listing Date": "11-Feb-2002",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Essel Propack Limited"
  },
  {
-   "Symbol": "KRBL",
-   "ISIN": "INE001B01026",
-   "Company": "KRBL Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12540171",
    "Symbol": "MARKSANS",
-   "ISIN": "INE750C01026",
-   "Company": "Marksans Pharma Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Marksans Pharma Limited"
  },
  {
+   "Code": "12640009",
+   "Symbol": "KRBL",
+   "Name": "KRBL Limited"
+ },
+ {
+   "Code": "17020158",
    "Symbol": "MPSLTD",
-   "ISIN": "INE943D01017",
-   "Company": "MPS Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MPS Limited"
  },
  {
-   "Symbol": "JINDALPOLY",
-   "ISIN": "INE197D01010",
-   "Company": "Jindal Poly Films Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "HITECHGEAR",
-   "ISIN": "INE127B01011",
-   "Company": "The Hi-Tech Gears Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16590001",
    "Symbol": "TCI",
-   "ISIN": "INE688A01022",
-   "Company": "Transport Corporation of India Limited",
-   "First Listing Date": "21-Jan-2002",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Transport Corporation of India Limited"
  },
  {
+   "Code": "10560005",
+   "Symbol": "HITECHGEAR",
+   "Name": "The Hi-Tech Gears Limited"
+ },
+ {
+   "Code": "16070001",
    "Symbol": "FEL",
-   "ISIN": "INE623B01027",
-   "Company": "Future Enterprises Limited",
-   "First Listing Date": "05-Nov-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Future Enterprises Limited"
  },
  {
+   "Code": "11100025",
    "Symbol": "MCDOWELL-N",
-   "ISIN": "INE854D01024",
-   "Company": "United Spirits Limited",
-   "First Listing Date": "27-Sep-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "United Spirits Limited"
  },
  {
-   "Symbol": "LUPIN",
-   "ISIN": "INE326A01037",
-   "Company": "Lupin Limited",
-   "First Listing Date": "10-Sep-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17020012",
    "Symbol": "JISLJALEQS",
-   "ISIN": "INE175A01038",
-   "Company": "Jain Irrigation Systems Limited",
-   "First Listing Date": "13-Aug-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jain Irrigation Systems Limited"
  },
  {
-   "Symbol": "AKZOINDIA",
-   "ISIN": "INE133A01011",
-   "Company": "Akzo Nobel India Limited",
-   "First Listing Date": "28-Jun-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12540136",
+   "Symbol": "LUPIN",
+   "Name": "Lupin Limited"
  },
  {
+   "Code": "12520118",
    "Symbol": "GODREJCP",
-   "ISIN": "INE102D01028",
-   "Company": "Godrej Consumer Products Limited",
-   "First Listing Date": "20-Jun-2001",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godrej Consumer Products Limited"
  },
  {
-   "Symbol": "ASTRAZEN",
-   "ISIN": "INE203A01020",
-   "Company": "AstraZeneca Pharma India Limited",
-   "First Listing Date": "04-May-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17010008",
+   "Symbol": "AKZOINDIA",
+   "Name": "Akzo Nobel India Limited"
  },
  {
+   "Code": "13190111",
    "Symbol": "SMARTLINK",
-   "ISIN": "INE178C01020",
-   "Company": "Smartlink Holdings Limited",
-   "First Listing Date": "11-Apr-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Smartlink Holdings Limited"
  },
  {
-   "Symbol": "GOLDTECH",
-   "ISIN": "INE805A01014",
-   "Company": "Goldstone Technologies Limited",
-   "First Listing Date": "11-Apr-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12540005",
+   "Symbol": "ASTRAZEN",
+   "Name": "AstraZeneca Pharma India Limited"
  },
  {
+   "Code": "14030021",
    "Symbol": "ANDHRABANK",
-   "ISIN": "INE434A01013",
-   "Company": "Andhra Bank",
-   "First Listing Date": "04-Apr-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Andhra Bank"
  },
  {
+   "Code": "15050037",
+   "Symbol": "GOLDTECH",
+   "Name": "Goldstone Technologies Limited"
+ },
+ {
+   "Code": "17040032",
    "Symbol": "NEXTMEDIA",
-   "ISIN": "INE747B01016",
-   "Company": "Next Mediaworks Limited",
-   "First Listing Date": "04-Apr-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Next Mediaworks Limited"
  },
  {
+   "Code": "16590021",
    "Symbol": "SHIRPUR-G",
-   "ISIN": "INE196B01016",
-   "Company": "Shirpur Gold Refinery Limited",
-   "First Listing Date": "21-Mar-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shirpur Gold Refinery Limited"
  },
  {
-   "Symbol": "HAVELLS",
-   "ISIN": "INE176B01034",
-   "Company": "Havells India Limited",
-   "First Listing Date": "21-Mar-2001",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12150022",
+   "Symbol": "JINDALPOLY",
+   "Name": "Jindal Poly Films Limited"
  },
  {
+   "Code": "13020028",
    "Symbol": "ONWARDTEC",
-   "ISIN": "INE229A01017",
-   "Company": "Onward Technologies Limited",
-   "First Listing Date": "07-Mar-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Onward Technologies Limited"
  },
  {
+   "Code": "13150020",
+   "Symbol": "HAVELLS",
+   "Name": "Havells India Limited"
+ },
+ {
+   "Code": "16030094",
    "Symbol": "TRIDENT",
-   "ISIN": "INE064C01014",
-   "Company": "Trident Limited",
-   "First Listing Date": "21-Feb-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Trident Limited"
  },
  {
+   "Code": "12070070",
    "Symbol": "HIKAL",
-   "ISIN": "INE475B01022",
-   "Company": "Hikal Limited",
-   "First Listing Date": "14-Feb-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hikal Limited"
  },
  {
+   "Code": "14010171",
    "Symbol": "KHANDSE",
-   "ISIN": "INE060B01014",
-   "Company": "Khandwala Securities Limited",
-   "First Listing Date": "07-Feb-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Khandwala Securities Limited"
  },
  {
+   "Code": "12540050",
    "Symbol": "UNICHEMLAB",
-   "ISIN": "INE351A01035",
-   "Company": "Unichem Laboratories Limited",
-   "First Listing Date": "07-Feb-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Unichem Laboratories Limited"
  },
  {
+   "Code": "16610093",
    "Symbol": "BSELINFRA",
-   "ISIN": "INE395A01016",
-   "Company": "BSEL Infrastructure Realty Limited",
-   "First Listing Date": "07-Feb-2001",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BSEL Infrastructure Realty Limited"
  },
  {
+   "Code": "16530021",
    "Symbol": "WSTCSTPAPR",
-   "ISIN": "INE976A01021",
-   "Company": "West Coast Paper Mills Limited",
-   "First Listing Date": "17-Jan-2001",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "West Coast Paper Mills Limited"
  },
  {
+   "Code": "13190107",
    "Symbol": "AXISCADES",
-   "ISIN": "INE555B01013",
-   "Company": "AXISCADES Engineering Technologies Limited",
-   "First Listing Date": "21-Dec-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "AXISCADES Engineering Technologies Limited"
  },
  {
+   "Code": "17040016",
    "Symbol": "CREATIVEYE",
-   "ISIN": "INE230B01021",
-   "Company": "Creative Eye Limited",
-   "First Listing Date": "20-Dec-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Creative Eye Limited"
  },
  {
+   "Code": "13020094",
    "Symbol": "QUINTEGRA",
-   "ISIN": "INE033B01011",
-   "Company": "Quintegra Solutions Limited",
-   "First Listing Date": "20-Dec-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Quintegra Solutions Limited"
  },
  {
-   "Symbol": "TAJGVK",
-   "ISIN": "INE586B01026",
-   "Company": "Taj GVK Hotels & Resorts Limited",
-   "First Listing Date": "20-Dec-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15150006",
    "Symbol": "KALPATPOWR",
-   "ISIN": "INE220B01022",
-   "Company": "Kalpataru Power Transmission Limited",
-   "First Listing Date": "15-Dec-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kalpataru Power Transmission Limited"
  },
  {
+   "Code": "16620007",
+   "Symbol": "TAJGVK",
+   "Name": "Taj GVK Hotels & Resorts Limited"
+ },
+ {
+   "Code": "12540022",
    "Symbol": "GLAXO",
-   "ISIN": "INE159A01016",
-   "Company": "GlaxoSmithKline Pharmaceuticals Limited",
-   "First Listing Date": "15-Dec-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GlaxoSmithKline Pharmaceuticals Limited"
  },
  {
+   "Code": "17040019",
    "Symbol": "PNC",
-   "ISIN": "INE392B01011",
-   "Company": "Pritish Nandy Communications Limited",
-   "First Listing Date": "11-Dec-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pritish Nandy Communications Limited"
  },
  {
-   "Symbol": "STRTECH",
-   "ISIN": "INE089C01029",
-   "Company": "Sterlite Technologies Limited",
-   "First Listing Date": "08-Dec-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14030015",
    "Symbol": "IOB",
-   "ISIN": "INE565A01014",
-   "Company": "Indian Overseas Bank",
-   "First Listing Date": "07-Dec-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indian Overseas Bank"
  },
  {
+   "Code": "15140056",
+   "Symbol": "STRTECH",
+   "Name": "Sterlite Technologies Limited"
+ },
+ {
+   "Code": "14510005",
    "Symbol": "SCHAEFFLER",
-   "ISIN": "INE513A01014",
-   "Company": "Schaeffler India Limited",
-   "First Listing Date": "29-Nov-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Schaeffler India Limited"
  },
  {
+   "Code": "17040024",
    "Symbol": "BALAJITELE",
-   "ISIN": "INE794B01026",
-   "Company": "Balaji Telefilms Limited",
-   "First Listing Date": "22-Nov-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balaji Telefilms Limited"
  },
  {
+   "Code": "17040012",
    "Symbol": "TIPSINDLTD",
-   "ISIN": "INE716B01011",
-   "Company": "TIPS Industries Limited",
-   "First Listing Date": "10-Nov-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TIPS Industries Limited"
  },
  {
+   "Code": "13010044",
    "Symbol": "MRO-TEK",
-   "ISIN": "INE398B01018",
-   "Company": "MRO-TEK Realty Limited",
-   "First Listing Date": "01-Nov-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MRO-TEK Realty Limited"
  },
  {
-   "Symbol": "TTML",
-   "ISIN": "INE517B01013",
-   "Company": "Tata Teleservices (Maharashtra) Limited",
-   "First Listing Date": "20-Oct-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15060006",
    "Symbol": "USHAMART",
-   "ISIN": "INE228A01035",
-   "Company": "Usha Martin Limited",
-   "First Listing Date": "11-Oct-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Usha Martin Limited"
  },
  {
-   "Symbol": "GAEL",
-   "ISIN": "INE036B01022",
-   "Company": "Gujarat Ambuja Exports Limited",
-   "First Listing Date": "11-Oct-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14090376",
    "Symbol": "PNBGILTS",
-   "ISIN": "INE859A01011",
-   "Company": "PNB Gilts Limited",
-   "First Listing Date": "18-Sep-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PNB Gilts Limited"
  },
  {
+   "Code": "11070045",
+   "Symbol": "GAEL",
+   "Name": "Gujarat Ambuja Exports Limited"
+ },
+ {
+   "Code": "17040020",
    "Symbol": "MUKTAARTS",
-   "ISIN": "INE374B01019",
-   "Company": "Mukta Arts Limited",
-   "First Listing Date": "12-Sep-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mukta Arts Limited"
  },
  {
+   "Code": "15110006",
    "Symbol": "NLCINDIA",
-   "ISIN": "INE589A01014",
-   "Company": "NLC India Limited",
-   "First Listing Date": "23-Aug-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NLC India Limited"
  },
  {
+   "Code": "15050048",
    "Symbol": "AKSHOPTFBR",
-   "ISIN": "INE523B01011",
-   "Company": "Aksh Optifibre Limited",
-   "First Listing Date": "18-Aug-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aksh Optifibre Limited"
  },
  {
+   "Code": "10540010",
    "Symbol": "TVSMOTOR",
-   "ISIN": "INE494B01023",
-   "Company": "TVS Motor Company Limited",
-   "First Listing Date": "02-Aug-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TVS Motor Company Limited"
  },
  {
+   "Code": "15200002.01",
+   "Symbol": "TTML",
+   "Name": "Tata Teleservices (Maharashtra) Limited"
+ },
+ {
+   "Code": "14030037",
    "Symbol": "KARURVYSYA",
-   "ISIN": "INE036D01028",
-   "Company": "Karur Vysya Bank Limited",
-   "First Listing Date": "26-Jul-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Karur Vysya Bank Limited"
  },
  {
+   "Code": "14010009",
    "Symbol": "TFCILTD",
-   "ISIN": "INE305A01015",
-   "Company": "Tourism Finance Corporation of India Limited",
-   "First Listing Date": "26-Jul-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tourism Finance Corporation of India Limited"
  },
  {
+   "Code": "13110034",
    "Symbol": "BEL",
-   "ISIN": "INE263A01024",
-   "Company": "Bharat Electronics Limited",
-   "First Listing Date": "19-Jul-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Electronics Limited"
  },
  {
+   "Code": "12540244",
    "Symbol": "AUROPHARMA",
-   "ISIN": "INE406A01037",
-   "Company": "Aurobindo Pharma Limited",
-   "First Listing Date": "19-Jul-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aurobindo Pharma Limited"
  },
  {
+   "Code": "11600021",
    "Symbol": "MUKANDENGG",
-   "ISIN": "INE022B01014",
-   "Company": "Mukand Engineers Limited",
-   "First Listing Date": "28-Jun-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mukand Engineers Limited"
  },
  {
+   "Code": "13020059",
    "Symbol": "CALSOFT",
-   "ISIN": "INE526B01014",
-   "Company": "California Software Company Limited",
-   "First Listing Date": "28-Jun-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "California Software Company Limited"
  },
  {
-   "Symbol": "LAKSHVILAS",
-   "ISIN": "INE694C01018",
-   "Company": "Lakshmi Vilas Bank Limited",
-   "First Listing Date": "21-Jun-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17010002",
    "Symbol": "BLUESTARCO",
-   "ISIN": "INE472A01039",
-   "Company": "Blue Star Limited",
-   "First Listing Date": "15-Jun-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Blue Star Limited"
  },
  {
+   "Code": "14030039",
+   "Symbol": "LAKSHVILAS",
+   "Name": "Lakshmi Vilas Bank Limited"
+ },
+ {
+   "Code": "14540005",
    "Symbol": "SUNDRMFAST",
-   "ISIN": "INE387A01021",
-   "Company": "Sundram Fasteners Limited",
-   "First Listing Date": "07-Jun-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sundram Fasteners Limited"
  },
  {
+   "Code": "16610005",
    "Symbol": "THOMASCOOK",
-   "ISIN": "INE332A01027",
-   "Company": "Thomas Cook  (India)  Limited",
-   "First Listing Date": "07-Jun-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Thomas Cook  (India)  Limited"
  },
  {
-   "Symbol": "CHENNPETRO",
-   "ISIN": "INE178A01016",
-   "Company": "Chennai Petroleum Corporation Limited",
-   "First Listing Date": "07-Jun-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "",
    "Symbol": "INDIACEM",
-   "ISIN": "INE383A01012",
-   "Company": "The India Cements Limited",
-   "First Listing Date": "31-May-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The India Cements Limited"
  },
  {
-   "Symbol": "HSIL",
-   "ISIN": "INE415A01038",
-   "Company": "HSIL Limited",
-   "First Listing Date": "31-May-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12140021",
+   "Symbol": "CHENNPETRO",
+   "Name": "Chennai Petroleum Corporation Limited"
  },
  {
+   "Code": "14090365",
    "Symbol": "BLBLIMITED",
-   "ISIN": "INE791A01024",
-   "Company": "BLB Limited",
-   "First Listing Date": "31-May-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BLB Limited"
  },
  {
+   "Code": "11540005",
+   "Symbol": "HSIL",
+   "Name": "HSIL Limited"
+ },
+ {
+   "Code": "13190017",
    "Symbol": "CURATECH",
-   "ISIN": "INE117B01012",
-   "Company": "Cura Technologies Limited",
-   "First Listing Date": "30-May-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cura Technologies Limited"
  },
  {
+   "Code": "12540406",
    "Symbol": "AJANTPHARM",
-   "ISIN": "INE031B01049",
-   "Company": "Ajanta Pharma Limited",
-   "First Listing Date": "29-May-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ajanta Pharma Limited"
  },
  {
+   "Code": "12540033",
    "Symbol": "MFSL",
-   "ISIN": "INE180A01020",
-   "Company": "Max Financial Services Limited",
-   "First Listing Date": "17-May-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Max Financial Services Limited"
  },
  {
+   "Code": "",
    "Symbol": "KTKBANK",
-   "ISIN": "INE614B01018",
-   "Company": "The Karnataka Bank Limited",
-   "First Listing Date": "10-May-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Karnataka Bank Limited"
  },
  {
+   "Code": "11600074",
    "Symbol": "MAHLIFE",
-   "ISIN": "INE813A01018",
-   "Company": "Mahindra Lifespace Developers Limited",
-   "First Listing Date": "10-May-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra Lifespace Developers Limited"
  },
  {
+   "Code": "17040007",
    "Symbol": "CINEVISTA",
-   "ISIN": "INE039B01026",
-   "Company": "Cinevista Limited",
-   "First Listing Date": "02-May-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cinevista Limited"
  },
  {
+   "Code": "15150010",
    "Symbol": "GEPIL",
-   "ISIN": "INE878A01011",
-   "Company": "GE Power India Limited",
-   "First Listing Date": "19-Apr-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GE Power India Limited"
  },
  {
+   "Code": "12540403",
    "Symbol": "CADILAHC",
-   "ISIN": "INE010B01027",
-   "Company": "Cadila Healthcare Limited",
-   "First Listing Date": "18-Apr-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cadila Healthcare Limited"
  },
  {
+   "Code": "13190066",
    "Symbol": "RAMCOSYS",
-   "ISIN": "INE246B01019",
-   "Company": "Ramco Systems Limited",
-   "First Listing Date": "12-Apr-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ramco Systems Limited"
  },
  {
+   "Code": "16520037",
    "Symbol": "BIL",
-   "ISIN": "INE828A01016",
-   "Company": "Bhartiya International Limited",
-   "First Listing Date": "12-Apr-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bhartiya International Limited"
  },
  {
+   "Code": "10590002",
    "Symbol": "WHEELS",
-   "ISIN": "INE715A01015",
-   "Company": "Wheels India Limited",
-   "First Listing Date": "07-Apr-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wheels India Limited"
  },
  {
+   "Code": "14620003",
    "Symbol": "SHREERAMA",
-   "ISIN": "INE879A01019",
-   "Company": "Shree Rama Multi-Tech Limited",
-   "First Listing Date": "13-Mar-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shree Rama Multi-Tech Limited"
  },
  {
+   "Code": "11600087",
    "Symbol": "IVRCLINFRA",
-   "ISIN": "INE875A01025",
-   "Company": "IVRCL Limited",
-   "First Listing Date": "08-Mar-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IVRCL Limited"
  },
  {
+   "Code": "14510021",
    "Symbol": "NRBBEARING",
-   "ISIN": "INE349A01021",
-   "Company": "NRB Bearing Limited",
-   "First Listing Date": "08-Mar-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NRB Bearing Limited"
  },
  {
+   "Code": "",
    "Symbol": "MELSTAR",
-   "ISIN": "INE817A01019",
-   "Company": "Melstar Information Technologies Limited",
-   "First Listing Date": "07-Mar-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Melstar Information Technologies Limited"
  },
  {
+   "Code": "12540382",
    "Symbol": "JAGSNPHARM",
-   "ISIN": "INE048B01027",
-   "Company": "Jagsonpal Pharmaceuticals Limited",
-   "First Listing Date": "01-Mar-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jagsonpal Pharmaceuticals Limited"
  },
  {
+   "Code": "12540405",
    "Symbol": "WOCKPHARMA",
-   "ISIN": "INE049B01025",
-   "Company": "Wockhardt Limited",
-   "First Listing Date": "23-Feb-2000",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wockhardt Limited"
  },
  {
+   "Code": "17010052",
    "Symbol": "HAVISHA",
-   "ISIN": "INE293B01029",
-   "Company": "Sri Havisha Hospitality and Infrastructure Limited",
-   "First Listing Date": "16-Feb-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sri Havisha Hospitality and Infrastructure Limited"
  },
  {
+   "Code": "12540145.01",
    "Symbol": "BLUECOAST",
-   "ISIN": "INE472B01011",
-   "Company": "Blue Coast Hotels Limited",
-   "First Listing Date": "16-Feb-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Blue Coast Hotels Limited"
  },
  {
+   "Code": "11040006",
    "Symbol": "TATACOFFEE",
-   "ISIN": "INE493A01027",
-   "Company": "Tata Coffee Limited",
-   "First Listing Date": "16-Feb-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Coffee Limited"
  },
  {
+   "Code": "15070038",
    "Symbol": "RAJESHEXPO",
-   "ISIN": "INE343B01030",
-   "Company": "Rajesh Exports Limited",
-   "First Listing Date": "09-Feb-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rajesh Exports Limited"
  },
  {
+   "Code": "12540399",
    "Symbol": "GLENMARK",
-   "ISIN": "INE935A01035",
-   "Company": "Glenmark Pharmaceuticals Limited",
-   "First Listing Date": "07-Feb-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Glenmark Pharmaceuticals Limited"
  },
  {
+   "Code": "17020557",
    "Symbol": "STAR",
-   "ISIN": "INE939A01011",
-   "Company": "Strides Pharma Science Limited",
-   "First Listing Date": "02-Feb-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Strides Pharma Science Limited"
  },
  {
+   "Code": "13020100",
    "Symbol": "VISESHINFO",
-   "ISIN": "INE861A01058",
-   "Company": "Visesh Infotecnics Limited",
-   "First Listing Date": "14-Jan-2000",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Visesh Infotecnics Limited"
  },
  {
-   "Symbol": "HCLTECH",
-   "ISIN": "INE860A01027",
-   "Company": "HCL Technologies Limited",
-   "First Listing Date": "06-Jan-2000",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13180004",
    "Symbol": "JCHAC",
-   "ISIN": "INE782A01015",
-   "Company": "Johnson Controls - Hitachi Air Conditioning India Limited",
-   "First Listing Date": "03-Jan-2000",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Johnson Controls - Hitachi Air Conditioning India Limited"
  },
  {
-   "Symbol": "JINDALSTEL",
-   "ISIN": "INE749A01030",
-   "Company": "Jindal Steel & Power Limited",
-   "First Listing Date": "29-Dec-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13020101",
+   "Symbol": "HCLTECH",
+   "Name": "HCL Technologies Limited"
  },
  {
+   "Code": "12570004",
    "Symbol": "TTKPRESTIG",
-   "ISIN": "INE690A01010",
-   "Company": "TTK Prestige Limited",
-   "First Listing Date": "22-Dec-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TTK Prestige Limited"
  },
  {
+   "Code": "15540044",
+   "Symbol": "JINDALSTEL",
+   "Name": "Jindal Steel & Power Limited"
+ },
+ {
+   "Code": "14030048",
    "Symbol": "SYNDIBANK",
-   "ISIN": "INE667A01018",
-   "Company": "Syndicate Bank",
-   "First Listing Date": "22-Dec-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Syndicate Bank"
  },
  {
+   "Code": "13020092",
    "Symbol": "ACCELYA",
-   "ISIN": "INE793A01012",
-   "Company": "Accelya Solutions India Limited",
-   "First Listing Date": "01-Dec-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Accelya Solutions India Limited"
  },
  {
+   "Code": "",
    "Symbol": "BSOFT",
-   "ISIN": "INE836A01035",
-   "Company": "BIRLASOFT LIMITED",
-   "First Listing Date": "24-Nov-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BIRLASOFT LIMITED"
  },
  {
+   "Code": "11580002",
    "Symbol": "BERGEPAINT",
-   "ISIN": "INE463A01038",
-   "Company": "Berger Paints (I) Limited",
-   "First Listing Date": "24-Nov-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Berger Paints (I) Limited"
  },
  {
+   "Code": "12540145",
    "Symbol": "MOREPENLAB",
-   "ISIN": "INE083A01026",
-   "Company": "Morepen Laboratories Limited",
-   "First Listing Date": "24-Nov-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Morepen Laboratories Limited"
  },
  {
+   "Code": "12130012",
    "Symbol": "TNPETRO",
-   "ISIN": "INE148A01019",
-   "Company": "Tamilnadu PetroProducts Limited",
-   "First Listing Date": "27-Oct-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tamilnadu PetroProducts Limited"
  },
  {
+   "Code": "11050050",
    "Symbol": "KOHINOOR",
-   "ISIN": "INE080B01012",
-   "Company": "Kohinoor Foods Limited",
-   "First Listing Date": "20-Oct-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kohinoor Foods Limited"
  },
  {
+   "Code": "12130031",
    "Symbol": "SUPPETRO",
-   "ISIN": "INE663A01017",
-   "Company": "Supreme Petrochem Limited",
-   "First Listing Date": "13-Oct-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Supreme Petrochem Limited"
  },
  {
+   "Code": "14530001",
    "Symbol": "NIPPOBATRY",
-   "ISIN": "INE567A01010",
-   "Company": "Indo-National Limited",
-   "First Listing Date": "06-Oct-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indo-National Limited"
  },
  {
+   "Code": "12540995",
    "Symbol": "ALEMBICLTD",
-   "ISIN": "INE426A01027",
-   "Company": "Alembic Limited",
-   "First Listing Date": "22-Sep-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alembic Limited"
  },
  {
+   "Code": "14090013",
    "Symbol": "IVC",
-   "ISIN": "INE050B01023",
-   "Company": "IL&FS Investment Managers Limited",
-   "First Listing Date": "15-Sep-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IL&FS Investment Managers Limited"
  },
  {
+   "Code": "11610003",
    "Symbol": "UNITECH",
-   "ISIN": "INE694A01020",
-   "Company": "Unitech Limited",
-   "First Listing Date": "08-Sep-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Unitech Limited"
  },
  {
+   "Code": "13020071",
    "Symbol": "SONATSOFTW",
-   "ISIN": "INE269A01021",
-   "Company": "Sonata Software Limited",
-   "First Listing Date": "28-Jul-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sonata Software Limited"
  },
  {
+   "Code": "14560004",
    "Symbol": "LINDEINDIA",
-   "ISIN": "INE473A01011",
-   "Company": "Linde India Limited",
-   "First Listing Date": "16-Jun-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Linde India Limited"
  },
  {
-   "Symbol": "KOPRAN",
-   "ISIN": "INE082A01010",
-   "Company": "Kopran Limited",
-   "First Listing Date": "09-Jun-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13020019",
    "Symbol": "RSSOFTWARE",
-   "ISIN": "INE165B01029",
-   "Company": "R. S. Software (India) Limited",
-   "First Listing Date": "19-May-1999",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "R. S. Software (India) Limited"
  },
  {
+   "Code": "12540078",
+   "Symbol": "KOPRAN",
+   "Name": "Kopran Limited"
+ },
+ {
+   "Code": "16520034",
    "Symbol": "MIRZAINT",
-   "ISIN": "INE771A01026",
-   "Company": "Mirza International Limited",
-   "First Listing Date": "28-Apr-1999",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mirza International Limited"
  },
  {
+   "Code": "12540038",
    "Symbol": "PFIZER",
-   "ISIN": "INE182A01018",
-   "Company": "Pfizer Limited",
-   "First Listing Date": "28-Apr-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pfizer Limited"
  },
  {
-   "Symbol": "DABUR",
-   "ISIN": "INE016A01026",
-   "Company": "Dabur India Limited",
-   "First Listing Date": "28-Apr-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16610013",
    "Symbol": "SICAL",
-   "ISIN": "INE075B01012",
-   "Company": "Sical Logistics Limited",
-   "First Listing Date": "28-Apr-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sical Logistics Limited"
  },
  {
+   "Code": "12540103",
+   "Symbol": "DABUR",
+   "Name": "Dabur India Limited"
+ },
+ {
+   "Code": "15040013",
    "Symbol": "NATIONALUM",
-   "ISIN": "INE139A01034",
-   "Company": "National Aluminium Company Limited",
-   "First Listing Date": "28-Apr-1999",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "National Aluminium Company Limited"
  },
  {
+   "Code": "13610008",
    "Symbol": "INGERRAND",
-   "ISIN": "INE177A01018",
-   "Company": "Ingersoll Rand (India) Limited",
-   "First Listing Date": "15-Apr-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ingersoll Rand (India) Limited"
  },
  {
+   "Code": "17010015",
    "Symbol": "RALLIS",
-   "ISIN": "INE613A01020",
-   "Company": "Rallis India Limited",
-   "First Listing Date": "01-Apr-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rallis India Limited"
  },
  {
+   "Code": "12090010",
    "Symbol": "TATACHEM",
-   "ISIN": "INE092A01019",
-   "Company": "Tata Chemicals Limited",
-   "First Listing Date": "01-Apr-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Chemicals Limited"
  },
  {
-   "Symbol": "MTNL",
-   "ISIN": "INE153A01019",
-   "Company": "Mahanagar Telephone Nigam Limited",
-   "First Listing Date": "17-Feb-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11600002",
    "Symbol": "ITDCEM",
-   "ISIN": "INE686A01026",
-   "Company": "ITD Cementation India Limited",
-   "First Listing Date": "10-Feb-1999",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ITD Cementation India Limited"
  },
  {
-   "Symbol": "SKFINDIA",
-   "ISIN": "INE640A01023",
-   "Company": "SKF India Limited",
-   "First Listing Date": "27-Jan-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "15140011",
+   "Symbol": "MTNL",
+   "Name": "Mahanagar Telephone Nigam Limited"
  },
  {
+   "Code": "13020065",
    "Symbol": "CYBERTECH",
-   "ISIN": "INE214A01019",
-   "Company": "Cybertech Systems And Software Limited",
-   "First Listing Date": "27-Jan-1999",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cybertech Systems And Software Limited"
  },
  {
+   "Code": "14510006",
+   "Symbol": "SKFINDIA",
+   "Name": "SKF India Limited"
+ },
+ {
+   "Code": "",
    "Symbol": "SOUTHBANK",
-   "ISIN": "INE683A01023",
-   "Company": "The South Indian Bank Limited",
-   "First Listing Date": "08-Dec-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The South Indian Bank Limited"
  },
  {
+   "Code": "15510001",
    "Symbol": "TATASTEEL",
-   "ISIN": "INE081A01012",
-   "Company": "Tata Steel Limited",
-   "First Listing Date": "18-Nov-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Steel Limited"
  },
  {
-   "Symbol": "TATAGLOBAL",
-   "ISIN": "INE192A01025",
-   "Company": "Tata Global Beverages Limited",
-   "First Listing Date": "18-Nov-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14030047",
    "Symbol": "AXISBANK",
-   "ISIN": "INE238A01034",
-   "Company": "Axis Bank Limited",
-   "First Listing Date": "16-Nov-1998",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Axis Bank Limited"
  },
  {
-   "Symbol": "BRITANNIA",
-   "ISIN": "INE216A01030",
-   "Company": "Britannia Industries Limited",
-   "First Listing Date": "05-Nov-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12660006",
+   "Symbol": "TATAGLOBAL",
+   "Name": "Tata Global Beverages Limited"
  },
  {
+   "Code": "17010001",
    "Symbol": "SINTEX",
-   "ISIN": "INE429C01035",
-   "Company": "Sintex Industries Limited",
-   "First Listing Date": "05-Nov-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sintex Industries Limited"
  },
  {
+   "Code": "11120001",
+   "Symbol": "BRITANNIA",
+   "Name": "Britannia Industries Limited"
+ },
+ {
+   "Code": "13190003",
    "Symbol": "CYIENT",
-   "ISIN": "INE136B01020",
-   "Company": "Cyient Limited",
-   "First Listing Date": "30-Sep-1998",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cyient Limited"
  },
  {
+   "Code": "17020092",
    "Symbol": "ZEEL",
-   "ISIN": "INE256A01028",
-   "Company": "Zee Entertainment Enterprises Limited",
-   "First Listing Date": "09-Sep-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zee Entertainment Enterprises Limited"
  },
  {
-   "Symbol": "ARCHIES",
-   "ISIN": "INE731A01020",
-   "Company": "Archies Limited",
-   "First Listing Date": "02-Sep-1998",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16560008",
    "Symbol": "ORIENTHOT",
-   "ISIN": "INE750A01020",
-   "Company": "Oriental Hotels Limited",
-   "First Listing Date": "27-Aug-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Hotels Limited"
  },
  {
+   "Code": "14030077",
    "Symbol": "CUB",
-   "ISIN": "INE491A01021",
-   "Company": "City Union Bank Limited",
-   "First Listing Date": "25-Aug-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "City Union Bank Limited"
  },
  {
+   "Code": "14080009",
    "Symbol": "LICHSGFIN",
-   "ISIN": "INE115A01026",
-   "Company": "LIC Housing Finance Limited",
-   "First Listing Date": "29-Jul-1998",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "LIC Housing Finance Limited"
  },
  {
+   "Code": "10510008",
    "Symbol": "TATAMOTORS",
-   "ISIN": "INE155A01022",
-   "Company": "Tata Motors Limited",
-   "First Listing Date": "22-Jul-1998",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Motors Limited"
  },
  {
+   "Code": "",
    "Symbol": "J&KBANK",
-   "ISIN": "INE168A01041",
-   "Company": "The Jammu & Kashmir Bank Limited",
-   "First Listing Date": "22-Jul-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Jammu & Kashmir Bank Limited"
  },
  {
-   "Symbol": "TATAINVEST",
-   "ISIN": "INE672A01018",
-   "Company": "Tata Investment Corporation Limited",
-   "First Listing Date": "24-Jun-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12140018",
    "Symbol": "HINDPETRO",
-   "ISIN": "INE094A01015",
-   "Company": "Hindustan Petroleum Corporation Limited",
-   "First Listing Date": "17-Jun-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Petroleum Corporation Limited"
  },
  {
-   "Symbol": "KOTHARIPRO",
-   "ISIN": "INE823A01017",
-   "Company": "Kothari Products Limited",
-   "First Listing Date": "03-Jun-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14090012",
+   "Symbol": "TATAINVEST",
+   "Name": "Tata Investment Corporation Limited"
  },
  {
+   "Code": "17020022",
    "Symbol": "VEDL",
-   "ISIN": "INE205A01025",
-   "Company": "Vedanta Limited",
-   "First Listing Date": "13-May-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vedanta Limited"
  },
  {
-   "Symbol": "ATUL",
-   "ISIN": "INE100A01010",
-   "Company": "Atul Limited",
-   "First Listing Date": "06-May-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12640003",
+   "Symbol": "KOTHARIPRO",
+   "Name": "Kothari Products Limited"
  },
  {
+   "Code": "13020032",
    "Symbol": "TRIGYN",
-   "ISIN": "INE948A01012",
-   "Company": "Trigyn Technologies Limited",
-   "First Listing Date": "09-Apr-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Trigyn Technologies Limited"
  },
  {
+   "Code": "16090004",
+   "Symbol": "ATUL",
+   "Name": "Atul Limited"
+ },
+ {
+   "Code": "14580002",
    "Symbol": "ASAHIINDIA",
-   "ISIN": "INE439A01020",
-   "Company": "Asahi India Glass Limited",
-   "First Listing Date": "18-Mar-1998",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Asahi India Glass Limited"
  },
  {
+   "Code": "11510005",
    "Symbol": "AMBUJACEM",
-   "ISIN": "INE079A01024",
-   "Company": "Ambuja Cements Limited",
-   "First Listing Date": "18-Feb-1998",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ambuja Cements Limited"
  },
  {
-   "Symbol": "INDUSINDBK",
-   "ISIN": "INE095A01012",
-   "Company": "IndusInd Bank Limited",
-   "First Listing Date": "28-Jan-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14060048",
    "Symbol": "MAHAPEXLTD",
-   "ISIN": "INE843B01013",
-   "Company": "Maha Rashtra Apex Corporation Limited",
-   "First Listing Date": "21-Jan-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maha Rashtra Apex Corporation Limited"
  },
  {
+   "Code": "14030054",
+   "Symbol": "INDUSINDBK",
+   "Name": "IndusInd Bank Limited"
+ },
+ {
+   "Code": "14060001",
    "Symbol": "SUNDARMFIN",
-   "ISIN": "INE660A01013",
-   "Company": "Sundaram Finance Limited",
-   "First Listing Date": "07-Jan-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sundaram Finance Limited"
  },
  {
+   "Code": "17020400",
+   "Symbol": "ARCHIES",
+   "Name": "Archies Limited"
+ },
+ {
+   "Code": "12100018",
    "Symbol": "RCF",
-   "ISIN": "INE027A01015",
-   "Company": "Rashtriya Chemicals and Fertilizers Limited",
-   "First Listing Date": "07-Jan-1998",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rashtriya Chemicals and Fertilizers Limited"
  },
  {
+   "Code": "17020263",
    "Symbol": "ANTGRAPHIC",
-   "ISIN": "INE414B01021",
-   "Company": "Antarctica Limited",
-   "First Listing Date": "31-Dec-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Antarctica Limited"
  },
  {
+   "Code": "15110037",
    "Symbol": "GMDCLTD",
-   "ISIN": "INE131A01031",
-   "Company": "Gujarat Mineral Development Corporation Limited",
-   "First Listing Date": "17-Dec-1997",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Mineral Development Corporation Limited"
  },
  {
+   "Code": "14030022",
    "Symbol": "CORPBANK",
-   "ISIN": "INE112A01023",
-   "Company": "Corporation Bank",
-   "First Listing Date": "01-Dec-1997",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Corporation Bank"
  },
  {
+   "Code": "14590090",
    "Symbol": "JAICORPLTD",
-   "ISIN": "INE070D01027",
-   "Company": "Jai Corp Limited",
-   "First Listing Date": "26-Nov-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jai Corp Limited"
  },
  {
+   "Code": "10580006",
    "Symbol": "RANEHOLDIN",
-   "ISIN": "INE384A01010",
-   "Company": "Rane Holdings Limited",
-   "First Listing Date": "24-Sep-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rane Holdings Limited"
  },
  {
+   "Code": "14030056",
    "Symbol": "ICICIBANK",
-   "ISIN": "INE090A01021",
-   "Company": "ICICI Bank Limited",
-   "First Listing Date": "17-Sep-1997",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ICICI Bank Limited"
  },
  {
+   "Code": "16690002",
    "Symbol": "ENGINERSIN",
-   "ISIN": "INE510A01028",
-   "Company": "Engineers India Limited",
-   "First Listing Date": "20-Aug-1997",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Engineers India Limited"
  },
  {
+   "Code": "15070005.01",
    "Symbol": "ADROITINFO",
-   "ISIN": "INE737B01033",
-   "Company": "Adroit Infotech Limited",
-   "First Listing Date": "13-Aug-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Adroit Infotech Limited"
  },
  {
+   "Code": "16580017",
    "Symbol": "SCI",
-   "ISIN": "INE109A01011",
-   "Company": "Shipping Corporation Of India Limited",
-   "First Listing Date": "13-Aug-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shipping Corporation Of India Limited"
  },
  {
+   "Code": "12540116",
    "Symbol": "FDC",
-   "ISIN": "INE258B01022",
-   "Company": "FDC Limited",
-   "First Listing Date": "07-Aug-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "FDC Limited"
  },
  {
+   "Code": "12090004",
    "Symbol": "GUJALKALI",
-   "ISIN": "INE186A01019",
-   "Company": "Gujarat Alkalies and Chemicals Limited",
-   "First Listing Date": "07-Aug-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Alkalies and Chemicals Limited"
  },
  {
+   "Code": "17020029",
    "Symbol": "DENORA",
-   "ISIN": "INE244A01016",
-   "Company": "De Nora India Limited",
-   "First Listing Date": "07-Aug-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "De Nora India Limited"
  },
  {
+   "Code": "13090029",
    "Symbol": "SAREGAMA",
-   "ISIN": "INE979A01017",
-   "Company": "Saregama India Limited",
-   "First Listing Date": "30-Jul-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Saregama India Limited"
  },
  {
+   "Code": "12100021",
    "Symbol": "MADRASFERT",
-   "ISIN": "INE414A01015",
-   "Company": "Madras Fertilizers Limited",
-   "First Listing Date": "25-Jul-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Madras Fertilizers Limited"
  },
  {
+   "Code": "14030066",
    "Symbol": "ORIENTBANK",
-   "ISIN": "INE141A01014",
-   "Company": "Oriental Bank of Commerce",
-   "First Listing Date": "02-Jul-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oriental Bank of Commerce"
  },
  {
+   "Code": "12540377",
    "Symbol": "INDSWFTLAB",
-   "ISIN": "INE915B01019",
-   "Company": "Ind-Swift Laboratories Limited",
-   "First Listing Date": "02-Jul-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ind-Swift Laboratories Limited"
  },
  {
+   "Code": "11320001",
    "Symbol": "KCPSUGIND",
-   "ISIN": "INE790B01024",
-   "Company": "KCP Sugar and Industries Corporation Limited",
-   "First Listing Date": "11-Jun-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KCP Sugar and Industries Corporation Limited"
  },
  {
+   "Code": "16610041",
    "Symbol": "ADANIENT",
-   "ISIN": "INE423A01024",
-   "Company": "Adani Enterprises Limited",
-   "First Listing Date": "04-Jun-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Adani Enterprises Limited"
  },
  {
+   "Code": "14060034",
    "Symbol": "TCIFINANCE",
-   "ISIN": "INE911B01018",
-   "Company": "TCI Finance Limited",
-   "First Listing Date": "21-May-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TCI Finance Limited"
  },
  {
+   "Code": "14060168",
    "Symbol": "DCMFINSERV",
-   "ISIN": "INE891B01012",
-   "Company": "DCM Financial Services Limited",
-   "First Listing Date": "21-May-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCM Financial Services Limited"
  },
  {
+   "Code": "17010061",
    "Symbol": "CONCOR",
-   "ISIN": "INE111A01025",
-   "Company": "Container Corporation of India Limited",
-   "First Listing Date": "07-May-1997",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Container Corporation of India Limited"
  },
  {
+   "Code": "10600004",
    "Symbol": "INDNIPPON",
-   "ISIN": "INE092B01025",
-   "Company": "India Nippon Electricals Limited",
-   "First Listing Date": "07-May-1997",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "India Nippon Electricals Limited"
  },
  {
+   "Code": "14030011",
    "Symbol": "BANKINDIA",
-   "ISIN": "INE084A01016",
-   "Company": "Bank of India",
-   "First Listing Date": "30-Apr-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bank of India"
  },
  {
+   "Code": "16550035",
    "Symbol": "INDRAMEDCO",
-   "ISIN": "INE681B01017",
-   "Company": "Indraprastha Medical Corporation Limited",
-   "First Listing Date": "17-Apr-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indraprastha Medical Corporation Limited"
  },
  {
+   "Code": "11510023",
    "Symbol": "RAMCOCEM",
-   "ISIN": "INE331A01037",
-   "Company": "The Ramco Cements Limited",
-   "First Listing Date": "09-Apr-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Ramco Cements Limited"
  },
  {
+   "Code": "11080005",
    "Symbol": "KCP",
-   "ISIN": "INE805C01028",
-   "Company": "KCP Limited",
-   "First Listing Date": "09-Apr-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "KCP Limited"
  },
  {
+   "Code": "15120010",
    "Symbol": "GAIL",
-   "ISIN": "INE129A01019",
-   "Company": "GAIL (India) Limited",
-   "First Listing Date": "02-Apr-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GAIL (India) Limited"
  },
  {
-   "Symbol": "SKMEGGPROD",
-   "ISIN": "INE411D01015",
-   "Company": "SKM Egg Products Export (India) Limited",
-   "First Listing Date": "14-Mar-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14030010",
    "Symbol": "BANKBARODA",
-   "ISIN": "INE028A01039",
-   "Company": "Bank of Baroda",
-   "First Listing Date": "19-Feb-1997",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bank of Baroda"
  },
  {
+   "Code": "15040001",
    "Symbol": "HINDALCO",
-   "ISIN": "INE038A01020",
-   "Company": "Hindalco Industries Limited",
-   "First Listing Date": "08-Jan-1997",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindalco Industries Limited"
  },
  {
-   "Symbol": "INDIANCARD",
-   "ISIN": "INE061A01014",
-   "Company": "Indian Card Clothing Company Limited",
-   "First Listing Date": "08-Jan-1997",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13010003",
    "Symbol": "HCL-INSYS",
-   "ISIN": "INE236A01020",
-   "Company": "HCL Infosystems Limited",
-   "First Listing Date": "01-Jan-1997",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HCL Infosystems Limited"
  },
  {
-   "Symbol": "SRTRANSFIN",
-   "ISIN": "INE721A01013",
-   "Company": "Shriram Transport Finance Company Limited",
-   "First Listing Date": "11-Dec-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13640001",
+   "Symbol": "INDIANCARD",
+   "Name": "Indian Card Clothing Company Limited"
  },
  {
+   "Code": "11050089",
    "Symbol": "HERITGFOOD",
-   "ISIN": "INE978A01027",
-   "Company": "Heritage Foods Limited",
-   "First Listing Date": "27-Nov-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Heritage Foods Limited"
  },
  {
+   "Code": "14060030",
+   "Symbol": "SRTRANSFIN",
+   "Name": "Shriram Transport Finance Company Limited"
+ },
+ {
+   "Code": "11510001",
    "Symbol": "ACC",
-   "ISIN": "INE012A01025",
-   "Company": "ACC Limited",
-   "First Listing Date": "20-Nov-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ACC Limited"
  },
  {
+   "Code": "11530006",
    "Symbol": "RAMCOIND",
-   "ISIN": "INE614A01028",
-   "Company": "Ramco Industries Limited",
-   "First Listing Date": "06-Nov-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ramco Industries Limited"
  },
  {
+   "Code": "16530026",
    "Symbol": "SHREYANIND",
-   "ISIN": "INE231C01019",
-   "Company": "Shreyans Industries Limited",
-   "First Listing Date": "06-Nov-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shreyans Industries Limited"
  },
  {
+   "Code": "12090015",
    "Symbol": "KOTHARIPET",
-   "ISIN": "INE720A01015",
-   "Company": "Kothari Petrochemicals Limited",
-   "First Listing Date": "02-Nov-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kothari Petrochemicals Limited"
  },
  {
+   "Code": "14080001",
    "Symbol": "HDFC",
-   "ISIN": "INE001A01036",
-   "Company": "Housing Development Finance Corporation Limited",
-   "First Listing Date": "23-Oct-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Housing Development Finance Corporation Limited"
  },
  {
+   "Code": "17020321",
    "Symbol": "RUCHINFRA",
-   "ISIN": "INE413B01023",
-   "Company": "Ruchi Infrastructure Limited",
-   "First Listing Date": "16-Oct-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ruchi Infrastructure Limited"
  },
  {
+   "Code": "14590039",
    "Symbol": "GUJRAFFIA",
-   "ISIN": "INE610B01024",
-   "Company": "Gujarat Raffia Industries Limited",
-   "First Listing Date": "09-Oct-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Raffia Industries Limited"
  },
  {
+   "Code": "17024183",
    "Symbol": "SKIL",
-   "ISIN": "INE429F01012",
-   "Company": "SKIL Infrastructure Limited",
-   "First Listing Date": "09-Oct-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SKIL Infrastructure Limited"
  },
  {
-   "Symbol": "WALCHANNAG",
-   "ISIN": "INE711A01022",
-   "Company": "Walchandnagar Industries Limited",
-   "First Listing Date": "18-Sep-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "10680013",
    "Symbol": "MRF",
-   "ISIN": "INE883A01011",
-   "Company": "MRF Limited",
-   "First Listing Date": "18-Sep-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "MRF Limited"
  },
  {
+   "Code": "13510017",
+   "Symbol": "WALCHANNAG",
+   "Name": "Walchandnagar Industries Limited"
+ },
+ {
+   "Code": "11270001",
+   "Symbol": "SKMEGGPROD",
+   "Name": "SKM Egg Products Export (India) Limited"
+ },
+ {
+   "Code": "11140152",
    "Symbol": "BINDALAGRO",
-   "ISIN": "INE143A01010",
-   "Company": "Oswal Chemicals & Fertilizers Limited",
-   "First Listing Date": "28-Aug-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oswal Chemicals & Fertilizers Limited"
  },
  {
+   "Code": "11530004",
    "Symbol": "VISAKAIND",
-   "ISIN": "INE392A01013",
-   "Company": "Visaka Industries Limited",
-   "First Listing Date": "28-Aug-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Visaka Industries Limited"
  },
  {
+   "Code": "10670029",
    "Symbol": "MOTHERSUMI",
-   "ISIN": "INE775A01035",
-   "Company": "Motherson Sumi Systems Limited",
-   "First Listing Date": "14-Aug-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Motherson Sumi Systems Limited"
  },
  {
+   "Code": "16010039",
    "Symbol": "SOMATEX",
-   "ISIN": "INE314C01013",
-   "Company": "Soma Textiles & Industries Limited",
-   "First Listing Date": "14-Aug-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Soma Textiles & Industries Limited"
  },
  {
+   "Code": "12140022",
    "Symbol": "IOC",
-   "ISIN": "INE242A01010",
-   "Company": "Indian Oil Corporation Limited",
-   "First Listing Date": "24-Jul-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Indian Oil Corporation Limited"
  },
  {
+   "Code": "12630002",
    "Symbol": "GODFRYPHLP",
-   "ISIN": "INE260B01028",
-   "Company": "Godfrey Phillips India Limited",
-   "First Listing Date": "24-Jul-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Godfrey Phillips India Limited"
  },
  {
+   "Code": "",
    "Symbol": "SUNDRMBRAK",
-   "ISIN": "INE073D01013",
-   "Company": "Sundaram Brake Linings Limited",
-   "First Listing Date": "17-Jul-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sundaram Brake Linings Limited"
  },
  {
+   "Code": "16050030",
    "Symbol": "SANGAMIND",
-   "ISIN": "INE495C01010",
-   "Company": "Sangam (India) Limited",
-   "First Listing Date": "17-Jul-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sangam (India) Limited"
  },
  {
-   "Symbol": "SUBCAPCITY",
-   "ISIN": "INE845C01016",
-   "Company": "International Constructions Limited",
-   "First Listing Date": "10-Jul-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16010032",
    "Symbol": "ZENITHEXPO",
-   "ISIN": "INE058B01018",
-   "Company": "Zenith Exports Limited",
-   "First Listing Date": "10-Jul-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zenith Exports Limited"
  },
  {
+   "Code": "17023567",
+   "Symbol": "SUBCAPCITY",
+   "Name": "International Constructions Limited"
+ },
+ {
+   "Code": "16050009",
    "Symbol": "EASTSILK",
-   "ISIN": "INE962C01027",
-   "Company": "Eastern Silk Industries Limited",
-   "First Listing Date": "03-Jul-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eastern Silk Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "INDHOTEL",
-   "ISIN": "INE053A01029",
-   "Company": "The Indian Hotels Company Limited",
-   "First Listing Date": "03-Jul-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Indian Hotels Company Limited"
  },
  {
-   "Symbol": "NORBTEAEXP",
-   "ISIN": "INE369C01017",
-   "Company": "Norben Tea & Exports Limited",
-   "First Listing Date": "26-Jun-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14010010",
    "Symbol": "KEYFINSERV",
-   "ISIN": "INE681C01015",
-   "Company": "Keynote Financial Services Limited",
-   "First Listing Date": "26-Jun-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Keynote Financial Services Limited"
  },
  {
+   "Code": "11040091",
+   "Symbol": "NORBTEAEXP",
+   "Name": "Norben Tea & Exports Limited"
+ },
+ {
+   "Code": "12540094",
    "Symbol": "BIOFILCHEM",
-   "ISIN": "INE829A01014",
-   "Company": "Biofil Chemicals & Pharmaceuticals Limited",
-   "First Listing Date": "12-Jun-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Biofil Chemicals & Pharmaceuticals Limited"
  },
  {
+   "Code": "11540012",
    "Symbol": "REGENCERAM",
-   "ISIN": "INE277C01012",
-   "Company": "Regency Ceramics Limited",
-   "First Listing Date": "05-Jun-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Regency Ceramics Limited"
  },
  {
-   "Symbol": "SAMBHAAV",
-   "ISIN": "INE699B01027",
-   "Company": "Sambhaav Media Limited",
-   "First Listing Date": "05-Jun-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16560052",
    "Symbol": "KAMATHOTEL",
-   "ISIN": "INE967C01018",
-   "Company": "Kamat Hotels (I) Limited",
-   "First Listing Date": "29-May-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kamat Hotels (I) Limited"
  },
  {
-   "Symbol": "SILINV",
-   "ISIN": "INE923A01015",
-   "Company": "SIL Investments Limited",
-   "First Listing Date": "22-May-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "11080004",
    "Symbol": "DHARSUGAR",
-   "ISIN": "INE988C01014",
-   "Company": "Dharani Sugars & Chemicals Limited",
-   "First Listing Date": "22-May-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dharani Sugars & Chemicals Limited"
  },
  {
-   "Symbol": "CHOLAFIN",
-   "ISIN": "INE121A01024",
-   "Company": "Cholamandalam Investment and Finance Company Limited",
-   "First Listing Date": "15-May-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16050002",
+   "Symbol": "SILINV",
+   "Name": "SIL Investments Limited"
  },
  {
+   "Code": "14080020",
    "Symbol": "GICHSGFIN",
-   "ISIN": "INE289B01019",
-   "Company": "GIC Housing Finance Limited",
-   "First Listing Date": "08-May-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GIC Housing Finance Limited"
  },
  {
-   "Symbol": "HINDCOMPOS",
-   "ISIN": "INE310C01029",
-   "Company": "Hindustan Composites Limited",
-   "First Listing Date": "08-May-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "14060011",
+   "Symbol": "CHOLAFIN",
+   "Name": "Cholamandalam Investment and Finance Company Limited"
  },
  {
+   "Code": "11120039",
    "Symbol": "MARICO",
-   "ISIN": "INE196A01026",
-   "Company": "Marico Limited",
-   "First Listing Date": "01-May-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Marico Limited"
  },
  {
+   "Code": "10580003",
+   "Symbol": "HINDCOMPOS",
+   "Name": "Hindustan Composites Limited"
+ },
+ {
+   "Code": "15100015",
    "Symbol": "CUBEXTUB",
-   "ISIN": "INE144D01012",
-   "Company": "Cubex Tubings Limited",
-   "First Listing Date": "24-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cubex Tubings Limited"
  },
  {
+   "Code": "12520009",
    "Symbol": "PGHL",
-   "ISIN": "INE199A01012",
-   "Company": "Procter & Gamble Health Limited",
-   "First Listing Date": "24-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Procter & Gamble Health Limited"
  },
  {
+   "Code": "17020322",
    "Symbol": "ALPSINDUS",
-   "ISIN": "INE093B01015",
-   "Company": "Alps Industries Limited",
-   "First Listing Date": "24-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alps Industries Limited"
  },
  {
+   "Code": "13510024",
    "Symbol": "EIMCOELECO",
-   "ISIN": "INE158B01016",
-   "Company": "Eimco Elecon (India) Limited",
-   "First Listing Date": "17-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eimco Elecon (India) Limited"
  },
  {
+   "Code": "12540303",
    "Symbol": "PANACEABIO",
-   "ISIN": "INE922B01023",
-   "Company": "Panacea Biotec Limited",
-   "First Listing Date": "17-Apr-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Panacea Biotec Limited"
  },
  {
+   "Code": "14070018",
    "Symbol": "AUSOMENT",
-   "ISIN": "INE218C01016",
-   "Company": "Ausom Enterprise Limited",
-   "First Listing Date": "17-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ausom Enterprise Limited"
  },
  {
+   "Code": "11070071",
    "Symbol": "JAYAGROGN",
-   "ISIN": "INE785A01026",
-   "Company": "Jayant Agro Organics Limited",
-   "First Listing Date": "17-Apr-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jayant Agro Organics Limited"
  },
  {
+   "Code": "16010040",
    "Symbol": "ALOKTEXT",
-   "ISIN": "INE270A01011",
-   "Company": "Alok Industries Limited",
-   "First Listing Date": "10-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Alok Industries Limited"
  },
  {
+   "Code": "16020108",
    "Symbol": "MOHOTAIND",
-   "ISIN": "INE313D01013",
-   "Company": "Mohota Industries Limited",
-   "First Listing Date": "10-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "Mohota Industries Limited"
  },
  {
+   "Code": "17020346",
+   "Symbol": "SAMBHAAV",
+   "Name": "Sambhaav Media Limited"
+ },
+ {
+   "Code": "14550001",
    "Symbol": "CARBORUNIV",
-   "ISIN": "INE120A01034",
-   "Company": "Carborundum Universal Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Carborundum Universal Limited"
  },
  {
+   "Code": "10560001",
    "Symbol": "BHARATGEAR",
-   "ISIN": "INE561C01019",
-   "Company": "Bharat Gears Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Gears Limited"
  },
  {
+   "Code": "12010001",
    "Symbol": "IFBAGRO",
-   "ISIN": "INE076C01018",
-   "Company": "IFB Agro Industries Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IFB Agro Industries Limited"
  },
  {
+   "Code": "11040005",
    "Symbol": "BBTC",
-   "ISIN": "INE050A01025",
-   "Company": "Bombay Burmah Trading Corporation Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bombay Burmah Trading Corporation Limited"
  },
  {
+   "Code": "12040001",
    "Symbol": "AEGISCHEM",
-   "ISIN": "INE208C01025",
-   "Company": "Aegis Logistics Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aegis Logistics Limited"
  },
  {
+   "Code": "15130008",
    "Symbol": "TATAPOWER",
-   "ISIN": "INE245A01021",
-   "Company": "Tata Power Company Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Power Company Limited"
  },
  {
-   "Symbol": "NBVENTURES",
-   "ISIN": "INE725A01022",
-   "Company": "Nava Bharat Ventures Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "14010267",
    "Symbol": "PREMIER",
-   "ISIN": "INE342A01018",
-   "Company": "Premier Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Premier Limited"
  },
  {
+   "Code": "16560053",
    "Symbol": "HOTELRUGBY",
-   "ISIN": "INE275F01019",
-   "Company": "Hotel Rugby Limited",
-   "First Listing Date": "03-Apr-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hotel Rugby Limited"
  },
  {
+   "Code": "14010112",
    "Symbol": "CORALFINAC",
-   "ISIN": "INE558D01021",
-   "Company": "Coral India Finance & Housing Limited",
-   "First Listing Date": "25-Mar-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "Coral India Finance & Housing Limited"
  },
  {
+   "Code": "11570030",
    "Symbol": "GREENPLY",
-   "ISIN": "INE461C01038",
-   "Company": "Greenply Industries Limited",
-   "First Listing Date": "06-Mar-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Greenply Industries Limited"
  },
  {
+   "Code": "16530078",
    "Symbol": "TNPL",
-   "ISIN": "INE107A01015",
-   "Company": "Tamil Nadu Newsprint & Papers Limited",
-   "First Listing Date": "14-Feb-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tamil Nadu Newsprint & Papers Limited"
  },
  {
+   "Code": "14520017",
+   "Symbol": "NBVENTURES",
+   "Name": "Nava Bharat Ventures Limited"
+ },
+ {
+   "Code": "13510038",
    "Symbol": "SPMLINFRA",
-   "ISIN": "INE937A01023",
-   "Company": "SPML Infra Limited",
-   "First Listing Date": "14-Feb-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SPML Infra Limited"
  },
  {
+   "Code": "10650011",
    "Symbol": "REMSONSIND",
-   "ISIN": "INE474C01015",
-   "Company": "Remsons Industries Limited",
-   "First Listing Date": "31-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Remsons Industries Limited"
  },
  {
+   "Code": "16030004",
    "Symbol": "EUROTEXIND",
-   "ISIN": "INE022C01012",
-   "Company": "Eurotex Industries and Exports Limited",
-   "First Listing Date": "31-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Eurotex Industries and Exports Limited"
  },
  {
+   "Code": "11510004",
    "Symbol": "DALMIASUG",
-   "ISIN": "INE495A01022",
-   "Company": "Dalmia Bharat Sugar and Industries Limited",
-   "First Listing Date": "17-Jan-1996",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dalmia Bharat Sugar and Industries Limited"
  },
  {
+   "Code": "13520017",
    "Symbol": "SHANTIGEAR",
-   "ISIN": "INE631A01022",
-   "Company": "Shanthi Gears Limited",
-   "First Listing Date": "17-Jan-1996",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shanthi Gears Limited"
  },
  {
+   "Code": "12130008",
    "Symbol": "NOCIL",
-   "ISIN": "INE163A01018",
-   "Company": "NOCIL Limited",
-   "First Listing Date": "17-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NOCIL Limited"
  },
  {
-   "Symbol": "SPIC",
-   "ISIN": "INE147A01011",
-   "Company": "Southern Petrochemicals Industries Corporation  Limited",
-   "First Listing Date": "10-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13140010",
    "Symbol": "INDLMETER",
-   "ISIN": "INE065B01013",
-   "Company": "IMP Powers Limited",
-   "First Listing Date": "10-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IMP Powers Limited"
  },
  {
+   "Code": "16550001",
    "Symbol": "APOLLOHOSP",
-   "ISIN": "INE437A01024",
-   "Company": "Apollo Hospitals Enterprise Limited",
-   "First Listing Date": "10-Jan-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apollo Hospitals Enterprise Limited"
  },
  {
+   "Code": "10670004",
    "Symbol": "JAYBARMARU",
-   "ISIN": "INE571B01028",
-   "Company": "Jay Bharat Maruti Limited",
-   "First Listing Date": "03-Jan-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jay Bharat Maruti Limited"
  },
  {
+   "Code": "11510022",
    "Symbol": "MANGLMCEM",
-   "ISIN": "INE347A01017",
-   "Company": "Mangalam Cement Limited",
-   "First Listing Date": "03-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mangalam Cement Limited"
  },
  {
+   "Code": "10520003",
    "Symbol": "M&M",
-   "ISIN": "INE101A01026",
-   "Company": "Mahindra & Mahindra Limited",
-   "First Listing Date": "03-Jan-1996",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mahindra & Mahindra Limited"
  },
  {
+   "Code": "12540133",
    "Symbol": "KREBSBIO",
-   "ISIN": "INE268B01013",
-   "Company": "Krebs Biochemicals and Industries Limited",
-   "First Listing Date": "03-Jan-1996",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Krebs Biochemicals and Industries Limited"
  },
  {
+   "Code": "12540243",
    "Symbol": "NATCOPHARM",
-   "ISIN": "INE987B01026",
-   "Company": "Natco Pharma Limited",
-   "First Listing Date": "27-Dec-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Natco Pharma Limited"
  },
  {
+   "Code": "13520112",
    "Symbol": "PETRONENGG",
-   "ISIN": "INE742A01019",
-   "Company": "Petron Engineering Construction Limited",
-   "First Listing Date": "27-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Petron Engineering Construction Limited"
  },
  {
+   "Code": "14070015",
    "Symbol": "SREINFRA",
-   "ISIN": "INE872A01014",
-   "Company": "SREI Infrastructure Finance Limited",
-   "First Listing Date": "20-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SREI Infrastructure Finance Limited"
  },
  {
+   "Code": "14060005",
    "Symbol": "KOTAKBANK",
-   "ISIN": "INE237A01028",
-   "Company": "Kotak Mahindra Bank Limited",
-   "First Listing Date": "20-Dec-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kotak Mahindra Bank Limited"
  },
  {
+   "Code": "16610027",
    "Symbol": "KHAITANLTD",
-   "ISIN": "INE731C01018",
-   "Company": "Khaitan (India) Limited",
-   "First Listing Date": "20-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Khaitan (India) Limited"
  },
  {
+   "Code": "11520014",
    "Symbol": "KAKATCEM",
-   "ISIN": "INE437B01014",
-   "Company": "Kakatiya Cement Sugar & Industries Limited",
-   "First Listing Date": "13-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kakatiya Cement Sugar & Industries Limited"
  },
  {
+   "Code": "14590053",
    "Symbol": "PREMIERPOL",
-   "ISIN": "INE309M01012",
-   "Company": "Premier Polyfilm Limited",
-   "First Listing Date": "13-Dec-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Premier Polyfilm Limited"
  },
  {
+   "Code": "15580013",
    "Symbol": "STINDIA",
-   "ISIN": "INE090C01019",
-   "Company": "STI India Limited",
-   "First Listing Date": "06-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "STI India Limited"
  },
  {
+   "Code": "13540006",
    "Symbol": "SWARAJENG",
-   "ISIN": "INE277A01016",
-   "Company": "Swaraj Engines Limited",
-   "First Listing Date": "06-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Swaraj Engines Limited"
  },
  {
+   "Code": "15060011",
    "Symbol": "BIRLACABLE",
-   "ISIN": "INE800A01015",
-   "Company": "Birla Cable Limited",
-   "First Listing Date": "06-Dec-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Birla Cable Limited"
  },
  {
+   "Code": "14060009",
    "Symbol": "RELCAPITAL",
-   "ISIN": "INE013A01015",
-   "Company": "Reliance Capital Limited",
-   "First Listing Date": "29-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Capital Limited"
  },
  {
+   "Code": "17020045",
    "Symbol": "RIIL",
-   "ISIN": "INE046A01015",
-   "Company": "Reliance Industrial Infrastructure Limited",
-   "First Listing Date": "29-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Industrial Infrastructure Limited"
  },
  {
+   "Code": "12150008",
    "Symbol": "RELIANCE",
-   "ISIN": "INE002A01018",
-   "Company": "Reliance Industries Limited",
-   "First Listing Date": "29-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Reliance Industries Limited"
  },
  {
+   "Code": "11540013",
    "Symbol": "SOMANYCERA",
-   "ISIN": "INE355A01028",
-   "Company": "Somany Ceramics Limited",
-   "First Listing Date": "22-Nov-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Somany Ceramics Limited"
  },
  {
+   "Code": "13610005",
    "Symbol": "ELGIEQUIP",
-   "ISIN": "INE285A01027",
-   "Company": "Elgi Equipments Limited",
-   "First Listing Date": "22-Nov-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Elgi Equipments Limited"
  },
  {
+   "Code": "14030055",
    "Symbol": "HDFCBANK",
-   "ISIN": "INE040A01034",
-   "Company": "HDFC Bank Limited",
-   "First Listing Date": "08-Nov-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HDFC Bank Limited"
  },
  {
+   "Code": "11060011",
    "Symbol": "WIPRO",
-   "ISIN": "INE075A01022",
-   "Company": "Wipro Limited",
-   "First Listing Date": "08-Nov-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Wipro Limited"
  },
  {
+   "Code": "12200013",
    "Symbol": "NILKAMAL",
-   "ISIN": "INE310A01015",
-   "Company": "Nilkamal Limited",
-   "First Listing Date": "01-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Nilkamal Limited"
  },
  {
+   "Code": "13580003",
    "Symbol": "ESABINDIA",
-   "ISIN": "INE284A01012",
-   "Company": "Esab India Limited",
-   "First Listing Date": "01-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Esab India Limited"
  },
  {
+   "Code": "17010021",
    "Symbol": "ANDHRSUGAR",
-   "ISIN": "INE715B01013",
-   "Company": "The Andhra Sugars Limited",
-   "First Listing Date": "01-Nov-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Andhra Sugars Limited"
  },
  {
+   "Code": "13110003",
    "Symbol": "DELTAMAGNT",
-   "ISIN": "INE393A01011",
-   "Company": "Delta Magnets Limited",
-   "First Listing Date": "18-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Delta Magnets Limited"
  },
  {
+   "Code": "11550051",
    "Symbol": "ARENTERP",
-   "ISIN": "INE610C01014",
-   "Company": "Rajdarshan Industries Limited",
-   "First Listing Date": "18-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "Rajdarshan Industries Limited"
  },
  {
+   "Code": "16060004",
    "Symbol": "RAYMOND",
-   "ISIN": "INE301A01014",
-   "Company": "Raymond Limited",
-   "First Listing Date": "18-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Raymond Limited"
  },
  {
+   "Code": "14590072",
    "Symbol": "PEARLPOLY",
-   "ISIN": "INE844A01013",
-   "Company": "Pearl Polymers Limited",
-   "First Listing Date": "11-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pearl Polymers Limited"
  },
  {
+   "Code": "12120016",
    "Symbol": "BHARATRAS",
-   "ISIN": "INE838B01013",
-   "Company": "Bharat Rasayan Limited",
-   "First Listing Date": "11-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bharat Rasayan Limited"
  },
  {
+   "Code": "12560001",
    "Symbol": "TOKYOPLAST",
-   "ISIN": "INE932C01012",
-   "Company": "Tokyo Plast International Limited",
-   "First Listing Date": "11-Oct-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tokyo Plast International Limited"
  },
  {
+   "Code": "13520092",
    "Symbol": "PRAJIND",
-   "ISIN": "INE074A01025",
-   "Company": "Praj Industries Limited",
-   "First Listing Date": "11-Oct-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Praj Industries Limited"
  },
  {
+   "Code": "13510012",
    "Symbol": "TIL",
-   "ISIN": "INE806C01018",
-   "Company": "TIL Limited",
-   "First Listing Date": "27-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "TIL Limited"
  },
  {
+   "Code": "16510008",
    "Symbol": "LIBERTSHOE",
-   "ISIN": "INE557B01019",
-   "Company": "Liberty Shoes Limited",
-   "First Listing Date": "27-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Liberty Shoes Limited"
  },
  {
+   "Code": "16070026",
    "Symbol": "ZODIACLOTH",
-   "ISIN": "INE206B01013",
-   "Company": "Zodiac Clothing Company Limited",
-   "First Listing Date": "27-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zodiac Clothing Company Limited"
  },
  {
+   "Code": "14040004",
    "Symbol": "IDBI",
-   "ISIN": "INE008A01015",
-   "Company": "IDBI Bank Limited",
-   "First Listing Date": "20-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IDBI Bank Limited"
  },
  {
-   "Symbol": "ASHAPURMIN",
-   "ISIN": "INE348A01023",
-   "Company": "Ashapura Minechem Limited",
-   "First Listing Date": "20-Sep-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "BPCL",
-   "ISIN": "INE029A01011",
-   "Company": "Bharat Petroleum Corporation Limited",
-   "First Listing Date": "13-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "IVP",
-   "ISIN": "INE043C01018",
-   "Company": "IVP Limited",
-   "First Listing Date": "13-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16530018",
    "Symbol": "STARPAPER",
-   "ISIN": "INE733A01018",
-   "Company": "Star Paper Mills Limited",
-   "First Listing Date": "13-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Star Paper Mills Limited"
  },
  {
+   "Code": "17020078",
+   "Symbol": "ASHAPURMIN",
+   "Name": "Ashapura Minechem Limited"
+ },
+ {
+   "Code": "10610009",
    "Symbol": "UCALFUEL",
-   "ISIN": "INE139B01016",
-   "Company": "Ucal Fuel Systems Limited",
-   "First Listing Date": "13-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ucal Fuel Systems Limited"
  },
  {
+   "Code": "12140020",
+   "Symbol": "BPCL",
+   "Name": "Bharat Petroleum Corporation Limited"
+ },
+ {
+   "Code": "17010011",
    "Symbol": "KESORAMIND",
-   "ISIN": "INE087A01019",
-   "Company": "Kesoram Industries Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kesoram Industries Limited"
  },
  {
+   "Code": "13510008",
    "Symbol": "KABRAEXTRU",
-   "ISIN": "INE900B01029",
-   "Company": "Kabra Extrusion Technik Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kabra Extrusion Technik Limited"
  },
  {
+   "Code": "11080012",
    "Symbol": "SAKHTISUG",
-   "ISIN": "INE623A01011",
-   "Company": "Sakthi Sugars Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sakthi Sugars Limited"
  },
  {
+   "Code": "13040003",
    "Symbol": "SIEMENS",
-   "ISIN": "INE003A01024",
-   "Company": "Siemens Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Siemens Limited"
  },
  {
+   "Code": "10620002",
    "Symbol": "LUMAXIND",
-   "ISIN": "INE162B01018",
-   "Company": "Lumax Industries Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lumax Industries Limited"
  },
  {
+   "Code": "14610013",
    "Symbol": "APCOTEXIND",
-   "ISIN": "INE116A01032",
-   "Company": "Apcotex Industries Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apcotex Industries Limited"
  },
  {
+   "Code": "",
    "Symbol": "GSFC",
-   "ISIN": "INE026A01025",
-   "Company": "Gujarat State Fertilizers & Chemicals Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat State Fertilizers & Chemicals Limited"
  },
  {
-   "Symbol": "PRECWIRE",
-   "ISIN": "INE372C01029",
-   "Company": "Precision Wires India Limited",
-   "First Listing Date": "06-Sep-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "12100010",
+   "Symbol": "SPIC",
+   "Name": "Southern Petrochemicals Industries Corporation  Limited"
  },
  {
+   "Code": "11060005",
+   "Symbol": "IVP",
+   "Name": "IVP Limited"
+ },
+ {
+   "Code": "17020005",
    "Symbol": "DICIND",
-   "ISIN": "INE303A01010",
-   "Company": "DIC India Limited",
-   "First Listing Date": "30-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DIC India Limited"
  },
  {
-   "Symbol": "INDIANHUME",
-   "ISIN": "INE323C01030",
-   "Company": "Indian Hume Pipe Company Limited",
-   "First Listing Date": "30-Aug-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13630006",
    "Symbol": "THERMAX",
-   "ISIN": "INE152A01029",
-   "Company": "Thermax Limited",
-   "First Listing Date": "30-Aug-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Thermax Limited"
  },
  {
-   "Symbol": "OILCOUNTUB",
-   "ISIN": "INE591A01010",
-   "Company": "Oil Country Tubular Limited",
-   "First Listing Date": "30-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "11530003",
+   "Symbol": "INDIANHUME",
+   "Name": "Indian Hume Pipe Company Limited"
  },
  {
+   "Code": "14590006",
    "Symbol": "UFLEX",
-   "ISIN": "INE516A01017",
-   "Company": "UFLEX Limited",
-   "First Listing Date": "23-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "UFLEX Limited"
  },
  {
+   "Code": "17020016",
+   "Symbol": "OILCOUNTUB",
+   "Name": "Oil Country Tubular Limited"
+ },
+ {
+   "Code": "12630003",
    "Symbol": "ITC",
-   "ISIN": "INE154A01025",
-   "Company": "ITC Limited",
-   "First Listing Date": "23-Aug-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ITC Limited"
  },
  {
+   "Code": "11090030",
    "Symbol": "GMBREW",
-   "ISIN": "INE075D01018",
-   "Company": "GM Breweries Limited",
-   "First Listing Date": "23-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GM Breweries Limited"
  },
  {
+   "Code": "13570009",
    "Symbol": "METALFORGE",
-   "ISIN": "INE425A01011",
-   "Company": "Metalyst Forgings Limited",
-   "First Listing Date": "23-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Metalyst Forgings Limited"
  },
  {
+   "Code": "16030028",
    "Symbol": "GTNIND",
-   "ISIN": "INE537A01013",
-   "Company": "GTN Industries Limited",
-   "First Listing Date": "02-Aug-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GTN Industries Limited"
  },
  {
+   "Code": "16040006",
    "Symbol": "BSL",
-   "ISIN": "INE594B01012",
-   "Company": "BSL Limited",
-   "First Listing Date": "27-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BSL Limited"
  },
  {
+   "Code": "11570002",
    "Symbol": "MANGTIMBER",
-   "ISIN": "INE805B01012",
-   "Company": "Mangalam Timber Products Limited",
-   "First Listing Date": "27-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mangalam Timber Products Limited"
  },
  {
+   "Code": "12520012",
    "Symbol": "TAINWALCHM",
-   "ISIN": "INE123C01018",
-   "Company": "Tainwala Chemical and Plastic (I) Limited",
-   "First Listing Date": "27-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tainwala Chemical and Plastic (I) Limited"
  },
  {
+   "Code": "16020087",
    "Symbol": "ASHIMASYN",
-   "ISIN": "INE440A01010",
-   "Company": "Ashima Limited",
-   "First Listing Date": "27-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ashima Limited"
  },
  {
-   "Symbol": "ONGC",
-   "ISIN": "INE213A01029",
-   "Company": "Oil & Natural Gas Corporation Limited",
-   "First Listing Date": "19-Jul-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12200009",
    "Symbol": "SUPREMEIND",
-   "ISIN": "INE195A01028",
-   "Company": "Supreme Industries Limited",
-   "First Listing Date": "19-Jul-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Supreme Industries Limited"
  },
  {
+   "Code": "Crude Oil",
+   "Symbol": "ONGC",
+   "Name": "Oil & Natural Gas Corporation Limited"
+ },
+ {
+   "Code": "15100010",
+   "Symbol": "PRECWIRE",
+   "Name": "Precision Wires India Limited"
+ },
+ {
+   "Code": "15070023",
    "Symbol": "ZODJRDMKJ",
-   "ISIN": "INE077B01018",
-   "Company": "Zodiac JRD- MKJ Limited",
-   "First Listing Date": "19-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zodiac JRD- MKJ Limited"
  },
  {
-   "Symbol": "3PLAND",
-   "ISIN": "INE105C01023",
-   "Company": "3P Land Holdings Limited",
-   "First Listing Date": "19-Jul-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16560006",
    "Symbol": "HOTELEELA",
-   "ISIN": "INE102A01024",
-   "Company": "Hotel Leela Venture Limited",
-   "First Listing Date": "19-Jul-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hotel Leela Venture Limited"
  },
  {
+   "Code": "17020306",
    "Symbol": "BANARBEADS",
-   "ISIN": "INE655B01011",
-   "Company": "Banaras Beads Limited",
-   "First Listing Date": "07-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "Banaras Beads Limited"
  },
  {
+   "Code": "16610040",
    "Symbol": "NKIND",
-   "ISIN": "INE542C01019",
-   "Company": "NK Industries Limited",
-   "First Listing Date": "07-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "NK Industries Limited"
  },
  {
+   "Code": "12520002",
    "Symbol": "HINDUNILVR",
-   "ISIN": "INE030A01027",
-   "Company": "Hindustan Unilever Limited",
-   "First Listing Date": "06-Jul-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Hindustan Unilever Limited"
  },
  {
+   "Code": "14600021",
    "Symbol": "BALMLAWRIE",
-   "ISIN": "INE164A01016",
-   "Company": "Balmer Lawrie & Company Limited",
-   "First Listing Date": "06-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balmer Lawrie & Company Limited"
  },
  {
+   "Code": "15510002",
    "Symbol": "SAIL",
-   "ISIN": "INE114A01011",
-   "Company": "Steel Authority of India Limited",
-   "First Listing Date": "06-Jul-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Steel Authority of India Limited"
  },
  {
+   "Code": "14010005",
    "Symbol": "CRISIL",
-   "ISIN": "INE007A01025",
-   "Company": "CRISIL Limited",
-   "First Listing Date": "28-Jun-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CRISIL Limited"
  },
  {
+   "Code": "16580018",
    "Symbol": "SEAMECLTD",
-   "ISIN": "INE497B01018",
-   "Company": "Seamec Limited",
-   "First Listing Date": "28-Jun-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Seamec Limited"
  },
  {
+   "Code": "12130022",
    "Symbol": "SOTL",
-   "ISIN": "INE035D01012",
-   "Company": "Savita Oil Technologies Limited",
-   "First Listing Date": "28-Jun-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Savita Oil Technologies Limited"
  },
  {
+   "Code": "13090024",
    "Symbol": "BPL",
-   "ISIN": "INE110A01019",
-   "Company": "BPL Limited",
-   "First Listing Date": "14-Jun-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BPL Limited"
  },
  {
+   "Code": "16090007",
    "Symbol": "CLNINDIA",
-   "ISIN": "INE492A01029",
-   "Company": "Clariant Chemicals (India) Limited",
-   "First Listing Date": "14-Jun-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Clariant Chemicals (India) Limited"
  },
  {
+   "Code": "",
    "Symbol": "CHAMBLFERT",
-   "ISIN": "INE085A01013",
-   "Company": "Chambal Fertilizers & Chemicals Limited",
-   "First Listing Date": "14-Jun-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Chambal Fertilizers & Chemicals Limited"
  },
  {
+   "Code": "10680001",
    "Symbol": "APOLLOTYRE",
-   "ISIN": "INE438A01022",
-   "Company": "Apollo Tyres Limited",
-   "First Listing Date": "31-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Apollo Tyres Limited"
  },
  {
-   "Symbol": "AUTOLITIND",
-   "ISIN": "INE448A01013",
-   "Company": "Autolite (India) Limited",
-   "First Listing Date": "31-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12100001",
    "Symbol": "COROMANDEL",
-   "ISIN": "INE169A01031",
-   "Company": "Coromandel International Limited",
-   "First Listing Date": "31-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Coromandel International Limited"
  },
  {
-   "Symbol": "ASIANPAINT",
-   "ISIN": "INE021A01026",
-   "Company": "Asian Paints Limited",
-   "First Listing Date": "31-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "10620001",
+   "Symbol": "AUTOLITIND",
+   "Name": "Autolite (India) Limited"
  },
  {
+   "Code": "12090003",
    "Symbol": "DCW",
-   "ISIN": "INE500A01029",
-   "Company": "DCW Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCW Limited"
  },
  {
+   "Code": "11580001",
+   "Symbol": "ASIANPAINT",
+   "Name": "Asian Paints Limited"
+ },
+ {
+   "Code": "11070110",
+   "Symbol": "3PLAND",
+   "Name": "3P Land Holdings Limited"
+ },
+ {
+   "Code": "14590004",
    "Symbol": "COSMOFILMS",
-   "ISIN": "INE757A01017",
-   "Company": "Cosmo Films Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cosmo Films Limited"
  },
  {
+   "Code": "14060081",
    "Symbol": "VLSFINANCE",
-   "ISIN": "INE709A01018",
-   "Company": "VLS Finance Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "VLS Finance Limited"
  },
  {
+   "Code": "16090011",
    "Symbol": "SUDARSCHEM",
-   "ISIN": "INE659A01023",
-   "Company": "Sudarshan Chemical Industries Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sudarshan Chemical Industries Limited"
  },
  {
+   "Code": "15550006",
    "Symbol": "UTTAMSTL",
-   "ISIN": "INE699A01011",
-   "Company": "Uttam Galva Steels Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Uttam Galva Steels Limited"
  },
  {
+   "Code": "14560002",
    "Symbol": "GFLLIMITED",
-   "ISIN": "INE538A01037",
-   "Company": "GFL Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GFL Limited"
  },
  {
+   "Code": "10510001",
    "Symbol": "ASHOKLEY",
-   "ISIN": "INE208A01029",
-   "Company": "Ashok Leyland Limited",
-   "First Listing Date": "25-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ashok Leyland Limited"
  },
  {
+   "Code": "12100005",
    "Symbol": "GNFC",
-   "ISIN": "INE113A01013",
-   "Company": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
-   "First Listing Date": "17-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Narmada Valley Fertilizers and Chemicals Limited"
  },
  {
+   "Code": "15050009",
    "Symbol": "UNIVCABLES",
-   "ISIN": "INE279A01012",
-   "Company": "Universal Cables Limited",
-   "First Listing Date": "17-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Universal Cables Limited"
  },
  {
+   "Code": "12070002",
    "Symbol": "BASF",
-   "ISIN": "INE373A01013",
-   "Company": "BASF India Limited",
-   "First Listing Date": "17-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "BASF India Limited"
  },
  {
+   "Code": "16030103",
    "Symbol": "PATSPINLTD",
-   "ISIN": "INE790C01014",
-   "Company": "Patspin India Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Patspin India Limited"
  },
  {
+   "Code": "11080002",
    "Symbol": "BAJAJHIND",
-   "ISIN": "INE306A01021",
-   "Company": "Bajaj Hindusthan Sugar Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Hindusthan Sugar Limited"
  },
  {
+   "Code": "14080002",
    "Symbol": "CANFINHOME",
-   "ISIN": "INE477A01020",
-   "Company": "Can Fin Homes Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Can Fin Homes Limited"
  },
  {
+   "Code": "12160002",
    "Symbol": "CENTENKA",
-   "ISIN": "INE485A01015",
-   "Company": "Century Enka Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Century Enka Limited"
  },
  {
+   "Code": "13580005",
    "Symbol": "HEG",
-   "ISIN": "INE545A01016",
-   "Company": "HEG Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HEG Limited"
  },
  {
-   "Symbol": "GRASIM",
-   "ISIN": "INE047A01021",
-   "Company": "Grasim Industries Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "15580010",
    "Symbol": "SURYAROSNI",
-   "ISIN": "INE335A01012",
-   "Company": "Surya Roshni Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Surya Roshni Limited"
  },
  {
+   "Code": "16030005",
    "Symbol": "GINNIFILA",
-   "ISIN": "INE424C01010",
-   "Company": "Ginni Filaments Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ginni Filaments Limited"
  },
  {
+   "Code": "17010047",
    "Symbol": "JAYNECOIND",
-   "ISIN": "INE854B01010",
-   "Company": "Jayaswal Neco Industries Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jayaswal Neco Industries Limited"
  },
  {
+   "Code": "12200050",
    "Symbol": "VIKASWSP",
-   "ISIN": "INE706A01022",
-   "Company": "Vikas WSP Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vikas WSP Limited"
  },
  {
-   "Symbol": "SANGHIIND",
-   "ISIN": "INE999B01013",
-   "Company": "Sanghi Industries Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "SHREDIGCEM",
-   "ISIN": "INE232A01011",
-   "Company": "Shree Digvijay Cement Co.Ltd",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 50,
-   "Industry": "-"
- },
- {
+   "Code": "16600005",
    "Symbol": "SPICEJET",
-   "ISIN": "INE285B01017",
-   "Company": "SPICEJET LTD",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "SPICEJET LTD"
  },
  {
+   "Code": "13110027",
    "Symbol": "PRAKASH",
-   "ISIN": "INE603A01013",
-   "Company": "Prakash Industries Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Prakash Industries Limited"
  },
  {
+   "Code": "12100003",
    "Symbol": "EIDPARRY",
-   "ISIN": "INE126A01031",
-   "Company": "EID Parry India Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "EID Parry India Limited"
  },
  {
+   "Code": "14011160",
    "Symbol": "WEIZMANIND",
-   "ISIN": "INE080A01014",
-   "Company": "Weizmann Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Weizmann Limited"
  },
  {
+   "Code": "13020010",
    "Symbol": "MASTEK",
-   "ISIN": "INE759A01021",
-   "Company": "Mastek Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Mastek Limited"
  },
  {
+   "Code": "13580001",
    "Symbol": "ADORWELD",
-   "ISIN": "INE045A01017",
-   "Company": "Ador Welding Limited",
-   "First Listing Date": "10-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ador Welding Limited"
  },
  {
+   "Code": "14010024",
    "Symbol": "21STCENMGM",
-   "ISIN": "INE253B01015",
-   "Company": "21st Century Management Services Limited",
-   "First Listing Date": "03-May-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "21st Century Management Services Limited"
  },
  {
+   "Code": "16010003",
    "Symbol": "BOMDYEING",
-   "ISIN": "INE032A01023",
-   "Company": "Bombay Dyeing & Mfg Company Limited",
-   "First Listing Date": "26-Apr-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bombay Dyeing & Mfg Company Limited"
  },
  {
+   "Code": "",
    "Symbol": "SHREECEM",
-   "ISIN": "INE070A01015",
-   "Company": "SHREE CEMENT LIMITED",
-   "First Listing Date": "26-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "SHREE CEMENT LIMITED"
  },
  {
+   "Code": "14040003",
    "Symbol": "IFCI",
-   "ISIN": "INE039A01010",
-   "Company": "IFCI Limited",
-   "First Listing Date": "26-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IFCI Limited"
  },
  {
+   "Code": "17010006",
+   "Symbol": "GRASIM",
+   "Name": "Grasim Industries Limited"
+ },
+ {
+   "Code": "11530002",
    "Symbol": "HIL",
-   "ISIN": "INE557A01011",
-   "Company": "HIL Limited",
-   "First Listing Date": "26-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HIL Limited"
  },
  {
+   "Code": "11510003",
    "Symbol": "BIRLACORPN",
-   "ISIN": "INE340A01012",
-   "Company": "Birla Corporation Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Birla Corporation Limited"
  },
  {
+   "Code": "14590124",
+   "Symbol": "SANGHIIND",
+   "Name": "Sanghi Industries Limited"
+ },
+ {
+   "Code": "10600002",
    "Symbol": "PAEL",
-   "ISIN": "INE766A01018",
-   "Company": "PAE Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "PAE Limited"
  },
  {
+   "Code": "12100011",
    "Symbol": "ZUARIGLOB",
-   "ISIN": "INE217A01012",
-   "Company": "Zuari Global Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Zuari Global Limited"
  },
  {
+   "Code": "17010017",
    "Symbol": "VOLTAS",
-   "ISIN": "INE226A01021",
-   "Company": "Voltas Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Voltas Limited"
  },
  {
+   "Code": "15140032",
    "Symbol": "TATACOMM",
-   "ISIN": "INE151A01013",
-   "Company": "Tata Communications Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Tata Communications Limited"
  },
  {
-   "Symbol": "FACT",
-   "ISIN": "INE188A01015",
-   "Company": "Fertilizers and Chemicals Travancore Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "17010024",
    "Symbol": "DCMSHRIRAM",
-   "ISIN": "INE499A01024",
-   "Company": "DCM Shriram Limited",
-   "First Listing Date": "12-Apr-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCM Shriram Limited"
  },
  {
+   "Code": "13540003",
    "Symbol": "CUMMINSIND",
-   "ISIN": "INE298A01020",
-   "Company": "Cummins India Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Cummins India Limited"
  },
  {
+   "Code": "",
+   "Symbol": "FACT",
+   "Name": "Fertilizers and Chemicals Travancore Limited"
+ },
+ {
+   "Code": "11070009",
    "Symbol": "OSWALAGRO",
-   "ISIN": "INE142A01012",
-   "Company": "Oswal Agro Mills Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Oswal Agro Mills Limited"
  },
  {
+   "Code": "11080016",
    "Symbol": "DHAMPURSUG",
-   "ISIN": "INE041A01016",
-   "Company": "Dhampur Sugar Mills Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Dhampur Sugar Mills Limited"
  },
  {
+   "Code": "13640004",
    "Symbol": "LAXMIMACH",
-   "ISIN": "INE269B01029",
-   "Company": "Lakshmi Machine Works Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lakshmi Machine Works Limited"
  },
  {
+   "Code": "15120001",
    "Symbol": "ABAN",
-   "ISIN": "INE421A01028",
-   "Company": "Aban Offshore Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Aban Offshore Limited"
  },
  {
+   "Code": "10700005",
    "Symbol": "PHILIPCARB",
-   "ISIN": "INE602A01023",
-   "Company": "Phillips Carbon Black Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Phillips Carbon Black Limited"
  },
  {
+   "Code": "17020184",
    "Symbol": "PIDILITIND",
-   "ISIN": "INE318A01026",
-   "Company": "Pidilite Industries Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Pidilite Industries Limited"
  },
  {
+   "Code": "11080010",
    "Symbol": "RAJSREESUG",
-   "ISIN": "INE562B01019",
-   "Company": "Rajshree Sugars & Chemicals Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rajshree Sugars & Chemicals Limited"
  },
  {
+   "Code": "11530001",
    "Symbol": "EVERESTIND",
-   "ISIN": "INE295A01018",
-   "Company": "Everest Industries Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Everest Industries Limited"
  },
  {
+   "Code": "13190872",
    "Symbol": "GTL",
-   "ISIN": "INE043A01012",
-   "Company": "GTL Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "GTL Limited"
  },
  {
+   "Code": "17010024",
    "Symbol": "DCM",
-   "ISIN": "INE498A01018",
-   "Company": "DCM  Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "DCM  Limited"
  },
  {
+   "Code": "16530009",
    "Symbol": "ORIENTPPR",
-   "ISIN": "INE592A01026",
-   "Company": "Orient Paper & Industries Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Orient Paper & Industries Limited"
  },
  {
+   "Code": "13520011",
    "Symbol": "IFBIND",
-   "ISIN": "INE559A01017",
-   "Company": "IFB Industries Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "IFB Industries Limited"
  },
  {
+   "Code": "12130001",
    "Symbol": "INEOSSTYRO",
-   "ISIN": "INE189B01011",
-   "Company": "INEOS Styrolution India Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "INEOS Styrolution India Limited"
  },
  {
+   "Code": "",
    "Symbol": "RUBYMILLS",
-   "ISIN": "INE301D01026",
-   "Company": "The Ruby Mills Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "The Ruby Mills Limited"
  },
  {
+   "Code": "16530014",
    "Symbol": "SESHAPAPER",
-   "ISIN": "INE630A01024",
-   "Company": "Seshasayee Paper and Boards Limited",
-   "First Listing Date": "29-Mar-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Seshasayee Paper and Boards Limited"
  },
  {
+   "Code": "10540002",
    "Symbol": "BAJAJHLDNG",
-   "ISIN": "INE118A01012",
-   "Company": "Bajaj Holdings & Investment Limited",
-   "First Listing Date": "15-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Bajaj Holdings & Investment Limited"
  },
  {
+   "Code": "11510009",
    "Symbol": "HEIDELBERG",
-   "ISIN": "INE578A01017",
-   "Company": "HeidelbergCement India Limited",
-   "First Listing Date": "15-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "HeidelbergCement India Limited"
  },
  {
+   "Code": "13150001",
    "Symbol": "CGPOWER",
-   "ISIN": "INE067A01029",
-   "Company": "CG Power and Industrial Solutions Limited",
-   "First Listing Date": "01-Mar-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CG Power and Industrial Solutions Limited"
  },
  {
+   "Code": "10540004",
    "Symbol": "ESCORTS",
-   "ISIN": "INE042A01014",
-   "Company": "Escorts Limited",
-   "First Listing Date": "01-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Escorts Limited"
  },
  {
+   "Code": "13010011",
    "Symbol": "ROLTA",
-   "ISIN": "INE293A01013",
-   "Company": "Rolta India Limited",
-   "First Listing Date": "01-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Rolta India Limited"
  },
  {
+   "Code": "14030001",
    "Symbol": "SBIN",
-   "ISIN": "INE062A01020",
-   "Company": "State Bank of India",
-   "First Listing Date": "01-Mar-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "State Bank of India"
  },
  {
+   "Code": "16580016",
    "Symbol": "SHREYAS",
-   "ISIN": "INE757B01015",
-   "Company": "Shreyas Shipping & Logistics Limited",
-   "First Listing Date": "01-Mar-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Shreyas Shipping & Logistics Limited"
  },
  {
+   "Code": "11040012",
    "Symbol": "JAYSREETEA",
-   "ISIN": "INE364A01020",
-   "Company": "Jayshree Tea & Industries Limited",
-   "First Listing Date": "15-Feb-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Jayshree Tea & Industries Limited"
  },
  {
+   "Code": "15060001",
    "Symbol": "FINCABLES",
-   "ISIN": "INE235A01022",
-   "Company": "Finolex Cables Limited",
-   "First Listing Date": "15-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Finolex Cables Limited"
  },
  {
+   "Code": "16040021",
    "Symbol": "RSWM",
-   "ISIN": "INE611A01016",
-   "Company": "RSWM Limited",
-   "First Listing Date": "15-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "RSWM Limited"
  },
  {
+   "Code": "13600002",
    "Symbol": "KSB",
-   "ISIN": "INE999A01015",
-   "Company": "Ksb Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Ksb Limited"
  },
  {
+   "Code": "12540068",
    "Symbol": "LYKALABS",
-   "ISIN": "INE933A01014",
-   "Company": "Lyka Labs Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Lyka Labs Limited"
  },
  {
+   "Code": "10540012",
    "Symbol": "MAHSCOOTER",
-   "ISIN": "INE288A01013",
-   "Company": "Maharashtra Scooters Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Maharashtra Scooters Limited"
  },
  {
-   "Symbol": "MARALOVER",
-   "ISIN": "INE882A01013",
-   "Company": "Maral Overseas Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "",
+   "Symbol": "SHREDIGCEM",
+   "Name": "Shree Digvijay Cement Co.Ltd"
  },
  {
+   "Code": "",
    "Symbol": "MOTOGENFIN",
-   "ISIN": "INE861B01015",
-   "Company": "The Motor & General Finance Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "The Motor & General Finance Limited"
  },
  {
-   "Symbol": "AARTIIND",
-   "ISIN": "INE769A01020",
-   "Company": "Aarti Industries Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16030023",
+   "Symbol": "MARALOVER",
+   "Name": "Maral Overseas Limited"
  },
  {
+   "Code": "13130003",
    "Symbol": "ABB",
-   "ISIN": "INE117A01022",
-   "Company": "ABB India Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "ABB India Limited"
  },
  {
+   "Code": "12070021",
+   "Symbol": "AARTIIND",
+   "Name": "Aarti Industries Limited"
+ },
+ {
+   "Code": "16530010",
    "Symbol": "AMJLAND",
-   "ISIN": "INE606A01024",
-   "Company": "Amj Land Holdings Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Amj Land Holdings Limited"
  },
  {
+   "Code": "16070063",
    "Symbol": "ARVIND",
-   "ISIN": "INE034A01011",
-   "Company": "Arvind Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Arvind Limited"
  },
  {
+   "Code": "12540035",
    "Symbol": "PEL",
-   "ISIN": "INE140A01024",
-   "Company": "Piramal Enterprises Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Piramal Enterprises Limited"
  },
  {
+   "Code": "16010007",
    "Symbol": "PENINLAND",
-   "ISIN": "INE138A01028",
-   "Company": "Peninsula Land Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Peninsula Land Limited"
  },
  {
-   "Symbol": "FEDERALBNK",
-   "ISIN": "INE171A01029",
-   "Company": "The Federal Bank  Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12190003",
    "Symbol": "FINPIPE",
-   "ISIN": "INE183A01016",
-   "Company": "Finolex Industries Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Finolex Industries Limited"
  },
  {
-   "Symbol": "FMGOETZE",
-   "ISIN": "INE529A01010",
-   "Company": "Federal-Mogul Goetze (India) Limited.",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "",
+   "Symbol": "FEDERALBNK",
+   "Name": "The Federal Bank  Limited"
  },
  {
+   "Code": "15130009",
    "Symbol": "GIPCL",
-   "ISIN": "INE162A01010",
-   "Company": "Gujarat Industries Power Company Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Industries Power Company Limited"
  },
  {
+   "Code": "10610003",
+   "Symbol": "FMGOETZE",
+   "Name": "Federal-Mogul Goetze (India) Limited."
+ },
+ {
+   "Code": "14060007",
    "Symbol": "GLFL",
-   "ISIN": "INE540A01017",
-   "Company": "Gujarat Lease Financing Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Gujarat Lease Financing Limited"
  },
  {
+   "Code": "12630001",
    "Symbol": "GOLDENTOBC",
-   "ISIN": "INE973A01010",
-   "Company": "Golden Tobacco Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Golden Tobacco Limited"
  },
  {
+   "Code": "11040011",
    "Symbol": "HARRMALAYA",
-   "ISIN": "INE544A01019",
-   "Company": "Harrisons  Malayalam Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Harrisons  Malayalam Limited"
  },
  {
-   "Symbol": "HIMATSEIDE",
-   "ISIN": "INE049A01027",
-   "Company": "Himatsingka Seide Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
-   "Symbol": "HINDSYNTEX",
-   "ISIN": "INE155B01012",
-   "Company": "Hind Syntex Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "13020007",
    "Symbol": "INFY",
-   "ISIN": "INE009A01021",
-   "Company": "Infosys Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Infosys Limited"
  },
  {
-   "Symbol": "IPCALAB",
-   "ISIN": "INE571A01020",
-   "Company": "IPCA Laboratories Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "16040013",
+   "Symbol": "HINDSYNTEX",
+   "Name": "Hind Syntex Limited"
  },
  {
+   "Code": "11080026",
    "Symbol": "BALRAMCHIN",
-   "ISIN": "INE119A01028",
-   "Company": "Balrampur Chini Mills Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Balrampur Chini Mills Limited"
  },
  {
+   "Code": "12540124",
+   "Symbol": "IPCALAB",
+   "Name": "IPCA Laboratories Limited"
+ },
+ {
+   "Code": "16020002",
    "Symbol": "BLUEBLENDS",
-   "ISIN": "INE113O01014",
-   "Company": "Blue Blends (I) Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Blue Blends (I) Limited"
  },
  {
+   "Code": "15060007",
    "Symbol": "VINDHYATEL",
-   "ISIN": "INE707A01012",
-   "Company": "Vindhya Telelinks Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Vindhya Telelinks Limited"
  },
  {
-   "Symbol": "RELINFRA",
-   "ISIN": "INE036A01016",
-   "Company": "Reliance Infrastructure Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "12540191",
    "Symbol": "SUNPHARMA",
-   "ISIN": "INE044A01036",
-   "Company": "Sun Pharmaceutical Industries Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 1,
-   "Paid Up Value": 1,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Sun Pharmaceutical Industries Limited"
  },
  {
+   "Code": "15130003",
+   "Symbol": "RELINFRA",
+   "Name": "Reliance Infrastructure Limited"
+ },
+ {
+   "Code": "12090006",
    "Symbol": "KANORICHEM",
-   "ISIN": "INE138C01024",
-   "Company": "Kanoria Chemicals & Industries Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 5,
-   "Paid Up Value": 5,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "Kanoria Chemicals & Industries Limited"
  },
  {
+   "Code": "11110004",
    "Symbol": "WATERBASE",
-   "ISIN": "INE054C01015",
-   "Company": "Waterbase Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 100,
-   "Industry": "-"
+   "Name": "Waterbase Limited"
  },
  {
-   "Symbol": "WILLAMAGOR",
-   "ISIN": "INE210A01017",
-   "Company": "Williamson Magor & Company Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- },
- {
+   "Code": "16560002",
    "Symbol": "EIHOTEL",
-   "ISIN": "INE230A01023",
-   "Company": "EIH Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "EIH Limited"
  },
  {
-   "Symbol": "NAVNETEDUL",
-   "ISIN": "INE060A01024",
-   "Company": "Navneet Education Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "13520026",
+   "Symbol": "WILLAMAGOR",
+   "Name": "Williamson Magor & Company Limited"
  },
  {
+   "Code": "15130004",
    "Symbol": "CESC",
-   "ISIN": "INE486A01013",
-   "Company": "CESC Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "CESC Limited"
  },
  {
-   "Symbol": "CIPLA",
-   "ISIN": "INE059A01026",
-   "Company": "Cipla Limited",
-   "First Listing Date": "08-Feb-1995",
-   "Face Value": 2,
-   "Paid Up Value": 2,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Code": "17020037",
+   "Symbol": "NAVNETEDUL",
+   "Name": "Navneet Education Limited"
  },
  {
+   "Code": "10510002",
    "Symbol": "FORCEMOT",
-   "ISIN": "INE451A01017",
-   "Company": "FORCE MOTORS LTD",
-   "First Listing Date": "03-Nov-1994",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
+   "Name": "FORCE MOTORS LTD"
  },
  {
+   "Code": "12540010",
+   "Symbol": "CIPLA",
+   "Name": "Cipla Limited"
+ },
+ {
+   "Code": "13620012",
    "Symbol": "KENNAMET",
-   "ISIN": "INE717A01029",
-   "Company": "Kennametal India Limited",
-   "First Listing Date": "03-Nov-1994",
-   "Face Value": 10,
-   "Paid Up Value": 10,
-   "Market Lot": 1,
-   "Industry": "-"
- }
+   "Name": "Kennametal India Limited"
+ },
+ {
+   "Code": "16050003",
+   "Symbol": "HIMATSEIDE",
+   "Name": "Himatsingka Seide Limited"
+ },
+ {
+  "Code": "ted",
+  "Symbol": "",
+  "Name": ""
+},
 ]

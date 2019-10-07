@@ -18,17 +18,18 @@ export class InplayComponent implements OnInit {
   ngOnInit() {
     $('.select2').select2();
     this.stockList = stockList;
-    this.getStockForm = this.formBuilder.group({
-      stockList: ['']
-    });
+    // this.getStockForm = this.formBuilder.group({
+    //   stockListX: ['']
+    // });
 
     // this.getStockForm  = new FormGroup({
     //   stockList: new FormControl(this.stockList[1]),
     // });
   }
 
-  getStockStatus(){
-    console.log(this.getStockForm.value);
+  getStockStatus(e){
+    console.log(e.target.selectedStock);
+    console.log("=========");
   }
 
 }
