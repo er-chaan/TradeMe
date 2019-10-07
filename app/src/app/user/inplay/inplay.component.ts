@@ -28,7 +28,7 @@ export class InplayComponent implements OnInit {
   }
 
   getStockStatus(e){
-    console.log(e.target.selectedStock);
+    console.log(e);
     console.log("=========");
   }
 

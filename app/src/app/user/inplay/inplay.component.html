@@ -14,9 +14,9 @@
                         <div class="form-group">
                             <label for="stockList">stockList:</label>
                             <!-- <select (change)="getStockStatus($event)" id="stockList" formControlName="stockListX" class="form-control select2" style="width: 100%;" data-placeholder="Select a Stock"> -->
-                              <select [(ngModel)]="selectedStock" (change)="getStockStatus($event)" id="stockList" class="form-control select2" style="width: 100%;" data-placeholder="Select a Stock">
+                              <select (change)="getStockStatus($event.target.value)" id="stockList" class="select2 form-control" style="width: 100%;" data-placeholder="Select a Stock">
                               <!-- <option selected="selected" value="" disabled>x</option> -->
-                                <option *ngFor="let item of stockList" [ngValue]="item.Symbol">{{item.Name}}</option>
+                                <option *ngFor="let item of stockList" value="{{item.Symbol}}">{{item.Name}}</option>
                               </select>
                           </div>
                       
