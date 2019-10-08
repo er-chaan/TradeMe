@@ -5,20 +5,22 @@
     </div>
     <div class="login-box-body">
       <p class="login-box-msg">Sign in to start your session</p>
-      <form>
-        <div class="form-group has-feedback">
-          <input type="mobile" class="form-control" placeholder="Mobile">
-          <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="form-group has-feedback" [ngClass]="mobileError !== false ? 'has-error': ''">
+            <input formControlName="mobile" type="text" class="form-control" placeholder="Mobile">
+            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+            <span class="help-block" *ngIf="mobileError">{{mobileError}}</span>
         </div>
-        <div class="form-group has-feedback">
-          <input type="password" class="form-control" placeholder="Password">
-          <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        <div class="form-group has-feedback" [ngClass]="passwordError !== false ? 'has-error': ''">
+            <input formControlName="password" type="password" class="form-control" placeholder="Password">
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            <span class="help-block" *ngIf="passwordError">{{passwordError}}</span>
         </div>
         <div class="row">
           <div class="col-xs-8">
             <div class="checkbox">
               <label>
-                <input type="checkbox"> Remember Me
+                <input formControlName="terms" type="checkbox"> Remember Me
               </label>
             </div>
           </div>

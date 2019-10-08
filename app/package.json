@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "_comment_start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,6 +22,7 @@
     "@angular/router": "~8.2.0",
     "admin-lte": "^2.4.18",
     "angular2-datatable": "^0.6.0",
+    "chart.js": "^2.8.0",
     "jquery": "^3.4.1",
     "ngx-spinner": "^8.0.3",
     "ngx-toastr": "^11.1.0",

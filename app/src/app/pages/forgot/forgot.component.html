@@ -4,15 +4,21 @@
       <a [routerLink]="['/']" routerLinkActive="router-link-active"><b>Trade</b>ME</a>
     </div>
     <div class="login-box-body">
-      <form>
-        <div class="form-group has-feedback">
-          <input type="email" class="form-control" placeholder="Email">
-          <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      <form [formGroup]="forgotForm" (ngSubmit)="forgot()">
+        <div class="form-group has-feedback" [ngClass]="emailError !== false ? 'has-error': ''">
+            <input formControlName="email" type="email" class="form-control" placeholder="Email">
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            <span class="help-block" *ngIf="emailError">{{emailError}}</span>
         </div>
 
         <div class="row">
           <div class="col-xs-12">
             <button type="submit" class="btn btn-primary btn-block btn-flat">Recover</button>
+          </div>
+        </div>
+        <div class="row" [ngClass]="isRecovered !== false ? 'has-success': ''">
+          <div class="col-xs-12">
+            <span class="help-block" *ngIf="isRecovered">{{isRecovered}}</span>
           </div>
         </div>
       </form>

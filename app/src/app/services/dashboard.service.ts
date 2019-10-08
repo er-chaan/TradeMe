@@ -6,12 +6,14 @@ import { Observable } from "rxjs";
   providedIn: 'root'
 })
 export class DashboardService {
-  // https://money.rediff.com/money1/currentstatus.php?companycode=14030001
   constructor(private httpClient: HttpClient) { }
   getIndices(): Observable<any>{
     return this.httpClient.get<any>("https://money.rediff.com/updateticker");
   }
   getTopPerfomers(): Observable<any>{
     return this.httpClient.get<any>("https://money.rediff.com/updatense");
+  }
+  getNseChart(): Observable<any>{
+    return this.httpClient.get<any>("https://money.rediff.com/money1/chartnseday_v2.php");
   }
 }

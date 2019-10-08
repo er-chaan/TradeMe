@@ -35,7 +35,12 @@ export class InplayComponent implements OnInit {
   getStockStatus(){
     this.selectedStock = $('#stockList').val();
     this.inplayService.getStockStatus(this.selectedStock).subscribe(data => {this.stockStatus=data;console.log(data)});
+  }
 
+  getStockStatusInstant(symbol): number{
+    let stockPrice:any;
+    this.inplayService.getStockStatus(symbol).subscribe(data => {stockPrice=data;console.log(data)});
+    return stockPrice;
   }
 
 }

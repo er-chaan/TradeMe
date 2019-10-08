@@ -32,9 +32,10 @@ export class InterceptorService implements HttpInterceptor {
     // }
     // console.log(this.token);
     let tokenizedReq = req.clone({
-      // setHeaders: {
-      //   Authorization : this.token
-      // }
+      setHeaders: {
+        // Authorization : this.token
+        // 'Content-Type':'application/json'
+      }
     });
     this.spinner.hide("mySpinner");
 

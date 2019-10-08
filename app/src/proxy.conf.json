@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "_comment_target": "http://localhost:3000",
+      "target": "",
+      "secure": false
+    }
+  }
