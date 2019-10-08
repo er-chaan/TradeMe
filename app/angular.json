@@ -45,6 +45,7 @@
               "./node_modules/admin-lte/bower_components/jquery/dist/jquery.min.js",
               "./node_modules/admin-lte/bower_components/jquery-ui/jquery-ui.min.js",
               "./node_modules/admin-lte/bower_components/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/admin-lte/bower_components/select2/dist/js/select2.full.min.js",
               "./node_modules/admin-lte/bower_components/raphael/raphael.min.js",
               "./node_modules/admin-lte/bower_components/morris.js/morris.min.js",
               "./node_modules/admin-lte/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js",
@@ -64,7 +65,6 @@
               "./node_modules/admin-lte/plugins/iCheck/icheck.min.js",
               "./node_modules/admin-lte/bower_components/datatables.net/js/jquery.dataTables.min.js",
               "./node_modules/admin-lte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js",
-              "./node_modules/admin-lte/bower_components/select2/dist/js/select2.full.min.js",
               "src/scripts.js"
             ]
           },

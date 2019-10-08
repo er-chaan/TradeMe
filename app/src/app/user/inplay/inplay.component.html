@@ -4,30 +4,91 @@
     </section>
     <section class="content">
       <div class="box box-default">
-            <div class="box-header with-border">
-              <h3 class="box-title">Trades</h3>
-            </div>
-            <div class="box-body">
-              <div class="row">
-                <div class="col-md-4">
-                    <!-- <form class="form" [formGroup]="getStockForm" (ngSubmit)="getStockStatus()"> -->
-                        <div class="form-group">
-                            <label for="stockList">stockList:</label>
-                            <!-- <select (change)="getStockStatus($event)" id="stockList" formControlName="stockListX" class="form-control select2" style="width: 100%;" data-placeholder="Select a Stock"> -->
-                              <select (change)="getStockStatus($event.target.value)" id="stockList" class="select2 form-control" style="width: 100%;" data-placeholder="Select a Stock">
-                              <!-- <option selected="selected" value="" disabled>x</option> -->
-                                <option *ngFor="let item of stockList" value="{{item.Symbol}}">{{item.Name}}</option>
-                              </select>
-                          </div>
-                      
-                          <!-- <button type="submit" class="btn btn-primary" >GO</button> -->
-                        <!-- </form> -->
+          <div class="box-header with-border">
+            <h3 class="box-title">Trades</h3>
+          </div>
+          <div class="box-body">
+            <div class="row">
+              <div class="col-md-4">
+                  <select id="stockList" class="select2" style="width: 100%;" data-placeholder="Select a Stock">
+                    <option selected value=""></option>
+                    <option *ngFor="let item of stockList" value="{{item.Symbol}}">{{item.Name}}</option>
+                  </select> &nbsp;&nbsp; <br>
+                  <button  style="width: 100%;" class="btn btn-primary btn-sm" (click)="getStockStatus()">GO</button> <br>
+              </div>
+              <div class="col-md-8">
+                <!-- <div *ngIf="selectedStock"> --><div>
+                  <!-- <div class="box-header with-border">
+                    <h3 class="box-title">{{selectedStock}}</h3>
+                  </div> -->
+                  <div class="col-md-12 table-responsive">
+                      <table class="table table-bordered text-center">
+                          <tr>
+                            <th>Symbol</th>
+                            <th>Price</th>
+                            <th>Change</th>
+                          </tr>
+                          <tr>
+                            <td>{{selectedStock}}</td>
+                            <td>{{stockStatus.LastTradedPrice}}</td>
+                            <td>{{stockStatus.Change}}</td>
+                          </tr>
+                      </table>
+                  </div>
+                  <div class="col-md-12 text-center">
+                      <button class="btn btn-md btn-success">BUY</button> &nbsp;
+                      <input type="text" class="forn-control" placeholder="Trade Quantity"> &nbsp; 
+                      <button class="btn btn-md btn-danger">SELL</button> &nbsp;
+                  </div>
                 </div>
-                <div class="col-md-8">
-                    <!-- Stocks status -->
+              </div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="box-body table-responsive">
+                  <table id="transactionBook" class="table table-bordered table-striped" >
+                    <thead>
+                    <tr>
+                      <th>Symbol</th>
+                      <th>Company</th>
+                      <th>Call</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>CMP</th>
+                      <th>Status</th>
+                      <th>Net</th>
+                      <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>SBIN</td>
+                        <td>State bank of india</td>
+                        <td>BUY</td>
+                        <td>249</td>
+                        <td>10</td>
+                        <td>252</td>
+                        <td>Open</td>
+                        <td>+30</td>
+                        <td><button class="btn btn-sm btn-warning">EXIT</button></td>
+                      </tr>
+                    </tbody> 
+                    <tfoot>
+                    <!-- <tr>
+                      <th>TID</th>
+                      <th>Description</th>
+                      <th>Date</th>
+                      <th>Debit</th>
+                      <th>Credit</th>
+                      <th>Balance</th>
+                    </tr> -->
+                    </tfoot>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
+      </div>
     </section>
 </div>
