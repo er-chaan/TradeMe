@@ -51,7 +51,8 @@ export class RegisterComponent implements OnInit {
       return;
     }
     if(this.registerForm.valid){
-      this.userService.register(this.registerForm).subscribe(data => {
+      console.log(this.registerForm.value);
+      this.userService.register(this.registerForm.value).subscribe(data => {
         localStorage.setItem('session',data);
         this.router.navigate(['/user/dashboard/']);
       }, error=>{});

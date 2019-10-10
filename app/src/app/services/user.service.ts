@@ -12,7 +12,7 @@ export class UserService {
     this.api = environment.api;
   }
   register(data:any){
-    return this.httpClient.post<any>(this.api+"/users/register", data);
+    return this.httpClient.get<any>(this.api+"/users", data);
   }
   login(data:any){
     return this.httpClient.post<any>(this.api+"/users/login", data);
