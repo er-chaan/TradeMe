@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
+  data:any;
   registerForm:FormGroup;
   mobileError:any;
   emailError:any;
@@ -23,10 +23,10 @@ export class RegisterComponent implements OnInit {
     this.passwordError=false;
     this.termsError=false;
     this.registerForm = this.formBuilder.group({
-      mobile : ["", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
-      email: ["",[Validators.required, Validators.email]],
-      password:["",[Validators.required]],
-      terms:["",[Validators.required]]
+      mobile : ["9004313006", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
+      email: ["er.chandreshbhai@gmail.com",[Validators.required, Validators.email]],
+      password:["asdf@123",[Validators.required]],
+      terms:[true,[Validators.required]]
     });
   }
   get f() { return this.registerForm.controls; }
@@ -53,7 +53,8 @@ export class RegisterComponent implements OnInit {
     if(this.registerForm.valid){
       console.log(this.registerForm.value);
       this.userService.register(this.registerForm.value).subscribe(data => {
-        localStorage.setItem('session',data);
+        this.data = data;
+        localStorage.setItem('session',this.data);
         this.router.navigate(['/user/dashboard/']);
       }, error=>{});
     }
