@@ -21,13 +21,11 @@ export class DashboardComponent implements OnInit {
       this.getIndices();
       this.getTopPerfomers();
       this.getNseChart();
-      // this.processChart();
     setInterval(() => {
-      // this.getIndices();
-      // this.getTopPerfomers();
-      // this.getNseChart();
-      // this.processChart();
-    }, 200000);
+      this.getIndices();
+      this.getTopPerfomers();
+      this.getNseChart();
+    }, 5000);
   }
 
   getIndices(){
@@ -46,7 +44,6 @@ export class DashboardComponent implements OnInit {
   processChart(chart){
     var time = [];
     var price = [];
-    console.log(chart.length);
     for (let index = 0; index < chart.length; index++) {
       var x = (chart[index][0]).split(" ");
       if(x[1] != undefined)
@@ -64,7 +61,11 @@ export class DashboardComponent implements OnInit {
             data: price
         }]
     },
-    options: {}
+    options: {
+      // animation: {
+      //     duration: 5
+      // }
+    }
     });
   }
 

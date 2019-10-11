@@ -47,7 +47,4 @@ router.get('/nsechart', function(req, res, next) {
   });
 });
 
-
-
-
 module.exports = router;

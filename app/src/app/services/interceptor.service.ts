@@ -45,7 +45,7 @@ export class InterceptorService implements HttpInterceptor {
           // this.toastr.success(event, 'SUCCESS');
         },
         error => {
-          this.toastr.error(error.message ,'ERROR');
+          this.toastr.error(error.error.message ,'ERROR');
         }
       )
     );

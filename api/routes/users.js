@@ -28,9 +28,11 @@ router.post('/', function (req, res) {
   if (!mobile) {
     return res.status(400).send({ error:true, message: 'Please provide user' });
   }
- dbConn.query("INSERT INTO users SET ? ", { mobile: mobile, email: email, password: password }, function (error, results, fields) {
-if (error) throw error;
-  return res.send({ error: false, data: results, message: 'New user has been created successfully.' });
+ dbConn.query("INSERT INTO users SET ? ", { mobile: mobile, email: email, password: password, token:"xxx", status:"active" }, function (error, results, fields) {
+  if(error){
+    return res.status(400).send({ error:true, message: error.message });
+  }
+  return res.send({ error: false, data: req.body, message: 'New user has been created successfully.' });
   });
 });
 
