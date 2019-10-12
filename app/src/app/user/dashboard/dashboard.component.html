@@ -14,11 +14,18 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-8 col-xs-12">
           <div class="small-box bg-black">
             <div class="inner">
-              <h3>{{indices}}</h3>
-              <p>NIFTY</p>
+              <div class="description-block border-right">
+                  <span class="description-percentage" [ngClass]="(indices.ChangePercent > 0)?'text-green':'text-red'">
+                    <i [ngClass]="(indices.ChangePercent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></i> 
+                    {{indices.ChangePercent}}%
+                  </span>
+                  <h2 class="description-header">{{indices.LastTradedPrice}}</h2>
+                  <p class="description-text">NIFTY</p>
+              </div>
             </div>
           </div>
         </div>
@@ -46,8 +53,8 @@
                       <th>Price</th>
                       <th>Change</th>
                     </tr>
-                    <tr *ngFor="let x of nseGainer">
-                        <td>{{x.ShortCompanyName}}</td>
+                    <tr *ngFor="let x of nseGainer" class="text-success">
+                      <td>{{x.ShortCompanyName}}</td>
                       <td>{{x.Price}}</td>
                       <td>{{x.Change}}</td>
                     </tr>
@@ -67,7 +74,7 @@
                   <th>Price</th>
                   <th>Change</th>
                 </tr>
-                <tr *ngFor="let x of nseLoser">
+                <tr *ngFor="let x of nseLoser" class="text-danger">
                   <td>{{x.ShortCompanyName}}</td>
                   <td>{{x.Price}}</td>
                   <td>{{x.Change}}</td>
@@ -77,6 +84,39 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+          <div class="col-md-12">
+            <div class="box">
+              <div class="box-header with-border">
+                <h3 class="box-title">Most Active</h3>
+              </div>
+              <div class="box-body">
+                  <table class="table table-bordered table-stripped">
+                      <tr>
+                        <th>Symbol</th>
+                        <th>Company</th>
+                        <th>Prev Close</th>
+                        <th>Last Traded Price</th>
+                        <th>Percent Change</th>
+                        <th>Change</th>
+                        <th>Flow</th>
+                      </tr>
+                      <tr *ngFor="let x of nseActive" [ngClass]="(x.Percent > 0)?'text-success':'text-danger'">
+                        <td>{{x.CompanySymbol}}</td>
+                        <td>{{x.CompanyName}}</td>
+                        <td>{{x.PriviousClose}}</td>
+                        <td>{{x.LastTradedPrice}}</td>
+                        <td>{{x.PercentGain}}</td>
+                        <td>{{x.Percent}}</td>
+                        <td [ngClass]="(x.Percent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></td>
+                      </tr>
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </section>
 </div>
 

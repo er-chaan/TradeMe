@@ -14,6 +14,7 @@ export class DashboardComponent implements OnInit {
   indices:any;
   nseGainer:any;
   nseLoser:any;
+  nseActive:any;
   nseChart:any;
   constructor(private dashboardService: DashboardService) { }
 
@@ -29,7 +30,10 @@ export class DashboardComponent implements OnInit {
   }
 
   getIndices(){
-    this.dashboardService.getIndices().subscribe(data => {this.indices=data.indices[1].LastTradedPrice;});
+    this.dashboardService.getIndices().subscribe(data => {
+                            this.indices=data.indices[1];
+                            this.nseActive=data.companyList.sensex;
+                          });
   }
   getNseChart(){
     this.dashboardService.getNseChart().subscribe(data => {
