@@ -66,9 +66,9 @@ export class DashboardComponent implements OnInit {
         }]
     },
     options: {
-      // animation: {
-      //     duration: 5
-      // }
+      animation: {
+          duration: 20
+      }
     }
     });
   }

@@ -42,7 +42,7 @@ export class InterceptorService implements HttpInterceptor {
     return next.handle(tokenizedReq).pipe(
       tap(
         event => {
-          // this.toastr.success(event, 'SUCCESS');
+          // this.toastr.success('', 'SUCCESS');
         },
         error => {
           this.toastr.error(error.error.message ,'ERROR');

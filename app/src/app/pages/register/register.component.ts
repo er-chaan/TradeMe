@@ -9,12 +9,14 @@ import { Router } from "@angular/router";
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
+
   data:any;
   registerForm:FormGroup;
   mobileError:any;
   emailError:any;
   passwordError:any;
   termsError:any;
+  
   constructor(private formBuilder:FormBuilder, private userService:UserService, private router:Router) { }
 
   ngOnInit() {

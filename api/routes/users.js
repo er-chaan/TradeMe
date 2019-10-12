@@ -3,26 +3,55 @@ var router = express.Router();
 var dbConn = require('../db');
 var crypto = require('crypto');
 
-router.get('/', function(req, res, next) {
-  dbConn.query('SELECT * FROM users', function (error, results, fields) {
-    if (error) throw error;
-      res.json({ error: false, data: results, message: 'users list.' });
-  });
-});
-
-router.get('/:id', function (req, res) {
-  let user_id = req.params.id;
-  if (!user_id) {
-   return res.status(400).send({ error: true, message: 'Please provide user_id' });
+// getSettings
+router.get('/getSettings/:mobile', function (req, res) {
+  let mobile = req.params.mobile;
+  if (!mobile) {
+   return res.status(400).send({ error: true, message: 'provide mobile' });
   }
-  dbConn.query('SELECT * FROM users where id=?', user_id, function (error, results, fields) {
-   if (error) throw error;
+  dbConn.query('SELECT mobile,email FROM users where mobile=?', mobile, function (error, results, fields) {
+   if(error){
+      return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!results[0]){
+      return res.status(400).send({ error:true, message: "no such user" });      
+    }
     return res.send({ error: false, data: results[0], message: 'users list.' });
   });
 });
 
+// putSettings
+router.put('/putSettings', function (req, res) {
+  console.log(req.body);
+  let mobile = req.body.mobile;
+  let email = req.body.email;
+  let password = req.body.password;
+  let newPassword = req.body.newPassword;
+  if (!mobile || !password || !email || !newPassword || !password) {
+    return res.status(400).send({ error:true, message: 'provide user details' });
+  }
+  if(newPassword === password){
+    return res.status(400).send({ error:true, message: 'new password is same as old' });
+  }
+  var mykey = crypto.createCipher('aes-128-cbc', newPassword);
+  var pass = mykey.update('abc', 'utf8', 'hex')
+  pass += mykey.final('hex');
+  var mykeyX = crypto.createCipher('aes-128-cbc', password);
+  var curPassword = mykeyX.update('abc', 'utf8', 'hex')
+  curPassword += mykeyX.final('hex');
+  dbConn.query("UPDATE users SET ? WHERE ? AND ? AND ?", [{password:pass},{mobile:mobile},{email:email},{password:curPassword}], function (error, results, fields) {
+    if(error){
+          return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!results.affectedRows){
+      return res.status(400).send({ error:true, message: "settings update failed" });
+    }
+    return res.send({ error: false, message: 'update success.' });
+  });
+});
+
 // login
-router.post('/auth', function (req, res) {
+router.post('/login', function (req, res) {
   let mobile = req.body.mobile;
   let password = req.body.password;
   if (!mobile || !password) {
@@ -47,7 +76,7 @@ router.post('/auth', function (req, res) {
 });
 
 // registration
-router.post('/', function (req, res) {
+router.post('/register', function (req, res) {
   let mobile = req.body.mobile;
   let email = req.body.email;
   let password = req.body.password;
@@ -69,6 +98,7 @@ router.post('/', function (req, res) {
   });
 });
 
+//////////////////////////////
 //  Update user with id
 router.put('/user', function (req, res) {
   let user_id = req.body.user_id;
@@ -81,7 +111,6 @@ router.put('/user', function (req, res) {
     return res.send({ error: false, data: results, message: 'user has been updated successfully.' });
    });
   });
-
   //  Delete user
  router.delete('/user', function (req, res) {
   let user_id = req.body.user_id;
@@ -93,5 +122,11 @@ router.put('/user', function (req, res) {
       return res.send({ error: false, data: results, message: 'User has been updated successfully.' });
   });
   }); 
-
+  router.get('/', function(req, res, next) {
+    dbConn.query('SELECT * FROM users', function (error, results, fields) {
+      if (error) throw error;
+        res.json({ error: false, data: results, message: 'users list.' });
+    });
+  });
+  
 module.exports = router;

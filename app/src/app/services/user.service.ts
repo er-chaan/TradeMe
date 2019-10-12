@@ -12,12 +12,18 @@ export class UserService {
     this.api = environment.api;
   }
   register(data:any){
-    return this.httpClient.post<any>(this.api+"/users", data);
+    return this.httpClient.post<any>(this.api+"/users/register", data);
   }
   login(data:any){
-    return this.httpClient.post<any>(this.api+"/users/auth", data);
+    return this.httpClient.post<any>(this.api+"/users/login", data);
   }
   forgot(data:any){
     return this.httpClient.post<any>(this.api+"/users/forgot", data);
+  }
+  getSettings(data:any){
+    return this.httpClient.get<any>(this.api+"/users/getSettings/"+data+"");
+  }
+  putSettings(data:any){
+    return this.httpClient.put<any>(this.api+"/users/putSettings", data);
   }
 }

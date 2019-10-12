@@ -16,27 +16,33 @@
           </div>
           <!-- /.box-header -->
           <!-- form start -->
-          <form role="form">
+          <form [formGroup]="settingsForm" (ngSubmit)="putSettings()">
             <div class="box-body">
-              <div class="form-group">
-                  <label for="exampleInputMobile1">Mobile number</label>
-                  <input type="phone" class="form-control" id="exampleMobileEmail1" placeholder="9004313006" readonly>
-                </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              <div class="form-group has-feedback" [ngClass]="mobileError !== false ? 'has-error': ''">
+                <label for="mobile">Mobile number</label>  
+                <input value="{{mobile}}" formControlName="mobile" type="phone" class="form-control" placeholder="Mobile" readonly>
+                <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+                <span class="help-block" *ngIf="mobileError">{{mobileError}}</span>
               </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Current Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <div class="form-group has-feedback" [ngClass]="emailError !== false ? 'has-error': ''">
+                <label for="email">Email address</label>
+                <input formControlName="email" type="email" class="form-control" placeholder="Email" readonly>
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <span class="help-block" *ngIf="emailError">{{emailError}}</span>
               </div>
-              <div class="form-group">
-                  <label for="exampleInputPassword1">New Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
+              <div class="form-group has-feedback" [ngClass]="passwordError !== false ? 'has-error': ''">
+                <label for="password">Current Password</label>
+                <input formControlName="password" type="password" class="form-control" placeholder="Password">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <span class="help-block" *ngIf="passwordError">{{passwordError}}</span>
+              </div>
+              <div class="form-group has-feedback" [ngClass]="newPasswordError !== false ? 'has-error': ''">
+                <label for="newPassword">New Password</label>
+                <input formControlName="newPassword" type="password" class="form-control" placeholder="Password">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <span class="help-block" *ngIf="newPasswordError">{{passwordError}}</span>
+              </div>
             </div>
-            <!-- /.box-body -->
-
             <div class="box-footer">
               <button type="submit" class="btn btn-primary" style="width: 100%">Update</button>
             </div>

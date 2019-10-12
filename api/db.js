@@ -7,6 +7,12 @@ var dbConn = mysql.createConnection({
     database: 'TradeMe'
   });
 
-dbConn.connect(); 
+  
+dbConn.connect();
+
+// dbConn.ping(function(err){
+//   console.log("======"+err);
+//   return res.status(400).send({ error:true, message: err.message });
+// })
 
 module.exports = dbConn;

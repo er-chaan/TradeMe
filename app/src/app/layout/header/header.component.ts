@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,7 @@ import { Router } from "@angular/router";
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router, private toastr: ToastrService) { }
 
   ngOnInit() {
   }
@@ -21,5 +22,6 @@ export class HeaderComponent implements OnInit {
     sessionStorage.removeItem('email');
     sessionStorage.clear();
     this.router.navigate(['/login']);
+    this.toastr.success('successfully logout' ,'SUCCESS');
   }
 }
