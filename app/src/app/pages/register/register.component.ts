@@ -51,10 +51,13 @@ export class RegisterComponent implements OnInit {
       return;
     }
     if(this.registerForm.valid){
-      console.log(this.registerForm.value);
       this.userService.register(this.registerForm.value).subscribe(data => {
         this.data = data;
-        localStorage.setItem('session',this.data);
+        localStorage.clear();
+        sessionStorage.clear();
+        localStorage.setItem('remember','true');
+        localStorage.setItem('mobile',this.data.mobile);
+        localStorage.setItem('token',this.data.token);
         this.router.navigate(['/user/dashboard/']);
       }, error=>{});
     }

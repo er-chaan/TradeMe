@@ -9,6 +9,7 @@ import { Router } from "@angular/router";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  data:any;
   loginForm:FormGroup;
   mobileError:any;
   passwordError:any;
@@ -19,9 +20,9 @@ export class LoginComponent implements OnInit {
     this.mobileError=false;
     this.passwordError=false;
     this.loginForm = this.formBuilder.group({
-      mobile : ["", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
-      password:["",[Validators.required]],
-      terms:[""]
+      mobile : ["9004313006", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
+      password:["asdf@123",[Validators.required]],
+      remember:[false]
     });
   }
   get f() { return this.loginForm.controls; }
@@ -38,11 +39,20 @@ export class LoginComponent implements OnInit {
       return;
     }
     if(this.loginForm.valid){
-      this.userService.login(this.loginForm).subscribe(data => {
-        console.log(JSON.parse(data) );
-        localStorage.setItem('session',data);
+      this.userService.login(this.loginForm.value).subscribe(data => {
+        this.data = data;
+        localStorage.clear();
+        sessionStorage.clear();
+        localStorage.setItem('remember',this.f.remember.value);
+        if(this.f.remember.value){
+          localStorage.setItem('mobile',this.data.mobile);
+          localStorage.setItem('token',this.data.token);
+        }else{
+          sessionStorage.setItem('mobile',this.data.mobile);
+          sessionStorage.setItem('token',this.data.token);
+        }
         this.router.navigate(['/user/dashboard/']);
-      }, error=>{console.log(error)});
+      }, error=>{});
     }
   }
 

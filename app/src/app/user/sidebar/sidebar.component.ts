@@ -7,12 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  userObj:any;
+  mobile:any;
   constructor() { }
 
   ngOnInit() {
-    this.userObj = localStorage.getItem('session');
-    console.log(this.userObj.mobile);
+    if(localStorage.getItem('mobile')){
+      this.mobile = localStorage.getItem('mobile');
+    }
+    if(sessionStorage.getItem('mobile')){
+      this.mobile = sessionStorage.getItem('mobile');
+    }
   }
 
 }

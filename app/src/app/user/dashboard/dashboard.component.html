@@ -91,7 +91,7 @@
               <div class="box-header with-border">
                 <h3 class="box-title">Most Active</h3>
               </div>
-              <div class="box-body">
+              <div class="box-body table-responsive">
                   <table class="table table-bordered table-stripped">
                       <tr>
                         <th>Symbol</th>
@@ -107,7 +107,7 @@
                         <td>{{x.CompanyName}}</td>
                         <td>{{x.PriviousClose}}</td>
                         <td>{{x.LastTradedPrice}}</td>
-                        <td>{{x.PercentGain}}</td>
+                        <td>{{x.PercentGain}}%</td>
                         <td>{{x.Percent}}</td>
                         <td [ngClass]="(x.Percent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></td>
                       </tr>

@@ -15,7 +15,7 @@ export class UserService {
     return this.httpClient.post<any>(this.api+"/users", data);
   }
   login(data:any){
-    return this.httpClient.post<any>(this.api+"/users/login", data);
+    return this.httpClient.post<any>(this.api+"/users/auth", data);
   }
   forgot(data:any){
     return this.httpClient.post<any>(this.api+"/users/forgot", data);

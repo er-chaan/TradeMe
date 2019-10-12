@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var dbConn = require('../db');
+var crypto = require('crypto');
 
 router.get('/', function(req, res, next) {
   dbConn.query('SELECT * FROM users', function (error, results, fields) {
@@ -20,19 +21,51 @@ router.get('/:id', function (req, res) {
   });
 });
 
-// Add a new user  
+// login
+router.post('/auth', function (req, res) {
+  let mobile = req.body.mobile;
+  let password = req.body.password;
+  if (!mobile || !password) {
+    return res.status(400).send({ error:true, message: 'Please provide user' });
+  }
+  var mykey = crypto.createCipher('aes-128-cbc', password);
+  var pass = mykey.update('abc', 'utf8', 'hex')
+  pass += mykey.final('hex');
+  var token = crypto.randomBytes(20).toString('hex');
+  // var mykey = crypto.createDecipher('aes-128-cbc', 'mypassword');
+  // var pass = mykey.update('34feb914c099df25794bf9ccb85bea72', 'hex', 'utf8')
+  // pass += mykey.final('utf8');
+  dbConn.query("UPDATE users SET ? WHERE ? AND ?", [{token:token},{mobile:mobile},{password:pass}], function (error, results, fields) {
+    if(error){
+          return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!results.affectedRows){
+      return res.status(400).send({ error:true, message: "login failed" });
+    }
+    return res.send({ error: false, mobile:mobile, token:token, message: 'Login success.' });
+  });
+});
+
+// registration
 router.post('/', function (req, res) {
   let mobile = req.body.mobile;
   let email = req.body.email;
   let password = req.body.password;
-  if (!mobile) {
-    return res.status(400).send({ error:true, message: 'Please provide user' });
+  if (!mobile || !email || !password) {
+    return res.status(400).send({ error:true, message: 'inputs missing' });
   }
- dbConn.query("INSERT INTO users SET ? ", { mobile: mobile, email: email, password: password, token:"xxx", status:"active" }, function (error, results, fields) {
+  var mykey = crypto.createCipher('aes-128-cbc', password);
+  var pass = mykey.update('abc', 'utf8', 'hex')
+  pass += mykey.final('hex');
+  var token = crypto.randomBytes(20).toString('hex');
+  // var mykey = crypto.createDecipher('aes-128-cbc', 'mypassword');
+  // var pass = mykey.update('34feb914c099df25794bf9ccb85bea72', 'hex', 'utf8')
+  // pass += mykey.final('utf8');
+ dbConn.query("INSERT INTO users SET ? ", { mobile: mobile, email: email, password: pass, token:token, status:"active" }, function (error, results, fields) {
   if(error){
     return res.status(400).send({ error:true, message: error.message });
   }
-  return res.send({ error: false, data: req.body, message: 'New user has been created successfully.' });
+  return res.send({ error: false, mobile:mobile, token:token, message: 'New user has been created successfully.' });
   });
 });
 

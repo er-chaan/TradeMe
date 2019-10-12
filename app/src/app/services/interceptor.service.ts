@@ -18,26 +18,26 @@ export class InterceptorService implements HttpInterceptor {
   constructor(private spinner: NgxSpinnerService,private toastr: ToastrService) {}
 
   intercept(req, next){
-    this.spinner.show("mySpinner", {
-      type: "line-scale-party",
-      size: "large",
-      bdColor: "rgba(51,51,51,0.8)",
-      color: "white"
-    });
-    console.log("==INTERCEPTOR CALLED==");
-    // if(sessionStorage.getItem('token')){
-    //   this.token = sessionStorage.getItem('token')
-    // }else{
-    //   this.token = "0";
-    // }
-    // console.log(this.token);
+    // this.spinner.show("mySpinner", {
+    //   type: "line-scale-party",
+    //   size: "large",
+    //   bdColor: "rgba(51,51,51,0.8)",
+    //   color: "white"
+    // });
+    // console.log("==INTERCEPTOR CALLED==");
+    if(localStorage.getItem('token')){
+      this.token = localStorage.getItem('token')
+    }else  if(sessionStorage.getItem('token')){
+      this.token = localStorage.getItem('token')
+    }else{
+      this.token = "0";
+    }
     let tokenizedReq = req.clone({
       setHeaders: {
-        // Authorization : this.token
-        // 'Content-Type':'application/json'
+        // token : this.token
       }
     });
-    this.spinner.hide("mySpinner");
+    // this.spinner.hide("mySpinner");
 
     return next.handle(tokenizedReq).pipe(
       tap(
@@ -46,6 +46,7 @@ export class InterceptorService implements HttpInterceptor {
         },
         error => {
           this.toastr.error(error.error.message ,'ERROR');
+          // this.toastr.error(error.message ,'ERROR');
         }
       )
     );
