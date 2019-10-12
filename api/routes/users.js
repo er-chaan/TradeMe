@@ -16,7 +16,7 @@ router.post('/forgot', function (req, res) {
     if(!results[0]){
       return res.status(400).send({ error:true, message: "no such user" });      
     }
-    var mykey = crypto.createDecipher('aes-128-cbc', 'mypassword');
+    var mykey = crypto.createDecipher('aes-128-cbc', 'myHexKey');
     var pass = mykey.update(results[0].password, 'hex', 'utf8')
     pass += mykey.final('utf8');
     // password emailing utility
@@ -53,11 +53,11 @@ router.put('/putSettings', function (req, res) {
   if(newPassword === password){
     return res.status(400).send({ error:true, message: 'new password is same as old' });
   }
-  var mykey = crypto.createCipher('aes-128-cbc', newPassword);
-  var pass = mykey.update('abc', 'utf8', 'hex')
+  var mykey = crypto.createCipher('aes-128-cbc', 'myHexKey');
+  var pass = mykey.update(newPassword, 'utf8', 'hex')
   pass += mykey.final('hex');
-  var mykeyX = crypto.createCipher('aes-128-cbc', password);
-  var curPassword = mykeyX.update('abc', 'utf8', 'hex')
+  var mykeyX = crypto.createCipher('aes-128-cbc', 'myHexKey');
+  var curPassword = mykeyX.update(password, 'utf8', 'hex')
   curPassword += mykeyX.final('hex');
   dbConn.query("UPDATE users SET ? WHERE ? AND ? AND ?", [{password:pass},{mobile:mobile},{email:email},{password:curPassword}], function (error, results, fields) {
     if(error){
@@ -77,8 +77,8 @@ router.post('/login', function (req, res) {
   if (!mobile || !password) {
     return res.status(400).send({ error:true, message: 'Please provide user' });
   }
-  var mykey = crypto.createCipher('aes-128-cbc', password);
-  var pass = mykey.update('abc', 'utf8', 'hex')
+  var mykey = crypto.createCipher('aes-128-cbc', 'myHexKey');
+  var pass = mykey.update(password, 'utf8', 'hex')
   pass += mykey.final('hex');
   var token = crypto.randomBytes(20).toString('hex');
   dbConn.query("UPDATE users SET ? WHERE ? AND ? AND ?", [{token:token},{mobile:mobile},{password:pass},{status:'active'}], function (error, results, fields) {
@@ -100,7 +100,7 @@ router.post('/register', function (req, res) {
   if (!mobile || !email || !password) {
     return res.status(400).send({ error:true, message: 'inputs missing' });
   }
-  var mykey = crypto.createCipher('aes-128-cbc', 'mypassword');
+  var mykey = crypto.createCipher('aes-128-cbc', 'myHexKey');
   var pass = mykey.update(password, 'utf8', 'hex')
   pass += mykey.final('hex');
   var token = crypto.randomBytes(20).toString('hex');
