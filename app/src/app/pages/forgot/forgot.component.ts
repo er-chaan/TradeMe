@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { UserService } from "../../services/user.service";
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-forgot',
@@ -12,13 +13,13 @@ export class ForgotComponent implements OnInit {
   emailError:any;
   isRecovered:any;
 
-  constructor(private formBuilder:FormBuilder, private userService:UserService) { }
+  constructor(private formBuilder:FormBuilder, private userService:UserService, private toastr: ToastrService) { }
 
   ngOnInit() {
     this.isRecovered=false;
     this.emailError=false;
     this.forgotForm = this.formBuilder.group({
-      email: ["",[Validators.required, Validators.email]],
+      email: ["er.chandreshbhai@gmail.com",[Validators.required, Validators.email]],
     });
   }
   get f() { return this.forgotForm.controls; }
@@ -26,13 +27,15 @@ export class ForgotComponent implements OnInit {
     this.emailError=false;
     if(this.forgotForm.invalid){
       if(this.f.email.errors){
-        this.emailError = "invalid mobile";
+        this.emailError = "invalid email";
       }
       return;
     }
     if(this.forgotForm.valid){
-      this.userService.forgot(this.forgotForm).subscribe(data => {}, error=>{});
-      this.isRecovered="check your mail box";
+      this.userService.forgot(this.forgotForm.value).subscribe(data => {
+        this.isRecovered=data.message;
+        this.toastr.success(data.message, 'SUCCESS');
+        }, error=>{});
     }
   }
 

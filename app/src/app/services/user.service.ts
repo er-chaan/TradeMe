@@ -18,6 +18,7 @@ export class UserService {
     return this.httpClient.post<any>(this.api+"/users/login", data);
   }
   forgot(data:any){
+    console.log(data);
     return this.httpClient.post<any>(this.api+"/users/forgot", data);
   }
   getSettings(data:any){
