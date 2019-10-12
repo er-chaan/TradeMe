@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 10, 2019 at 11:39 PM
+-- Generation Time: Oct 12, 2019 at 10:24 PM
 -- Server version: 10.1.37-MariaDB-3
 -- PHP Version: 7.2.4-1+b2
 
@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `mobile` text,
-  `email` text,
+  `mobile` varchar(10) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
   `password` text,
   `token` text,
   `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
@@ -41,7 +41,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `mobile`, `email`, `password`, `token`, `lastUpdated`, `status`) VALUES
-(4, '9004313006', 'kjbkjhb@Bjh.sdevs', 'bjkbjhjbbj', NULL, '2019-10-10 18:01:41', NULL);
+(61, '9004313006', 'er.chandreshbhai@gmail.com', 'bac59658e712105440b9a0853770eca3', '6542b0159b9deb5edaa5cf0ad5b8b95c05029f83', '2019-10-12 16:52:35', 'active');
 
 --
 -- Indexes for dumped tables
@@ -51,7 +51,9 @@ INSERT INTO `users` (`id`, `mobile`, `email`, `password`, `token`, `lastUpdated`
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `mobile` (`mobile`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -61,7 +63,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
