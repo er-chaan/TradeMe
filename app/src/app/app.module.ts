@@ -20,7 +20,7 @@ import { ErrorService } from "./services/error.service";
   ],
   imports: [
     ToastrModule.forRoot({
-      timeOut: 10000,
+      timeOut: 5000,
       positionClass: 'toast-bottom-right',
       preventDuplicates: false,
     }),

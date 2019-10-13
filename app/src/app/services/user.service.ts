@@ -11,6 +11,16 @@ export class UserService {
   constructor(private httpClient: HttpClient) {
     this.api = environment.api;
   }
+  isUserLoggedIn(){
+      if(localStorage.getItem('token')){
+        return true;
+      }else if(sessionStorage.getItem('token')){
+        return true;
+      }else{
+        return false;
+      }
+      return false;
+  }
   register(data:any){
     return this.httpClient.post<any>(this.api+"/users/register", data);
   }

@@ -8,13 +8,13 @@ import {Location} from '@angular/common';
 })
 export class X404Component implements OnInit {
 
-  constructor(private _location: Location) { }
+  constructor(private location: Location) { }
 
   ngOnInit() {
   }
 
   backClick() {
-    this._location.back();
+    this.location.back();
   }
 
 }
