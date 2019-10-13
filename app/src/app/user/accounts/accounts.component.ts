@@ -28,6 +28,4 @@ export class AccountsComponent implements OnInit {
     this.paymentTab=tab;
   }
 
-
-
 }

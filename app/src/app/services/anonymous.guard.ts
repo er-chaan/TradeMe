@@ -19,7 +19,8 @@ export class AnonymousGuard implements CanActivate, CanActivateChild, CanLoad {
     if(!this.userService.isUserLoggedIn()){
       return true;
     }else{
-      this.router.navigate([this.location.back()]);
+      this.router.navigate(['/user']);
+      // this.router.navigate([this.location.back()]);
       return false;
     }
     return true;
