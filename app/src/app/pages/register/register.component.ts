@@ -25,10 +25,10 @@ export class RegisterComponent implements OnInit {
     this.passwordError=false;
     this.termsError=false;
     this.registerForm = this.formBuilder.group({
-      mobile : ["9004313006", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
-      email: ["er.chandreshbhai@gmail.com",[Validators.required, Validators.email]],
-      password:["asdf@123",[Validators.required]],
-      terms:[true,[Validators.required]]
+      mobile : ["", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
+      email: ["",[Validators.required, Validators.email]],
+      password:["",[Validators.required]],
+      terms:["",[Validators.required]]
     });
   }
   get f() { return this.registerForm.controls; }

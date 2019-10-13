@@ -19,7 +19,7 @@ export class ForgotComponent implements OnInit {
     this.isRecovered=false;
     this.emailError=false;
     this.forgotForm = this.formBuilder.group({
-      email: ["er.chandreshbhai@gmail.com",[Validators.required, Validators.email]],
+      email: ["",[Validators.required, Validators.email]],
     });
   }
   get f() { return this.forgotForm.controls; }
