@@ -3,6 +3,23 @@ var router = express.Router();
 var dbConn = require('../db');
 var crypto = require('crypto');
 
+// getBalance
+router.get('/getBalance/:mobile', function (req, res) {
+  let mobile = req.params.mobile;
+  if (!mobile) {
+   return res.status(400).send({ error: true, message: 'provide mobile' });
+  }
+  dbConn.query('SELECT balance FROM users where mobile=?', mobile, function (error, results, fields) {
+   if(error){
+      return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!results[0]){
+      return res.status(400).send({ error:true, message: "no such user" });      
+    }
+    return res.send({ error: false, data: results[0], message: 'users list.' });
+  });
+});
+
 // forgot
 router.post('/forgot', function (req, res) {
   let email = req.body.email;

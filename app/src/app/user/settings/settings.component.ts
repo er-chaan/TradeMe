@@ -31,11 +31,11 @@ export class SettingsComponent implements OnInit {
     this.userService.getSettings(this.mobile).subscribe(data => {
       this.settings=data;
       this.settingsForm = this.formBuilder.group({
-      mobile : [this.settings.data.mobile, [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
-      email: [this.settings.data.email,[Validators.required, Validators.email]],
-      password:["",[Validators.required]],
-      newPassword:["",[Validators.required]],
-    });
+        mobile : [this.settings.data.mobile, [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
+        email: [this.settings.data.email,[Validators.required, Validators.email]],
+        password:["",[Validators.required]],
+        newPassword:["",[Validators.required]],
+      });
     });
     this.mobileError=false;
     this.emailError=false;

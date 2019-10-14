@@ -37,4 +37,7 @@ export class UserService {
   putSettings(data:any){
     return this.httpClient.put<any>(this.api+"/users/putSettings", data);
   }
+  getBalance(data:any){
+    return this.httpClient.get<any>(this.api+"/users/getBalance/"+data+"");
+  }
 }

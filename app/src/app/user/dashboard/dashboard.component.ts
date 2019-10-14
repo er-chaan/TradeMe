@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardService } from "../../services/dashboard.service";
+import { UserService } from "../../services/user.service";
 import { Chart } from "chart.js";
 declare var jquery:any;
 declare var $ :any;
@@ -10,22 +11,31 @@ declare var $ :any;
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+  mobile:any;
+  balance:any;
   indices:any;
   nseGainer:any;
   nseLoser:any;
   nseActive:any;
   nseChart:any;
-  constructor(private dashboardService: DashboardService) { }
+  constructor(private dashboardService: DashboardService, private userService:UserService) { }
 
   ngOnInit() {
+    if(localStorage.getItem('mobile')){
+      this.mobile = localStorage.getItem('mobile');
+    }
+    if(sessionStorage.getItem('mobile')){
+      this.mobile = sessionStorage.getItem('mobile');
+    }
       this.getIndices();
       this.getTopPerfomers();
       this.getNseChart();
+      this.getBalance();
     setInterval(() => {
       this.getIndices();
       this.getTopPerfomers();
       this.getNseChart();
+      this.getBalance();
     }, 5000);
   }
 
@@ -39,6 +49,11 @@ export class DashboardComponent implements OnInit {
     this.dashboardService.getNseChart().subscribe(data => {
         this.nseChart=data;
         this.processChart(this.nseChart);
+      });
+  }
+  getBalance(){
+    this.userService.getBalance(this.mobile).subscribe(response => {
+        this.balance=response.data.balance;
       });
   }
   getTopPerfomers(){

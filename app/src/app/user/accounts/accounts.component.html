@@ -15,23 +15,29 @@
                       <li [ngClass]="paymentTab == 'payOUT' ? 'active': ''" (click)="togglePaymentTab('payOUT')"><a>Pay OUT</a></li>
                     </ul>
                     <div *ngIf="paymentTab == 'payIN'">
-                        <form role="form">
+                        <form [formGroup]="payInForm" (ngSubmit)="payIN()">
                           <div class="box-body">
-                            <div class="form-group">
-                              <label for="amount">Amount</label>
-                              <input type="number" class="form-control" id="amount" placeholder="0 INR"><br>
-                              <button type="submit" class="btn btn-primary" style="width: 100%">Pay IN</button>
+                            <div class="form-group has-feedback" [ngClass]="payInAmountError !== false ? 'has-error': ''">
+                                <label for="amount">Amount</label>
+                                <input formControlName="amount" type="number" class="form-control" placeholder="Amount">
+                                <input type="hidden" value="{{mobile}}" formControlName="mobile" class="form-control" placeholder="Mobile">
+                                <span class="help-block" *ngIf="payInAmountError">{{payInAmountError}}</span>
+                                <br>
+                                <button type="submit" class="btn btn-primary" style="width: 100%">Pay IN</button>
                             </div>
                           </div>
                         </form>
                     </div>
                     <div *ngIf="paymentTab == 'payOUT'">
-                        <form role="form">
+                        <form [formGroup]="payOutForm" (ngSubmit)="payOUT()">
                           <div class="box-body">
-                            <div class="form-group">
-                              <label for="amount">Amount</label>
-                              <input type="number" class="form-control" id="amount" placeholder="0 INR"><br>
-                              <button type="submit" class="btn btn-primary" style="width: 100%">Pay OUT</button>
+                            <div class="form-group has-feedback" [ngClass]="payOutAmountError !== false ? 'has-error': ''">
+                                <label for="amount">Amount</label>
+                                <input formControlName="amount" type="number" class="form-control" placeholder="Amount">
+                                <input type="hidden" value="{{mobile}}" formControlName="mobile" class="form-control" placeholder="Mobile">
+                                <span class="help-block" *ngIf="payOutAmountError">{{payOutAmountError}}</span>
+                                <br>
+                                <button type="submit" class="btn btn-primary" style="width: 100%">Pay OUT</button>
                             </div>
                           </div>
                         </form>
@@ -47,7 +53,7 @@
             </div>
             <div class="box-body table-responsive">
               <table id="transactionBook" class="table table-bordered table-striped" >
-                <caption>Balance : 28,00,000 INR</caption>
+                <caption>Balance : {{balance}} INR</caption>
                 <thead>
                 <tr>
                   <th>TID</th>
@@ -59,45 +65,13 @@
                 </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
-                  </tr>
-                  <tr>
-                    <td>TM0010</td>
-                    <td>Aug 1st 2019</td>
-                    <td>opening balance</td>
-                    <td>0</td>
-                    <td>100</td>
-                    <td>100</td>
+                  <tr *ngFor="let p of passbook">
+                    <td>{{p.id}}</td>
+                    <td>{{p.date}}</td>
+                    <td>{{p.description}}</td>
+                    <td>{{p.debit}}</td>
+                    <td>{{p.credit}}</td>
+                    <td>{{p.balance}}</td>
                   </tr>
                 </tbody> 
                 <tfoot>
