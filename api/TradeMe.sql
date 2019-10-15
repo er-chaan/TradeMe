@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 15, 2019 at 12:20 AM
+-- Generation Time: Oct 16, 2019 at 12:14 AM
 -- Server version: 10.1.37-MariaDB-3
 -- PHP Version: 7.2.4-1+b2
 
@@ -47,7 +47,26 @@ INSERT INTO `accounts` (`id`, `mobile`, `date`, `description`, `debit`, `credit`
 (7, '9004313006', '2019-10-14 18:34:09', 'payout 5 processed ', 5, 0, 20, 'payout'),
 (8, '9004313006', '2019-10-14 18:34:45', 'payout 20 processed ', 20, 0, 0, 'payout'),
 (9, '9004313006', '2019-10-14 18:45:57', 'payin 100 processed ', 0, 100, 100, 'payin'),
-(10, '9004313006', '2019-10-14 18:48:41', 'payin 990 processed ', 0, 990, 1090, 'payin');
+(10, '9004313006', '2019-10-14 18:48:41', 'payin 990 processed ', 0, 990, 1090, 'payin'),
+(11, '9004313006', '2019-10-15 18:38:19', 'payout 90 processed ', 90, 0, 1000, 'payout'),
+(12, '9004313006', '2019-10-15 18:38:45', 'payin 100 processed ', 0, 100, 1100, 'payin');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `inplay`
+--
+
+CREATE TABLE `inplay` (
+  `id` int(11) NOT NULL,
+  `mobile` varchar(10) NOT NULL,
+  `symbol` text NOT NULL,
+  `called` text NOT NULL,
+  `price` float NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `status` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -71,7 +90,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `mobile`, `email`, `password`, `token`, `balance`, `lastUpdated`, `status`) VALUES
-(67, '9004313006', 'er.chandreshbhai@gmail.com', '16f6ee333087cc134afc201236048cd5', '168d65b478f8d6e2dc61e57134394ca7ab967484', 1090, '2019-10-14 18:48:41', 'active');
+(67, '9004313006', 'er.chandreshbhai@gmail.com', '16f6ee333087cc134afc201236048cd5', '168d65b478f8d6e2dc61e57134394ca7ab967484', 1100, '2019-10-15 18:38:45', 'active');
 
 --
 -- Indexes for dumped tables
@@ -81,6 +100,12 @@ INSERT INTO `users` (`id`, `mobile`, `email`, `password`, `token`, `balance`, `l
 -- Indexes for table `accounts`
 --
 ALTER TABLE `accounts`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `inplay`
+--
+ALTER TABLE `inplay`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -99,7 +124,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `users`
 --
