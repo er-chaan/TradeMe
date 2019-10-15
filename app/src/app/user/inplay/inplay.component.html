@@ -36,9 +36,9 @@
                       </table>
                   </div>
                   <div class="col-md-12 text-center">
-                      <button class="btn btn-md btn-success">BUY</button> &nbsp;&nbsp;
-                      <input type="text" class="forn-control" placeholder="Trade Quantity" style="width: 100px"> &nbsp;&nbsp; 
-                      <button class="btn btn-md btn-danger">SELL</button> &nbsp;&nbsp;
+                      <button class="btn btn-md btn-success" (click)="buy()">BUY</button> &nbsp;&nbsp;
+                          <input id="quantity" type="text" class="forn-control" placeholder="Trade Quantity" style="width: 100px"> &nbsp;&nbsp; 
+                      <button class="btn btn-md btn-danger" (click)="sell()">SELL</button> &nbsp;&nbsp;
                   </div>
                 </div>
               </div>
@@ -62,15 +62,15 @@
                     </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>SBIN</td>
-                        <td>State bank of india</td>
-                        <td>BUY</td>
-                        <td>249</td>
-                        <td>10</td>
-                        <td>252</td>
-                        <td>Open</td>
-                        <td>+30</td>
+                    <tr *ngFor="let t of tradeBook">
+                        <td>{{t.symbol}}</td>
+                        <td>{{t.company}}</td>
+                        <td>{{t.call}}</td>
+                        <td>{{t.price}}</td>
+                        <td>{{t.quantity}}</td>
+                        <td>{{t.cmp}}</td>
+                        <td>{{t.status}}</td>
+                        <td>{{t.net}}</td>
                         <td><button class="btn btn-sm btn-warning">EXIT</button></td>
                       </tr>
                     </tbody> 

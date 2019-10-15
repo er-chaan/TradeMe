@@ -86,6 +86,7 @@ export class AccountsComponent implements OnInit {
         this.response = data;
         this.transactionBook();
         this.toastr.success(this.response.message ,'SUCCESS');
+        this.payInForm.reset;
       }, error=>{});
     }
   }
@@ -104,6 +105,7 @@ export class AccountsComponent implements OnInit {
         this.response = data;
         this.transactionBook();
         this.toastr.success(this.response.message ,'SUCCESS');
+        this.payOutForm.reset;
       }, error=>{});
     }
   }
