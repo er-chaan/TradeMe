@@ -41,6 +41,7 @@ export class InplayComponent implements OnInit {
       'autoWidth'   : false
     });
     this.stockList = stockList;
+
     setInterval(() => {
       this.tradeBook();
     }, 5000);
@@ -66,11 +67,11 @@ export class InplayComponent implements OnInit {
   buy(){
     this.selectedStock = $('#stockList').val();
     this.quantity = $('#quantity').val();
-    this.trade = [{mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice}];
+    this.trade = {mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice};
     this.inplayService.buy(this.trade).subscribe(data => {
       this.response = data;
-      this.tradeBook();
       this.toastr.success(this.response.message ,'SUCCESS');
+      this.tradeBook();
       $('#quantity').val(0);
     }, error=>{});
   }
@@ -78,13 +79,15 @@ export class InplayComponent implements OnInit {
   sell(){
     this.selectedStock = $('#stockList').val();
     this.quantity = $('#quantity').val();
-    let trade = [{selectedStock : this.selectedStock, quantity:this.quantity}]
-    this.inplayService.sell(this.trade).subscribe(data => {
+    this.trade = {mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice};
+    this.inplayService.buy(this.trade).subscribe(data => {
       this.response = data;
-      this.tradeBook();
       this.toastr.success(this.response.message ,'SUCCESS');
+      this.tradeBook();
       $('#quantity').val(0);
     }, error=>{});
   }
+
+
 
 }

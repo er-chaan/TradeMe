@@ -51,7 +51,6 @@
                     <thead>
                     <tr>
                       <th>Symbol</th>
-                      <th>Company</th>
                       <th>Call</th>
                       <th>Price</th>
                       <th>Quantity</th>
@@ -64,13 +63,12 @@
                     <tbody>
                     <tr *ngFor="let t of tradeBook">
                         <td>{{t.symbol}}</td>
-                        <td>{{t.company}}</td>
-                        <td>{{t.call}}</td>
+                        <td>{{t.called}}</td>
                         <td>{{t.price}}</td>
                         <td>{{t.quantity}}</td>
-                        <td>{{t.cmp}}</td>
+                        <td>CMP</td>
                         <td>{{t.status}}</td>
-                        <td>{{t.net}}</td>
+                        <td>NET</td>
                         <td><button class="btn btn-sm btn-warning">EXIT</button></td>
                       </tr>
                     </tbody> 
