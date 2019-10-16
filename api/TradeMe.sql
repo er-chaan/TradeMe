@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 16, 2019 at 12:14 AM
+-- Generation Time: Oct 17, 2019 at 12:21 AM
 -- Server version: 10.1.37-MariaDB-3
 -- PHP Version: 7.2.4-1+b2
 
@@ -42,14 +42,9 @@ CREATE TABLE `accounts` (
 --
 
 INSERT INTO `accounts` (`id`, `mobile`, `date`, `description`, `debit`, `credit`, `balance`, `status`) VALUES
-(5, '9004313006', '2019-10-14 18:20:45', 'payin 10 processed ', 0, 10, 10, 'payin'),
-(6, '9004313006', '2019-10-14 18:29:18', 'payin 15 processed ', 0, 15, 25, 'payin'),
-(7, '9004313006', '2019-10-14 18:34:09', 'payout 5 processed ', 5, 0, 20, 'payout'),
-(8, '9004313006', '2019-10-14 18:34:45', 'payout 20 processed ', 20, 0, 0, 'payout'),
-(9, '9004313006', '2019-10-14 18:45:57', 'payin 100 processed ', 0, 100, 100, 'payin'),
-(10, '9004313006', '2019-10-14 18:48:41', 'payin 990 processed ', 0, 990, 1090, 'payin'),
-(11, '9004313006', '2019-10-15 18:38:19', 'payout 90 processed ', 90, 0, 1000, 'payout'),
-(12, '9004313006', '2019-10-15 18:38:45', 'payin 100 processed ', 0, 100, 1100, 'payin');
+(26, '9004313006', '2019-10-16 18:47:29', 'payin 1000 processed ', 0, 1000, 1000, 'payin'),
+(27, '9004313006', '2019-10-16 18:47:49', ' BUY SOUTHBANK of quantity 20 at 10.00', 200, 0, 800, 'payout'),
+(28, '9004313006', '2019-10-16 18:48:23', ' SELL IDFCFIRSTB of quantity 10 at 39.20', 392, 0, 408, 'payout');
 
 -- --------------------------------------------------------
 
@@ -64,9 +59,19 @@ CREATE TABLE `inplay` (
   `called` text NOT NULL,
   `price` float NOT NULL,
   `quantity` int(11) NOT NULL,
+  `cmp` float DEFAULT '0',
+  `net` float NOT NULL DEFAULT '0',
   `lastUpdated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `status` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `inplay`
+--
+
+INSERT INTO `inplay` (`id`, `mobile`, `symbol`, `called`, `price`, `quantity`, `cmp`, `net`, `lastUpdated`, `status`) VALUES
+(20, '9004313006', 'SOUTHBANK', 'buy', 10, 20, 10, 0, '2019-10-16 18:48:01', 'open'),
+(21, '9004313006', 'IDFCFIRSTB', 'sell', 39.2, 10, 39.2, 0, '2019-10-16 18:48:29', 'open');
 
 -- --------------------------------------------------------
 
@@ -90,7 +95,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `mobile`, `email`, `password`, `token`, `balance`, `lastUpdated`, `status`) VALUES
-(67, '9004313006', 'er.chandreshbhai@gmail.com', '16f6ee333087cc134afc201236048cd5', '168d65b478f8d6e2dc61e57134394ca7ab967484', 1100, '2019-10-15 18:38:45', 'active');
+(68, '9004313006', 'er.chandreshbhai@gmail.com', '22e605e3f8a8f5b12969bf01a1313b14', 'bb1e1f1de002ff3f935b2521404b24fc38a7e538', 408, '2019-10-16 18:48:23', 'active');
 
 --
 -- Indexes for dumped tables
@@ -124,12 +129,17 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+--
+-- AUTO_INCREMENT for table `inplay`
+--
+ALTER TABLE `inplay`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
