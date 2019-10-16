@@ -41,10 +41,11 @@ export class InplayComponent implements OnInit {
       'autoWidth'   : false
     });
     this.stockList = stockList;
+    this.tradeBook();
 
     setInterval(() => {
       this.tradeBook();
-    }, 5000);
+    }, 50000);
   }
 
   tradeBook(){
@@ -58,7 +59,8 @@ export class InplayComponent implements OnInit {
     this.inplayService.getStockStatus(this.selectedStock).subscribe(data => {this.stockStatus=data;console.log(data)});
   }
 
-  getStockStatusInstant(symbol): number{
+  getCMP(symbol): number{
+    return;
     let stockPrice:any;
     this.inplayService.getStockStatus(symbol).subscribe(data => {stockPrice=data;console.log(data)});
     return stockPrice;
@@ -80,7 +82,7 @@ export class InplayComponent implements OnInit {
     this.selectedStock = $('#stockList').val();
     this.quantity = $('#quantity').val();
     this.trade = {mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice};
-    this.inplayService.buy(this.trade).subscribe(data => {
+    this.inplayService.sell(this.trade).subscribe(data => {
       this.response = data;
       this.toastr.success(this.response.message ,'SUCCESS');
       this.tradeBook();
@@ -88,6 +90,9 @@ export class InplayComponent implements OnInit {
     }, error=>{});
   }
 
+  exitTrade(){
+    this.trade = {mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice};    
+  }
 
 
 }

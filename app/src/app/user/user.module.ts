@@ -10,9 +10,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { InplayComponent } from './inplay/inplay.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CmpPipe } from '../services/cmp.pipe';
 
 @NgModule({
-  declarations: [UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent],
+  declarations: [CmpPipe, UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent],
   imports: [
       FormsModule,
       ReactiveFormsModule,

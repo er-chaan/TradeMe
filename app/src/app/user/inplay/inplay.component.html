@@ -55,8 +55,8 @@
                       <th>Price</th>
                       <th>Quantity</th>
                       <th>CMP</th>
-                      <th>Status</th>
                       <th>Net</th>
+                      <th>Status</th>
                       <th>Action</th>
                     </tr>
                     </thead>
@@ -66,10 +66,11 @@
                         <td>{{t.called}}</td>
                         <td>{{t.price}}</td>
                         <td>{{t.quantity}}</td>
-                        <td>CMP</td>
+                        <!-- <td>{{ t.symbol | cmp }}</td> -->
+                        <td>{{ t.cmp }}</td>
+                        <td>{{ t.net }}</td>
                         <td>{{t.status}}</td>
-                        <td>NET</td>
-                        <td><button class="btn btn-sm btn-warning">EXIT</button></td>
+                        <td><button class="btn btn-sm btn-warning" (click)="exitTrade()">EXIT</button></td>
                       </tr>
                     </tbody> 
                     <tfoot>
