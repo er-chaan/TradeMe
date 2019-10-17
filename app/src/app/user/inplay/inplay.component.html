@@ -44,11 +44,16 @@
               </div>
             </div>
             <br><br>
+
+            {{totanNet}}
             <div class="row">
               <div class="col-md-12">
                 <div class="box-body table-responsive">
                   <table id="transactionBook" class="table table-bordered table-striped" >
                     <thead>
+                      <tr>
+                        <td colspan="8" class="text-center" [ngClass]="(totalNet > 0)?'text-success':'text-danger'">{{totalNet}}</td>
+                      </tr>
                     <tr>
                       <th>Symbol</th>
                       <th>Call</th>
@@ -61,16 +66,16 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr *ngFor="let t of tradeBook">
+                    <tr *ngFor="let t of tradeBook" [ngClass]="(t.net > 0)?'text-success':'text-danger'">
                         <td>{{t.symbol}}</td>
                         <td>{{t.called}}</td>
                         <td>{{t.price}}</td>
                         <td>{{t.quantity}}</td>
                         <!-- <td>{{ t.symbol | cmp }}</td> -->
                         <td>{{ t.cmp }}</td>
-                        <td>{{ t.net }}</td>
+                        <td>{{ t.net * t.quantity }}</td>
                         <td>{{t.status}}</td>
-                        <td><button class="btn btn-sm btn-warning" (click)="exitTrade()">EXIT</button></td>
+                        <td><button class="btn btn-sm btn-warning" (click)="exitTrade(t.id)">EXIT</button></td>
                       </tr>
                     </tbody> 
                     <tfoot>

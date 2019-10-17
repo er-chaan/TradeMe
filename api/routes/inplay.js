@@ -140,4 +140,57 @@ router.post('/sell', function (req, res) {
     });
 });
   
+
+// exitTrade
+router.post('/exitTrade', function (req, res) {
+  let id = req.body.id;
+  if (!id) {
+   return res.status(400).send({ error: true, message: 'provide id' });
+  }
+  dbConn.query('SELECT * FROM inplay where ? and ?', [{id:id},{status:"open"}], function (error, resultsX) {
+   if(error){
+      return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!resultsX[0]){
+      return res.status(400).send({ error:true, message: "no trades" });      
+    }
+    // exitPrice = 0;
+    // if(resultsX[0].called == "buy"){
+    //   exitPrice = (resultsX[0].cmp)*(resultsX[0].quantity) - (resultsX[0].price)*(resultsX[0].quantity);  
+    // }
+    // if(resultsX[0].called == "sell"){
+    //   exitPrice = (resultsX[0].price)*(resultsX[0].quantity) - (resultsX[0].cmp)*(resultsX[0].quantity);
+    // }
+    exitPrice = ((resultsX[0].price)*(resultsX[0].quantity)) + ((resultsX[0].net)*(resultsX[0].quantity));
+    39.2*10 + (- 0.75*10)
+    // if(exitPrice < 0){
+    //   console.log(exitPrice);
+    //   return res.send({ error: false, message: 'malfunction' });      
+    // }
+    dbConn.query('update inplay set ? where ?', [{status:"closed"},{id:id}], function (error) {
+      if(error){
+         return res.status(400).send({ error:true, message: error.message });
+       }
+       dbConn.query('SELECT * FROM users where ? and ?', [{mobile:(resultsX[0].mobile)},{status:"active"}], function (error, Xresults) {
+        if(error){
+           return res.status(400).send({ error:true, message: error.message });
+         }
+         balance = (Xresults[0].balance) + exitPrice;
+         description = "EXIT "+resultsX[0].symbol+ " of quantity "+resultsX[0].quantity +" at "+resultsX[0].cmp;
+         dbConn.query("INSERT INTO accounts SET ? ", { mobile: resultsX[0].mobile, description: description, debit:0,credit:exitPrice,balance:balance,status:"payin" }, function (error, results, fields) {
+          if(error){
+             return res.status(400).send({ error:true, message: error.message });
+           }
+           dbConn.query('update users set ? where ?', [{balance:balance},{mobile:(Xresults[0].mobile)}], function (error) {
+            if(error){
+               return res.status(400).send({ error:true, message: error.message });
+             }
+             return res.send({ error: false, message: 'exit done' });      
+            });
+          });
+        });
+    });
+  });
+});
+
 module.exports = router;

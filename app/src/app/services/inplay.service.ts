@@ -25,4 +25,7 @@ export class InplayService {
   sell(data:any){
     return this.httpClient.post<any>(this.api+"/inplay/sell/",data);
   }
+  exitTrade(data:any){
+    return this.httpClient.post<any>(this.api+"/inplay/exitTrade/",data);
+  }
 }

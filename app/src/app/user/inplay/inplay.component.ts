@@ -19,6 +19,7 @@ export class InplayComponent implements OnInit {
   stockStatus: any;
   trade:any;
   response:any;
+  totalNet:any;
 
   constructor(private inplayService: InplayService, private toastr: ToastrService) { }
 
@@ -51,6 +52,10 @@ export class InplayComponent implements OnInit {
   tradeBook(){
     this.inplayService.tradeBook(this.mobile).subscribe(data => {
       this.tradeBook = data.data;
+      this.totalNet = 0;
+      (data.data).forEach(element => {
+        this.totalNet= this.totalNet+element.net; 
+      });
     });
   }
 
@@ -90,8 +95,13 @@ export class InplayComponent implements OnInit {
     }, error=>{});
   }
 
-  exitTrade(){
-    this.trade = {mobile: this.mobile, selectedStock : this.selectedStock, quantity:this.quantity, price:this.stockStatus.LastTradedPrice};    
+  exitTrade(id:any){
+    this.trade = {id: id};    
+    this.inplayService.exitTrade(this.trade).subscribe(data => {
+      this.response = data;
+      this.toastr.success(this.response.message ,'SUCCESS');
+      this.tradeBook();
+    }, error=>{});
   }
 
 
