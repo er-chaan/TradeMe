@@ -98,8 +98,8 @@
                         <th>Company</th>
                         <th>Prev Close</th>
                         <th>Last Traded Price</th>
+                        <th>Change</th> 
                         <th>Percent Change</th>
-                        <th>Change</th>
                         <th>Flow</th>
                       </tr>
                       <tr *ngFor="let x of nseActive" [ngClass]="(x.Percent > 0)?'text-success':'text-danger'">
@@ -107,8 +107,8 @@
                         <td>{{x.CompanyName}}</td>
                         <td>{{x.PriviousClose}}</td>
                         <td>{{x.LastTradedPrice}}</td>
-                        <td>{{x.PercentGain}}%</td>
-                        <td>{{x.Percent}}</td>
+                        <td>{{x.PercentGain}}</td>
+                        <td>{{x.Percent}}%</td>
                         <td [ngClass]="(x.Percent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></td>
                       </tr>
                   </table>

@@ -65,9 +65,9 @@
                 </tr>
                 </thead>
                 <tbody>
-                  <tr *ngFor="let p of passbook">
+                  <tr *ngFor="let p of passbook; trackBy:identify;">
                     <td>{{p.id}}</td>
-                    <td>{{p.date}}</td>
+                    <td>{{p.date | date : 'medium'}}</td>
                     <td>{{p.description}}</td>
                     <td>{{p.debit}}</td>
                     <td>{{p.credit}}</td>

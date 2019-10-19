@@ -21,6 +21,6 @@ export class AppComponent implements OnInit{
     setTimeout(() => {
       // this.spinner.show();
       this.spinner.hide("mySpinner");
-    }, 2500);
+    }, 5000);
   }
 }

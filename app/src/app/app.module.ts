@@ -17,6 +17,7 @@ import { ErrorService } from "./services/error.service";
 @NgModule({
   declarations: [
     AppComponent,
+    InterceptorService
   ],
   imports: [
     ToastrModule.forRoot({

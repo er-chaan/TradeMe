@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DashboardService } from "../../services/dashboard.service";
 import { UserService } from "../../services/user.service";
 import { Chart } from "chart.js";
@@ -10,7 +10,7 @@ declare var $ :any;
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent implements OnInit, OnDestroy {
   mobile:any;
   balance:any;
   indices:any;
@@ -18,9 +18,11 @@ export class DashboardComponent implements OnInit {
   nseLoser:any;
   nseActive:any;
   nseChart:any;
+  alive:any;
   constructor(private dashboardService: DashboardService, private userService:UserService) { }
 
   ngOnInit() {
+    this.alive=true;
     if(localStorage.getItem('mobile')){
       this.mobile = localStorage.getItem('mobile');
     }
@@ -32,10 +34,12 @@ export class DashboardComponent implements OnInit {
       this.getNseChart();
       this.getBalance();
     setInterval(() => {
-      this.getIndices();
-      this.getTopPerfomers();
-      this.getNseChart();
-      this.getBalance();
+      if(this.alive){
+        this.getIndices();
+        this.getTopPerfomers();
+        this.getNseChart();
+        this.getBalance();
+      }
     }, 5000);
   }
 
@@ -88,4 +92,7 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  ngOnDestroy(){
+    this.alive=false;
+  }
 }

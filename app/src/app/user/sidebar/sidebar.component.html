@@ -2,31 +2,31 @@
     <section class="sidebar">
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="assets/img/user-image.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>{{mobile}}</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <a><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
   
-      <ul class="sidebar-menu">
-        <li class="" [routerLink]="['/user/dashboard']" routerLinkActive="active" >
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="rNav" [routerLink]="['/user/dashboard']" routerLinkActive="active" >
           <a>
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
-        <li class="" [routerLink]="['/user/inplay']" routerLinkActive="active" >
+        <li class="rNav" [routerLink]="['/user/inplay']" routerLinkActive="active" >
           <a>
             <i class="fa fa-inr"></i> <span>Inplay</span>
           </a>
         </li>
-        <li class="" [routerLink]="['/user/accounts']" routerLinkActive="active" >
+        <li class="rNav" [routerLink]="['/user/accounts']" routerLinkActive="active" >
           <a>
             <i class="fa fa-book"></i> <span>Accounts</span>
           </a>
         </li>
-        <li class="" [routerLink]="['/user/settings']" routerLinkActive="active" >
+        <li class="rNav" [routerLink]="['/user/settings']" routerLinkActive="active" >
           <a>
             <i class="fa fa-cog"></i> <span>Settings</span>
           </a>

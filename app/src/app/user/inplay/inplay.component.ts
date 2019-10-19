@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { stockList } from "../../data/stockList";
 import { InplayService } from "../../services/inplay.service";
 import { ToastrService } from 'ngx-toastr';
@@ -10,7 +10,7 @@ declare var $ :any;
   templateUrl: './inplay.component.html',
   styleUrls: ['./inplay.component.css']
 })
-export class InplayComponent implements OnInit {
+export class InplayComponent implements OnInit, OnDestroy {
 
   mobile:any;
   stockList: any;
@@ -20,6 +20,8 @@ export class InplayComponent implements OnInit {
   trade:any;
   response:any;
   totalNet:any;
+  tradeBookData:any;
+  alive:any;
 
   constructor(private inplayService: InplayService, private toastr: ToastrService) { }
 
@@ -33,29 +35,24 @@ export class InplayComponent implements OnInit {
     $('.select2').select2({
       // theme: "bootstrap"
     });
-    $('#transactionBook').DataTable({
-      'paging'      : false,
-      'lengthChange': false,
-      'searching'   : false,
-      'ordering'    : false,
-      'info'        : true,
-      'autoWidth'   : false
-    });
     this.stockList = stockList;
     this.tradeBook();
-
+    this.alive=true;
     setInterval(() => {
-      this.tradeBook();
-    }, 50000);
+      if(this.alive){
+        this.tradeBook();
+      }
+    }, 2000);
   }
 
   tradeBook(){
     this.inplayService.tradeBook(this.mobile).subscribe(data => {
-      this.tradeBook = data.data;
       this.totalNet = 0;
-      (data.data).forEach(element => {
-        this.totalNet= this.totalNet+element.net; 
+      this.tradeBookData = data.data;
+      (this.tradeBookData).forEach(element => {
+        this.totalNet = this.totalNet+element.net; 
       });
+      this.totalNet = parseFloat(this.totalNet);
     });
   }
 
@@ -65,7 +62,6 @@ export class InplayComponent implements OnInit {
   }
 
   getCMP(symbol): number{
-    return;
     let stockPrice:any;
     this.inplayService.getStockStatus(symbol).subscribe(data => {stockPrice=data;console.log(data)});
     return stockPrice;
@@ -104,5 +100,12 @@ export class InplayComponent implements OnInit {
     }, error=>{});
   }
 
+  identify(index, t){
+    return t.id; 
+  }
+
+  ngOnDestroy(){
+    this.alive=false;
+  }
 
 }
