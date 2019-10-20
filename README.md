@@ -8,4 +8,4 @@
 - ng g c folder/component_name --nospec -m module_name 
 - ng g c folder/component_name --skipTests -m module_name 
 
-https://reqres.in/
+
