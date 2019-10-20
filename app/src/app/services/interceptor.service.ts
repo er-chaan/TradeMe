@@ -4,15 +4,6 @@ import { tap } from "rxjs/operators";
 import { ToastrService } from 'ngx-toastr';
 import { NgxSpinnerService } from "ngx-spinner";
 import { Component } from '@angular/core';
-import { NgModule } from '@angular/core';
-import { AppComponent } from "../app.component";
-
-
-// @NgModule({
-//   declarations: [
-//     AppComponent,
-//   ]
-// })
 
 @Component({
   template: '<ngx-spinner name="mySpinner"></ngx-spinner>',
@@ -24,6 +15,8 @@ import { AppComponent } from "../app.component";
 export class InterceptorService implements HttpInterceptor {
 
   token:any;
+  mobile:any;
+
   constructor(private spinner: NgxSpinnerService,private toastr: ToastrService) {}
 
   intercept(req, next){
@@ -33,16 +26,23 @@ export class InterceptorService implements HttpInterceptor {
       bdColor: "rgba(51,51,51,0.8)",
       color: "white"
     });
+
+    this.token = 'x';
+    this.mobile = 'x';
+  
     if(localStorage.getItem('token')){
-      this.token = localStorage.getItem('token')
-    }else  if(sessionStorage.getItem('token')){
-      this.token = localStorage.getItem('token')
-    }else{
-      this.token = "0";
+      this.token = localStorage.getItem('token');
+      this.mobile = localStorage.getItem('mobile');
     }
+    if(sessionStorage.getItem('token')){
+      this.token = sessionStorage.getItem('token');
+      this.mobile = sessionStorage.getItem('mobile');
+    }
+
     let tokenizedReq = req.clone({
       setHeaders: {
-        // token : this.token
+        "token" : this.token,
+        "mobile" : this.mobile
       }
     });
 

@@ -22,14 +22,14 @@ export class UserService {
       return false;
   }
   register(data:any){
-    return this.httpClient.post<any>(this.api+"/users/register", data);
+    return this.httpClient.post<any>(this.api+"/auth/register", data);
   }
   login(data:any){
-    return this.httpClient.post<any>(this.api+"/users/login", data);
+    return this.httpClient.post<any>(this.api+"/auth/login", data);
   }
   forgot(data:any){
     console.log(data);
-    return this.httpClient.post<any>(this.api+"/users/forgot", data);
+    return this.httpClient.post<any>(this.api+"/auth/forgot", data);
   }
   getSettings(data:any){
     return this.httpClient.get<any>(this.api+"/users/getSettings/"+data+"");
