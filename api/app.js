@@ -1,6 +1,8 @@
 var createError = require('http-errors');
 var express = require('express');
+var cors = require('cors');
 var app = express();
+
 var dbConn = require('./db');
 
 // var indexRouter = require('./routes/index');
@@ -19,6 +21,8 @@ var inplayRouter = require('./routes/inplay');
 //     res.status(400).send("unauthorized");
 //   }
 // });
+
+app.use(cors());
 
 var openMiddleware = function(req, res, next) {
   token = req.headers.token;
