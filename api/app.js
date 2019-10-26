@@ -22,8 +22,9 @@ var inplayRouter = require('./routes/inplay');
 
 var openMiddleware = function(req, res, next) {
   token = req.headers.token;
+  mobile = req.headers.mobile;
   // console.log("open middleware : "+token);
-  if(token == 'x'){
+  if(token == 'x' && mobile == 'x'){
     // console.log("open middleware : "+token);
     next();
   }else{
