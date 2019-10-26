@@ -73,13 +73,9 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.use(function(err, req, res, next) {
-  res.status(400).send({ error:true, message: err.message });
-});
-
 app.use(function (err, req, res, next) {
-  // console.error(err.stack);
-  res.status(500).send('Something broke!');
+  console.error(err.stack);
+  res.status(400).send({ error:true, message: err.message });
 });
 
 module.exports = app;
