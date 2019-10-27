@@ -73,7 +73,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
       time.push(x[1]);
       price.push(parseFloat(chart[index][1]));
     }
-    var ctx = $('.Chart');
+    var ctx = $('.Chart1');
     var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -90,6 +90,25 @@ export class DashboardComponent implements OnInit, OnDestroy {
       }
     }
     });
+
+    var ctx = $('.Chart2');
+    var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: time,
+        datasets: [{
+            label: 'price',
+            backgroundColor: "orange",
+            data: price
+        }]
+    },
+    options: {
+      animation: {
+          duration: 20
+      }
+    }
+    });
+
   }
 
   ngOnDestroy(){

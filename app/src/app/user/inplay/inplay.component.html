@@ -13,8 +13,9 @@
                   <select id="stockList" class="select2" style="width: 100%;" data-placeholder="Select a Stock">
                     <option selected value=""></option>
                     <option *ngFor="let item of stockList" value="{{item.Symbol}}">{{item.Name}}</option>
-                  </select> &nbsp;&nbsp; <br>
+                  </select> &nbsp;&nbsp; 
                   <button  style="width: 100%;" class="btn btn-primary btn-sm" (click)="getStockStatus()">GO</button> <br>
+                  <div class="visible-xs"><br></div>
               </div>
               <div class="col-md-8">
                 <!-- <div *ngIf="selectedStock"> --><div>

@@ -20,8 +20,8 @@ export class LoginComponent implements OnInit {
     this.mobileError=false;
     this.passwordError=false;
     this.loginForm = this.formBuilder.group({
-      mobile : ["9004313006", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
-      password:["asdf@123",[Validators.required]],
+      mobile : ["", [Validators.required, Validators.maxLength(10), Validators.minLength(10), Validators.pattern('^-?[0-9]\\d*(\\.\\d{1,2})?$')]],
+      password:["",[Validators.required]],
       remember:[false]
     });
   }
