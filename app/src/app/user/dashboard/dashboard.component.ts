@@ -73,7 +73,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
       time.push(x[1]);
       price.push(parseFloat(chart[index][1]));
     }
-    var ctx = $('#Chart');
+    var ctx = $('.Chart');
     var myChart = new Chart(ctx, {
     type: 'bar',
     data: {

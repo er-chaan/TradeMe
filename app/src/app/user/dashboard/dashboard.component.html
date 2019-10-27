@@ -32,10 +32,15 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="box">
+          <div class="box visible-xs">
               <br>
-                <canvas id="Chart" responsive="true" height="100" ></canvas>
+                <canvas class="Chart" responsive="true" height="250"></canvas>
               <br>
+          </div>
+          <div class="box hidden-xs">
+            <br>
+              <canvas class="Chart" responsive="true" height="100"></canvas>
+            <br>
           </div>
         </div>
       </div>
@@ -47,10 +52,10 @@
               <h3 class="box-title">Top Gainers</h3>
             </div>
             <div class="box-body">
-                <table class="table table-bordered">
+                <table class="table table-bordered customeTable">
                     <tr>
                       <th>Company</th>
-                      <th>Price</th>
+                      <th>LTP</th>
                       <th>Change</th>
                     </tr>
                     <tr *ngFor="let x of nseGainer" class="text-success">
@@ -71,7 +76,7 @@
               <table class="table table-bordered">
                 <tr>
                   <th>Company</th>
-                  <th>Price</th>
+                  <th>LTP</th>
                   <th>Change</th>
                 </tr>
                 <tr *ngFor="let x of nseLoser" class="text-danger">
@@ -94,22 +99,20 @@
               <div class="box-body table-responsive">
                   <table class="table table-bordered table-stripped">
                       <tr>
-                        <th>Symbol</th>
+                        <th class="hidden-xs">Symbol</th>
                         <th>Company</th>
-                        <th>Prev Close</th>
-                        <th>Last Traded Price</th>
-                        <th>Change</th> 
-                        <th>Percent Change</th>
-                        <th>Flow</th>
+                        <th class="hidden-xs">Prev Close</th>
+                        <th>LTP</th>
+                        <th class="hidden-xs">Change</th> 
+                        <th class="hidden-xs">Percent Change</th>
                       </tr>
                       <tr *ngFor="let x of nseActive" [ngClass]="(x.Percent > 0)?'text-success':'text-danger'">
-                        <td>{{x.CompanySymbol}}</td>
+                        <td class="hidden-xs">{{x.CompanySymbol}}</td>
                         <td>{{x.CompanyName}}</td>
-                        <td>{{x.PriviousClose}}</td>
+                        <td class="hidden-xs">{{x.PriviousClose}}</td>
                         <td>{{x.LastTradedPrice}}</td>
-                        <td>{{x.PercentGain}}</td>
-                        <td>{{x.Percent}}%</td>
-                        <td [ngClass]="(x.Percent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></td>
+                        <td class="hidden-xs">{{x.PercentGain}}</td>
+                        <td class="hidden-xs"> <i [ngClass]="(x.Percent > 0)?'fa fa-caret-up':'fa fa-caret-down'"></i> {{x.Percent}}%</td>
                       </tr>
                   </table>
               </div>

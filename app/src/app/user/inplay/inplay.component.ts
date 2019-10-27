@@ -50,13 +50,14 @@ export class InplayComponent implements OnInit, OnDestroy {
       this.totalNet = 0;
       this.tradeBookData = data.data;
       (this.tradeBookData).forEach(element => {
-        this.totalNet = this.totalNet+element.net; 
+        this.totalNet = (this.totalNet) + (element.net * element.quantity ); 
       });
       this.totalNet = parseFloat(this.totalNet);
     });
   }
 
   getStockStatus(){
+    this.stockStatus = null;
     this.selectedStock = $('#stockList').val();
     this.inplayService.getStockStatus(this.selectedStock).subscribe(data => {this.stockStatus=data;console.log(data)});
   }
@@ -75,7 +76,9 @@ export class InplayComponent implements OnInit, OnDestroy {
       this.response = data;
       this.toastr.success(this.response.message ,'SUCCESS');
       this.tradeBook();
-      $('#quantity').val(0);
+      this.stockStatus = null;
+      $('#stockList').val('');
+      $('#quantity').val('');
     }, error=>{});
   }
 
@@ -87,7 +90,9 @@ export class InplayComponent implements OnInit, OnDestroy {
       this.response = data;
       this.toastr.success(this.response.message ,'SUCCESS');
       this.tradeBook();
-      $('#quantity').val(0);
+      this.stockStatus = null;
+      $('#stockList').val('');
+      $('#quantity').val('');
     }, error=>{});
   }
 

@@ -4,6 +4,7 @@ import { tap } from "rxjs/operators";
 import { ToastrService } from 'ngx-toastr';
 import { NgxSpinnerService } from "ngx-spinner";
 import { Component } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   template: '<ngx-spinner name="mySpinner"></ngx-spinner>',
@@ -17,7 +18,7 @@ export class InterceptorService implements HttpInterceptor {
   token:any;
   mobile:any;
 
-  constructor(private spinner: NgxSpinnerService,private toastr: ToastrService) {}
+  constructor(private router:Router ,private spinner: NgxSpinnerService,private toastr: ToastrService) {}
 
   intercept(req, next){
     this.spinner.show("mySpinner", {
@@ -52,9 +53,19 @@ export class InterceptorService implements HttpInterceptor {
           // this.toastr.success('', 'SUCCESS');
           this.spinner.hide("mySpinner");
         },
-        error => {
+        error => {  
           this.spinner.hide("mySpinner");
           this.toastr.error(error.error.message ,'ERROR');
+          if(error.error.message  == "unauthorized"){
+            localStorage.removeItem('token');
+            localStorage.removeItem('mobile');
+            localStorage.clear();
+            sessionStorage.removeItem('token');
+            sessionStorage.removeItem('mobile');
+            sessionStorage.clear();
+            this.router.navigate(['/login']);
+            this.toastr.error('intrusion detected' ,'ALERT');
+          }
         }
       )
     );

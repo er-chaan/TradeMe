@@ -61,7 +61,7 @@ router.post('/buy', function (req, res) {
   let mobile = req.body.mobile;
   let symbol = req.body.selectedStock;
   let quantity = req.body.quantity;
-  let price = req.body.price;
+  let price = req.body.price.replace(',','');
   if (!mobile || !symbol || !quantity || !price) {
     return res.status(400).send({ error:true, message: 'inputs missingggg' });
   }

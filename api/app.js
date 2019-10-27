@@ -50,7 +50,7 @@ var closedMiddleware = function(req, res, next) {
            return res.status(400).send({ error:true, message: error.message });
          }
          if(!results[0]){
-           return res.status(400).send({ error:true, message: "security error" });      
+           return res.status(400).send({ error:true, message: "unauthorized" });      
          }
         next();
       });

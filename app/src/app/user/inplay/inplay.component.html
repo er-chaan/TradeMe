@@ -36,9 +36,9 @@
                       </table>
                   </div>
                   <div class="col-md-12 text-center">
-                      <button class="btn btn-md btn-success" (click)="buy()">BUY</button> &nbsp;&nbsp;
-                          <input id="quantity" type="text" class="forn-control" placeholder="Trade Quantity" style="width: 100px"> &nbsp;&nbsp; 
-                      <button class="btn btn-md btn-danger" (click)="sell()">SELL</button> &nbsp;&nbsp;
+                      <button class="btn btn-md btn-success" (click)="buy()" [disabled]="!stockStatus">BUY</button> &nbsp;&nbsp;
+                          <input id="quantity" type="text" class="forn-control" [disabled]="!stockStatus" placeholder="Trade Quantity" style="width: 100px"> &nbsp;&nbsp; 
+                      <button class="btn btn-md btn-danger" (click)="sell()" [disabled]="!stockStatus">SELL</button> &nbsp;&nbsp;
                   </div>
                 </div>
               </div>
@@ -48,32 +48,32 @@
               <div class="col-md-12">
                 <div class="box-body table-responsive">
                   <div class="col-md-12 text-center" [ngClass]="(totalNet > -0.01)?'text-success':'text-danger'">
-                    <h3>Total Net : {{ totalNet }}</h3>
+                    <h3>Total Net : {{ totalNet |  number : '1.2-2'}}</h3>
                   </div>
                   <!-- <table id="transactionBook" class="table table-bordered table-striped" > -->
                   <table class="table table-bordered table-striped" >
                     <thead>
                     <tr>
                       <th>Symbol</th>
-                      <th>Call</th>
+                      <th class="hidden-xs">Call</th>
                       <th>Price</th>
-                      <th>Quantity</th>
+                      <th>Qty</th>
                       <th>CMP</th>
                       <th>Net</th>
-                      <th>Status</th>
+                      <th class="hidden-xs">Status</th>
                       <th>Action</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr *ngFor="let t of tradeBookData;trackBy:identify;" [ngClass]="(t.net > -0.01)?'text-success':'text-danger'">
                         <td>{{t.symbol}}</td>
-                        <td>{{t.called}}</td>
+                        <td class="hidden-xs">{{t.called}}</td>
                         <td>{{t.price}}</td>
                         <td>{{t.quantity}}</td>
                         <!-- <td>{{ t.symbol | cmp }}</td> -->
                         <td>{{ t.cmp }}</td>
                         <td>{{ t.net * t.quantity }}</td>
-                        <td>{{t.status}}</td>
+                        <td class="hidden-xs">{{t.status}}</td>
                         <td><button class="btn btn-sm btn-warning" (click)="exitTrade(t.id)">EXIT</button></td>
                       </tr>
                     </tbody> 
