@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var dbConn = require('../db');
 var crypto = require('crypto');
+var mail = require('../mail');
 
 // forgot
 router.post('/forgot', function (req, res) {
@@ -20,7 +21,22 @@ router.post('/forgot', function (req, res) {
       var pass = mykey.update(results[0].password, 'hex', 'utf8')
       pass += mykey.final('utf8');
       // password emailing utility
-      return res.send({ error: false, data: results[0], message: 'password sent to your email : '+pass });
+      var mailOptions = {
+        from: 'server.trademe@gmail.com',
+        to: email,
+        subject: 'TradeMe | Password',
+        text: 'your password : '+pass
+      };
+      
+      mail.sendMail(mailOptions, function(error, info){
+        if (error) {
+          // console.log(error);
+          return res.status(400).send({ error:true, message: error.message });
+        } else {
+          // console.log('Email sent: ' + info.response);
+          return res.send({ error: false, data: results[0], message: 'password sent to your email' });
+        }
+      }); 
     });
 });
 
