@@ -15,6 +15,9 @@ export class UserGuard implements CanActivate, CanActivateChild, CanLoad {
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     if(this.userService.isUserLoggedIn()){
+      if(sessionStorage.getItem('admin')){
+        this.router.navigate(['/admin']);
+      }
       return true;
     }else{
       this.router.navigate(['/register']);

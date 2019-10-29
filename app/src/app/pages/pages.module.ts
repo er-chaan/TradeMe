@@ -7,10 +7,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { X404Component } from './x404/x404.component';
 import { ForgotComponent } from './forgot/forgot.component';
+import { AdminLoginComponent } from './adminlogin/adminlogin.component';
 
 
 @NgModule({
-  declarations: [LoginComponent, RegisterComponent, X404Component, ForgotComponent],
+  declarations: [LoginComponent, RegisterComponent, X404Component, ForgotComponent, AdminLoginComponent],
   imports: [
     FormsModule,
     ReactiveFormsModule,

@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AnonymousGuard } from "../services/anonymous.guard";
-import { LoginComponent, RegisterComponent, ForgotComponent } from "./index";
+import { LoginComponent, RegisterComponent, ForgotComponent, AdminLoginComponent } from "./index";
 
 const routes: Routes = [
+  { path: "admin/login", component: AdminLoginComponent, canActivate: [AnonymousGuard] },
   { path: "register", component: RegisterComponent, canActivate: [AnonymousGuard] },
   { path: "forgot", component: ForgotComponent, canActivate: [AnonymousGuard] },
   { path: "login", component: LoginComponent, canActivate: [AnonymousGuard] },

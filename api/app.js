@@ -11,28 +11,16 @@ var stocksRouter = require('./routes/stocks');
 var usersRouter = require('./routes/users');
 var accountsRouter = require('./routes/accounts');
 var inplayRouter = require('./routes/inplay');
-
-// app.use(function(req, res, next) {
-//   token = req.headers.token;
-//   console.log(token);
-//   if(token){
-//     next();
-//   }else{
-//     res.status(400).send("unauthorized");
-//   }
-// });
+var adminRouter = require('./routes/admin');
 
 app.use(cors());
 
 var openMiddleware = function(req, res, next) {
   token = req.headers.token;
   mobile = req.headers.mobile;
-  // console.log("open middleware : "+token);
   if(token == 'x' && mobile == 'x'){
-    // console.log("open middleware : "+token);
     next();
   }else{
-    // console.log("unauthorized");
     res.status(400).send("unauthorized");
   }
 }
@@ -40,11 +28,8 @@ var openMiddleware = function(req, res, next) {
 var closedMiddleware = function(req, res, next) {
   token = req.headers.token;
   mobile = req.headers.mobile;
-  // console.log("closed middleware : "+token);
   if(token){
     if(token != 'x'){
-      // console.log("closed middleware : "+token);
-      // console.log("closed middleware : "+mobile);
       dbConn.query('SELECT id FROM users where ? AND ?', [{mobile:mobile},{token:token}], function (error, results, fields) {
         if(error){
            return res.status(400).send({ error:true, message: error.message });
@@ -55,11 +40,35 @@ var closedMiddleware = function(req, res, next) {
         next();
       });
     }else{
-      // console.log("unauthorized");
       res.status(400).send("unauthorized");
     }
   }else{
-    // console.log("unauthorized");
+    res.status(400).send("unauthorized");
+  }
+}
+
+
+var adminMiddleware = function(req, res, next) {
+  token = req.headers.token;
+  mobile = req.headers.mobile;
+  if(token){
+    if(token != 'x'){
+      if(mobile != '9004313006'){
+        return res.status(400).send({ error:true, message: "unauthorized" });      
+      }
+      dbConn.query('SELECT id FROM users where ? AND ?', [{mobile:mobile},{token:token}], function (error, results, fields) {
+        if(error){
+           return res.status(400).send({ error:true, message: error.message });
+         }
+         if(!results[0]){
+           return res.status(400).send({ error:true, message: "unauthorized" });      
+         }
+        next();
+      });
+    }else{
+      res.status(400).send("unauthorized");
+    }
+  }else{
     res.status(400).send("unauthorized");
   }
 }
@@ -73,6 +82,8 @@ app.use('/stocks', closedMiddleware, stocksRouter);
 app.use('/users', closedMiddleware, usersRouter);
 app.use('/accounts', closedMiddleware, accountsRouter);
 app.use('/inplay', closedMiddleware, inplayRouter );
+app.use('/admin', adminMiddleware, adminRouter );
+
 
 app.use(function(req, res, next) {
   next(createError(404));

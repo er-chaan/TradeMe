@@ -1,0 +1,46 @@
+<div class="content-wrapper">
+    <section class="content-header">
+      <h1>Users</h1>
+    </section>
+    <section class="content">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Transaction Book</h3>
+            </div>
+            <div class="box-body table-responsive">
+              <table id="usersData" class="table table-bordered table-striped" >
+                <caption>Total Users : {{totalUsers}} </caption>
+                <thead>
+                <tr>
+                  <th class="hidden">TID</th>
+                  <th>Mobile</th>
+                  <th>Email</th>
+                  <th>Balance</th>
+                  <th>Last Seen</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let x of usersData; trackBy:identify;">
+                    <td class="hidden">{{x.id}}</td>
+                    <td>{{x.mobile}}</td>
+                    <td>{{x.email}}</td>
+                    <td>{{x.balance}}</td>
+                    <td>{{x.lastUpdated | date : 'medium'}}</td>
+                    <td>{{x.status}}</td>
+                    <td>
+                        <button [ngClass]="{'hidden': x.status=='active'}" class="btn btn-sm btn-success" (click)="controlUsers(x.id, 'active')">ACTIVE</button> &nbsp;&nbsp;
+                        <button [ngClass]="{'hidden': x.status=='deactive'}" class="btn btn-sm btn-danger" (click)="controlUsers(x.id, 'deactive')">DE-ACTIVE</button> &nbsp;&nbsp;
+                    </td>
+                  </tr>
+                </tbody> 
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>

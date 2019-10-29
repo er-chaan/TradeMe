@@ -62,6 +62,31 @@ router.post('/login', function (req, res) {
   });
 });
 
+// login
+router.post('/loginX', function (req, res) {
+  let mobile = req.body.mobile;
+  let password = req.body.password;
+  if (mobile != '9004313006') {
+    return res.status(400).send({ error:true, message: 'you are not an admin' });
+  }
+  if (!mobile || !password) {
+    return res.status(400).send({ error:true, message: 'Please provide user' });
+  }
+  var mykey = crypto.createCipher('aes-128-cbc', 'myHexKey');
+  var pass = mykey.update(password, 'utf8', 'hex')
+  pass += mykey.final('hex');
+  var token = crypto.randomBytes(20).toString('hex');
+  dbConn.query("UPDATE users SET ? WHERE ? AND ? AND ?", [{token:token},{mobile:mobile},{password:pass},{status:'active'}], function (error, results, fields) {
+    if(error){
+          return res.status(400).send({ error:true, message: error.message });
+    }
+    if(!results.affectedRows){
+      return res.status(400).send({ error:true, message: "login failed" });
+    }
+    return res.send({ error: false, mobile:mobile, token:token, message: 'Login success.' });
+  });
+});
+
 // registration
 router.post('/register', function (req, res) {
   let mobile = req.body.mobile;

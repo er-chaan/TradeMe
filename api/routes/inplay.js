@@ -6,17 +6,11 @@ var request = require('request');
 // update inplay
 function updateInplay(mobile) {
   dbConn.query('SELECT * FROM inplay where ? AND ? order by id desc', [{mobile:mobile},{status:'open'}], function (error, results, fields) {
-    // if(error){
-    //   return res.status(400).send({ error:true, message: error.message });
-    // }
-
     results.forEach(element => {
       request('https://money.rediff.com/money1/currentstatus.php?companycode='+element.symbol, function (error, response, body) {
-        // if (error) {
-        //   return res.status(400).send({ error:true, message: error.message });
-        // }
           X = JSON.parse(body);
           LastTradedPrice = X.LastTradedPrice;
+          LastTradedPrice = LastTradedPrice.replace(',','');
           net=0;
           if(element.called == 'buy'){
             net = LastTradedPrice - element.price;
@@ -25,11 +19,7 @@ function updateInplay(mobile) {
             net = element.price - LastTradedPrice;
           }
           dbConn.query("UPDATE inplay SET ? , ? WHERE ? ", [{cmp:LastTradedPrice},{net:net},{id:element.id}], function (error, results, fields) {
-          // if(error){
-          //   return res.status(400).send({ error:true, message: error.message });
-          // }
-            // return res.send({ error: false, message: 'buy successfully done' });
-            return;
+          return;
           });
       });
     });
@@ -103,7 +93,7 @@ router.post('/sell', function (req, res) {
   let mobile = req.body.mobile;
   let symbol = req.body.selectedStock;
   let quantity = req.body.quantity;
-  let price = req.body.price;
+  let price = req.body.price.replace(',','');
   if (!mobile || !symbol || !quantity || !price) {
     return res.status(400).send({ error:true, message: 'inputs missingggg' });
   }
@@ -154,19 +144,7 @@ router.post('/exitTrade', function (req, res) {
     if(!resultsX[0]){
       return res.status(400).send({ error:true, message: "no trades" });      
     }
-    // exitPrice = 0;
-    // if(resultsX[0].called == "buy"){
-    //   exitPrice = (resultsX[0].cmp)*(resultsX[0].quantity) - (resultsX[0].price)*(resultsX[0].quantity);  
-    // }
-    // if(resultsX[0].called == "sell"){
-    //   exitPrice = (resultsX[0].price)*(resultsX[0].quantity) - (resultsX[0].cmp)*(resultsX[0].quantity);
-    // }
     exitPrice = ((resultsX[0].price)*(resultsX[0].quantity)) + ((resultsX[0].net)*(resultsX[0].quantity));
-    39.2*10 + (- 0.75*10)
-    // if(exitPrice < 0){
-    //   console.log(exitPrice);
-    //   return res.send({ error: false, message: 'malfunction' });      
-    // }
     dbConn.query('update inplay set ? where ?', [{status:"closed"},{id:id}], function (error) {
       if(error){
          return res.status(400).send({ error:true, message: error.message });

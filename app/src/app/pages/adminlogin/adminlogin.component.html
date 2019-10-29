@@ -1,0 +1,28 @@
+<body class="hold-transition">
+    <div class="login-box" style="border-style: solid; border-color: lightgray">
+      <div class="login-logo">
+        <a [routerLink]="['/']" routerLinkActive="router-link-active"><b>Trade</b>ME</a>
+      </div>
+      <div class="login-box-body">
+        <p class="login-box-msg">Sign in to start your session</p>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <div class="form-group has-feedback" [ngClass]="mobileError !== false ? 'has-error': ''">
+              <input formControlName="mobile" type="text" class="form-control" placeholder="Mobile">
+              <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+              <span class="help-block" *ngIf="mobileError">{{mobileError}}</span>
+          </div>
+          <div class="form-group has-feedback" [ngClass]="passwordError !== false ? 'has-error': ''">
+              <input formControlName="password" type="password" class="form-control" placeholder="Password">
+              <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+              <span class="help-block" *ngIf="passwordError">{{passwordError}}</span>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+            </div>
+          </div>
+        </form>
+        <br><br><br>
+      </div>
+    </div>
+  </body>
