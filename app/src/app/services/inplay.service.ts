@@ -14,7 +14,6 @@ export class InplayService {
   }
   getStockStatus(code:string){
     return this.httpClient.get<any>(this.api+"/stocks/companycode/"+code);
-    // return this.httpClient.get<any>("https://money.rediff.com/money1/currentstatus.php?companycode="+code);
   }
   tradeBook(data:any){
     return this.httpClient.get<any>(this.api+"/inplay/tradebook/"+data);
