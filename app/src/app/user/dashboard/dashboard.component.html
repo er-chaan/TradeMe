@@ -59,8 +59,8 @@
                       <th>Change</th>
                     </tr>
                     <tr *ngFor="let x of bseGainer" class="text-success">
-                      <td>{{x.ShortCompanyName}}</td>
-                      <td>{{x.Price}}</td>
+                      <td>{{x.CompanyName}}</td>
+                      <td>{{x.LastTradedPrice}}</td>
                       <td>{{x.Change}}</td>
                     </tr>
                   </table>
@@ -80,8 +80,8 @@
                   <th>Change</th>
                 </tr>
                 <tr *ngFor="let x of bseLoser" class="text-danger">
-                  <td>{{x.ShortCompanyName}}</td>
-                  <td>{{x.Price}}</td>
+                  <td>{{x.CompanyName}}</td>
+                  <td>{{x.LastTradedPrice}}</td>
                   <td>{{x.Change}}</td>
                 </tr>
               </table>
