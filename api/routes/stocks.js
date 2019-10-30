@@ -33,7 +33,7 @@ router.get('/updateticker', function(req, res, next) {
 });
 
 router.get('/nsechart', function(req, res, next) {
-  request('https://money.rediff.com/money1/chartnseday_v2.php', function (error, response, body) {
+  request('https://money.rediff.com/money1/chartbseday_v2.php', function (error, response, body) {
     if (error) {
       res.send(error);
     }else{
