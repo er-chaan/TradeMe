@@ -45,7 +45,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
   getIndices(){
     this.dashboardService.getIndices().subscribe(data => {
-                            this.indices=data.indices[1];
+                            this.indices=data.indices[0];
                             this.nseActive=data.companyList.sensex;
                           });
   }
