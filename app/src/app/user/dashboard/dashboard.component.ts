@@ -14,10 +14,10 @@ export class DashboardComponent implements OnInit, OnDestroy {
   mobile:any;
   balance:any;
   indices:any;
-  nseGainer:any;
-  nseLoser:any;
-  nseActive:any;
-  nseChart:any;
+  bseGainer:any;
+  bseLoser:any;
+  bseActive:any;
+  bseChart:any;
   alive:any;
   constructor(private dashboardService: DashboardService, private userService:UserService) { }
 
@@ -31,13 +31,13 @@ export class DashboardComponent implements OnInit, OnDestroy {
     }
       this.getIndices();
       this.getTopPerfomers();
-      this.getNseChart();
+      this.getBseChart();
       this.getBalance();
     setInterval(() => {
       if(this.alive){
         this.getIndices();
         this.getTopPerfomers();
-        this.getNseChart();
+        this.getBseChart();
         this.getBalance();
       }
     }, 5000);
@@ -46,13 +46,13 @@ export class DashboardComponent implements OnInit, OnDestroy {
   getIndices(){
     this.dashboardService.getIndices().subscribe(data => {
                             this.indices=data.indices[0];
-                            this.nseActive=data.companyList.sensex;
+                            this.bseActive=data.companyList.sensex;
                           });
   }
-  getNseChart(){
-    this.dashboardService.getNseChart().subscribe(data => {
-        this.nseChart=data;
-        this.processChart(this.nseChart);
+  getBseChart(){
+    this.dashboardService.getBseChart().subscribe(data => {
+        this.bseChart=data;
+        this.processChart(this.bseChart);
       });
   }
   getBalance(){
@@ -61,8 +61,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
       });
   }
   getTopPerfomers(){
-    this.dashboardService.getTopPerfomers().subscribe(data => {this.nseGainer=data.nseGainer;
-                                                              this.nseLoser=data.nseLoser;});
+    this.dashboardService.getTopPerfomers().subscribe(data => {this.bseGainer=data.bseGainer;
+                                                              this.bseLoser=data.bseLoser;});
   }
   processChart(chart){
     var time = [];

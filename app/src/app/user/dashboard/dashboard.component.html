@@ -58,7 +58,7 @@
                       <th>LTP</th>
                       <th>Change</th>
                     </tr>
-                    <tr *ngFor="let x of nseGainer" class="text-success">
+                    <tr *ngFor="let x of bseGainer" class="text-success">
                       <td>{{x.ShortCompanyName}}</td>
                       <td>{{x.Price}}</td>
                       <td>{{x.Change}}</td>
@@ -79,7 +79,7 @@
                   <th>LTP</th>
                   <th>Change</th>
                 </tr>
-                <tr *ngFor="let x of nseLoser" class="text-danger">
+                <tr *ngFor="let x of bseLoser" class="text-danger">
                   <td>{{x.ShortCompanyName}}</td>
                   <td>{{x.Price}}</td>
                   <td>{{x.Change}}</td>
@@ -106,7 +106,7 @@
                         <th class="hidden-xs">Change</th> 
                         <th class="hidden-xs">Percent Change</th>
                       </tr>
-                      <tr *ngFor="let x of nseActive" [ngClass]="(x.Percent > 0)?'text-success':'text-danger'">
+                      <tr *ngFor="let x of bseActive" [ngClass]="(x.Percent > 0)?'text-success':'text-danger'">
                         <td class="hidden-xs">{{x.CompanySymbol}}</td>
                         <td>{{x.CompanyName}}</td>
                         <td class="hidden-xs">{{x.PriviousClose}}</td>

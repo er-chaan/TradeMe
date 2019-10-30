@@ -12,15 +12,12 @@ export class DashboardService {
     this.api = environment.api;
   }
   getIndices(): Observable<any>{
-    // return this.httpClient.get<any>("https://money.rediff.com/updateticker");
     return this.httpClient.get<any>(this.api+"/stocks/updateticker");
   }
   getTopPerfomers(): Observable<any>{
-    // return this.httpClient.get<any>("https://money.rediff.com/updatense");
-    return this.httpClient.get<any>(this.api+"/stocks/updatense");
+    return this.httpClient.get<any>(this.api+"/stocks/updatebse");
   }
-  getNseChart(): Observable<any>{
-    // return this.httpClient.get<any>("https://money.rediff.com/money1/chartnseday_v2.php");
-    return this.httpClient.get<any>(this.api+"/stocks/nsechart");
+  getBseChart(): Observable<any>{
+    return this.httpClient.get<any>(this.api+"/stocks/bsechart");
   }
 }
