@@ -12,7 +12,7 @@
               <div class="col-md-4">
                   <select id="stockList" class="select2" style="width: 100%;" data-placeholder="Select a Stock">
                     <option selected value=""></option>
-                    <option *ngFor="let item of stockList" value="{{item.Code}}">{{item.Name}}</option>
+                    <option *ngFor="let item of stockList" value="{{item.Symbol}}">{{item.Name}}</option>
                   </select> &nbsp;&nbsp; 
                   <button  style="width: 100%;" class="btn btn-primary btn-sm" (click)="getStockStatus()">GO</button> <br>
                   <div class="visible-xs"><br></div>
@@ -30,7 +30,7 @@
                             <th>Change</th>
                           </tr>
                           <tr *ngIf="stockStatus">
-                            <td>{{selectedStockOption}}</td>
+                            <td>{{selectedStock}}</td>
                             <td>{{stockStatus.LastTradedPrice}}</td>
                             <td>{{stockStatus.Change}}</td>
                           </tr>
