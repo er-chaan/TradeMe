@@ -15,6 +15,7 @@ export class InplayComponent implements OnInit, OnDestroy {
   mobile:any;
   stockList: any;
   selectedStock: any;
+  selectedStockOption:any;
   quantity: any;
   stockStatus: any;
   trade:any;
@@ -59,6 +60,7 @@ export class InplayComponent implements OnInit, OnDestroy {
   getStockStatus(){
     this.stockStatus = null;
     this.selectedStock = $('#stockList').val();
+    this.selectedStockOption = $('#stockList').find(":selected").text();
     this.inplayService.getStockStatus(this.selectedStock).subscribe(data => {this.stockStatus=data;console.log(data)});
   }
 
