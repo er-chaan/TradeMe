@@ -15,9 +15,9 @@ export class DashboardService {
     return this.httpClient.get<any>(this.api+"/stocks/updateticker");
   }
   getTopPerfomers(): Observable<any>{
-    return this.httpClient.get<any>(this.api+"/stocks/updatebse");
+    return this.httpClient.get<any>(this.api+"/stocks/updatense");
   }
-  getBseChart(): Observable<any>{
-    return this.httpClient.get<any>(this.api+"/stocks/bsechart");
+  getNseChart(): Observable<any>{
+    return this.httpClient.get<any>(this.api+"/stocks/nsechart");
   }
 }
