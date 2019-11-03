@@ -8,10 +8,11 @@ import { RegisterComponent } from './register/register.component';
 import { X404Component } from './x404/x404.component';
 import { ForgotComponent } from './forgot/forgot.component';
 import { AdminLoginComponent } from './adminlogin/adminlogin.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
-  declarations: [LoginComponent, RegisterComponent, X404Component, ForgotComponent, AdminLoginComponent],
+  declarations: [LoginComponent, RegisterComponent, X404Component, ForgotComponent, AdminLoginComponent, LandingComponent],
   imports: [
     FormsModule,
     ReactiveFormsModule,

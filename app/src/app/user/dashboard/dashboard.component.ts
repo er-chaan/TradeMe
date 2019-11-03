@@ -41,6 +41,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
         this.getBalance();
       }
     }, 5000);
+    $('.landing_modals').modal('hide');
   }
 
   getIndices(){

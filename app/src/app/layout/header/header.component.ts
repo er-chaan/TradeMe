@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
     sessionStorage.removeItem('token');
     sessionStorage.removeItem('mobile');
     sessionStorage.clear();
-    this.router.navigate(['/login']);
+    this.router.navigate(['/']);
     this.toastr.success('successfully logout' ,'SUCCESS');
   }
 }
