@@ -1,8 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-
+// http://www.nasdaqtrader.com/trader.aspx?id=symboldirdefs
+// ftp://ftp.nasdaqtrader.com/symboldirectory/nasdaqtraded.txt
 router.get('/companycode/:companycode', function(req, res, next) {
+  // https://api.nasdaq.com/api/quote/watchlist?symbol=BAC|stocks
   request('https://money.rediff.com/money1/currentstatus.php?companycode='+req.params.companycode, function (error, response, body) {
     if (error) {
       res.send(error);
@@ -13,6 +15,7 @@ router.get('/companycode/:companycode', function(req, res, next) {
 });
 
 router.get('/updatense', function(req, res, next) {
+  // https://api.nasdaq.com/api/marketmovers?assetclass=STOCKS&exchangestatus=currentMarket&limit=5
   request('https://money.rediff.com/updatense', function (error, response, body) {
     if (error) {
       res.send(error);
@@ -23,6 +26,7 @@ router.get('/updatense', function(req, res, next) {
 });
 
 router.get('/updateticker', function(req, res, next) {
+  https://api.nasdaq.com/api/quote/indices?chartFor=IXIC&chartFor=NYA&chartFor=SPX&chartFor=RUT&chartFor=NDX&symbol=IXIC&symbol=NYA&symbol=SPX&symbol=RUT&symbol=NDX
   request('https://money.rediff.com/updateticker', function (error, response, body) {
     if (error) {
       res.send(error);
@@ -33,6 +37,8 @@ router.get('/updateticker', function(req, res, next) {
 });
 
 router.get('/nsechart', function(req, res, next) {
+  // https://api.nasdaq.com/api/quote/IXIC/chart?assetclass=index
+  // https://api.nasdaq.com/api/quote/IXIC/info?assetclass=index
   request('https://money.rediff.com/money1/chartnseday_v2.php', function (error, response, body) {
     if (error) {
       res.send(error);
