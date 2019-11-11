@@ -1,56 +1,59 @@
 <body class="skin-purple-light fixed">
-    <div class="wrapper">
-        <header class="main-header">
-            <a class="logo">
-                <span class="logo-lg"><b>Trade</b>ME</span>
-            </a>
-            <nav class="navbar navbar-static-top">
-                <div class="navbar-custom-menu">
-                    <ul class="nav navbar-nav">
-                        <li data-toggle="modal" data-target="#modal-register">
-                            <a>Register</a>
-                        </li>
-                        <li data-toggle="modal" data-target="#modal-login">
-                            <a>Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <section class="content">
-            <div class="landing_modals modal modal-default fade" id="modal-register">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <app-register></app-register>
-                        </div>
+        <div class="wrapper">
+            <header class="main-header">
+                <a class="logo">
+                    <span class="logo-lg"><b>Trade</b>ME</span>
+                </a>
+                <nav class="navbar navbar-static-top">
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li data-toggle="modal" data-target="#modal-register">
+                                <a>Register</a>
+                            </li>
+                            <li data-toggle="modal" data-target="#modal-login">
+                                <a>Login</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div class="landing_modals modal modal-default fade" id="modal-login">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="appLogin">
-                                <app-login></app-login>
-                            </div>
-                            <div class="appForgot">
-                                <app-forgot></app-forgot>
-                            </div>
-                            <div class="modal-footer text-center">
-                                <a class="appLogin" (click)='toggler()'>I forgot my password</a><br>
-                                <a class="appForgot" (click)='toggler()'>Back to login</a><br>
+                </nav>
+            </header>
+            <!-- <img src="../../../assets/img/landing1.jpg" alt="">
+            <img src="#" alt=""> -->
+    <div class="bg"></div>
+            <!-- <section class="content"> -->
+                <div class="landing_modals modal modal-default fade" id="modal-register">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <app-register></app-register>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer>
-            <div class="pull-right hidden-xs">
-                <b>Version</b> 1.0
-            </div>
-            <strong>powered by <a href="https://er-chaan.github.io/" target="_blank">er-Chaan</a></strong>
-        </footer>
-    </div>
-</body>
+                <div class="landing_modals modal modal-default fade" id="modal-login">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="appLogin">
+                                    <app-login></app-login>
+                                </div>
+                                <div class="appForgot">
+                                    <app-forgot></app-forgot>
+                                </div>
+                                <div class="modal-footer text-center">
+                                    <a class="appLogin" (click)='toggler()'>I forgot my password</a><br>
+                                    <a class="appForgot" (click)='toggler()'>Back to login</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </section> -->
+            <footer>
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0
+                </div>
+                <strong>powered by <a href="https://er-chaan.github.io/" target="_blank">er-Chaan</a></strong>
+            </footer>
+        </div>
+    </body>

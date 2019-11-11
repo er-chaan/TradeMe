@@ -16,7 +16,7 @@ export class AdminGuard implements CanActivate, CanActivateChild, CanLoad {
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     if(this.adminService.isUserLoggedIn()){
       if(!sessionStorage.getItem('admin')){
-        this.router.navigate(['/register']);
+        this.router.navigate(['/']);
       }
       return true;
     }else{

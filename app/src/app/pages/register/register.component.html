@@ -1,5 +1,5 @@
-<body class="hold-transition">
-    <div class="register-box" style="border-style: solid; border-color: lightgray">
+<!-- <body class="hold-transition">
+    <div class="register-box" style="border-style: solid; border-color: lightgray"> -->
         <div class="register-logo">
             <a [routerLink]="['/']" routerLinkActive="router-link-active"><b>Trade</b>ME</a>
         </div>
@@ -22,7 +22,7 @@
                     <span class="help-block" *ngIf="passwordError">{{passwordError}}</span>
                 </div>
                 <div class="row">
-                    <div class="col-xs-8">
+                    <div class="col-xs-12">
                         <div class="checkbox" [ngClass]="termsError !== false ? 'has-error': ''">
                             <label>
                                 <input formControlName="terms" type="checkbox"> <a> I agree to the terms</a>
@@ -30,7 +30,8 @@
                             <span class="help-block" *ngIf="termsError">{{termsError}}</span>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-12">
+                            <br>    
                         <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
                     </div>
                 </div>
@@ -39,5 +40,5 @@
             <!-- <a [routerLink]="['/']" routerLinkActive="router-link-active" class="text-center">I already have a
                 membership</a> -->
         </div>
-    </div>
-</body>
+    <!-- </div>
+</body> -->

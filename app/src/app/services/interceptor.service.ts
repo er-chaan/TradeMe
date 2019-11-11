@@ -63,7 +63,7 @@ export class InterceptorService implements HttpInterceptor {
             sessionStorage.removeItem('token');
             sessionStorage.removeItem('mobile');
             sessionStorage.clear();
-            this.router.navigate(['/login']);
+            this.router.navigate(['/']);
             this.toastr.error('intrusion detected' ,'ALERT');
           }
         }

@@ -20,7 +20,7 @@ export class UserGuard implements CanActivate, CanActivateChild, CanLoad {
       }
       return true;
     }else{
-      this.router.navigate(['/register']);
+      this.router.navigate(['/']);
       return false;
     }
     return false;

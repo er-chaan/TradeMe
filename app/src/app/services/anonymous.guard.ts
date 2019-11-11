@@ -23,7 +23,6 @@ export class AnonymousGuard implements CanActivate, CanActivateChild, CanLoad {
         this.router.navigate(['/admin']);
       }
       this.router.navigate(['/user']);
-      // this.router.navigate([this.location.back()]);
       return false;
     }
     return true;

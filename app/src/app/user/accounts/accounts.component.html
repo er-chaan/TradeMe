@@ -1,4 +1,4 @@
-  <div class="content-wrapper">
+<div class="content-wrapper">
     <section class="content-header">
       <h1>Accounts</h1>
     </section>
@@ -10,6 +10,9 @@
                   <h3 class="box-title">Payments</h3>
                 </div>
                 <div class="box-body">
+                    <!-- <div id="popup" class="pull-right" style="z-index: 2">
+                        <iframe id="popupFrame" src="http://localhost:4200/user/accounts"></iframe>
+                      </div> -->
                     <ul class="nav nav-tabs nav-justified">
                       <li [ngClass]="paymentTab == 'payIN' ? 'active': ''" (click)="togglePaymentTab('payIN')"><a>Pay IN</a></li>
                       <li [ngClass]="paymentTab == 'payOUT' ? 'active': ''" (click)="togglePaymentTab('payOUT')"><a>Pay OUT</a></li>

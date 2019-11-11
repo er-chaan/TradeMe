@@ -1,7 +1,28 @@
-.wrapper{
-  background-image: url("../../../assets/img/landing1.jpg");
-  background-repeat: no-repeat;
-  height: 670px !important;
+body{
+  background-color: black !important;
+}
+html,body {
+  background: url("../../../assets/img/landing1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.img{
+  background-color:white;
+  background-repeat: no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  width:100% !important; height:100% !important;
 }
 .example-modal .modal {
   position: relative;

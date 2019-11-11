@@ -12,6 +12,7 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    // $("body").removeAttr("style");
     $(".appForgot").hide();
     $(".appLogin").show();
   }

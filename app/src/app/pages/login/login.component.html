@@ -1,5 +1,5 @@
-<body class="hold-transition">
-  <div class="login-box" style="border-style: solid; border-color: lightgray">
+<!-- <body class="hold-transition">
+  <div class="login-box" style="border-style: solid; border-color: lightgray"> -->
     <div class="login-logo">
       <a [routerLink]="['/']" routerLinkActive="router-link-active"><b>Trade</b>ME</a>
     </div>
@@ -17,14 +17,15 @@
             <span class="help-block" *ngIf="passwordError">{{passwordError}}</span>
         </div>
         <div class="row">
-          <div class="col-xs-8">
+          <div class="col-xs-12">
             <div class="checkbox">
               <label>
                 <input formControlName="remember" type="checkbox"> Remember Me
               </label>
             </div>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-12">
+            <br>
             <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
           </div>
         </div>
@@ -35,5 +36,5 @@
         membership</a> -->
         <!-- <br><br> -->
     </div>
-  </div>
-</body>
+  <!-- </div>
+</body> -->
