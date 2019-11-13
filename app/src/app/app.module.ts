@@ -13,6 +13,8 @@ import { PagesModule } from "./pages/pages.module";
 
 import { InterceptorService } from "./services/interceptor.service";
 import { ErrorService } from "./services/error.service";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,7 @@ import { ErrorService } from "./services/error.service";
     AppRoutingModule,
     CommonModule,
     BrowserAnimationsModule,  
-    BrowserModule
+    BrowserModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     ErrorService,

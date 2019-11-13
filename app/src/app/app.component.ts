@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from "ngx-spinner";
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { NgxSpinnerService } from "ngx-spinner";
 })
 export class AppComponent implements OnInit{
   title = 'app';
-  constructor(private spinner: NgxSpinnerService) {}
+  constructor(private spinner: NgxSpinnerService, private swUpdate: SwUpdate) {}
   ngOnInit() {
     // this.spinner.show();
     this.spinner.show("mySpinner", {
@@ -18,6 +19,14 @@ export class AppComponent implements OnInit{
       color: "white"
     });
  
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+          if(confirm("New version available. Load New Version?")) {
+              window.location.reload();
+          }
+      });
+    }
+
     setTimeout(() => {
       // this.spinner.show();
       this.spinner.hide("mySpinner");
