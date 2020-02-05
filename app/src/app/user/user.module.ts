@@ -11,9 +11,10 @@ import { AccountsComponent } from './accounts/accounts.component';
 import { InplayComponent } from './inplay/inplay.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CmpPipe } from '../services/cmp.pipe';
+import { AnalyticsComponent } from './analytics/analytics.component';
 
 @NgModule({
-  declarations: [CmpPipe, UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent],
+  declarations: [CmpPipe, UserComponent, DashboardComponent, SettingsComponent, SidebarComponent, AccountsComponent, InplayComponent, AnalyticsComponent],
   imports: [
       FormsModule,
       ReactiveFormsModule,
