@@ -5,8 +5,10 @@
       </h1>
     </section>
     <section class="content">
-
       <div class="row">
+          <div class="col-md-12">
+              <button type="submit" class="btn btn-primary" style="width: 100%" (click)="refreshAnalytics()">Refresh</button>
+          </div>
         <div class="col-md-6">
           <div class="box">
             <div class="box-header with-border">
@@ -15,15 +17,17 @@
             <div class="box-body">
                 <table class="table table-bordered customeTable">
                     <tr>
-                      <th>Symbol</th>
                       <th>Company</th>
                       <th>LTP</th>
+                      <th>Volume</th>
+                      <th>LastTradedTime</th>
                       <th>Change</th>
                     </tr>
                     <tr *ngFor="let x of upTrend" class="text-success">
-                      <td>{{x.CompanySymbol}}</td>
                       <td>{{x.ShortCompanyName}}</td>
                       <td>{{x.Price}}</td>
+                      <td>{{x.Volume}}</td>
+                      <td>{{x.LastTradedTime}}</td>
                       <td>{{x.PercentGain}}</td>
                     </tr>
                   </table>
@@ -38,15 +42,17 @@
             <div class="box-body">
               <table class="table table-bordered">
                 <tr>
-                  <th>Symbol</th>
                   <th>Company</th>
                   <th>LTP</th>
+                  <th>Volume</th>
+                  <th>LastTradedTime</th>
                   <th>Change</th>
                 </tr>
                 <tr *ngFor="let x of downTrend" class="text-danger">
-                  <td>{{x.CompanySymbol}}</td>
                   <td>{{x.ShortCompanyName}}</td>
                   <td>{{x.Price}}</td>
+                  <td>{{x.Volume}}</td>
+                  <td>{{x.LastTradedTime}}</td>
                   <td>{{x.PercentGain}}</td>
                 </tr>
               </table>

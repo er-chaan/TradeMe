@@ -56,8 +56,8 @@ router.get('/nsechart', function(req, res, next) {
   });
 });
 
-router.get('/getUpTrend/', function (req, res) {
-  new cron();
+router.get('/getUpTrend', function (req, res) {
+  // new cron();
   dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain DESC limit 20', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
@@ -69,8 +69,8 @@ router.get('/getUpTrend/', function (req, res) {
   });
 });
 
-router.get('/getDownTrend/', function (req, res) {
-  new cron();
+router.get('/getDownTrend', function (req, res) {
+  // new cron();
   dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain ASC limit 20', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
@@ -80,6 +80,46 @@ router.get('/getDownTrend/', function (req, res) {
     }
     return res.send({ error: false, data: results, message: 'stock lists' });
   });
+});
+
+router.get('/refreshAnalytics', function (req, res) {
+    dbConn.query('SELECT CompanySymbol FROM stocks', function (error, results, fields) {
+      if(error){        
+        return res.status(400).send({ error:true, message: error.message });
+      }
+      if(!results){
+        return res.status(400).send({ error:true, message: "no record found" });      
+      }
+
+      if(results){
+        for (let index = 0; index < results.length; index++) {
+          const element = results[index].CompanySymbol;
+          request('https://money.rediff.com/money1/currentstatus.php?companycode='+element, function (error, response, body) {
+            if (error) {
+              console.log(error);
+            }else{
+              const parsedBody = JSON.parse(body); 
+              if(parsedBody){
+                let price = parsedBody.LastTradedPrice.replace(',','');
+                let volume = parsedBody.Volume.replace(',','');
+                dbConn.query("UPDATE stocks SET ?,?,?,? WHERE ? ", [{Volume:volume},{LastTradedTime:parsedBody.LastTradedTime},{PercentGain:parsedBody.ChangePercent},{Price:price},{CompanySymbol:element}], function (error, results, fields) {
+                  if(error){
+                      console.log(error.message);
+                  }
+                  if(!results.affectedRows){
+                    console.log("update failed ",element);
+                  }
+                  // console.log("update success ",element);
+                });
+              } 
+            }
+          });
+        }
+      }
+    });
+    // if(index < results.length){
+      return res.send({ error: false, data: "ok", message: 'stock lists' });
+    // }
 });
 
 module.exports = router;

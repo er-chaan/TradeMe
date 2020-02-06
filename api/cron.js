@@ -36,25 +36,25 @@ module.exports = function (){
               const parsedBody = JSON.parse(body); 
               if(parsedBody){
                 let price = parsedBody.LastTradedPrice.replace(',','');
-                dbConn.query("UPDATE stocks SET ? , ? WHERE ? ", [{PercentGain:parsedBody.ChangePercent},{Price:price},{CompanySymbol:element}], function (error, results, fields) {
+                dbConn.query("UPDATE stocks SET ?,?,?,? WHERE ? ", [{Volume:parsedBody.Volume},{LastTradedTime:parsedBody.LastTradedTime},{PercentGain:parsedBody.ChangePercent},{Price:price},{CompanySymbol:element}], function (error, results, fields) {
                   if(error){
                       console.log(error.message);
                   }
                   if(!results.affectedRows){
                     console.log("update failed ",element);
                   }
-                  console.log("update success ",element);
+                  //console.log("update success ",element);
                 });
               } 
             }
           });
         }
-
-        process.exit(1);
+        //process.exit(1);
 
       }
 
     });
+    return true;
 }
 
 

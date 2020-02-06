@@ -17,4 +17,7 @@ export class AnalyticsService {
   getDownTrend(): Observable<any>{
     return this.httpClient.get<any>(this.api+"/stocks/getDownTrend");
   }
+  refreshAnalytics():Observable<any>{
+    return this.httpClient.get<any>(this.api+"/stocks/refreshAnalytics");
+  }
 }
