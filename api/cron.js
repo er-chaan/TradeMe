@@ -35,7 +35,8 @@ module.exports = function (){
             }else{
               const parsedBody = JSON.parse(body); 
               if(parsedBody){
-                dbConn.query("UPDATE stocks SET ? , ? WHERE ? ", [{PercentGain:parsedBody.ChangePercent},{Price:parsedBody.LastTradedPrice},{CompanySymbol:element}], function (error, results, fields) {
+                let price = parsedBody.LastTradedPrice.replace(',','');
+                dbConn.query("UPDATE stocks SET ? , ? WHERE ? ", [{PercentGain:parsedBody.ChangePercent},{Price:price},{CompanySymbol:element}], function (error, results, fields) {
                   if(error){
                       console.log(error.message);
                   }
