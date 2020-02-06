@@ -30,7 +30,7 @@ export class AnalyticsComponent implements OnInit, OnDestroy  {
         this.getUpTrend();
         this.getDownTrend();
       }
-    }, 5000);
+    }, 10000);
   }
 
   getUpTrend(){
