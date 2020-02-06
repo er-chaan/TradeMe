@@ -3,7 +3,7 @@ var router = express.Router();
 var request = require('request');
 
 var dbConn = require('../db');
-
+var cron = require('../cron');
 // http://www.nasdaqtrader.com/trader.aspx?id=symboldirdefs
 // ftp://ftp.nasdaqtrader.com/symboldirectory/nasdaqtraded.txt
 router.get('/companycode/:companycode', function(req, res, next) {
@@ -57,26 +57,28 @@ router.get('/nsechart', function(req, res, next) {
 });
 
 router.get('/getUpTrend/', function (req, res) {
-  dbConn.query('SELECT * FROM stocks order by PercentGain ASC limit 10', function (error, results, fields) {
+  new cron();
+  dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain DESC limit 20', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
     }
     if(!results[0]){
       return res.status(400).send({ error:true, message: "no record found" });      
     }
-    return res.send({ error: false, data: results[0], message: 'stock lists' });
+    return res.send({ error: false, data: results, message: 'stock lists' });
   });
 });
 
 router.get('/getDownTrend/', function (req, res) {
-  dbConn.query('SELECT * FROM stocks order by PercentGain DESC limit 10', function (error, results, fields) {
+  new cron();
+  dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain ASC limit 20', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
     }
     if(!results[0]){
       return res.status(400).send({ error:true, message: "no record found" });      
     }
-    return res.send({ error: false, data: results[0], message: 'stock lists' });
+    return res.send({ error: false, data: results, message: 'stock lists' });
   });
 });
 

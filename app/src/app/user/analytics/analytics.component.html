@@ -15,14 +15,16 @@
             <div class="box-body">
                 <table class="table table-bordered customeTable">
                     <tr>
+                      <th>Symbol</th>
                       <th>Company</th>
                       <th>LTP</th>
                       <th>Change</th>
                     </tr>
                     <tr *ngFor="let x of upTrend" class="text-success">
+                      <td>{{x.CompanySymbol}}</td>
                       <td>{{x.ShortCompanyName}}</td>
                       <td>{{x.Price}}</td>
-                      <td>{{x.Change}}</td>
+                      <td>{{x.PercentGain}}</td>
                     </tr>
                   </table>
             </div>
@@ -31,19 +33,21 @@
         <div class="col-md-6">
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Down Trade</h3>
+              <h3 class="box-title">Down Trend</h3>
             </div>
             <div class="box-body">
               <table class="table table-bordered">
                 <tr>
+                  <th>Symbol</th>
                   <th>Company</th>
                   <th>LTP</th>
                   <th>Change</th>
                 </tr>
                 <tr *ngFor="let x of downTrend" class="text-danger">
+                  <td>{{x.CompanySymbol}}</td>
                   <td>{{x.ShortCompanyName}}</td>
                   <td>{{x.Price}}</td>
-                  <td>{{x.Change}}</td>
+                  <td>{{x.PercentGain}}</td>
                 </tr>
               </table>
             </div>

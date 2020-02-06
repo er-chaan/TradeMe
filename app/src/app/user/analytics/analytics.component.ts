@@ -34,14 +34,14 @@ export class AnalyticsComponent implements OnInit, OnDestroy  {
   }
 
   getUpTrend(){
-    this.analyticsService.getUpTrend().subscribe(data => {
-                            this.upTrend=data;
+    this.analyticsService.getUpTrend().subscribe(response => {
+                            this.upTrend=response.data;
                           });
   }
 
   getDownTrend(){
-    this.analyticsService.getDownTrend().subscribe(data => {
-                            this.downTrend=data;
+    this.analyticsService.getDownTrend().subscribe(response => {
+                            this.downTrend=response.data;
                           });
   }
   
