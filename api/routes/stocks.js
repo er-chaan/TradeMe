@@ -55,10 +55,15 @@ router.get('/nsechart', function(req, res, next) {
     }
   });
 });
-
+/////////////////////////////////////////////////
+let price = 50;
+let volume = 0;
+let limit = 20;
+let companyKeyword = '';
+let filter = '(select CompanySymbol FROM stocks WHERE Volume > '+volume+' AND ShortCompanyName LIKE "%'+companyKeyword+'%")';
 router.get('/getUpTrend', function (req, res) {
   // new cron();
-  dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain DESC limit 20', function (error, results, fields) {
+  dbConn.query('SELECT * FROM stocks WHERE CompanySymbol IN '+filter+' AND LastTradedPrice > '+price+' AND ChangePercent > 0 order by ChangePercent DESC limit '+limit+'', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
     }
@@ -71,7 +76,7 @@ router.get('/getUpTrend', function (req, res) {
 
 router.get('/getDownTrend', function (req, res) {
   // new cron();
-  dbConn.query('SELECT * FROM stocks WHERE Price > 20 order by PercentGain ASC limit 20', function (error, results, fields) {
+  dbConn.query('SELECT * FROM stocks WHERE   CompanySymbol IN '+filter+' AND LastTradedPrice > '+price+' AND ChangePercent < 0 order by ChangePercent ASC limit '+limit+'', function (error, results, fields) {
    if(error){
       return res.status(400).send({ error:true, message: error.message });
     }
@@ -100,9 +105,38 @@ router.get('/refreshAnalytics', function (req, res) {
             }else{
               const parsedBody = JSON.parse(body); 
               if(parsedBody){
-                let price = parsedBody.LastTradedPrice.replace(',','');
-                let volume = parsedBody.Volume.replace(',','');
-                dbConn.query("UPDATE stocks SET ?,?,?,? WHERE ? ", [{Volume:volume},{LastTradedTime:parsedBody.LastTradedTime},{PercentGain:parsedBody.ChangePercent},{Price:price},{CompanySymbol:element}], function (error, results, fields) {
+                let LastTradedPrice = parsedBody.LastTradedPrice.replace(',','');
+                let Volume = parsedBody.Volume.replace(',','');
+                let PercentageDiff = parsedBody.PercentageDiff.replace(',','');
+                let FiftyTwoWeekHigh = parsedBody.FiftyTwoWeekHigh.replace(',','');
+                let FiftyTwoWeekLow = parsedBody.FiftyTwoWeekLow.replace(',','');
+                let LastTradedTime = parsedBody.LastTradedTime.replace(',','');
+                let ChangePercent = parsedBody.ChangePercent.replace(',','');
+                let ChangePrice = parsedBody.Change.replace(',','');
+                let MarketCap = parsedBody.MarketCap.replace(',','');
+                let High = parsedBody.High.replace(',','');
+                let Low = parsedBody.Low.replace(',','');
+                let PrevClose = parsedBody.PrevClose.replace(',','');
+                let BonusSplitStatus = parsedBody.BonusSplitStatus;
+                let BonusSplitRatio = parsedBody.BonusSplitRatio;
+                dbConn.query("UPDATE stocks SET ?,?,?,?,?,?,?,?,?,?,?,?,?,? WHERE ? ", 
+                          [{LastTradedPrice:LastTradedPrice},
+                            {Volume:Volume},
+                            {PercentageDiff:PercentageDiff},
+                            {FiftyTwoWeekHigh:FiftyTwoWeekHigh},
+                            {FiftyTwoWeekLow:FiftyTwoWeekLow},
+                            {LastTradedTime:LastTradedTime},
+                            {ChangePercent:ChangePercent},
+                            {ChangePrice:ChangePrice},
+                            {MarketCap:MarketCap},
+                            {High:High},
+                            {Low:Low},
+                            {PrevClose:PrevClose},
+                            {BonusSplitStatus:BonusSplitStatus},
+                            {BonusSplitRatio:BonusSplitRatio},
+                            
+                            
+                            {CompanySymbol:element}], function (error, results, fields) {
                   if(error){
                       console.log(error.message);
                   }

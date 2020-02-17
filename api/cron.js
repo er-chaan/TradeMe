@@ -74,3 +74,24 @@ module.exports = function (){
 //   "PrevClose":"306.25",
 //   "BonusSplitStatus":"0",
 //   "BonusSplitRatio":"0-0"}
+
+
+// let LastTradedPrice = parsedBody.LastTradedPrice.replace(',','');
+// let Volume = parsedBody.Volume.replace(',','');
+// let PercentageDiff = parsedBody.PercentageDiff.replace(',','');
+// let FiftyTwoWeekHigh = parsedBody.FiftyTwoWeekHigh.replace(',','');
+// let FiftyTwoWeekLow = parsedBody.FiftyTwoWeekLow.replace(',','');
+// let LastTradedTime = parsedBody.LastTradedTime.replace(',','');
+// let ChangePercent = parsedBody.ChangePercent.replace(',','');
+// let ChangePrice = parsedBody.ChangePrice.replace(',','');
+// let MarketCap = parsedBody.MarketCap.replace(',','');
+// let High = parsedBody.High.replace(',','');
+// let Low = parsedBody.Low.replace(',','');
+// let PrevClose = parsedBody.PrevClose.replace(',','');
+// let BonusSplitStatus = parsedBody.BonusSplitStatus;
+// let BonusSplitRatio = parsedBody.BonusSplitRatio;
+
+
+
+
+

@@ -25,10 +25,10 @@
                     </tr>
                     <tr *ngFor="let x of upTrend" class="text-success">
                       <td>{{x.ShortCompanyName}}</td>
-                      <td>{{x.Price}}</td>
+                      <td>{{x.LastTradedPrice}}</td>
                       <td>{{x.Volume}}</td>
                       <td>{{x.LastTradedTime}}</td>
-                      <td>{{x.PercentGain}}</td>
+                      <td>{{x.ChangePercent}}</td>
                     </tr>
                   </table>
             </div>
@@ -50,10 +50,10 @@
                 </tr>
                 <tr *ngFor="let x of downTrend" class="text-danger">
                   <td>{{x.ShortCompanyName}}</td>
-                  <td>{{x.Price}}</td>
+                  <td>{{x.LastTradedPrice}}</td>
                   <td>{{x.Volume}}</td>
                   <td>{{x.LastTradedTime}}</td>
-                  <td>{{x.PercentGain}}</td>
+                  <td>{{x.ChangePercent}}</td>
                 </tr>
               </table>
             </div>
