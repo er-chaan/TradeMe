@@ -81,7 +81,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
         labels: time,
         datasets: [{
             label: 'price',
-            backgroundColor: "orange",
+            backgroundColor: "violet",
             data: price
         }]
     },
@@ -99,7 +99,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
         labels: time,
         datasets: [{
             label: 'price',
-            backgroundColor: "orange",
+            backgroundColor: "black",
             data: price
         }]
     },

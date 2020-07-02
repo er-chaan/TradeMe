@@ -10,7 +10,8 @@ module.exports = function (){
     var dbConn = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: pass,
+        //password: pass,
+        password: 'qwerty@123',
         database: 'TradeMe'    
       });
       

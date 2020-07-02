@@ -8,7 +8,8 @@ pass += mykey.final('utf8');
 var dbConn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: pass,
+    password: 'qwerty@123',
+    //password: pass,
     database: 'TradeMe'    
   });
   

@@ -106,7 +106,7 @@ router.get('/refreshAnalytics', function (req, res) {
               const parsedBody = JSON.parse(body); 
               if(parsedBody){
                 let LastTradedPrice = parsedBody.LastTradedPrice.replace(',','');
-                let Volume = parsedBody.Volume.replace(',','');
+                let Volume = parsedBody.Volume.replace(/[^0-9 ]/g, '');
                 let PercentageDiff = parsedBody.PercentageDiff.replace(',','');
                 let FiftyTwoWeekHigh = parsedBody.FiftyTwoWeekHigh.replace(',','');
                 let FiftyTwoWeekLow = parsedBody.FiftyTwoWeekLow.replace(',','');
