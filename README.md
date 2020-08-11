@@ -1,6 +1,6 @@
 # TradeMe
 
-# Angular : frontend
-# Express : backend
+# Angular : Frontend
+# Express : Backend
 # MySql : Database
 
